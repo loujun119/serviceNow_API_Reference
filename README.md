@@ -1,1 +1,1 @@
-# serviecNow_traning
+# serviceNow_traning
