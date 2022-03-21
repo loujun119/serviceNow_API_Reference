@@ -40,7 +40,8 @@ Client API List
         4.滑行代理工作区 (g_aw)
          g_aw API 使 UI 操作或客户端脚本能够在代理工作区选项卡中打开指定记录。
         4.GlideAgentWorkspace（g_aw）
-         g_aw APIを使用すると、UIアクションまたはクライアントスクリプトで、[エージェントワークスペース]タブで指定されたレコードを開くことができます。
+         g_aw APIを使用すると、UIアクションまたはクライアントスクリプトで、[エージェントワークスペース]タブで指定されたレコードを
+         開くことができます。
 
     5.GlideAjax
         The GlideAjax class enables a client script to call server-side code in a script include.
@@ -153,7 +154,8 @@ Client API List
         20.滑翔记录
          GlideRecord 用于数据库操作。客户端 GlideRecord API 允许使用一些 GlideRecord 客户端脚本中的功能，例如客户端脚本和 UI 策略脚本。
         20.GlideRecord
-         GlideRecordは、データベース操作に使用されます。クライアント側のGlideRecordAPIを使用すると、一部のGlideRecordを使用できます。クライアントスクリプトやUIポリシースクリプトなどのクライアント側スクリプトの機能。
+         GlideRecordは、データベース操作に使用されます。クライアント側のGlideRecordAPIを使用すると、一部のGlideRecordを使用できます。
+         クライアントスクリプトやUIポリシースクリプトなどのクライアント側スクリプトの機能。
 
     21.GlideRecordV3
         GlideRecord is used for database operations. Client-side GlideRecord enables the use of some GlideRecord functionality 
@@ -273,7 +275,8 @@ Client API List
          SNAnalytics API 提供将自定义分析数据（事件、页面和用户属性）推送给用户的方法
          服务门户仪表板的体验分析。
         35.SNAnalytics
-         SNAnalytics APIは、カスタム分析データ（イベント、ページ、およびユーザープロパティ）をユーザーにプッシュするためのメソッドを提供します
+         SNAnalytics APIは、カスタム分析データ（イベント、ページ、およびユーザープロパティ）をユーザーにプッシュするための
+         メソッドを提供します
          ServicePortalダッシュボードの分析を体験してください。
 
     36.spAriaUtil
@@ -299,8 +302,8 @@ Client API List
         38.sp模态
          在服务中显示警报、提示和确认对话框门户小部件。 SPModal 类在服务门户中可用客户端脚本。
         38.spModal
-         サービスポータルウィジェットにアラート、プロンプト、および確認ダイアログを表示します。 SPModalクラスはサービスポータルで利用できます
-         クライアントスクリプト。
+         サービスポータルウィジェットにアラート、プロンプト、および確認ダイアログを表示します。 SPModalクラスはサービスポータルで
+         利用できますクライアントスクリプト。
 
     39.spUtil
         Utility methods to perform common functions in a Service Portal widget client script.

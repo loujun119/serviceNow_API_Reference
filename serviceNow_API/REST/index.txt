@@ -245,8 +245,8 @@ REST API List
          Email APIを使用すると、RESTを使用して電子メールメッセージを送受信できます。
 
     29.External Content Ingestion API
-        The External Content Ingestion API provides endpoints that enable ingestion of content from sources outside of your ServiceNow® 
-        instance into the ServiceNow® AI Search application's index.
+        The External Content Ingestion API provides endpoints that enable ingestion of content from sources outside of your 
+        ServiceNow® instance into the ServiceNow® AI Search application's index.
         29.外部内容摄取API
          External Content Ingestion API 提供端点，可以将来自 ServiceNow® 实例之外的源的内容提取到 ServiceNow® AI Search 应用程序的索引中。
         29.外部コンテンツ取り込みAPI
