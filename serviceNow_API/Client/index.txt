@@ -1,0 +1,317 @@
+API Reference - Client
+    ServiceNow provides client-side JavaScript APIs allowing all of you to control aspects of how ServiceNow is displayed and 
+functions within the web browser. This reference lists available classes and methods along with parameters,
+descriptions, and examples to make controlling the end user experience easier.
+
+    ServiceNow 提供客户端 JavaScript API，允许所有人控制 ServiceNow 在 Web 浏览器中的显示方式和运行方式。
+此参考列出了可用的类和方法以及参数、描述和示例，以便更轻松地控制最终用户体验。
+    ServiceNowはクライアント側のJavaScriptAPIを提供し、ServiceNowの表示方法と
+Webブラウザ内で機能します。 このリファレンスには、使用可能なクラスとメソッドがパラメータとともに一覧表示されています。
+エンドユーザーエクスペリエンスの制御を容易にするための説明と例。
+
+Client API List
+
+    1.api - UI Builder 
+        The api API provides methods that you can use when developing client scripts in the UI Builder.
+        1.用户界面生成器
+         api API 提供了在 UI Builder 中开发客户端脚本时可以使用的方法。
+        1.api-UIビルダー
+         api APIは、UIビルダーでクライアントスクリプトを開発するときに使用できるメソッドを提供します。
+
+    2.CustomEvent
+        You can use CustomEvent API to show qualified embedded help in the right sidebar.
+        2.自定义事件
+         您可以使用 CustomEvent API 在右侧边栏中显示合格的嵌入式帮
+        2.CustomEvent
+         CustomEvent APIを使用して、修飾された埋め込みヘルプを右側のサイドバーに表示できます。
+
+    3.DynamicTranslation
+        The DynamicTranslation API provides methods that translate text, in real time, into multiple languages using translation 
+        service providers. This API is available for both standard clients and Angular-based Service Portal clients.
+        3.动态翻译
+         DynamicTranslation API 提供了使用翻译将文本实时翻译成多种语言的方法服务供应商。
+         此 API 可用于标准客户端和基于 Angular 的服务门户客户端。
+        3.DynamicTranslation
+         DynamicTranslation APIは、翻訳を使用してテキストをリアルタイムで複数の言語に翻訳するメソッドを提供します
+         サービスプロバイダー。このAPIは、標準クライアントとAngularベースのサービスポータルクライアントの両方で使用できます。
+
+    4.GlideAgentWorkspace (g_aw)
+        The g_aw API enables a UI Action or client script to open a specified record in an Agent Workspace tab.
+        4.滑行代理工作区 (g_aw)
+         g_aw API 使 UI 操作或客户端脚本能够在代理工作区选项卡中打开指定记录。
+        4.GlideAgentWorkspace（g_aw）
+         g_aw APIを使用すると、UIアクションまたはクライアントスクリプトで、[エージェントワークスペース]タブで指定されたレコードを開くことができます。
+
+    5.GlideAjax
+        The GlideAjax class enables a client script to call server-side code in a script include.
+        5.GlideAjax
+         GlideAjax 类使客户端脚本能够调用脚本包含中的服务器端代码。
+        5.GlideAjax
+         GlideAjaxクラスを使用すると、クライアントスクリプトは、スクリプトインクルード内のサーバー側コードを呼び出すことができます。
+
+    6.GlideAjaxV3
+        The GlideAjaxV3 API provides the ability to asynchronously execute server-side scripts from a client-side script.
+        6.GlideAjaxV3
+         GlideAjaxV3 API 提供了从客户端脚本异步执行服务器端脚本的能
+        6.GlideAjaxV3
+         GlideAjaxV3 APIは、クライアント側のスクリプトからサーバー側のスクリプトを非同期的に実行する機能を提供します。
+
+    7.GlideDialogWindow
+        The GlideDialogWindow API provides methods for displaying a dialog in the current window and frame.
+        7.GlideDialogWindow
+         GlideDialogWindow API 提供了在当前窗口和框架中显示对话框的方法。
+        7.GlideDialogWindow
+         GlideDialogWindow APIは、現在のウィンドウとフレームにダイアログを表示するためのメソッドを提供します。
+
+    8.GlideDocumentV3
+        The GlideDocument class provides the ability to search a DOM element, a document, or a JQuery element.
+        8.GlideDocumentV3
+         GlideDocument 类提供了搜索 DOM 元素、文档或 JQuery 元素的能力。
+        8.GlideDocumentV3
+         GlideDocumentクラスは、DOM要素、ドキュメント、またはJQuery要素を検索する機能を提供します。
+
+    9.GlideFlow
+        Use the GlideFlow JavaScript API for client-side interactions with actions, flows, and subflows.
+        9.GlideFlow
+         使用 GlideFlow JavaScript API 与动作、流和子流进行客户端交互。
+        9.GlideFlow
+         GlideFlow JavaScript APIを使用して、アクション、フロー、およびサブフローとのクライアント側の対話を行います。
+
+    10.GlideForm
+        The GlideForm API provides methods to customize forms.
+        10.GlideForm
+         GlideForm API 提供了自定义表单的方法。
+        10.GlideForm
+         GlideForm APIは、フォームをカスタマイズするためのメソッドを提供します。
+
+    11.GlideGuidV3
+        You can create a globally unique identifier.
+        11.GlideGuidV3
+         您可以创建一个全局唯一标识符。
+        11.GlideGuidV3
+         グローバル一意識別子を作成できます。
+
+    12.GlideList (Now Experience)
+        Use the GlideList API to customize lists in the Now® Experience UI Framework.
+        12.GlideList（现体验）
+         使用 GlideList API 自定义 Now® Experience UI 框架中的列表。
+        12.GlideList（現在の経験）
+         GlideList APIを使用して、Now®ExperienceUIFrameworkのリストをカスタマイズします。
+
+    13.GlideList2 (g_list)
+        GlideList2 is a JavaScript class used to customize (v2) lists.
+        13.GlideList2（g_list）
+         GlideList2 是一个用于自定义 (v2) 列表的 JavaScript 类。
+        13.GlideList2（g_list）
+         GlideList2は、（v2）リストをカスタマイズするために使用されるJavaScriptクラスです。
+
+    14.GlideListV3 (g_list)
+        Use GlideListV3 to manipulate lists.
+        14.GlideListV3 (g_list)
+         使用 GlideListV3 来操作列表。
+        14.GlideListV3（g_list）
+         GlideListV3を使用してリストを操作します。
+
+    15.GlideMenu (g_menu and g_item)
+        GlideMenu methods are used in UI Context Menus, in the onShow scripts to customize UI Context Menu items.
+        15.GlideMenu（g_menu和g_item）
+         GlideMenu 方法用于 UI 上下文菜单中，在 onShow 脚本中用于自定义 UI 上下文菜单项。
+        15.GlideMenu（g_menuおよびg_item）
+         GlideMenuメソッドは、UIコンテキストメニューのonShowスクリプトで使用され、UIコンテキストメニュー項目をカスタマイズします。
+
+    16.GlideModalFormV3
+        Displays a form in a GlideModal.
+        16.GlideModalFormV3
+         在 GlideModal 中显示表单。
+        16.GlideModalFormV3
+         GlideModalでフォームを表示します。
+
+    17.GlideModalV3
+        Provides methods for displaying a content overlay.
+        17.GlideModalV3
+         提供显示内容覆盖的方法。
+        17.GlideModalV3
+         コンテンツオーバーレイを表示するためのメソッドを提供します。
+
+    18.GlideNavigationV3
+        Provides methods to control and refresh the navigator and main frame.
+        18.滑翔导航V3
+         提供控制和刷新导航器和主框架的方法。
+        18.GlideNavigationV3
+         ナビゲーターとメインフレームを制御および更新するためのメソッドを提供します。
+
+    19.GlideNotificationV3
+        You can show messages over the page content.
+        19.GlideNotificationV3
+         您可以在页面内容上显示消息。
+        19.グライド通知V3
+         ページコンテンツにメッセージを表示できます。
+
+    20.GlideRecord
+        GlideRecord is used for database operations. The client-side GlideRecord API enables the use of some GlideRecord 
+        functionality in client-side scripts, such as client scripts and UI policy scripts.
+        20.滑翔记录
+         GlideRecord 用于数据库操作。客户端 GlideRecord API 允许使用一些 GlideRecord 客户端脚本中的功能，例如客户端脚本和 UI 策略脚本。
+        20.GlideRecord
+         GlideRecordは、データベース操作に使用されます。クライアント側のGlideRecordAPIを使用すると、一部のGlideRecordを使用できます。クライアントスクリプトやUIポリシースクリプトなどのクライアント側スクリプトの機能。
+
+    21.GlideRecordV3
+        GlideRecord is used for database operations. Client-side GlideRecord enables the use of some GlideRecord functionality 
+        in client-side scripts, such as client scripts and UI policy scripts.
+        21.GlideRecordV3
+         GlideRecord 用于数据库操作。客户端 GlideRecord 允许使用一些 GlideRecord 功能在客户端脚本中，例如客户端脚本和 UI 策略脚本。
+        21.GlideRecordV3
+        GlideRecordは、データベース操作に使用されます。クライアント側のGlideRecordは、一部のGlideRecord機能の使用を可能にします
+         クライアントスクリプトやUIポリシースクリプトなどのクライアント側スクリプト。
+
+    22.GlideUIScripts
+        Access UI scripts from within client-side code.
+        22.GlideUIScripts
+         从客户端代码中访问 UI 脚本。
+        22.GlideUIScripts
+         クライアント側のコード内からUIスクリプトにアクセスします。
+
+    23.GlideURLV3
+        Provides methods for manipulating a URI.
+        23.GlideURLV3
+         提供用于操作 URI 的方法。
+        23.GlideURLV3
+         URIを操作するためのメソッドを提供します。
+
+    24.GlideUser
+        The GlideUser API provides access to information about the current user and current user roles. Using the GlideUser 
+        API avoids the need to use the slower GlideRecord queries to get user information.
+        24.滑翔用户
+         GlideUser API 提供对当前用户和当前用户角色信息的访问。使用 GlideUser
+         API 避免了使用较慢的 GlideRecord 查询来获取用户信息的需要。
+        24.GlideUser
+         GlideUser APIは、現在のユーザーと現在のユーザーの役割に関する情報へのアクセスを提供します。 GlideUserの使用
+         APIは、ユーザー情報を取得するために低速のGlideRecordクエリを使用する必要性を回避します。
+
+    25.Guided Tours
+        Provides methods for launching and stopping guided tours.
+        25.导游
+         提供启动和停止导游的方法。
+        25.ガイド付きツアー
+         ガイド付きツアーを開始および停止する方法を提供します。
+
+    26.g_service_catalog
+        The g_service_catalog API enables you to access data in a multi-row variable set (MRVS) when a model is open.
+        26.g_service_catalog
+         g_service_catalog API 使您能够在模型打开时访问多行变量集 (MRVS) 中的数据。
+        26.g_service_catalog
+         g_service_catalog APIを使用すると、モデルが開いているときに複数行の変数セット（MRVS）のデータにアクセスできます。
+
+    27.helpers - UI Builder
+        The helpers API provides general functionality that is common across page scripts, eliminating the need to write scripts 
+        for simple functionality such as opening and closing a modal.
+        27.helpers - 用户界面生成器
+         helpers API 提供了跨页面脚本通用的通用功能，无需编写脚本
+         用于简单的功能，例如打开和关闭模式。
+        27.helpers-UIビルダー
+         ヘルパーAPIは、ページスクリプト全体に共通する一般的な機能を提供し、スクリプトを作成する必要をなくします。
+         モーダルの開閉などの単純な機能用。
+
+    28.i18NV3
+        Provides methods to get and format translated messages.
+        28.i18NV3
+         提供获取和格式化已翻译消息的方法。
+        28.i18NV3
+         翻訳されたメッセージを取得してフォーマットするためのメソッドを提供します。
+
+    29.Mobile GlideForm (g_form)
+        Mobile GlideForm (g_form) methods enable you to work with forms on the mobile platform.
+        29.Mobile GlideForm (g_form)
+         Mobile GlideForm (g_form) 方法使您能够在移动平台上使用表单。
+        29.モバイルGlideForm（g_form）
+         Mobile GlideForm（g_form）メソッドを使用すると、モバイルプラットフォームでフォームを操作できます。
+
+    30.NotifyClient
+        The NotifyClient API allows you use Notify telephony functionality, such as making and receiving calls, from a web browser.
+        30.通知客户端
+         NotifyClient API 允许您从 Web 浏览器使用通知电话功能，例如拨打和接听电话。
+        30.NotifyClient
+         NotifyClient APIを使用すると、Webブラウザからの通話の発信や受信などの通知テレフォニー機能を使用できます。
+
+    31.NotifyOnTaskClient
+        The NotifyOnTaskClient API provides methods for sending SMS messages or starting/managing a conference call for various 
+        telephony service providers, such as Zoom and WebEx.
+        31.NotifyOnTaskClient
+         NotifyOnTaskClient API 提供了发送 SMS 消息或启动/管理各种电话会议的方法电话服务提供商，例如 Zoom 和 WebEx。
+        31.NotifyOnTaskClient
+        NotifyOnTaskClient APIは、SMSメッセージを送信したり、さまざまな電話会議を開始/管理したりするためのメソッドを提供します
+         ZoomやWebExなどのテレフォニーサービスプロバイダー。
+
+    32.openFrameAPI
+        OpenFrame is an omni-present frame that communication partners can use to integrate their systems into the ServiceNow platform.
+        32.openFrameAPI
+         OpenFrame 是一个无所不在的框架，通信合作伙伴可以使用它来将他们的系统集成到 ServiceNow 平台中。
+        32.openFrameAPI
+         OpenFrameは、通信パートナーがシステムをServiceNowプラットフォームに統合するために使用できる遍在するフレームです。
+
+    33.ScopedSessionDomain
+        The ScopedSessionDomain API is a script include that contains client-side methods that provide functionality related to 
+        the current session domain.
+        33.ScopedSessionDomain
+         ScopedSessionDomain API 是一个包含客户端方法的脚本，这些方法提供与
+         当前会话域。
+        33.ScopedSessionDomain
+         ScopedSessionDomain APIは、に関連する機能を提供するクライアント側のメソッドを含むスクリプトインクルードです。
+         現在のセッションドメイン。
+
+    34.ScriptLoader
+        Provides the ability to load scripts asynchronously.
+        34.脚本加载器
+         提供异步加载脚本的能力。
+        34.ScriptLoader
+         スクリプトを非同期でロードする機能を提供します。
+
+    35.SNAnalytics
+        The SNAnalytics API provides methods to push custom analytics data (events, pages, and user properties) to the User 
+        Experience Analytics for Service Portal dashboard.
+        35.SN分析
+         SNAnalytics API 提供将自定义分析数据（事件、页面和用户属性）推送给用户的方法
+         服务门户仪表板的体验分析。
+        35.SNAnalytics
+         SNAnalytics APIは、カスタム分析データ（イベント、ページ、およびユーザープロパティ）をユーザーにプッシュするためのメソッドを提供します
+         ServicePortalダッシュボードの分析を体験してください。
+
+    36.spAriaUtil
+        Show messages on a screen reader.
+        36.spAriaUtil
+         在屏幕阅读器上显示消息。
+        36.spAriaUtil
+         スクリーンリーダーにメッセージを表示します。
+
+    37.spContextManager
+        Make data from a Service Portal widget available to other applications and services in a Service Portal page. For example, 
+        pass widget data to Agent Chat when it opens in a Service Portal page.
+        37.spContextManager
+         使服务门户小部件中的数据可用于服务门户页面中的其他应用程序和服务。例如，
+         在服务门户页面中打开时将小部件数据传递给代理聊天。
+        37.spContextManager
+         サービスポータルウィジェットのデータを、サービスポータルページの他のアプリケーションやサービスで利用できるようにします。例えば、
+         ウィジェットデータがサービスポータルページで開いたときに、エージェントチャットに渡します。
+
+    38.spModal
+        Show alerts, prompts, and confirmation dialogs in Service Portal widgets. The SPModal class is available in Service Portal 
+        client scripts.
+        38.sp模态
+         在服务中显示警报、提示和确认对话框门户小部件。 SPModal 类在服务门户中可用客户端脚本。
+        38.spModal
+         サービスポータルウィジェットにアラート、プロンプト、および確認ダイアログを表示します。 SPModalクラスはサービスポータルで利用できます
+         クライアントスクリプト。
+
+    39.spUtil
+        Utility methods to perform common functions in a Service Portal widget client script.
+        39.spUtil
+         在 Service Portal 小部件客户端脚本中执行常见功能的实用方法。
+        39.spUtil
+         サービスポータルウィジェットクライアントスクリプトで一般的な機能を実行するためのユーティリティメソッド。
+
+    40.StopWatch
+        Use a StopWatch object to measure the duration of operations.
+        40.秒表
+         使用 StopWatch 对象来测量操作的持续时间。
+        40.ストップウォッチ
+         StopWatchオブジェクトを使用して、操作の期間を測定します。

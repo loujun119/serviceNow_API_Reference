@@ -1,0 +1,469 @@
+API Reference - REST
+    ServiceNow provides extensive access to instances through a set of RESTful APIs. 
+Below you will find a list of the available endpoints with the latest information. For more information about a particular endpoint, 
+click on it in the left pane to view a description of the endpoint, applicable query parameters, a sample request in multiple formats, 
+and a sample response payload.
+    Additionally, you can discover these APIs from within your instance by using the REST API Explorer. 
+If you don't find an API that meets your needs you can create custom REST APIs on ServiceNow using our Scripted REST API 
+feature as of the Geneva release.
+    ServiceNow REST APIs support Basic Authentication and OAuth 2.0 to authenticate requests.
+    ServiceNow REST APIs are versioned. Use the version selector shown in this page to choose which version of the 
+documentation you would like to see.
+
+    ServiceNow 通过一组 RESTful API 提供对实例的广泛访问。您将在下方找到包含最新信息的可用端点列表。 有关特定端点的更多信息，
+在左侧窗格中单击它以查看端点的描述、适用的查询参数、多种格式的示例请求，
+和一个示例响应负载。
+     此外，您可以使用 REST API Explorer 从您的实例中发现这些 API。如果您没有找到满足您需求的 API，您可以使用我们的脚本化 REST API 在 
+ServiceNow 上创建自定义 REST API日内瓦版本的功能。
+     ServiceNow REST API 支持基本身份验证和 OAuth 2.0 来对请求进行身份验证。
+     ServiceNow REST API 是版本化的。 使用此页面中显示的版本选择器选择哪个版本的您想查看的文档。
+
+    ServiceNowは、一連のRESTfulAPIを介してインスタンスへの広範なアクセスを提供します。
+以下に、利用可能なエンドポイントと最新情報のリストを示します。 特定のエンドポイントの詳細については、
+左側のペインでクリックすると、エンドポイントの説明、適用可能なクエリパラメータ、複数の形式のサンプルリクエストが表示されます。
+およびサンプル応答ペイロード。
+     さらに、REST API Explorerを使用して、インスタンス内からこれらのAPIを検出できます。
+ニーズを満たすAPIが見つからない場合は、スクリプト化されたRESTAPIを使用してServiceNowでカスタムRESTAPIを作成できます。
+Genevaリリースの時点での機能。
+     ServiceNow REST APIは、要求を認証するための基本認証とOAuth2.0をサポートしています。
+     ServiceNowRESTAPIはバージョン管理されています。 このページに表示されているバージョンセレクターを使用して、
+見たいドキュメント。
+
+REST API List
+
+    1.Account API
+        The Account REST API enables you to retrieve and update Customer Service Management (CSM) account records.
+        1.账户接口
+         Account REST API 使您能够检索和更新客户服务管理 (CSM) 帐户记录。
+        1.アカウントAPI
+         アカウントRESTAPIを使用すると、顧客サービス管理（CSM）アカウントレコードを取得および更新できます。
+
+    2.ActivitySubscriptions API
+        Use the ActivitySubscriptions API to retrieve Activity entities from the Subscriptions and Activity Feed Framework.
+        2.ActivitySubscriptions API
+         使用 ActivitySubscriptions API 从订阅和活动源框架中检索活动实体
+        2.ActivitySubscriptions API
+         ActivitySubscriptions APIを使用して、サブスクリプションおよびアクティビティフィードフレームワークから
+         アクティビティエンティティを取得します
+
+    3.Agent Client Collector API
+        The Agent Client Collector enables managing actions on available agents and managing policies.
+        3.Agent客户端采集器API
+         代理客户端收集器可以管理可用代理上的操作和管理策略。
+        3.エージェントクライアントコレクターAPI
+         Agent Client Collectorを使用すると、使用可能なエージェントに対するアクションの管理とポリシーの管理が可能になります。
+
+    4.Aggregate API
+        The Aggregate API allows you to compute aggregate statistics about existing table and column data.
+        4.聚合API
+         聚合 API 允许您计算有关现有表和列数据的聚合统计信息。
+        4.集約API
+         Aggregate APIを使用すると、既存のテーブルおよび列データに関する集計統計を計算できます。
+
+    5.AI Search External User Mapping API
+        The AI Search External User Mapping API provides endpoints that enable ingestion of user mapping information from external 
+        sources into the ServiceNow® AI Search application's index.
+        5.AI搜索外部用户映射API
+         AI Search 外部用户映射 API 提供端点，可以将外部源的用户映射信息提取到 ServiceNow® AI Search 应用程序的索引中。
+        5.AI検索外部ユーザーマッピングAPI
+         AI Search外部ユーザーマッピングAPIは、外部ソースからServiceNow®AISearchアプリケーションのインデックスへの
+         ユーザーマッピング情報の取り込みを可能にするエンドポイントを提供します。
+
+    6.Alarm Management Open API
+        Creates or updates data in the Events [em_event] table.
+        6.报警管理开放API
+         在事件 [em_event] 表中创建或更新数据。
+        6.アラーム管理オープンAPI
+         イベント[em_event]テーブルのデータを作成または更新します。
+
+    7.Application Service API
+        Create, modify, and update application services using REST APIs.
+        7.应用服务API
+         使用 REST API 创建、修改和更新应用程序服务。
+        7.アプリケーションサービスAPI
+         REST APIを使用して、アプリケーションサービスを作成、変更、および更新します。
+
+    8.Attachment API
+        The Attachment API allows you to upload and query file attachments.
+        8.附件API
+         附件 API 允许您上传和查询文件附件。
+        8.添付API
+         添付ファイルAPIを使用すると、添付ファイルをアップロードしてクエリを実行できます。
+
+    9.AWA Agent API
+        Use the AWA (Advanced Work Assignment) Agent API to get or set agent presence and channel availability.
+        9.AWA代理API
+         使用 AWA（高级工作分配）代理 API 获取或设置代理存在和渠道可用性。
+        9.AWAエージェントAPI
+         AWA（Advanced Work Assignment）Agent APIを使用して、エージェントのプレゼンスとチャネルの可用性を取得または設定します。
+
+    10.AWA Assignment API
+        Use the AWA Assignment API to manually assign work items to agents.
+        10.AWA分配API
+         使用 AWA 分配 API 将工作项手动分配给代理。
+        10.AWA割り当てAPI
+         AWA割り当てAPIを使用して、作業項目をエージェントに手動で割り当てます。
+
+    11.AWA Routing API
+        Use the AWA (Advanced Work Assignment) API to route a document to a queue.
+        11.AWA路由API
+         使用 AWA（高级工作分配）API 将文档路由到队列。
+        11.AWAルーティングAPI
+         AWA（Advanced Work Assignment）APIを使用して、ドキュメントをキューにルーティングします。
+
+    12.Batch API
+        The Batch API lets you send a single request containing multiple REST API calls, and returns a stream of response payloads.
+        12.批处理API
+         Batch API 允许您发送包含多个 REST API 调用的单个请求，并返回响应负载流。
+        12.バッチAPI
+         バッチAPIを使用すると、複数のREST API呼び出しを含む単一のリクエストを送信し、応答ペイロードのストリームを返します。
+
+    13.Case API
+        The Case REST API enables you to retrieve and update Customer Service Management (CSM) case records.
+        13.案例API
+         案例 REST API 使您能够检索和更新客户服务管理 (CSM) 案例记录。
+        13.ケースAPI
+         Case REST APIを使用すると、カスタマーサービス管理（CSM）のケースレコードを取得および更新できます。
+
+    14.CCCIF Media Resource - API
+        The Custom Chat Chatbot Interoperability Framework (CCCIF) Media Resource API provides methods that enable a primary bot 
+        to upload attachments to the associated ServiceNow instance.
+        14.CCCIF媒体资源-API
+         自定义聊天聊天机器人互操作性框架 (CCCIF) 媒体资源 API 提供了使主要机器人能够将附件上传到关联的 ServiceNow 实例的方法。
+        14.CCCIFメディアリソース-API
+         カスタムチャットチャットボット相互運用性フレームワーク（CCCIF）メディアリソースAPIは、プライマリボットが関連付けられた
+         ServiceNowインスタンスに添付ファイルをアップロードできるようにするメソッドを提供します。
+
+    15.Change Management API
+        The Change Management API provides REST APIs that enable third-party application integration with the ServiceNow Change 
+        Management process.
+        15.变更管理API
+         变更管理 API 提供 REST API，支持第三方应用程序与 ServiceNow 变更管理流程集成。
+        15.変更管理API
+         変更管理APIは、サードパーティアプリケーションとServiceNow変更管理プロセスの統合を可能にするRESTAPIを提供します。
+
+    16.CI Lifecycle Management API
+        The CI Lifecycle Management API provides the ability to manipulate configuration item (CI) operational states and apply 
+        CI actions.
+        16.CI生命周期管理API
+         CI 生命周期管理 API 提供了操作配置项 (CI) 操作状态和应用 CI 操作的能力。
+        16.CIライフサイクル管理API
+         CIライフサイクル管理APIは、構成アイテム（CI）の動作状態を操作し、CIアクションを適用する機能を提供します。
+
+    17.CMDB Data Ingestion API
+        The CMDB Data Ingestion API enables the batch ingestion of an array of objects into an Import Set table.
+        17.CMDB数据摄取API
+         CMDB 数据摄取 API 支持将对象数组批量摄取到导入集表中。
+        17.CMDBデータ取り込みAPI
+         CMDB Data Ingestion APIを使用すると、オブジェクトの配列をインポートセットテーブルにバッチで取り込むことができます。
+
+    18.CMDB Instance API
+        Performs create, read, update, and delete operations on existing CMDB tables. Only one record can be inserted, updated, 
+        or deleted at a time.
+        18.CMDB实例API
+         对现有 CMDB 表执行创建、读取、更新和删除操作。一次只能插入、更新或删除一条记录。
+        18.CMDBインスタンスAPI
+         既存のCMDBテーブルに対して作成、読み取り、更新、および削除の操作を実行します。一度に挿入、更新、または削除できる
+         レコードは1つだけです。
+
+    19.CMDB Meta API
+        Use the CMDB Meta API to obtain meta data on a CMDB class.
+        19.CMDB元API
+         使用 CMDB Meta API 获取 CMDB 类的元数据。
+        19.CMDBメタAPI
+         CMDBメタAPIを使用して、CMDBクラスのメタデータを取得します。
+
+    20.Consumer API
+        The Consumer REST API enables you to retrieve and update Customer Service Management (CSM) consumer records.
+        20.消费者API
+         消费者 REST API 使您能够检索和更新客户服务管理 (CSM) 消费者记录。
+        20.コンシューマーAPI
+         コンシューマーRESTAPIを使用すると、カスタマーサービス管理（CSM）コンシューマーレコードを取得および更新できます。
+
+    21.Contact API
+        The Contact REST API enables you to retrieve and update Customer Service Management (CSM) contact records.
+        21.联系API
+         联系 REST API 使您能够检索和更新客户服务管理 (CSM) 联系记录。
+        21.ContactAPI
+         Contact REST APIを使用すると、Customer Service Management（CSM）の連絡先レコードを取得および更新できます。
+
+    22.Continuous Integration/Continuous Delivery (CI/CD) API
+        The CI/CD API provides endpoints that enable integration with common DevOps tools for building pipelines. 
+        These tools include Jenkins, Azure Pipelines, GitLab, GitHub Actions, Atlassian Bamboo/Pipelines, and more.
+        22.持续集成/持续交付（CI/CD）API
+         CI/CD API 提供了能够与通用 DevOps 工具集成以构建管道的端点。这些工具包括 Jenkins、Azure Pipelines、GitLab、GitHub Actions、
+         Atlassian Bamboo/Pipelines 等。
+        22.継続的インテグレーション/継続的デリバリー（CI / CD）API
+         CI / CD APIは、パイプラインを構築するための一般的なDevOpsツールとの統合を可能にするエンドポイントを提供します。
+         これらのツールには、Jenkins、Azure Pipelines、GitLab、GitHub Actions、Atlassian Bamboo/Pipelinesなどが含まれます。
+        
+
+    23.CSM Attachment API
+        The CSM Attachment API provides endpoints that allow both internal and external users to upload, download, 
+        and remove attachments associated with a table and to retrieve attachment metadata.
+        23.CSM附件API
+         CSM 附件 API 提供的端点允许内部和外部用户上传、下载和删除与表关联的附件以及检索附件元数据。
+        23.CSMアタッチメントAPI
+         CSM添付ファイルAPIは、内部ユーザーと外部ユーザーの両方がテーブルに関連付けられた添付ファイルをアップロード、ダウンロード、
+         および削除し、添付ファイルのメタデータを取得できるようにするエンドポイントを提供します。
+
+    24.CTI API
+        The CTI API provides REST resources that enable Computer Telephony Integration (CTI) providers to interact with the Cloud 
+        Call Center framework.
+        24.CTI API
+         CTI API 提供 REST 资源，使计算机电话集成 (CTI) 提供商能够与云呼叫中心框架进行交互。
+        24.CTI API
+         CTI APIは、Computer Telephony Integration（CTI）プロバイダーがCloudCallCenterフレームワークと
+         対話できるようにするRESTリソースを提供します。
+
+    25.Customer Central API
+        The Customer Central API provides access to customer information and configuration details.
+        25.客户中心API
+         Customer Central API 提供对客户信息和配置详细信息的访问。
+        25.カスタマーセントラルAPI
+         Customer Central APIは、顧客情報と構成の詳細へのアクセスを提供します。
+
+    26.Data Classification API
+        The Data Classification API enables you to group data by type.
+        26.数据分类API
+         数据分类 API 使您能够按类型对数据进行分组。
+        26.データ分類API
+         データ分類APIを使用すると、データをタイプ別にグループ化できます。
+
+    27.DevOps API
+        The DevOps API provides endpoints that enable the interaction with external DevOps tools.
+        27.DevOps API
+         DevOps API 提供了支持与外部 DevOps 工具交互的端点。
+        27.DevOps API
+         DevOps APIは、外部のDevOpsツールとの対話を可能にするエンドポイントを提供します。
+
+    28.Email API
+        With the Email API you can receive and send email messages using REST.
+        28.电子邮件接口
+         通过电子邮件 API，您可以使用 REST 接收和发送电子邮件消息。
+        28.メールAPI
+         Email APIを使用すると、RESTを使用して電子メールメッセージを送受信できます。
+
+    29.External Content Ingestion API
+        The External Content Ingestion API provides endpoints that enable ingestion of content from sources outside of your ServiceNow® 
+        instance into the ServiceNow® AI Search application's index.
+        29.外部内容摄取API
+         External Content Ingestion API 提供端点，可以将来自 ServiceNow® 实例之外的源的内容提取到 ServiceNow® AI Search 应用程序的索引中。
+        29.外部コンテンツ取り込みAPI
+         外部コンテンツ取り込みAPIは、ServiceNow®インスタンスの外部のソースからServiceNow®AI検索アプリケーションのインデックスへの
+         コンテンツの取り込みを可能にするエンドポイントを提供します。
+
+    30.HR REST API
+        This API provides methods that return information about employees that work or live in the United States.
+        30.HR REST API
+         此 API 提供返回有关在美国工作或居住的员工信息的方法。
+        30.HR REST API
+         このAPIは、米国で働いている、または住んでいる従業員に関する情報を返すメソッドを提供します。
+
+    31.Identification and Reconciliation API
+        The Identification and Reconciliation API uses the Identification and Reconciliation engine (IRE) to minimize creation of 
+        duplicate Configuration Items (CIs) and to reconcile CI attributes by only accepting information from authorized sources 
+        when updating the Configuration Management Database (CMDB).
+        31.识别与核对API
+         识别和协调 API 使用识别和协调引擎 (IRE) 来最大限度地减少重复配置项 (CI) 的创建，并通过在更新配置管理数据库 (CMDB) 时仅接受
+         来自授权来源的信息来协调 CI 属性。
+        31.識別および調整API
+         Identification and Reconciliation APIは、Identification and Reconciliationエンジン（IRE）を使用して、重複する構成アイテム（CI）
+         の作成を最小限に抑え、構成管理データベース（CMDB）の更新時に許可されたソースからの情報のみを受け入れることでCI属性を調整します。
+
+    32.Import Set API
+        The Import Set API allows you to interact with import set tables.
+        32.导入集API
+         导入集 API 允许您与导入集表进行交互。
+        32.インポートセットAPI
+         Import Set APIを使用すると、インポートセットテーブルを操作できます。
+
+    33.Interaction Management API
+        Use the interaction management API to create interactions.
+        33.交互管理API
+         使用交互管理 API 创建互动。
+        33.インタラクション管理API
+         インタラクション管理APIを使用してインタラクションを作成します。
+
+    34.Knowledge Management REST API
+        The Knowledge Management REST API enables searching, viewing, and fetching lists of the most-viewed and featured knowledge 
+        articles.
+        34.知识管理REST API
+         知识管理 REST API 支持搜索、查看和获取查看次数最多和精选的知识文章的列表。
+        34.ナレッジマネジメントRESTAPI
+         ナレッジマネジメントRESTAPIを使用すると、最も閲覧され、注目されているナレッジ記事のリストを検索、表示、およびフェッチできます。
+
+    35.MetricBase Time Series API
+        Use the MetricBase Time Series API to insert data into, retrieve information from, and to run transforms against a MetricBase 
+        database.
+        35.MetricBase时间序列API
+         使用 MetricBase 时间序列 API 将数据插入 MetricBase 数据库、从中检索信息以及对 MetricBase 数据库运行转换。
+        35.MetricBase時系列API
+         MetricBase Time Series APIを使用して、MetricBaseデータベースにデータを挿入し、そこから情報を取得し、変換を実行します。
+
+    36.Predictive Intelligence API
+        Use the Predictive Intelligence API to predict a field value based on one or more input fields and a trained solution.
+        36.预测智能API
+         使用 Predictive Intelligence API 根据一个或多个输入字段和经过训练的解决方案来预测字段值。
+        36.予測インテリジェンスAPI
+         Predictive Intelligence APIを使用して、1つ以上の入力フィールドとトレーニングされたソリューションに基づいてフィールド値を予測します。
+
+    37.Product Catalog Open API
+        Creates and retrieves product catalogs, product offerings, and product specifications.
+        37.产品目录开放API
+         创建和检索产品目录、产品供应和产品规格。
+        37.製品カタログOpenAPI
+         製品カタログ、製品オファリング、および製品仕様を作成および取得します。
+
+    38.Product Inventory Open API
+        Creates and retrieves product inventories.
+        38.产品库存开放API
+         创建和检索产品库存。
+        38.製品在庫オープンAPI
+         製品の在庫を作成および取得します。
+
+    39.Product Order Open API
+        The Product Order Open API provides a standardized mechanism for placing a product order with all of the necessary order 
+        parameters. This API is a ServiceNow® implementation of TM Forum TMF622 Product Ordering Management API REST Specification.
+        39.产品订单开放API
+         产品订单开放 API 提供了一种标准化机制，用于使用所有必要的订单参数下达产品订单。此 API 是 TM Forum TMF622 产品订购管理 API REST 
+         规范的 ServiceNow® 实现。
+        39.Product Order Open API
+         Product Order Open APIは、必要なすべての注文パラメーターを使用して製品を注文するための標準化されたメカニズムを提供します。
+         このAPIは、TMForumTMF622製品注文管理APIREST仕様のServiceNow®実装です。
+
+    40.Push Installation API
+        The Push Installation API enables you to register and unregister the tokens that enable mobile devices to receive push 
+        notifications from an application.
+        40.推送安装API
+         推送安装 API 使您能够注册和取消注册使移动设备能够接收来自应用程序的推送通知的令牌。
+        40.プッシュインストールAPI
+         プッシュインストールAPIを使用すると、モバイルデバイスがアプリケーションからプッシュ通知を受信できるようにするトークンを
+         登録および登録解除できます。
+
+    41.Push Metrics API
+        The Push Metrics API provides endpoints that enable integrators to push raw Operational Intelligence data from an external 
+        source to the MID Server.
+        41.推送指标API
+         Push Metrics API 提供端点，使集成商能够将原始运营智能数据从外部源推送到 MID 服务器。
+        41.プッシュメトリクスAPI
+         Push Metrics APIは、インテグレーターが生のオペレーショナルインテリジェンスデータを外部ソースからMIDサーバーにプッシュ
+         できるようにするエンドポイントを提供します。
+
+    42.Remote help request API
+        The Remote help request API enables creating, viewing, and fetching lists of IT service requests and their details from an 
+        electronic medical record (EMR) system. An IT service request is associated with a task type such as an incident in the 
+        ServiceNow instance.
+        42.远程帮助请求API
+         远程帮助请求 API 支持从电子病历 (EMR) 系统创建、查看和获取 IT 服务请求列表及其详细信息。 IT 服务请求与 ServiceNow 实例中的事件等
+         任务类型相关联。
+        42.リモートヘルプリクエストAPI
+         リモートヘルプリクエストAPIを使用すると、ITサービスリクエストのリストとその詳細を電子カルテ（EMR）システムから作成、表示、
+         および取得できます。 ITサービスリクエストは、ServiceNowインスタンスのインシデントなどのタスクタイプに関連付けられています。
+
+    43.Response Templates API
+        The Response Templates API handles records in the Response Templates [sn_templated_snip_note_template] table.
+        43.响应模板API
+         响应模板 API 处理响应模板 [sn_templated_snip_note_template] 表中的记录。
+        43.応答テンプレートAPI
+         応答テンプレートAPIは、応答テンプレート[sn_templated_snip_note_template]テーブルのレコードを処理します。
+
+    44.SAM-Software Usage Data Integration API
+        The SAM-Software Usage Data Integration API enables you to create and update records in the Software Usage [samp_sw_usage] table.
+        44.SAM-软件使用数据集成API
+         SAM-软件使用数据集成 API 使您能够在软件使用 [samp_sw_usage] 表中创建和更新记录。
+        44.SAM-ソフトウェア使用状況データ統合API
+         SAM-ソフトウェア使用状況データ統合APIを使用すると、ソフトウェア使用状況[samp_sw_usage]テーブルのレコードを作成および更新できます。
+
+    45.Scorecards API
+        The Scorecards REST API enables you to query data about Performance Analytics indicators. The query parameters equate to the 
+        functions available on the Analytics Hub for drilling down into an indicator.
+        45.记分卡API
+         记分卡 REST API 使您能够查询有关性能分析指标的数据。查询参数等同于 Analytics Hub 上可用于向下钻取指标的功能。
+        45.スコアカードAPI
+         スコアカードRESTAPIを使用すると、パフォーマンス分析インジケーターに関するデータを照会できます。クエリパラメータは、
+         AnalyticsHubでインジケーターにドリルダウンするために使用できる関数と同じです。
+
+    46.Script Debugger API
+        The Script Debugger API enables you to debug lines of server-side JavaScript code, such as business rules and script includes.
+        46.脚本调试器API
+         Script Debugger API 使您能够调试服务器端 JavaScript 代码行，例如业务规则和脚本包含。
+        46.スクリプトデバッガAPI
+         Script Debugger APIを使用すると、ビジネスルールやスクリプトインクルードなどのサーバー側のJavaScriptコードの行をデバッグできます。
+
+    47.Service Catalog API
+        The Service Catalog API provides access Service Catalog configuration and actions from within a Service Portal.
+         47.服务目录API
+        服务目录 API 提供从服务门户中访问服务目录配置和操作。
+        47.サービスカタログAPI
+         サービスカタログAPIは、サービスポータル内からサービスカタログの構成とアクションにアクセスできるようにします。
+
+    48.Service Catalog Open API
+        Creates and retrieves service specifications.
+         48.服务目录开放API
+        创建和检索服务规范。
+        48.サービスカタログOpenAPI
+         サービス仕様を作成および取得します。
+
+    49.Service Order Open API
+        The Service Order Open API provides a standardized mechanism for placing a service order with all of the necessary order 
+        parameters.
+        49.服务订单开放API
+         服务订单开放 API 提供了一种标准化机制，用于下达带有所有必要订单参数的服务订单。
+        49. Service Order Open API
+         Service Order Open APIは、必要なすべての注文パラメーターを使用してサービス注文を行うための標準化されたメカニズムを提供します。
+
+    50.SG Services API
+        Creates and manages application services and upstream relationships between them.
+        50.SG 服务 API
+         创建和管理应用程序服务和它们之间的上游关系。
+        50.SGサービスAPI
+         アプリケーションサービスとそれらの間のアップストリーム関係を作成および管理します。
+
+    51.Spendint API
+        The Spendint API provides endpoints that push the catalog, price, availability, order, shipment, and invoice information 
+        from a third party to the ServiceNow instance.
+        51.Spendint API
+         Spendint API 提供将目录、价格、可用性、订单、装运和发票信息从第三方推送到 ServiceNow 实例的端点。
+        51.Spendint API
+         Spendint APIは、カタログ、価格、可用性、注文、出荷、および請求書の情報をサードパーティからServiceNowインスタンスに
+         プッシュするエンドポイントを提供します。
+
+    52.System for Cross-domain Identity Management (SCIM) API
+        The System for Cross-domain Identity Management (SCIM) API enables you to perform create, read, update, and delete 
+        operations on users and groups using the SCIM protocol.
+        52.System for Cross-domain Identity Management (SCIM) API
+         跨域身份管理系统 (SCIM) API 使您能够使用 SCIM 协议对用户和组执行创建、读取、更新和删除操作。
+        52.クロスドメインID管理（SCIM）APIのシステム
+         System for Cross-domain Identity Management（SCIM）APIを使用すると、SCIMプロトコルを使用して、ユーザーおよび
+         グループに対して作成、読み取り、更新、および削除の操作を実行できます。
+
+    53.Table API
+        The Table API allows you to perform create, read, update, and delete (CRUD) operations on existing tables.
+        53.表API
+         Table API 允许您对现有表执行创建、读取、更新和删除 (CRUD) 操作。
+        53.テーブルAPI
+         Table APIを使用すると、既存のテーブルに対して作成、読み取り、更新、および削除（CRUD）操作を実行できます。
+
+    54.Trouble Ticket Open API
+        Creates, updates, and retrieves data from the Case [sn_customerservice_case] and Incident [incident] tables.
+        54.Trouble Ticket Open API
+         从 Case [sn_customerservice_case] 和 Incident [incident] 表中创建、更新和检索数据。
+        54.トラブルチケットオープンAPI
+         Case[sn_customerservice_case]テーブルとIncident[incident]テーブルからデータを作成、更新、および取得します。
+
+    55.User Role Inheritance API
+        The User Role Inheritance API allows you to see the roles that a specific user inherited.
+        55.用户角色继承API
+         用户角色继承 API 允许您查看特定用户继承的角色。
+        55.ユーザーロール継承API
+         User Role Inheritance APIを使用すると、特定のユーザーが継承したロールを確認できます。
+
+    56.Virtual Agent Bot Integration API
+        The Virtual Agent Bot Integration API allows users to integrate any chat interface or a bot ecosystem with the ServiceNow 
+        Virtual Agent and/or Live Agent.
+        56.虚拟代理机器人集成API
+         虚拟代理机器人集成 API 允许用户将任何聊天界面或机器人生态系统与 ServiceNow 虚拟代理和/或 Live Agent 集成。
+        56.仮想エージェントボット統合API
+         Virtual Agent Bot Integration APIを使用すると、ユーザーは任意のチャットインターフェイスまたはボットエコシステムを
+         ServiceNowVirtualAgentやLiveAgentと統合できます。

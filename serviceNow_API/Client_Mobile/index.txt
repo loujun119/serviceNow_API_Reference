@@ -1,0 +1,75 @@
+API Reference - Client Mobile
+    Use Cabrillo JS to build a custom mobile experience inside of ServiceNow's native mobile apps. 
+Cabrillo JS provides APIs to use native device capabilities, native mobile UI, and other ServiceNow mobile functionalityTesting.
+
+    使用 Cabrillo JS 在 ServiceNow 的本机移动应用程序中构建自定义移动体验。 
+Cabrillo JS 提供 API 以使用本机设备功能、本机移动 UI 和其他 ServiceNow 移动功能测试。
+    Cabrillo JSを使用して、ServiceNowのネイティブモバイルアプリ内にカスタムモバイルエクスペリエンスを構築します。 
+Cabrillo JSは、ネイティブデバイス機能、ネイティブモバイルUI、およびその他のServiceNowモバイル機能テストを使用するためのAPIを提供します。
+
+Client Mobile API List
+
+    1.cabrillo
+        Cabrillo JS is a client side JavaScript API for accessing capabilities inside native mobile applications.
+        1.cabrillo
+         Cabrillo JS 是一个客户端 JavaScript API，用于访问本机移动应用程序中的功能。
+        1.カブリロ
+         Cabrillo JSは、ネイティブモバイルアプリケーション内の機能にアクセスするためのクライアント側のJavaScriptAPIです。
+
+    2.Cabrillo JS data types
+        These are common data types used by Cabrillo JS APIs.
+        2.Cabrillo JS数据类型
+         这些是 Cabrillo JS API 使用的常见数据类型。
+        2.CabrilloJSデータ型
+         これらは、CabrilloJSAPIで使用される一般的なデータ型です。
+
+    3.cabrillo.attachments
+        The name space for Cabrillo JS attachment functions. This enables adding and viewing attachments.
+        3.cabrillo.attachments
+         Cabrillo JS 附件函数的命名空间。 这可以添加和查看附件。
+        3.cabrillo.attachments
+         CabrilloJSアタッチメント関数の名前空間。 これにより、添付ファイルの追加と表示が可能になります。
+
+    4.cabrillo.camera
+        Cabrillo JS camera functions to provide camera access for bar code scanning.
+        4.cabrillo.camera
+         Cabrillo JS 摄像头功能为条形码扫描提供摄像头访问。
+        4.cabrillo.camera
+         Cabrillo JSカメラは、バーコードスキャン用のカメラアクセスを提供するように機能します。
+
+    5.cabrillo.geolocation
+        Cabrillo JS functions to provide access to the device's location services.
+        5.cabrillo.geolocation
+         Cabrillo JS 函数提供对设备定位服务的访问。
+        5.cabrillo.geolocation
+         Cabrillo JSは、デバイスの位置情報サービスへのアクセスを提供するように機能します。
+
+    6.cabrillo.list
+        Cabrillo JS functions to provide native UI for selecting items from a list.
+        6.cabrillo.list
+         Cabrillo JS 函数提供用于从列表中选择项目的本机 UI。
+        6.cabrillo.list
+         Cabrillo JSは、リストからアイテムを選択するためのネイティブUIを提供するように機能します。
+
+    7.cabrillo.modal
+        Cabrillo JS functions for presenting web content inside of native modals.
+        7.cabrillo.modal
+         Cabrillo JS 函数用于在本机模式中呈现 Web 内容。
+        7.cabrillo.modal
+         Cabrillo JSは、ネイティブモーダル内にWebコンテンツを表示するために機能します。
+
+    8.cabrillo.navigation
+        Cabrillo JS functions for forward and backward navigation.
+        8.cabrillo.navigation
+         Cabrillo JS 函数用于向前和向后导航。
+        8.cabrillo.navigation
+         Cabrillo JSは、前方および後方ナビゲーション用に機能します。
+
+    9.cabrillo.viewLayout
+        Cabrillo JS functions to provide access to native UI elements like buttons and spinners.
+        9.cabrillo.view布局
+         Cabrillo JS 函数提供对按钮和微调器等原生 UI 元素的访问。
+        9.cabrillo.viewLayout
+         Cabrillo JSは、ボタンやスピナーなどのネイティブUI要素へのアクセスを提供するように機能します。 
+
+
