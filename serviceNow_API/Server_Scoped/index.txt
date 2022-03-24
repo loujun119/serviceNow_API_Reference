@@ -1,0 +1,1510 @@
+API Reference - Server Scoped
+    ServiceNow provides JavaScript APIs for use within scripts running on the ServiceNow platform to deliver common functionality. 
+This reference lists available classes and methods along with parameters, descriptions, and examples to make extending the 
+ServiceNow platform easier.
+
+    ServiceNow 提供 JavaScript API 以在 ServiceNow 平台上运行的脚本中使用，以提供通用功能。 此参考列出了可用的类和方法以及参数、描述和示例，
+以便更轻松地扩展 ServiceNow 平台。
+    ServiceNowは、ServiceNowプラットフォームで実行されているスクリプト内で使用して共通の機能を提供するためのJavaScriptAPIを提供します。 
+このリファレンスには、ServiceNowプラットフォームの拡張を容易にするためのパラメーター、説明、および例とともに、使用可能なクラスとメソッドが
+リストされています。
+
+Server Scoped API List
+
+  一、NO NAMESPACE QUALIFIER 
+    没有命名空间限定符
+    名前空間の修飾子がありません
+
+    1.action - Scoped, Global
+        Enables handling data for URLs in a UI action script.
+        1.action - 作用域，全局
+         在 UI 操作脚本中启用处理 URL 的数据。
+        1.action-スコープ、グローバル
+         UIアクションスクリプトでURLのデータを処理できるようにします。
+
+    2.CertificateEncryption
+        APIs available for encrypting certificates in scoped applications.
+        2.证书加密
+         可用于加密范围应用程序中的证书的 API。
+        2.CertificateEncryption
+         スコープアプリケーションで証明書を暗号化するために使用できるAPI。
+
+    3.FlowScriptAPI
+        A FlowScriptAPI object allows you to access Flow Designer context details from script steps and inline scripts.
+        3.FlowScriptAPI
+         FlowScriptAPI 对象允许您从脚本步骤和内联脚本访问 Flow Designer 上下文详细信息。
+        3.FlowScriptAPI
+         FlowScriptAPIオブジェクトを使用すると、スクリプトステップおよびインラインスクリプトからFlowDesignerコンテキストの詳細に
+         アクセスできます。
+
+    4.GlideAggregate
+        GlideAggregate enables creating database aggregation queries.
+        4.GlideAggregate
+         GlideAggregate 允许创建数据库聚合查询。
+        4.GlideAggregate
+         GlideAggregateを使用すると、データベース集約クエリを作成できます。
+
+    5.GlideApplicationProperty - Scoped, Global
+        The GlideApplicationProperty API provides the ability to get and set application property values for a specific domain.
+        5.GlideApplicationProperty - 作用域，全局
+         GlideApplicationProperty API 提供了获取和设置特定域的应用程序属性值的能力。
+        5.GlideApplicationProperty-スコープ、グローバル
+         GlideApplicationProperty APIは、特定のドメインのアプリケーションプロパティ値を取得および設定する機能を提供します。
+
+    6.GlideCalendarDateTime
+        The GlideCalendarDateTime class provides methods for performing operations on GlideCalendarDateTime objects, such as 
+        instantiating GlideCalendarDateTime objects or working with glide_date_time fields.
+        6.GlideCalendarDateTime
+         GlideCalendarDateTime 类提供了对 GlideCalendarDateTime 对象执行操作的方法，例如实例化 GlideCalendarDateTime 对象或使用 
+         glide_date_time 字段。
+        6.GlideCalendarDateTime
+         GlideCalendarDateTimeクラスは、GlideCalendarDateTimeオブジェクトのインスタンス化や、glide_date_timeフィールドの操作など、
+         GlideCalendarDateTimeオブジェクトに対する操作を実行するためのメソッドを提供します。
+
+    7.GlideDate
+        The scoped GlideDate class provides methods for performing operations on GlideDate objects, such as instantiating GlideDate 
+        objects or working with GlideDate fields.
+        7.GlideDate
+         作用域 GlideDate 类提供了对 GlideDate 对象执行操作的方法，例如实例化 GlideDate 对象或使用 GlideDate 字段。
+        7.GlideDate
+         スコープ指定されたGlideDateクラスは、GlideDateオブジェクトのインスタンス化や、GlideDateフィールドの操作など、
+         GlideDateオブジェクトに対する操作を実行するためのメソッドを提供します。
+
+    8.GlideDateTime
+        The scoped GlideDateTime class provides methods for performing operations on GlideDateTime objects, such as instantiating 
+        GlideDateTime objects or working with glide_date_time fields.
+        8.GlideDateTime
+         作用域 GlideDateTime 类提供了对 GlideDateTime 对象执行操作的方法，例如实例化 GlideDateTime 对象或使用 glide_date_time 字段。
+        8.GlideDateTime
+         スコープ指定されたGlideDateTimeクラスは、GlideDateTimeオブジェクトのインスタンス化や、glide_date_timeフィールドの操作など、
+         GlideDateTimeオブジェクトに対する操作を実行するためのメソッドを提供します。
+
+    9.GlideDBFunctionBuilder - Scoped, Global
+        Build functions to perform SQL operations in the database.
+        9.GlideDBFunctionBuilder - 作用域，全局
+         构建函数以在数据库中执行 SQL 操作。
+        9.GlideDBFunctionBuilder-スコープ、グローバル
+         データベースでSQL操作を実行する関数を作成します。
+
+    10.GlideDigest
+        The scoped GlideDigest class provides methods for creating a message digest from strings or input streams using MD5, SHA1, 
+        or SHA256 hash algorithms.
+        10.滑翔文摘
+         作用域 GlideDigest 类提供了使用 MD5、SHA1 或 SHA256 哈希算法从字符串或输入流创建消息摘要的方法。
+        10.GlideDigest
+         スコープ指定されたGlideDigestクラスは、MD5、SHA1、またはSHA256ハッシュアルゴリズムを使用して文字列または入力ストリームから
+         メッセージダイジェストを作成するためのメソッドを提供します。
+
+    11.GlideDuration
+        The GlideDuration class provides methods for working with spans of time known as durations.
+        11.GlideDuration
+         GlideDuration 类提供了处理称为持续时间的时间跨度的方法。
+        11.GlideDuration
+         GlideDurationクラスは、期間と呼ばれる期間を処理するためのメソッドを提供します。
+
+    12.GlideElement
+        The Scoped GlideElement API provides a number of convenient script methods for dealing with fields and their values. 
+        Scoped GlideElement methods are available for the fields of the current GlideRecord.
+        12.GlideElement
+         Scoped GlideElement API 提供了许多方便的脚本方法来处理字段及其值。 Scoped GlideElement 方法可用于当前 GlideRecord 的字段。
+        12.GlideElement
+         Scoped GlideElement APIは、フィールドとその値を処理するための便利なスクリプトメソッドを多数提供します。
+         スコープ指定されたGlideElementメソッドは、現在のGlideRecordのフィールドで使用できます。
+
+    13.GlideElementCurrency2
+        The GlideElementCurrency2 API provides methods to perform operations on Foreign Exchange (FX) Currency fields 
+        (also known as Currency2) within the current GlideRecord.
+        13.GlideElementCurrency2
+         GlideElementCurrency2 API 提供了对当前 GlideRecord 中的外汇 (FX) 货币字段（也称为 Currency2）执行操作的方法。
+        13.GlideElementCurrency2
+         GlideElementCurrency2 APIは、現在のGlideRecord内の外国為替（FX）通貨フィールド（Currency2とも呼ばれます）
+         で操作を実行するためのメソッドを提供します。
+
+    14.GlideElementDescriptor
+        The GlideElementDescriptor API provides information about individual fields in a record.
+        14.GlideElementDescriptor
+         GlideElementDescriptor API 提供有关记录中各个字段的信息。
+        14.GlideElementDescriptor
+         GlideElementDescriptor APIは、レコード内の個々のフィールドに関する情報を提供します。
+
+    15.GlideEmailOutbound
+        The scoped GlideEmailOutbound class implements the email object for scoped applications. You can use the 
+        GlideEmailOutbound methods with the email global object available in mail scripts. The email object behaves identically 
+        for global and scoped applications.
+        15.GlideEmailOutbound
+         作用域 GlideEmailOutbound 类实现作用域应用程序的电子邮件对象。您可以将 GlideEmailOutbound 方法与邮件脚本中可用的电子邮件全局对象
+         一起使用。电子邮件对象对于全局和范围应用程序的行为相同。
+        15.GlideEmailOutbound
+         スコープ指定されたGlideEmailOutboundクラスは、スコープ指定されたアプリケーションの電子メールオブジェクトを実装します。 
+         GlideEmailOutboundメソッドは、メールスクリプトで使用可能なメールグローバルオブジェクトで使用できます。電子メールオブジェクトは、
+         グローバルアプリケーションとスコープアプリケーションで同じように動作します。
+
+    16.GlideFilter
+        Enables filtering queries to determine if one or more records meet a specified set of requirements.
+        16.GlideFilter
+         启用过滤查询以确定一条或多条记录是否满足一组指定的要求。
+        16.GlideFilter
+         フィルタリングクエリを有効にして、1つ以上のレコードが指定された一連の要件を満たしているかどうかを判断します。
+
+    17.GlideFormScratchpad
+        The scoped GlideFormScratchpad class implements the g_scratchpad object for scoped applications.
+        17.GlideFormScratchpad
+         作用域 GlideFormScratchpad 类为作用域应用程序实现 g_scratchpad 对象。
+        17.GlideFormScratchpad
+         スコープ指定されたGlideFormScratchpadクラスは、スコープ指定されたアプリケーションのg_scratchpadオブジェクトを実装します。
+
+    18.GlideImportLog - Scoped, Global
+        Writes log entries directly to the Import Log [import_log] table.
+        18.GlideImportLog - 作用域，全局
+         将日志条目直接写入导入日志 [import_log] 表。
+        18.GlideImportLog-スコープ、グローバル
+         ログエントリをインポートログ[import_log]テーブルに直接書き込みます。
+
+    19.GlideImportSetRun - Scoped, Global
+        Creates an Import Set Run record which can be consumed by the GlideImportSetTransformer API.
+        19.GlideImportSetRun - 作用域，全局
+         创建可由 GlideImportSetTransformer API 使用的导入集运行记录。
+        19.GlideImportSetRun-スコープ、グローバル
+         GlideImportSetTransformerAPIで使用できるインポートセット実行レコードを作成します。
+
+    20.GlideImportSetTransformer - Scoped, Global
+        Creates an Import Set Transformer object used to execute an Import Set Transform.
+        20.GlideImportSetTransformer - 作用域，全局
+         创建用于执行导入集变换的导入集变换器对象。
+        20.GlideImportSetTransformer-スコープ、グローバル
+         ImportSetTransformの実行に使用されるImportSetTransformerオブジェクトを作成します。
+
+    21.GlideLocale
+        GlideLocale provides information about display information for the local instance.
+        21.GlideLocale
+         GlideLocale 提供有关本地实例的显示信息的信息。
+        21.GlideLocale
+         GlideLocaleは、ローカルインスタンスの表示情報に関する情報を提供します。
+
+    22.GlidePluginManager
+        The scoped GlidePluginManager API provides a method for determining if a plugin has been activated.
+        22.GlidePluginManager
+         作用域 GlidePluginManager API 提供了一种确定插件是否已激活的方法
+        22.GlidePluginManager
+         スコープ指定されたGlidePluginManagerAPIは、プラグインがアクティブ化されているかどうかを判別するためのメソッドを提供します。
+
+    23.GlideQuery
+        The GlideQuery API is an alternative to GlideRecord to perform CRUD operations on record data from server-side scripts.
+        23.滑行查询
+         GlideQuery API 是 GlideRecord 的替代方案，用于对来自服务器端脚本的记录数据执行 CRUD 操作。
+        23.GlideQuery
+         GlideQuery APIは、サーバー側スクリプトからのレコードデータに対してCRUD操作を実行するためのGlideRecordの代替手段です。
+
+    24.GlideQueryCondition
+        The scoped GlideQueryCondition API provides additional AND or OR conditions that can be added to the current condition, 
+        allowing you to build complex queries.
+        24.GlideQueryCondition
+         作用域 GlideQueryCondition API 提供了可以添加到当前条件的附加 AND 或 OR 条件，允许您构建复杂的查询。
+        24.GlideQueryCondition
+         スコープ指定されたGlideQueryConditionAPIは、現在の条件に追加できる追加のANDまたはOR条件を提供し、複雑なクエリを
+         作成できるようにします。
+
+    25.GlideRecord
+        Scoped GlideRecord is used for database operations.
+        25.滑翔记录
+         Scoped GlideRecord 用于数据库操作。
+        25.GlideRecord
+         スコープ指定されたGlideRecordは、データベース操作に使用されます。
+
+    26.GlideSchedule
+        The scoped GlideSchedule API provides methods for performing operations on GlideSchedule objects, such as adding new schedule 
+        segments to a schedule, determining if a datetime is within the schedule, or setting the schedule timezone.
+        26.GlideSchedule
+         作用域 GlideSchedule API 提供了对 GlideSchedule 对象执行操作的方法，例如将新的计划段添加到计划中，确定日期时间是否在计划内，
+         或设置计划时区。
+        26.GlideSchedule
+         スコープ指定されたGlideScheduleAPIは、新しいスケジュールセグメントをスケジュールに追加する、日時がスケジュール内にあるかどうか
+         を判断する、スケジュールのタイムゾーンを設定するなど、GlideScheduleオブジェクトに対して操作を実行するためのメソッドを提供します。
+
+    27.GlideScopedEvaluator
+        The GlideScopedEvaluator API allows you to evaluate scripts in a GlideRecord field from both scoped and global server scripts.
+        27.GlideScopedEvaluator
+         GlideScopedEvaluator API 允许您从作用域和全局服务器脚本评估 GlideRecord 字段中的脚本。
+        27.GlideScopedEvaluator
+         GlideScopedEvaluator APIを使用すると、スコープサーバースクリプトとグローバルサーバースクリプトの両方からGlideRecordフィールドの
+         スクリプトを評価できます。
+
+    28.GlideScriptableInputStream
+        A GlideScriptableInputStream object cannot be instantiated directly, but is used as an opaque object which is used to connect 
+        an input stream from GlideSysAttachment.getContentStream() with other streaming APIs, such as GlideTextReader, GlideDigest, 
+        and XMLDocument2.
+        28.GlideScriptableInputStream
+         GlideScriptableInputStream 对象不能直接实例化，而是用作不透明对象，用于连接来自 GlideSysAttachment.getContentStream() 的输入流与
+         其他流 API，例如 GlideTextReader、GlideDigest 和 XMLDocument2。
+        28.GlideScriptableInputStream
+         GlideScriptableInputStreamオブジェクトを直接インスタンス化することはできませんが、GlideSysAttachment.getContentStream（）からの
+         入力ストリームをGlideTextReader、GlideDigest、XMLDocument2などの他のストリーミングAPIに接続するために使用される不透明な
+         オブジェクトとして使用されます。
+
+    29.GlideScriptedProcessor
+        ServiceNow processors are equivalent to Java servlets.
+        29.GlideScriptedProcessor
+         ServiceNow 处理器等效于 Java servlet。
+        29.GlideScriptedProcessor
+         ServiceNowプロセッサは、Javaサーブレットと同等です。
+
+    30.GlideSecureRandomUtil
+        The scoped GlideSecureRandomUtil API provides methods for generating integers, long values, and strings.
+        30.GlideSecureRandomUtil
+         作用域 GlideSecureRandomUtil API 提供了用于生成整数、长值和字符串的方法。
+        30.GlideSecureRandomUtil
+         スコープ指定されたGlideSecureRandomUtilAPIは、整数、長い値、および文字列を生成するためのメソッドを提供します。
+
+    31.GlideSecurityUtils- Scoped, Global
+        Provides methods to work with URLs.
+        31.GlideSecurityUtils-作用域，全局
+         提供处理 URL 的方法。
+        31.GlideSecurityUtils-スコープ、グローバル
+         URLを操作するためのメソッドを提供します。
+
+    32.GlideServletRequest
+        The GlideServletRequest API is used in processor scripts.
+        32.GlideServlet请求
+         GlideServletRequest API 用于处理器脚本。
+        32.GlideServletRequest
+         GlideServletRequest APIは、プロセッサスクリプトで使用されます。
+
+    33.GlideServletResponse
+        The ScopedGlideServletResponse API is used in processor scripts.
+        33.GlideServlet响应
+         ScopedGlideServletResponse API 用于处理器脚本。
+        33.GlideServletResponse
+         ScopedGlideServletResponse APIは、プロセッサスクリプトで使用されます。
+
+    34.GlideSession
+        The scoped GlideSession API provides a way to find information about the current session.
+        34.GlideSession
+         作用域 GlideSession API 提供了一种查找当前会话信息的方法。
+        34.GlideSession
+         スコープ指定されたGlideSessionAPIは、現在のセッションに関する情報を見つける方法を提供します。
+
+    35.GlideSPScriptable
+        Interact with data and perform record operations in Service Portal widgets.
+        35.GlideSPScriptable
+         在 Service Portal 小部件中与数据交互并执行记录操作。
+        35.GlideSPScriptable
+         データを操作し、サービスポータルウィジェットでレコード操作を実行します。
+
+    36.GlideStringUtil - Scoped, Global
+        Provides string handling methods.
+        36.GlideStringUtil - 作用域，全局
+         提供字符串处理方法。
+        36.GlideStringUtil-スコープ、グローバル
+         文字列処理メソッドを提供します。
+
+    37.GlideSysAttachment
+        The GlideSysAttachment API provides a way to handle attachments.
+        37.GlideSys附件
+         GlideSysAttachment API 提供了一种处理附件的方法。
+        37.GlideSysAttachment
+         GlideSysAttachment APIは、添付ファイルを処理する方法を提供します。
+
+    38.GlideSysListControl
+        The scoped GlideSysListControl class allows you to determine if the New or Edit buttons are displayed.
+        38.GlideSysListControl
+         作用域 GlideSysListControl 类允许您确定是否显示 New 或 Edit 按钮。
+        38.GlideSysListControl
+         スコープ指定されたGlideSysListControlクラスを使用すると、[新規]ボタンと[編集]ボタンのどちらを表示するかを決定できます。
+
+    39.GlideSystem
+        The scoped GlideSystem (referred to by the variable name 'gs' in any server-side JavaScript) API provides a number of 
+        convenient methods to get information about the system, the current logged in user, etc.
+        39.滑翔系统
+         作用域 GlideSystem（在任何服务器端 JavaScript 中由变量名“gs”引用）API 提供了许多方便的方法来获取有关系统、当前登录用户等的信息。
+        39.GlideSystem
+         スコープ指定されたGlideSystem（サーバー側のJavaScriptでは変数名「gs」と呼ばれます）APIは、システム、現在ログインしている
+         ユーザーなどに関する情報を取得するための便利なメソッドをいくつか提供します。
+
+    40.GlideTableHierarchy
+        The Scoped GlideTableHierarchy API provides methods for handling information about table relationships.
+        40.GlideTableHierarchy
+         Scoped GlideTableHierarchy API 提供了处理表关系信息的方法。
+        40.GlideTableHierarchy
+         Scoped GlideTableHierarchy APIは、テーブルの関係に関する情報を処理するためのメソッドを提供します。
+
+    41.GlideTextReader
+        Provides the ability to read single lines from an input stream. Because an input stream is used, it is not subject to 
+        the 5MB attachment size limit.
+        41.GlideTextReader
+         提供从输入流中读取单行的能力。因为使用了输入流，所以它不受 5MB 附件大小的限制。
+        41.GlideTextReader
+         入力ストリームから単一行を読み取る機能を提供します。入力ストリームが使用されるため、5MBの添付ファイルサイズ制限の
+         対象にはなりません。
+
+    42.GlideTime
+        The scoped GlideTime class provides methods for performing operations on GlideTime objects, such as instantiating 
+        GlideTime objects or working with GlideTime fields.
+        42.滑翔时间
+         作用域 GlideTime 类提供了对 GlideTime 对象执行操作的方法，例如实例化 GlideTime 对象或使用 GlideTime 字段。
+        42.GlideTime
+         スコープ指定されたGlideTimeクラスは、GlideTimeオブジェクトのインスタンス化や、GlideTimeフィールドの操作など、
+         GlideTimeオブジェクトに対する操作を実行するためのメソッドを提供します。
+
+    43.GlideTransformLog - Scoped, Global
+        Creates a GlideTransformLog object to log messages to localhost logs.
+        43.GlideTransformLog - 作用域，全局
+         创建一个 GlideTransformLog 对象以将消息记录到 localhost 日志。
+        43.GlideTransformLog-スコープ、グローバル
+         メッセージをローカルホストログに記録するためのGlideTransformLogオブジェクトを作成します。
+
+    44.GlideUICompatibility
+        The scoped GlideUICompatibility class provides the ability for scoped applications to define their own minimum browser versions. 
+        This is done by creating system properties for the scoped application.
+        44.GlideUI兼容性
+         范围内的 GlideUICompatibility 类为范围内的应用程序提供了定义自己的最低浏览器版本的能力。这是通过为作用域应用程序创建系统属性来完成的。
+        44.GlideUICompatibility
+         スコープ指定されたGlideUICompatibilityクラスは、スコープ指定されたアプリケーションが独自の最小ブラウザーバージョンを定義する機能を
+         提供します。これは、スコープアプリケーションのシステムプロパティを作成することによって行われます。
+
+    45.GlideURI
+        Enables handling the URI parameter in scoped applications.
+        45.GlideURI
+         允许在作用域应用程序中处理 URI 参数。
+        45.GlideURI
+         スコープ指定されたアプリケーションでURIパラメーターを処理できるようにします。
+
+    46.GlideUser
+        The scoped GlideUser API provides access to information about the current user and current user roles. Using the scoped 
+        GlideUser API avoids the need to use the slower GlideRecord queries to get user information.
+        46.滑翔用户
+         作用域 GlideUser API 提供对当前用户和当前用户角色信息的访问。使用作用域 GlideUser API 避免了使用较慢的 GlideRecord 
+         查询来获取用户信息的需要。
+        46.GlideUser
+         スコープ指定されたGlideUserAPIは、現在のユーザーと現在のユーザーの役割に関する情報へのアクセスを提供します。
+         スコープ付きGlideUserAPIを使用すると、ユーザー情報を取得するために低速のGlideRecordクエリを使用する必要がなくなります。
+
+    47.GlideXMLUtil - Scoped, Global
+        Provides methods to remove invalid characters from an XML string, and to validate an XML string.
+        47.GlideXMLUtil - 作用域，全局
+         提供从 XML 字符串中删除无效字符以及验证 XML 字符串的方法。
+        47.GlideXMLUtil-スコープ、グローバル
+         XML文字列から無効な文字を削除し、XML文字列を検証するためのメソッドを提供します。
+
+    48.JSON
+        Provides scoped methods to create JSON objects from a string, and to turn JSON objects into strings.
+        48.JSON
+         提供范围方法以从字符串创建 JSON 对象，并将 JSON 对象转换为字符串。
+        48.JSON
+         文字列からJSONオブジェクトを作成し、JSONオブジェクトを文字列に変換するスコープメソッドを提供します。
+
+    49.NotifyConferenceUtil - Scoped, Global
+        The NotifyConferenceUtil API provides methods to manage Notify conference calls and SMS messages for various telephony 
+        service providers, such as Zoom and WebEx.
+        49.NotifyConferenceUtil - 范围，全局
+         NotifyConferenceUtil API 为各种电话服务提供商（例如 Zoom 和 WebEx）提供管理通知电话会议和 SMS 消息的方法。
+        49.NotifyConferenceUtil-スコープ、グローバル
+         NotifyConferenceUtil APIは、ZoomやWebExなどのさまざまなテレフォニーサービスプロバイダーのNotify電話会議とSMSメッセージを
+         管理するためのメソッドを提供します。
+
+    50.Optional
+        The Optional API interacts with a single record returned by the GlideQuery, Stream, or GlideRecord APIs, even when it does 
+        not exist. Write scripts that are less likely to result in an error by handling null or undefined query results.
+        50.可选
+         Optional API 与 GlideQuery、Stream 或 GlideRecord API 返回的单个记录交互，即使它不存在。通过处理空或未定义的查询结果，
+         编写不太可能导致错误的脚本。
+        50.オプション
+         オプションのAPIは、GlideQuery、Stream、またはGlideRecord APIによって返される単一のレコードと相互作用します（存在しない場合でも）。 
+         nullまたは未定義のクエリ結果を処理することにより、エラーが発生する可能性が低いスクリプトを記述します。
+
+    51.PAScorecard
+        The PAScorecard API enables you to fetch data about indicators and their associated records, such as breakdowns.
+        51.PAS记分卡
+         PAScorecard API 使您能够获取有关指标及其相关记录的数据，例如细分。
+        51.PAScorecard
+         PAScorecard APIを使用すると、インジケーターとそれに関連するレコード（内訳など）に関するデータを取得できます。
+
+    52.PASnapshot
+        The PASnapshot API enables you to query information about Performance Analytics snapshots. Snapshots are the lists of 
+        records (sys_ids) that are collected at the time that the scores for those records are collected. A snapshot is made only 
+        for indicators with Collect records selected.
+        52.PA快照
+         PASnapshot API 使您能够查询有关 Performance Analytics 快照的信息。快照是在收集这些记录的分数时收集的记录列表 (sys_ids)。
+         仅为选择了收集记录的指标制作快照。
+        52.PAスナップショット
+         PASnapshot APIを使用すると、PerformanceAnalyticsスナップショットに関する情報を照会できます。スナップショットは、それらのレコード
+         のスコアが収集されるときに収集されるレコード（sys_ids）のリストです。スナップショットは、[レコードの収集]が選択されている
+         インジケーターに対してのみ作成されます。
+
+    53.RenderProperties
+        The RenderProperties API provides methods about the current page and is available in Jelly scripts and in UI-action 
+        conditions and scripts.
+        53.渲染属性
+         RenderProperties API 提供有关当前页面的方法，并且在 Jelly 脚本和 UI 操作条件和脚本中可用。
+        53.RenderProperties
+         RenderProperties APIは、現在のページに関するメソッドを提供し、JellyスクリプトおよびUIアクション条件とスクリプトで使用できます。
+
+    54.ScopedDCManager
+        The ScopedDCManager API enables you to group data by type.
+        54.ScopedDCManager
+         ScopedDCManager API 使您能够按类型对数据进行分组。
+        54.ScopedDCManager
+         ScopedDCManager APIを使用すると、データをタイプ別にグループ化できます。
+
+    55.SPScriptedFacet
+        Define facet items, filters, or mapped queries for a facets object.
+        55.SPScriptedFacet
+         为构面对象定义构面项、过滤器或映射查询。
+        55.SPScriptedFacet
+         ファセットオブジェクトのファセットアイテム、フィルター、またはマップされたクエリを定義します。
+
+    56.SPScriptedFacetService
+        Generate a multi choice or single choice facets object for an advanced search source.
+        56.SPScriptedFacetService
+         为高级搜索源生成多选或单选构面对象。
+        56.SPScriptedFacetService
+         高度な検索ソース用の複数選択または単一選択ファセットオブジェクトを生成します。
+
+    57.Stream
+        The Stream API interacts with a stream of items such as records. For example, you can use the forEach() method to update 
+        the state of each record in a stream returned by the GlideQuery API.
+        57.流
+         Stream API 与诸如记录之类的项目流进行交互。例如，您可以使用 forEach() 方法更新 GlideQuery API 返回的流中每条记录的状态。
+        57.ストリーム
+         Stream APIは、レコードなどのアイテムのストリームと対話します。たとえば、forEach（）メソッドを使用して、
+         GlideQueryAPIによって返されるストリーム内の各レコードの状態を更新できます。
+        
+
+    58.TemplatePrinter
+        Scoped TemplatePrinter handles printing from a mail script to the email message.
+        58.模板打印机
+         Scoped TemplatePrinter 处理从邮件脚本到电子邮件的打印。
+        58.TemplatePrinter
+         スコープ付きTemplatePrinterは、メールスクリプトから電子メールメッセージへの印刷を処理します。
+
+    59.v_query – Scoped, Global
+        Scriptable object that represents a query running against a remote table.
+        59.v_query – 作用域，全局
+         表示针对远程表运行的查询的可编写脚本的对象。
+        59.v_query –スコープ、グローバル
+         リモートテーブルに対して実行されているクエリを表すスクリプト可能なオブジェクト。
+
+    60.v_table – Scoped, Global
+        Scriptable object that enables you to add rows to a remote table.
+        60.v_table – 作用域，全局
+         可编写脚本的对象，使您能够将行添加到远程表。
+        60.v_table –スコープ、グローバル
+         リモートテーブルに行を追加できるようにするスクリプト可能なオブジェクト。
+
+    61.Workflow
+        The scoped Workflow API provides methods that can be used in an activity definition script.
+        61.工作流程
+         作用域工作流 API 提供了可在活动定义脚本中使用的方法。
+        61.ワークフロー
+         スコープ付きワークフローAPIは、アクティビティ定義スクリプトで使用できるメソッドを提供します。
+
+    62.XMLDocument2
+        XMLDocument2 is a JavaScript Object wrapper for parsing and extracting XML data from an XML string.
+        62.XML文档2
+         XMLDocument2 是一个 JavaScript 对象包装器，用于从 XML 字符串中解析和提取 XML 数据。
+        62.XMLDocument2
+         XMLDocument2は、XML文字列からXMLデータを解析および抽出するためのJavaScriptオブジェクトラッパーです。
+
+    63.XMLNode
+        The scoped XMLNode API allows you to query values from XML nodes. XMLNodes are extracted from XMLDocument2 objects, 
+        which contain XML strings.
+        63.XML节点
+         作用域 XMLNode API 允许您从 XML 节点查询值。 XMLNodes 是从包含 XML 字符串的 XMLDocument2 对象中提取的。
+        63.XMLNode
+         スコープ付きXMLNodeAPIを使用すると、XMLノードから値を照会できます。 XMLNodeは、XML文字列を含むXMLDocument2オブジェクトから
+         抽出されます。
+
+    64.XMLNodeIterator
+        The scoped XMLNodeIterator class allows you to iterate through a node of a XML document.
+        64.XMLNodeIterator
+         作用域 XMLNodeIterator 类允许您遍历 XML 文档的节点。
+        64.XMLNodeIterator
+         スコープ付きXMLNodeIteratorクラスを使用すると、XMLドキュメントのノードを反復処理できます。
+
+  二、SN_AGENT 
+      代理 
+      エージェント
+    1.AccAgentsAPI API
+        The AccAgentsAPI script include enables performing management actions on available agents.
+        1.AccAgentsAPI API
+         AccAgentsAPI 脚本包括对可用代理执行管理操作。
+        1.AccAgentsAPI API
+         AccAgentsAPIスクリプトインクルードを使用すると、使用可能なエージェントに対して管理アクションを実行できます。
+
+
+    2.AccCheckDefsAPI API
+        The AccCheckDefsAPI script include enables managing check definitions and associated parameters.
+        2.AccCheckDefsAPI API
+         AccCheckDefsAPI 脚本包括启用检查定义和相关参数的管理。
+        2.AccCheckDefsAPI API
+         AccCheckDefsAPIスクリプトインクルードを使用すると、チェック定義と関連するパラメーターを管理できます。
+
+
+    3.AgentNowHandler API
+        The AccCheckDefsAPI script include enables running check definitions on demand, checking the status of on demand executions 
+        and test check executions and for stopping background checks that were executed on demand.
+        3.AgentNowHandler API
+         AccCheckDefsAPI 脚本包括启用按需运行检查定义、检查按需执行和测试检查执行的状态以及停止按需执行的背景检查。
+        3.AgentNowHandler API
+         AccCheckDefsAPIスクリプトインクルードを使用すると、オンデマンドでチェック定義を実行し、オンデマンド実行とテストチェック実行の
+         ステータスをチェックし、オンデマンドで実行されたバックグラウンドチェックを停止できます。
+
+
+    4.CheckDefinitionTestBuilder API
+        The CheckDefinitionTestBuilder script include enables building test check requests on check definitions.
+        4.CheckDefinitionTestBuilder API
+         CheckDefinitionTestBuilder 脚本包括允许在检查定义上构建测试检查请求。
+        4.CheckDefinitionTestBuilder API
+         CheckDefinitionTestBuilderスクリプトインクルードを使用すると、チェック定義でテストチェック要求を作成できます。
+
+
+    5.CheckInstanceTestBuilder API
+        The CheckInstanceTestBuilder script include enables building test check requests on check instances.
+        5.CheckInstanceTestBuilder API
+         CheckInstanceTestBuilder 脚本包括启用在检查实例上构建测试检查请求。
+        5.CheckInstanceTestBuilder API
+         CheckInstanceTestBuilderスクリプトインクルードを使用すると、チェックインスタンスでテストチェックリクエストを作成できます。
+
+  三、SN_AIS　自动识别系统
+    1.GeniusResultAnswer
+        The GeniusResultAnswer API provides methods for creating an answer object in a Genius Result configuration. Answers created with this API 
+        define search requests or key-value pair maps that can populate Genius Result answer cards.
+        1.GeniusResultAnswer
+         GeniusResultAnswer API 提供了在 Genius Result 配置中创建答案对象的方法。 使用此 API 创建的答案
+         定义可以填充 Genius Result 答案卡的搜索请求或键值对映射。
+        1.GeniusResultAnswer
+         GeniusResultAnswer APIは、GeniusResult構成で回答オブジェクトを作成するためのメソッドを提供します。 このAPIで作成された回答
+         GeniusResult回答カードに入力できる検索要求またはキーと値のペアのマップを定義します。
+
+    2.GeniusResultContext
+        The GeniusResultContext API provides methods for retrieving search query information from the context of a Genius Result configuration.
+        2.GeniusResultContext
+         GeniusResultContext API 提供了从 Genius Result 配置的上下文中检索搜索查询信息的方法。
+        2.GeniusResultContext
+         GeniusResultContext APIは、GeniusResult構成のコンテキストから検索クエリ情報を取得するためのメソッドを提供します。
+
+  四、SN_AUTH
+    1.AuthCredential
+        The AuthCredential() API provides methods that enable you to build credentials for a REST request.
+        1.AuthCredential
+         AuthCredential() API 提供了使您能够为 REST 请求构建凭据的方法。
+        1.AuthCredential
+         AuthCredential（）APIは、RESTリクエストのクレデンシャルを作成できるようにするメソッドを提供します。
+
+    2.GlideOAuthClient - Scoped, Global
+        Use these methods for requesting and revoking OAuth refresh and access tokens.
+        2.GlideOAuthClient - 作用域，全局
+         使用这些方法请求和撤销 OAuth 刷新和访问令牌。
+        2.GlideOAuthClient-スコープ、グローバル
+         これらのメソッドを使用して、OAuth更新およびアクセストークンを要求および取り消します。
+
+    3.GlideOAuthClientRequest - Scoped, Global
+        Use these methods for handling OAuth client requests.
+        3.GlideOAuthClientRequest - 作用域，全局
+         使用这些方法来处理 OAuth 客户端请求。
+        3.GlideOAuthClientRequest-スコープ、グローバル
+         これらのメソッドを使用して、OAuthクライアントリクエストを処理します。
+
+    4.GlideOAuthClientResponse - Scoped, Global
+        Use these methods for handling OAuth client responses.
+        4.GlideOAuthClientResponse - 作用域，全局
+         使用这些方法来处理 OAuth 客户端响应。
+        4.GlideOAuthClientResponse-スコープ、グローバル
+         これらのメソッドを使用して、OAuthクライアントの応答を処理します。
+
+    5.GlideOAuthToken - Scoped, Global
+        Use the GlideOAuthToken methods for retrieving OAuth access token and information about the access token.
+        5.GlideOAuthToken - 作用域，全局
+         使用 GlideOAuthToken 方法检索 OAuth 访问令牌和有关访问令牌的信息。
+        5.GlideOAuthToken-スコープ、グローバル
+         GlideOAuthTokenメソッドを使用して、OAuthアクセストークンとアクセストークンに関する情報を取得します。
+
+    6.HttpRequestAuthedData
+        The HttpRequestAuthedData() API provides methods to access and set values in a signed REST or SOAP request.
+        6.HttpRequestAuthedData
+         HttpRequestAuthedData() API 提供了在签名的 REST 或 SOAP 请求中访问和设置值的方法。
+        6.HttpRequestAuthedData
+         HttpRequestAuthedData（）APIは、署名されたRESTまたはSOAPリクエストの値にアクセスして設定するためのメソッドを提供します。
+
+    7.HttpRequestData
+        The HttpRequestData API provides methods to build and manipulate a REST request before applying a signature and sending it to an endpoint.
+        7.HttpRequestData
+         HttpRequestData API 提供了在应用签名并将其发送到端点之前构建和操作 REST 请求的方法。
+        7.HttpRequestData
+         HttpRequestData APIは、署名を適用してエンドポイントに送信する前に、RESTリクエストを構築および操作するためのメソッドを提供します。
+
+    8.RequestAuthAPI
+        The RequestAuthAPI() API provides methods to apply a signature to a REST request.
+        8.RequestAuthAPI
+         RequestAuthAPI() API 提供了将签名应用于 REST 请求的方法。
+        8.RequestAuthAPI
+         RequestAuthAPI（）APIは、RESTリクエストに署名を適用するためのメソッドを提供します。
+
+  五、SN_CC 抄送
+    1.ConnectionInfo - Scoped, Global
+        Use the ConnectionInfo API to get connection attribute information through the connection and credential alias.
+        1.ConnectionInfo - 范围，全局
+         使用 ConnectionInfo API 通过连接和凭证别名获取连接属性信息。
+        1.ConnectionInfo-スコープ、グローバル
+         ConnectionInfo APIを使用して、接続およびクレデンシャルエイリアスを介して接続属性情報を取得します。
+
+    2.ConnectionInfoProvider - Scoped, Global
+        Use the ConnectionInfoProvider API to select connection information through the connection alias.
+        2.ConnectionInfoProvider - 范围，全局
+         使用 ConnectionInfoProvider API 通过连接别名选择连接信息。
+        2.ConnectionInfoProvider-スコープ、グローバル
+         ConnectionInfoProvider APIを使用して、接続エイリアスを介して接続情報を選択します。
+
+    3.StandardCredentialsProvider - Scoped, Global
+        Use the StandardCredentialsProvider API to retrieve credential information.
+        3.StandardCredentialsProvider - 范围，全球
+         使用 StandardCredentialsProvider API 检索凭证信息。
+        3.StandardCredentialsProvider-スコープ、グローバル
+         StandardCredentialsProvider APIを使用して、資格情報を取得します。
+
+  六、SN_CLOTHO
+    1.Client - Scoped, Global
+        Provides methods to add data to the MetricBase database, to execute transforms on the MetricBase database, and to 
+        receive the results 
+        of the transforms.
+        1.Client - 范围，全球
+         提供将数据添加到 MetricBase 数据库、在 MetricBase 数据库上执行转换以及接收转换结果的方法。
+        1.クライアント-スコープ、グローバル
+         MetricBaseデータベースにデータを追加し、MetricBaseデータベースで変換を実行し、変換の結果を受け取るためのメソッドを提供します。
+
+    2.Data - Scoped, Global
+        A Data object contains the results of transform performed by a sn_clotho.Client.transform() method.
+        2.Data - 范围，全球
+         Data 对象包含由 sn_clotho.Client.transform() 方法执行的转换结果。
+        2.データ-スコープ、グローバル
+         Dataオブジェクトには、sn_clotho.Client.transform（）メソッドによって実行された変換の結果が含まれています。
+
+    3.DataBuilder - Scoped, Global
+        Use the DataBuilder class to create a series of data points for a metric. Use the sn_clotho.Client.put() method to save 
+        the values.
+        3.DataBuilder - 作用域，全局
+         使用 DataBuilder 类为度量创建一系列数据点。使用 sn_clotho.Client.put() 方法保存值。
+        3.DataBuilder-スコープ、グローバル
+         DataBuilderクラスを使用して、メトリックの一連のデータポイントを作成します。 sn_clotho.Client.put（）メソッドを使用して値を
+         保存します。
+
+    4.MetricInfo
+        Provides methods to check if a metric is in the MetricBase database, and if so, to report its retention policy. 
+        Retention policies are reported in minutes.
+        4.MetricInfo
+         提供检查指标是否在 MetricBase 数据库中的方法，如果是，则报告其保留策略。保留政策会在几分钟内报告。
+        4.MetricInfo
+         メトリックがMetricBaseデータベースにあるかどうかを確認し、ある場合はその保持ポリシーを報告するためのメソッドを提供します。
+         保持ポリシーは数分で報告されます。
+
+    5.Transformer
+        Manipulate time-series data to prepare the data for evaluation and analysis.
+        5.变压器
+         处理时间序列数据以准备用于评估和分析的数据。
+        5.トランス
+         時系列データを操作して、評価と分析のためのデータを準備します。
+
+    6.TransformPart
+        Use the TransformPart class to specify details of the transform to be done.
+        6.变换部分
+         使用 TransformPart 类指定要完成的转换的详细信息。
+        6.TransformPart
+         TransformPartクラスを使用して、実行する変換の詳細を指定します。
+
+    7.TransformResult - Scoped, Global
+        Provides the result of a transformation run on time-series data.
+        7.TransformResult - 作用域，全局
+         提供对时间序列数据运行的转换结果。
+        7.TransformResult-スコープ、グローバル
+         時系列データに対して実行された変換の結果を提供します。
+
+  七、SN_CMDB
+    1.IdentificationEngine
+        The IdentificationEngine API uses the Identification and Reconciliation framework to minimize the creation of 
+        duplicate configuration items (CIs) and to reconcile CI attributes by only accepting information from authorized 
+        data sources when updating the Configuration Management Database (CMDB).
+        1.识别引擎
+         IdentificationEngine API 使用 Identification and Reconciliation 框架来最大程度地减少重复配置项 (CI) 的创建并通过在
+         更新配置管理数据库 (CMDB) 时仅接受来自授权数据源的信息来协调 CI 属性。
+
+  八、SN_CMDBGROUP
+    1.CMDBGroupAPI
+        The CMDBGroupAPI provides methods for performing actions on Configuration Management Database (CMDB) groups.
+        1.CMDBGroupAPI
+         CMDBGroupAPI 提供了对配置管理数据库 (CMDB) 组执行操作的方法。
+        1.CMDBGroupAPI
+         CMDBGroupAPIは、構成管理データベース（CMDB）グループでアクションを実行するためのメソッドを提供します。
+
+  九、SN_CONNECT
+    1.Conversation
+        The Conversation API enables you to create or modify Connect conversations.
+        1.对话
+         对话 API 使您能够创建或修改 Connect 对话。
+        1.会話
+         Conversation APIを使用すると、Connect会話を作成または変更できます。
+
+    2.Queue
+        The Queue API allows you to retrieve or join a Connect Support chat queue.
+        2.队列
+         Queue API 允许您检索或加入 Connect Support 聊天队列。
+        2.キュー
+         Queue APIを使用すると、ConnectSupportチャットキューを取得または参加できます。
+
+  十、SN_CS
+    1.VoiceTranscriptObject
+        The VoiceTranscriptObject scriptable API provides the ability to save third-party voice conversation transcript data to a table 
+        within a ServiceNow instance.
+        1.VoiceTranscriptObject
+         VoiceTranscriptObject 脚本化 API 提供了将第三方语音对话脚本数据保存到表中的能力
+         在 ServiceNow 实例中。
+        1.VoiceTranscriptObject
+         VoiceTranscriptObjectスクリプト可能APIは、サードパーティの音声会話トランスクリプトデータをテーブルに保存する機能を提供します
+         ServiceNowインスタンス内。
+
+  十一、SN_CTI_CORE 核心
+    1.CTIOperationRequest - Scoped, Global
+        The CTIOperationRequest API provides methods to set and get data on the current CTIOperationRequest object.
+        1.CTIOperationRequest - 范围，全局
+         CTIOperationRequest API 提供了设置和获取当前 CTIOperationRequest 对象数据的方法。
+        1.CTIOperationRequest-スコープ、グローバル
+         CTIOperationRequest APIは、現在のCTIOperationRequestオブジェクトに関するデータを設定および取得するためのメソッドを提供します。
+
+    2.CTIOperationResponse - Scoped, Global
+        The CTIOperationResponse API provides methods to set and get data on the current CTIOperationResponse object.
+        2.CTIOperationResponse - 范围，全球
+         CTIOperationResponse API 提供了设置和获取当前 CTIOperationResponse 对象数据的方法。
+        2.CTIOperationResponse-スコープ、グローバル
+         CTIOperationResponse APIは、現在のCTIOperationResponseオブジェクトのデータを設定および取得するためのメソッドを提供します。
+
+  十二、SN_CURRENCY 货币
+    1.GlideCurrencyConfig
+        The GlideCurrencyConfig API provides methods to retrieve various configuration information for FX Currency fields.
+        1.GlideCurrencyConfig
+         GlideCurrencyConfig API 提供了检索外汇货币字段的各种配置信息的方法。
+        1.GlideCurrencyConfig
+         GlideCurrencyConfig APIは、FX通貨フィールドのさまざまな構成情報を取得するためのメソッドを提供します。
+
+    2.GlideCurrencyConverter
+        The GlideCurrencyConverter API provides methods to convert one currency value to another, such as converting US dollars 
+        into European Euro.
+        2.GlideCurrencyConverter
+         GlideCurrencyConverter API 提供了将一种货币值转换为另一种货币值的方法，例如将美元转换为欧洲欧元。
+        2.GlideCurrencyConverter
+         GlideCurrencyConverter APIは、米ドルをヨーロッパユーロに変換するなど、ある通貨値を別の通貨値に変換するメソッドを提供します。
+
+    3.GlideCurrencyExchangeValue
+        Provides access to information related to FX Currency conversions.
+        3.GlideCurrencyExchangeValue
+         提供对与外汇货币转换相关的信息的访问。
+        3.GlideCurrencyExchangeValue
+         FX通貨換算に関連する情報へのアクセスを提供します。
+
+    4.GlideCurrencyFormatter
+        The GlideCurrencyFormatter API provides methods to format FX Currency strings.
+        4.GlideCurrencyFormatter
+         GlideCurrencyFormatter API 提供了格式化外汇货币字符串的方法。
+        4.GlideCurrencyFormatter
+         GlideCurrencyFormatter APIは、FX通貨文字列をフォーマットするためのメソッドを提供します。
+
+    5.GlideCurrencyParser
+        The GlideCurrencyParser API provides methods to parse FX Currency values to detect locale-based formatting.
+        5.GlideCurrencyParser
+         GlideCurrencyParser API 提供了解析 FX 货币值以检测基于区域设置的格式的方法。
+        5.GlideCurrencyParser
+         GlideCurrencyParser APIは、FX通貨値を解析してロケールベースのフォーマットを検出するメソッドを提供します。
+
+    6.GlideCurrencyValue
+        Provides methods that return the currency code and original currency from an associated GlideCurrencyParser.parse() call.
+        6.GlideCurrencyValue
+         提供从关联的 GlideCurrencyParser.parse() 调用返回货币代码和原始货币的方法。
+        6.GlideCurrencyValue
+         関連するGlideCurrencyParser.parse（）呼び出しから通貨コードと元の通貨を返すメソッドを提供します。
+
+  十三、SN_DISCOVERY
+    1.DiscoveryAPI
+        The methods of the DiscoveryAPI - Scoped class launch a quick Discovery of a single IPv4 address and return summaries of 
+        previously launched Discovery statuses for a single CI or for all scanned CIs.
+        1.发现API
+         DiscoveryAPI - Scoped 类的方法启动单个 IPv4 地址的快速发现并返回以前的摘要
+         为单个 CI 或所有扫描的 CI 启动发现状态。
+        1.DiscoveryAPI
+         DiscoveryAPIのメソッド-スコープクラスは、単一のIPv4アドレスのクイックディスカバリーを起動し、以前の要約を返します
+         単一のCIまたはスキャンされたすべてのCIの検出ステータスを起動しました。
+
+    2.ReportCiStatusOutputJS
+        The ReportCiStatusOutputJS methods are getters that return specific object properties for the DiscoveryAPI 
+        reportCiIpAddressStatus method and then convert the information into a JSON string.
+        2.ReportCiStatusOutputJS
+         ReportCiStatusOutputJS 方法是返回 DiscoveryAPI reportCiIpAddressStatus 的特定对象属性的 getter
+         方法，然后将信息转换为 JSON 字符串。
+        2.ReportCiStatusOutputJS
+         ReportCiStatusOutputJSメソッドは、DiscoveryAPIreportCiIpAddressStatusの特定のオブジェクトプロパティを返すゲッターです。
+         メソッドを実行してから、情報をJSON文字列に変換します。
+
+  十四、SN_DOC_SERVICES 
+    文件服务
+    1.DocumentListEntryService
+        Provides methods for maintaining document templates in a document list.
+        1.DocumentListEntryService
+         提供在文档列表中维护文档模板的方法。
+        1.DocumentListEntryService
+         ドキュメントリストでドキュメントテンプレートを維持するためのメソッドを提供します。
+
+    2.DocumentListService
+        Provides methods for creating, deleting, and updating a document list.
+        2.DocumentListService
+         提供创建、删除和更新文档列表的方法。
+        2.DocumentListService
+         ドキュメントリストを作成、削除、および更新するためのメソッドを提供します。
+
+    3.DocumentReferenceService
+        Provides methods for managing document references within a target table, such as the Incidents [incident] or Knowledge 
+        [kb_knowledge] table. You can use document references to associate information with a record.
+        3.文档参考服务
+         提供用于管理目标表中的文档引用的方法，例如 Incidents [incident] 或 Knowledge [kb_knowledge] 表。
+         您可以使用文档参考将信息与记录相关联。
+        3.DocumentReferenceService
+         インシデント[インシデント]またはナレッジ[kb_knowledge]テーブルなどのターゲットテーブル内のドキュメント参照を管理するための
+         メソッドを提供します。ドキュメント参照を使用して、情報をレコードに関連付けることができます。
+
+    4.DocumentService
+        Provides methods for creating, deleting, and updating a document.
+        4.文档服务
+         提供创建、删除和更新文档的方法。
+        4.DocumentService
+         ドキュメントを作成、削除、および更新するためのメソッドを提供します。
+
+    5.DocumentVersionService
+        Provides a service for creating and deleting document versions. Each version is an element containing the document content 
+        and is provided using a single URL or attachment. An attachment can only be added in the Document Versions 
+        [ds_document_version] table UI and not with the API.
+        5.DocumentVersionService
+         提供用于创建和删除文档版本的服务。每个版本都是一个包含文档内容的元素，并使用
+         单个 URL 或附件。只能在文档版本 [ds_document_version] 表 UI 中添加附件，而不能使用 API。
+        5.DocumentVersionService
+         ドキュメントバージョンを作成および削除するためのサービスを提供します。各バージョンは、ドキュメントコンテンツを含む要素であり、
+         単一のURLまたは添付ファイル。添付ファイルは、ドキュメントバージョン[ds_document_version]テーブルUIにのみ追加でき、
+         APIでは追加できません。
+
+    6.SystemDocument
+        Provides methods for setting fields of a record in the Documents [ds_document] table.
+        6.系统文档
+         提供在 Documents [ds_document] 表中设置记录字段的方法。
+        6.SystemDocument
+         Documents[ds_document]テーブルのレコードのフィールドを設定するためのメソッドを提供します。
+
+    7.SystemDocumentList
+        Provides methods for setting the record fields in the Document Lists [ds_document_lists] table.
+        7.系统文档列表
+         提供在文档列表 [ds_document_lists] 表中设置记录字段的方法。
+        7.SystemDocumentList
+         ドキュメントリスト[ds_document_lists]テーブルのレコードフィールドを設定するためのメソッドを提供します。
+
+    8.SystemDocumentListEntry
+        Provides methods for setting the record fields in the Document List Entries [ds_document_list_entry] table.
+        8.SystemDocumentListEntry
+         提供在文档列表条目 [ds_document_list_entry] 表中设置记录字段的方法。
+        8.SystemDocumentListEntry
+         ドキュメントリストエントリ[ds_document_list_entry]テーブルのレコードフィールドを設定するためのメソッドを提供します。
+
+    9.SystemDocumentVersion
+        Provides methods for setting the values of a document's source version in the Versions [ds_document_version] table.
+        9.系统文档版本
+         提供在版本 [ds_document_version] 表中设置文档源版本值的方法。
+        9.SystemDocumentVersion
+         バージョン[ds_document_version]テーブルでドキュメントのソースバージョンの値を設定するためのメソッドを提供します。
+
+  十五、SN_DT
+    1.DecisionTableAPI - Scoped, Global
+        Use the DecisionTableAPI class to access Decision Tables data in scoped and global server-side scripts.
+        1.DecisionTableAPI - 作用域，全局
+         使用 DecisionTableAPI 类访问作用域和全局服务器端脚本中的决策表数据。
+        1.DecisionTableAPI-スコープ、グローバル
+         DecisionTableAPIクラスを使用して、スコープ付きおよびグローバルサーバー側スクリプトのデシジョンテーブルデータにアクセスします。
+
+  十六、SN_DT_API
+    1.DynamicTranslation
+        The DynamicTranslation API provides methods that translate text, in real time, into multiple languages using translation 
+        service providers.
+        1.动态翻译
+         DynamicTranslation API 提供使用翻译服务提供商将文本实时翻译成多种语言的方法。
+        1.DynamicTranslation
+         DynamicTranslation APIは、翻訳サービスプロバイダーを使用して、テキストをリアルタイムで複数の言語に翻訳するメソッドを提供します。
+
+  十七、SN_FD
+    1.Flow
+        Runs activated Flow Designer flows.
+        1.流程
+         运行激活的 Flow Designer 流程。
+         1.フロー
+         アクティブ化されたFlowDesignerフローを実行します。
+
+    2.FlowAPI - Scoped, Global
+        Use FlowAPI methods to execute actions, flows, or subflows in server-side scripts using either blocking or non-blocking methods.
+        2.FlowAPI - 作用域，全局
+         使用 FlowAPI 方法在使用阻塞或非阻塞方法的服务器端脚本中执行操作、流或子流。
+        2.FlowAPI-スコープ、グローバル
+         FlowAPIメソッドを使用して、ブロッキングメソッドまたは非ブロッキングメソッドのいずれかを使用して、サーバー側スクリプトでアクション、
+         フロー、またはサブフローを実行します。
+
+    3.ScriptableDataStream - Scoped, Global
+        Provides methods to interact with a stream of data.
+        3.ScriptableDataStream - 范围，全局
+         提供与数据流交互的方法。
+        3.ScriptableDataStream-スコープ、グローバル
+         データのストリームと対話するためのメソッドを提供します。
+
+    4.ScriptableFlowRunner
+        Create a builder object used to define parameters for flow, subflow, and action execution. You can specify a flow to execute 
+        in a particular domain. Start the flow, subflow, or action execution directly from the builder and view the results in 
+        a ScriptableFlowRunnerResult object.
+        4.ScriptableFlowRunner
+         创建一个构建器对象，用于定义流、子流和操作执行的参数。 您可以指定要在特定域中执行的流。
+         直接从构建器启动流、子流或操作执行，并在 ScriptableFlowRunnerResult 对象中查看结果。
+        4.ScriptableFlowRunner
+         フロー、サブフロー、およびアクション実行のパラメーターを定義するために使用されるビルダーオブジェクトを作成します。 
+         特定のドメインで実行するフローを指定できます。ビルダーから直接フロー、サブフロー、またはアクションの実行を開始し、
+         ScriptableFlowRunnerResultオブジェクトで結果を表示します。
+
+    5.ScriptableFlowRunnerResult
+        Captures the result of using ScriptableFlowRunner to execute a flow, subflow, or action. Includes data such as the context ID, 
+        domain, and any outputs from the flow execution.
+        5.ScriptableFlowRunnerResult
+         捕获使用 ScriptableFlowRunner 执行流、子流或操作的结果。 包括上下文 ID、域、
+         以及流程执行的任何输出。
+        5.ScriptableFlowRunnerResult
+         ScriptableFlowRunnerを使用してフロー、サブフロー、またはアクションを実行した結果をキャプチャします。 コンテキストID、ドメイン、
+         およびフロー実行からの出力。
+
+    6.Subflow
+        Runs published Flow Designer subflows.
+        6.子流
+         运行已发布的 Flow Designer 子流。
+        6.サブフロー
+         公開されたFlowDesignerサブフローを実行します。
+
+  十八、SN_HR_CORE
+      人力资源核心
+    1.hr_Utils
+        Provides basic functionality for the HR application.
+        1.hr_Utils
+         为 HR 应用程序提供基本功能。
+        1.hr_Utils
+         HRアプリケーションの基本機能を提供します。
+
+  十九、SN_HR_LE
+      人力资源部
+    1.hr_ActivitySet
+        Handles lifecycle event activity set cases.
+        1.hr_ActivitySet
+         处理生命周期事件活动集案例。
+        1.hr_ActivitySet
+         ライフサイクルイベントアクティビティセットケースを処理します。
+
+    2.hr_ActivityUtils
+        Enables creating HR cases from a record producer.
+        2.hr_ActivityUtils
+         允许从记录制作人创建 HR 案例。
+        2.hr_ActivityUtils
+         レコードプロデューサーからHRケースを作成できるようにします。
+
+  二十、SN_HW
+    1.HistoryWalker - Scoped, Global
+        The HistoryWalker API uses the audit/history tables to generate a historical version of an existing record.
+        1.HistoryWalker - 范围，全球
+         HistoryWalker API 使用审计/历史表来生成现有记录的历史版本。
+        1.HistoryWalker-スコープ、グローバル
+         HistoryWalker APIは、監査/履歴テーブルを使用して、既存のレコードの履歴バージョンを生成します。
+
+  二十一、SN_IH
+    1.JSONStreamingAPI
+        Build a large streaming JSON payload to use in a REST or SOAP request to send bulk data to a third-party API. You can also 
+        create the payload as a JSON string for a non-streaming option.
+        1.JSONStreamingAPI
+         构建大型流式 JSON 有效负载以在 REST 或 SOAP 请求中使用，以将批量数据发送到第三方 API。 您还可以创建
+         有效载荷作为非流选项的 JSON 字符串。
+        1.JSONStreamingAPI
+         サードパーティのAPIにバルクデータを送信するためにRESTまたはSOAPリクエストで使用する大規模なストリーミングJSONペイロードを
+         構築します。 非ストリーミングオプションのJSON文字列としてペイロードを作成することもできます。
+
+    2.JSONStreamingBuilder
+        Create a builder object used to build a large streaming JSON payload to use in a REST or SOAP request to send bulk data to 
+        a third-party API. You can also create the payload as a JSON string for a non-streaming option.
+        2.JSONStreamingBuilder
+         创建用于构建大型流式 JSON 有效负载的构建器对象，以在 REST 或 SOAP 请求中使用，以将批量数据发送到第三方 API。
+         您还可以将有效负载创建为非流选项的 JSON 字符串。
+        2.JSONStreamingBuilder
+         サードパーティのAPIにバルクデータを送信するためにRESTまたはSOAPリクエストで使用する大規模なストリーミングJSONペイロードを
+         構築するために使用されるビルダーオブジェクトを作成します。 非ストリーミングオプションのJSON文字列としてペイロードを
+         作成することもできます。
+
+    3.XMLStreamingAPI
+        Build a large streaming XML payload for use in a REST or SOAP request to send bulk data to a third-party API. 
+        You can also create the payload as an XML string for a non-streaming option.
+        3.XMLStreamingAPI
+         构建大型流式 XML 有效负载以用于 REST 或 SOAP 请求，以将批量数据发送到第三方 API。 您还可以将有效负载创建为
+         非流选项的 XML 字符串。
+        3.XMLStreamingAPI
+         サードパーティのAPIにバルクデータを送信するためのRESTまたはSOAPリクエストで使用するための大規模なストリーミングXMLペイロードを
+         構築します。 非ストリーミングオプションのXML文字列としてペイロードを作成することもできます。
+
+    4.XMLStreamingBuilder
+        Create a builder object to build a large XML payload for use in a REST or SOAP request to send bulk data to a third-party API. 
+        You can also create the payload as an XML string for a non-streaming option.
+        4.XMLStreamingBuilder
+         创建构建器对象以构建大型 XML 有效负载，以在 REST 或 SOAP 请求中使用，以将批量数据发送到第三方 API。 您还可以创建
+         有效负载作为非流选项的 XML 字符串。
+        4.XMLStreamingBuilder
+         ビルダーオブジェクトを作成して、RESTまたはSOAPリクエストで使用する大きなXMLペイロードを構築し、サードパーティのAPIに
+         バルクデータを送信します。 非ストリーミングオプションのXML文字列としてペイロードを作成することもできます。
+
+  二十二、SN_IH_KAFKA
+    1.Producer
+    The Producer API provides methods that enable you to push data from a ServiceNow instance to a Kafka topic.
+    1.制片人
+     Producer API 提供的方法使您能够将数据从 ServiceNow 实例推送到 Kafka 主题。
+    1.プロデューサー
+     Producer APIは、ServiceNowインスタンスからKafkaトピックにデータをプッシュできるようにするメソッドを提供します。
+
+  二十三、SN_IMPEX
+    进出口
+    1.CSVParser
+        This API provides methods for parsing comma-separated value (CSV) formatted records into an object or an array.
+        1.CSV解析器
+         此 API 提供了将逗号分隔值 (CSV) 格式的记录解析为对象或数组的方法。
+        1.CSVParser
+         このAPIは、コンマ区切り値（CSV）形式のレコードをオブジェクトまたは配列に解析するためのメソッドを提供します。
+
+    2.GlideExcelParser - Scoped, Global
+        Parse .xlsx formatted Excel files and access file data in script.
+        2.GlideExcelParser - 作用域，全局
+         解析 .xlsx 格式的 Excel 文件并在脚本中访问文件数据。
+        2.GlideExcelParser-スコープ、グローバル
+         .xlsx形式のExcelファイルを解析し、スクリプトでファイルデータにアクセスします。
+
+    3.GlideImportSetTable - Scoped, Global
+        The GlideImportSetTable API provides methods to create temporary Import Set tables.
+        3.GlideImportSetTable - 作用域，全局
+         GlideImportSetTable API 提供了创建临时导入集表的方法。
+        3.GlideImportSetTable-スコープ、グローバル
+         GlideImportSetTable APIは、一時的なインポートセットテーブルを作成するためのメソッドを提供します。
+
+    4.GlideImportSetTransformMap - Scoped, Global
+        Provides methods to create transform maps and transform entries.
+        4.GlideImportSetTransformMap - 作用域，全局
+         提供创建变换映射和变换条目的方法。
+        4.GlideImportSetTransformMap-スコープ、グローバル
+         変換マップと変換エントリを作成するためのメソッドを提供します。
+
+  二十四、SN_INSTANCE_SCAN
+      实例扫描
+    1.Findings API
+        Provides methods for handling how an Instance Scan check produces findings.
+        1.Findings API
+         提供用于处理实例扫描检查如何产生结果的方法。
+        1.Findings API
+         インスタンススキャンチェックが結果を生成する方法を処理するためのメソッドを提供します。
+
+    2.LinterCheckAstNode API
+        Provides methods for getting abstract syntax tree (AST) node details in linter checks.
+        2.LinterCheckAstNode API
+         提供在 linter 检查中获取抽象语法树 (AST) 节点详细信息的方法。
+        2.LinterCheckAstNode API
+         リンターチェックで抽象構文木（AST）ノードの詳細を取得するためのメソッドを提供します。
+
+  二十五、SN_INTERACTION
+      相互作用
+    1.Interaction
+        Use the Interaction API to define the behavior for interaction records.
+        1.互动
+         使用交互 API 定义交互记录的行为。
+        1.相互作用
+         インタラクションAPIを使用して、インタラクションレコードの動作を定義します。
+
+    2.InteractionQueue
+        Use the InteractionQueue API to configure the behavior for interaction queues and connectors.
+        2.交互队列
+         使用 InteractionQueue API 配置交互队列和连接器的行为。
+        2.InteractionQueue
+         インタラクションキューAPIを使用して、インタラクションキューとコネクタの動作を設定します。
+
+  二十六、SN_KMF_NS-NAMESPACE
+      KMF NS 命名空间
+    1.KMFCryptoOperation API - Scoped, Global
+        The KMFCryptoOperation class provides methods for performing cryptographic operations using a KMF cryptographic module or 
+        a CLE encryption module.
+        1.KMFCryptoOperation API - 作用域，全局
+         KMFCryptoOperation 类提供了使用 KMF 加密模块或 CLE 加密模块执行加密操作的方法。
+        1.KMFCryptoOperation API-スコープ、グローバル
+         KMFCryptoOperationクラスは、KMF暗号化モジュールまたはCLE暗号化モジュールを使用して暗号化操作を実行するためのメソッドを提供します。
+
+  二十七、SN_NLP_SENTIMENT
+    NLP 情绪
+    1.SentimentAnalyser
+        The SentimentAnalyser API performs sentiment analysis on a string value.
+        1.情绪分析器
+         SentimentAnalyser API 对字符串值执行情绪分析。
+        1.SentimentAnalyser
+         SentimentAnalyser APIは、文字列値に対して感情分析を実行します。
+
+  二十八、SN_NOTIFICATION
+      通知
+    1.Messaging
+        Perform actions in a third-party messaging application.
+        1.消息
+         在第三方消息传递应用程序中执行操作。
+        1.メッセージング
+         サードパーティのメッセージングアプリケーションでアクションを実行します。
+
+    2.PreferenceDestination - Scoped, Global
+        The PreferenceDestination API updates user notification preferences.
+        2.PreferenceDestination - 范围，全球
+         PreferenceDestination API 更新用户通知首选项。
+        2.PreferenceDestination-スコープ、グローバル
+         PreferenceDestination APIは、ユーザー通知設定を更新します。
+
+    3.Preferences - Scoped, Global
+        The Preferences API gets notification destinations for a user.
+        3.Preferences - Scoped, Global
+         Preferences API 获取用户的通知目的地。
+        3.設定-スコープ、グローバル
+         Preferences APIは、ユーザーの通知先を取得します。
+
+  二十九、SN_NOTIFY
+      通知
+    1.Notify
+        The NotifyScoped API allows you to interact with Notify calls and SMS messages using scripts.
+        1.通知
+         NotifyScoped API 允许您使用脚本与 Notify 呼叫和 SMS 消息进行交互。
+        1.通知する
+         NotifyScoped APIを使用すると、スクリプトを使用してNotify呼び出しおよびSMSメッセージを操作できます。
+
+    2.NotifyPhoneNumber
+        The NotifyPhoneNumber API allows you to query information about a Notify phone number.
+        2.通知电话号码
+         NotifyPhoneNumber API 允许您查询有关通知电话号码的信息。
+        2.NotifyPhoneNumber
+         NotifyPhoneNumber APIを使用すると、Notify電話番号に関する情報を照会できます。
+
+  三十、SN_PAD
+    1.PDAutomationProvider API
+        This API enables inserting an optional activity into a process while it's executing.
+        1.PDAutomationProvider API
+         此 API 允许在进程执行时将可选活动插入到进程中。
+        1.PDAutomationProvider API
+         このAPIを使用すると、実行中にオプションのアクティビティをプロセスに挿入できます。
+
+  三十一、SN_PDFGENERATORUTILS
+    1.Cell
+        Creates a Cell object as a cell in a table. You can use this API to format the cell and include additional blocks, 
+        such as paragraphs and images.
+        1.单元格
+         创建一个 Cell 对象作为表格中的一个单元格。您可以使用此 API 来格式化单元格并包含其他块，例如段落和图像。
+        1.セル
+         テーブル内のセルとしてCellオブジェクトを作成します。このAPIを使用してセルをフォーマットし、段落や画像などの追加のブロックを
+         含めることができます。
+
+    2.Color
+        Creates a Color object used to define color attributes that you can apply to elements in a PDF; such as cells, tables, and lines.
+        2.颜色
+         创建一个 Color 对象，用于定义可以应用于 PDF 中元素的颜色属性；例如单元格、表格和行。
+        2.カラー
+         PDFの要素に適用できる色属性を定義するために使用されるColorオブジェクトを作成します。セル、テーブル、行など。
+
+    3.Document
+        The Document API provides methods to initialize a PDF, add content, and close the PDF. After adding content, 
+        the document can be attached to a target record.
+        3.文件
+         Document API 提供了初始化 PDF、添加内容和关闭 PDF 的方法。添加内容后，可以将文档附加到目标记录。
+        3.ドキュメント
+         Document APIは、PDFを初期化し、コンテンツを追加し、PDFを閉じるためのメソッドを提供します。コンテンツを追加した後、
+         ドキュメントをターゲットレコードに添付できます。
+
+    4.Image
+        Creates an Image object representing an image and its layout insert in a PDF. Enables defining attributes such as scale, 
+        alignment, and border color.
+        4.图像
+         创建一个表示图像的 Image 对象，并将其布局插入 PDF。启用定义属性，例如比例、对齐和边框颜色。
+        4.画像
+         PDF内の画像とそのレイアウト挿入を表すImageオブジェクトを作成します。スケール、配置、境界線の色などの属性を定義できます。
+
+    5.Line
+        Creates a Line object using methods to draw a line in a PDF.
+        5.线
+         使用在 PDF 中绘制线条的方法创建一个 Line 对象。
+        5.ライン
+         PDFに線を描画するメソッドを使用してLineオブジェクトを作成します。
+
+    6.Paragraph
+        Creates a Paragraph object representing a block of text in a PDF.
+        6.段落
+         创建一个表示 PDF 中文本块的段落对象。
+        6.段落
+         PDF内のテキストのブロックを表すParagraphオブジェクトを作成します。
+
+    7.PDFGenerationAPI API
+        Provides support for PDF conversion and handling PDF fields.
+        7.PDFGenerationAPI API
+         提供对 PDF 转换和处理 PDF 字段的支持。
+        7.PDFGenerationAPI API
+         PDF変換とPDFフィールドの処理をサポートします。
+
+    8.PdfMergeSignRequestor API
+        Adds an image representing a signature to a PDF document.
+        8.PdfMergeSignRequestor API
+         将代表签名的图像添加到 PDF 文档。
+        8.PdfMergeSignRequestor API
+         署名を表す画像をPDFドキュメントに追加します。
+
+    9.PdfPage
+        Creates a PdfPage object representing a PDF page and its attributes; such as size, width, and color.
+        9.PDF页面
+         创建一个表示 PDF 页面及其属性的 PdfPage 对象；例如尺寸、宽度和颜色。
+        9.PdfPage
+         PDFページとその属性を表すPdfPageオブジェクトを作成します。サイズ、幅、色など。
+
+    10.Style
+        Creates a style for defining properties such font size, border, and alignment. You can apply the same style to 
+        multiple objects simultaneously.
+        10.风格
+         创建用于定义字体大小、边框和对齐方式等属性的样式。您可以将相同的样式同时应用于多个对象。
+        10.スタイル
+         フォントサイズ、境界線、配置などのプロパティを定義するためのスタイルを作成します。同じスタイルを複数のオブジェクトに
+         同時に適用できます。
+
+    11.SVGToPDFConversionAPI API
+        Enables adding an SVG to a PDF and converting an SVG to PDF.
+        11.SVGToPDFConversionAPI API
+         允许将 SVG 添加到 PDF 并将 SVG 转换为 PDF。
+        11.SVGToPDFConversionAPI API
+         SVGをPDFに追加し、SVGをPDFに変換できるようにします。
+
+    12.Table
+        Creates a Table object to add to a PDF document. Defines the data to use in each cell and sets styles, margins, and alignment.
+        12.表
+         创建要添加到 PDF 文档的 Table 对象。定义要在每个单元格中使用的数据并设置样式、边距和对齐方式。
+        12.表
+         PDFドキュメントに追加するTableオブジェクトを作成します。各セルで使用するデータを定義し、スタイル、マージン、および配置を設定します。
+  
+  三十二、SN_PLAYBOOK
+      剧本
+    1.PlaybookExperience API
+        Provides methods for handling playbook executions.
+        1.PlaybookExperience API
+         提供处理剧本执行的方法。
+        1.PlaybookExperience API
+         プレイブックの実行を処理するためのメソッドを提供します。
+
+  三十三、SN_SC
+    1.CartJS
+        CartJS API enables you to access the shopping cart for a user.
+        1.CartJS
+         CartJS API 使您能够访问用户的购物车。
+        1.CartJS
+         CartJS APIを使用すると、ユーザーのショッピングカートにアクセスできます。
+
+    2.CatalogClientScript
+        CatalogClientScript API enables you to create, modify, or delete catalog client script records.
+        2.CatalogClientScript
+         CatalogClientScript API 使您能够创建、修改或删除目录客户端脚本记录。
+        2.CatalogClientScript
+         CatalogClientScript APIを使用すると、カタログクライアントスクリプトレコードを作成、変更、または削除できます。
+
+    3.CatalogItemVariable
+        CatalogItemVariable API enables you to create and modify service catalog item variables using scripts.
+        3.目录项变量
+         CatalogItemVariable API 使您能够使用脚本创建和修改服务目录项变量。
+        3.CatalogItemVariable
+         CatalogItemVariable APIを使用すると、スクリプトを使用してサービスカタログアイテム変数を作成および変更できます。
+
+    4.CatalogItemVariableSet
+        CatalogItemVariableSet API enables you to create and modify service catalog item variable sets using scripts.
+        4.CatalogItemVariableSet
+         CatalogItemVariableSet API 使您能够使用脚本创建和修改服务目录项变量集。
+        4.CatalogItemVariableSet
+         CatalogItemVariableSet APIを使用すると、スクリプトを使用してサービスカタログアイテムの変数セットを作成および変更できます。
+
+    5.CatalogItemVariableSetM2M
+        CatalogItemVariableSetM2M API enables you to create and modify service catalog item variable set many-to-many (M2Ms) 
+        using scripts.
+        5.CatalogItemVariableSetM2M
+         CatalogItemVariableSetM2M API 使您能够使用脚本创建和修改服务目录项变量集多对多 (M2M)。
+        5.CatalogItemVariableSetM2M
+         CatalogItemVariableSetM2M APIを使用すると、スクリプトを使用してサービスカタログアイテム変数セットの多対多（M2M）を
+         作成および変更できます。
+
+    6.CatalogJS
+        The CatalogJS API enables you to use methods to check and retrieve catalog-specific properties.
+        6.目录JS
+         CatalogJS API 使您能够使用方法来检查和检索特定于目录的属性。
+        6.CatalogJS
+         CatalogJS APIを使用すると、メソッドを使用してカタログ固有のプロパティを確認および取得できます。
+
+    7.CatalogSearch
+        CatalogSearch API enables you to search catalog item.
+        7.目录搜索
+         CatalogSearch API 使您能够搜索目录项。
+        7.CatalogSearch
+         CatalogSearch APIを使用すると、カタログアイテムを検索できます。
+
+    8.CatCategory
+        CatCategory API enables you to create and modify service catalog categories using scripts.
+        8.Cat类别
+         CatCategory API 使您能够使用脚本创建和修改服务目录类别。
+        8.CatCategory
+         CatCategory APIを使用すると、スクリプトを使用してサービスカタログカテゴリを作成および変更できます。
+
+    9.CatItem
+        CatItem API enables you to create and modify service catalog items using scripts.
+        9.CatItem
+         CatItem API 使您能够使用脚本创建和修改服务目录项。
+        9.CatItem
+         CatItem APIを使用すると、スクリプトを使用してサービスカタログアイテムを作成および変更できます。
+
+    10.OrderGuide
+        The OrderGuide API enables you to initialize and view order guide details.
+        10.订单指南
+         OrderGuide API 使您能够初始化和查看订单指南详细信息。
+        10.OrderGuide
+         OrderGuide APIを使用すると、注文ガイドの詳細を初期化して表示できます。
+
+  三十四、SN_SKILL_RULE
+      技能规则
+    1.SkillDeterminationUtils
+        Provides utility methods to get or set work item skill data.
+        1.SkillDeterminationUtils
+         提供实用方法来获取或设置工作项技能数据。
+        1.SkillDeterminationUtils
+         作業項目のスキルデータを取得または設定するためのユーティリティメソッドを提供します。
+
+  三十五、SN_SMS_PREF
+        短信偏好
+    1.SMSPreferenceHandler - Scoped, Global
+        The SMSPreferenceHandler API provides methods to manage SMS configurations.
+        1.SMSPreferenceHandler - 作用域，全局
+         SMSPreferenceHandler API 提供了管理 SMS 配置的方法
+        1.SMSPreferenceHandler-スコープ、グローバル
+         SMSPreferenceHandler APIは、SMS構成を管理するためのメソッドを提供します。
+
+  三十六、SN_TEMPLATED_SNIP
+        模板剪辑
+    1.ResponseTemplate - Scoped, Global
+        Provides methods for managing response templates.
+        1.ResponseTemplate - 范围，全局
+         提供管理响应模板的方法。
+        1.ResponseTemplate-スコープ、グローバル
+         応答テンプレートを管理するためのメソッドを提供します。
+
+  三十七、SN_TFRM
+    1.Transformer - Scoped, Global
+        Parses and transforms structured JSON or XML source content into structured key/value pair output, using a defined set of rules.
+        1.Transformer - 作用域，全局
+         使用一组定义的规则，将结构化的 JSON 或 XML 源内容解析并转换为结构化的键/值对输出。
+        1.トランスフォーマー-スコープ、グローバル
+         定義された一連のルールを使用して、構造化されたJSONまたはXMLソースコンテンツを解析し、構造化されたキーと値のペアの出力に変換します。
+
+    2.TransformerDefinition - Scoped, Global
+        Provides methods to instantiate and manage the TransformerDefinition object, which associates a transformation rules list 
+        and a record path.
+        2.TransformerDefinition - 作用域，全局
+         提供方法来实例化和管理 TransformerDefinition 对象，该对象关联一个转换规则列表和一个记录路径。
+        2.TransformerDefinition-スコープ、グローバル
+         変換ルールリストとレコードパスを関連付けるTransformerDefinitionオブジェクトをインスタンス化および管理するためのメソッドを提供します。
+
+    3.TransformerRuleList - Scoped, Global
+        Enables you to create a list of rules for transforming various types of JSON and XML data into name-value pair output.
+        3.TransformerRuleList - 作用域，全局
+         使您能够创建将各种类型的 JSON 和 XML 数据转换为名称-值对输出的规则列表。
+        3.TransformerRuleList-スコープ、グローバル
+         さまざまなタイプのJSONおよびXMLデータを名前と値のペアの出力に変換するためのルールのリストを作成できます。
+
+  三十八、SN_UC
+    1.UserCriteria
+        The UserCriteria API enables you to create, modify, or delete user criteria records using scripts.
+        1.用户标准
+         UserCriteria API 使您能够使用脚本创建、修改或删除用户条件记
+        1.UserCriteria
+         UserCriteria APIを使用すると、スクリプトを使用してユーザー基準レコードを作成、変更、または削除できます。
+
+  三十九、SN_UI
+        用户界面
+    1.PolarisUI
+        Provides methods for enabling Next Experience on direct UI pages.
+        1.北极星UI
+         提供在直接 UI 页面上启用 Next Experience 的方法。
+        1.PolarisUI
+         ダイレクトUIページでNextExperienceを有効にするためのメソッドを提供します。
+
+  四十、SN_UNI_REQ
+        统一请求
+    1.UniversalRequestUtilsSNC API
+        Enables handling universal request lifecycles. Provided as a script include record.
+        1.UniversalRequestUtilsSNC API
+         启用处理通用请求生命周期。作为脚本提供包括记录。
+        1.UniversalRequestUtilsSNC API
+         ユニバーサルリクエストのライフサイクルの処理を可能にします。スクリプトインクルードレコードとして提供されます。
+
+  四十一、SN_UNI_TASK
+        统一任务
+    1.UniversalTaskUtils API - Scoped, Global
+        The UniversalTaskUtils class provides methods for managing universal tasks.
+        1.UniversalTask​​Utils API - 作用域，全局
+         UniversalTask​​Utils 类提供了管理通用任务的方法。
+        1.UniversalTask​​Utils API-スコープ、グローバル
+         UniversalTask​​Utilsクラスは、ユニバーサルタスクを管理するためのメソッドを提供します。
+
+  四十二、SN_WS
+    1.RESTAPIRequest - Scoped, Global
+        A RESTAPIRequest object allows you to access scripted REST API request details in scripts.
+        1.RESTAPIRequest - 范围，全局
+         RESTAPIRequest 对象允许您访问脚本中的脚本化 REST API 请求详细信息。
+        1.RESTAPIRequest-スコープ、グローバル
+         RESTAPIRequestオブジェクトを使用すると、スクリプトでスクリプト化されたRESTAPIリクエストの詳細にアクセスできます。
+
+    2.RESTAPIRequestBody - Scoped, Global
+        A RESTAPIRequestBody object allows you to access the body content of a scripted REST API request in scripts.
+        2.RESTAPIRequestBody - 作用域，全局
+         RESTAPIRequestBody 对象允许您在脚本中访问脚本化 REST API 请求的正文内容。
+        2.RESTAPIRequestBody-スコープ、グローバル
+         RESTAPIRequestBodyオブジェクトを使用すると、スクリプトでスクリプト化されたRESTAPIリクエストの本文コンテンツにアクセスできます。
+
+    3.RESTAPIResponse - Scoped, Global
+        A RESTAPIResponse object allows you to build a RESTful response to a scripted REST API request.
+        3.RESTAPIResponse - 范围，全局
+         RESTAPIResponse 对象允许您构建对脚本化 REST API 请求的 RESTful 响应。
+        3.RESTAPIResponse-スコープ、グローバル
+         RESTAPIResponseオブジェクトを使用すると、スクリプト化されたRESTAPIリクエストに対するRESTfulな応答を作成できます。
+
+    4.RESTAPIResponseStream - Scoped, Global
+        A RESTAPIResponseStream object allows you to write directly to the scripted REST API response stream.
+        4.RESTAPIResponseStream - 范围，全局
+         RESTAPIResponseStream 对象允许您直接写入脚本化的 REST API 响应流。
+        4.RESTAPIResponseStream-スコープ、グローバル
+         RESTAPIResponseStreamオブジェクトを使用すると、スクリプト化されたRESTAPI応答ストリームに直接書き込むことができます。
+
+    5.RESTMessageV2 - Scoped, Global
+        The RESTMessageV2 API allows you to send outbound REST messages using JavaScript.
+        5.RESTMessageV2 - 作用域，全局
+         RESTMessageV2 API 允许您使用 JavaScript 发送出站 REST 消息。
+        5.RESTMessageV2-スコープ、グローバル
+         RESTMessageV2 APIを使用すると、JavaScriptを使用してアウトバウンドRESTメッセージを送信できます。
+
+    6.RESTResponseV2 - Scoped, Global
+        The RESTResponseV2 API allows you to use the data returned by an outbound REST message in JavaScript code.
+        6.RESTResponseV2 - 范围，全局
+         RESTResponseV2 API 允许您在 JavaScript 代码中使用出站 REST 消息返回的数据。
+        6.RESTResponseV2-スコープ、グローバル
+         RESTResponseV2 APIを使用すると、アウトバウンドRESTメッセージによって返されたデータをJavaScriptコードで使用できます。
+
+    7.SOAPMessageV2 - Scoped, Global
+        The SOAPMessageV2 API allows you to send an outbound SOAP message using JavaScript.
+        7.SOAPMessageV2 - 作用域，全局
+         SOAPMessageV2 API 允许您使用 JavaScript 发送出站 SOAP 消息。
+        7.SOAPMessageV2-スコープ、グローバル
+         SOAPMessageV2 APIを使用すると、JavaScriptを使用してアウトバウンドSOAPメッセージを送信できます。
+
+    8.SOAPResponseV2 - Scoped, Global
+        The SOAPResponseV2 API allows you to use the data returned by an outbound SOAP message in JavaScript code.
+        8.SOAPResponseV2 - 作用域，全局
+         SOAPResponseV2 API 允许您在 JavaScript 代码中使用出站 SOAP 消息返回的数据。
+        8.SOAPResponseV2-スコープ、グローバル
+         SOAPResponseV2 APIを使用すると、アウトバウンドSOAPメッセージによって返されたデータをJavaScriptコードで使用できます。

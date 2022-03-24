@@ -1,0 +1,1608 @@
+API Reference - Server Global
+    ServiceNow provides JavaScript APIs for use within scripts running on the ServiceNow platform to deliver common functionality. 
+This reference lists available classes and methods along with parameters, descriptions, and examples to make extending the 
+ServiceNow platform easier.
+
+    ServiceNow 提供 JavaScript API 以在 ServiceNow 平台上运行的脚本中使用，以提供通用功能。 此参考列出了可用的类和方法以及参数、
+描述和示例，以便更轻松地扩展 ServiceNow 平台。
+    ServiceNowは、ServiceNowプラットフォームで実行されているスクリプト内で使用して共通の機能を提供するためのJavaScriptAPIを提供します。 
+このリファレンスには、ServiceNowプラットフォームの拡張を容易にするためのパラメーター、説明、および例とともに、使用可能なクラスと
+メソッドがリストされています。
+
+Server Global API List -- 服务器全局 API 列表
+
+
+    1.AbstractDBObject
+        Provides common methods for classes based on records in the database.
+        1.抽象数据库对象
+         为基于数据库中记录的类提供常用方法。
+        1.AbstractDBObject
+         データベース内のレコードに基づくクラスの一般的なメソッドを提供します。
+
+    2.AbstractReconciler
+        Use this script include as a base class to create your own Discovery reconciler.
+        2.AbstractReconciler
+         使用此脚本包含作为基类来创建您自己的 Discovery 协调器。
+        2.AbstractReconciler
+         このスクリプトインクルードを基本クラスとして使用して、独自のディスカバリーリコンシラーを作成します。
+
+    3.AbstractScriptProcessor
+        Base JavaScript processor class that other JavaScript processors extend.
+        3.AbstractScriptProcessor
+         其他 JavaScript 处理器扩展的基本 JavaScript 处理器类。
+        3.AbstractScriptProcessor
+         他のJavaScriptプロセッサが拡張する基本JavaScriptプロセッサクラス。
+
+    4.AbstractTimeLineSchedulePage
+        A helper class to facilitate working with the data displayed on timelines.
+        4.AbstractTimeLineSchedulePage
+         帮助处理时间轴上显示的数据的辅助类。
+        4.AbstractTimeLineSchedulePage
+         タイムラインに表示されたデータの操作を容易にするヘルパークラス。
+
+    5.ActivityHistoryRecord
+        A data object that is a member of the WorkflowModelManager class; ActivityHistoryRecord methods facilitate interacting 
+        with the WorkflowModelManager object.
+        5.ActivityHistoryRecord
+         作为 WorkflowModelManager 类成员的数据对象； ActivityHistoryRecord 方法有助于与 WorkflowModelManager 对象进行交互。
+        5.ActivityHistoryRecord
+         WorkflowModelManagerクラスのメンバーであるデータオブジェクト。 ActivityHistoryRecordメソッドは、WorkflowModelManagerオブジェクト
+         との対話を容易にします。
+
+    6.Agent
+        Provides methods for getting or setting agent presence and channel availability.
+        6.代理
+         提供获取或设置代理存在和通道可用性的方法。
+        6.エージェント
+         エージェントのプレゼンスとチャネルの可用性を取得または設定するためのメソッドを提供します。
+
+    7.AgentMetrics
+        Processes inbound MID server metrics.
+        7.AgentMetrics
+         处理入站 MID 服务器指标。
+        7.AgentMetrics
+         インバウンドMIDサーバーメトリックを処理します。
+
+    8.APCHandler
+        Handles SNMP classification and identification for UPSs, environmental monitors, and PDUs made by APC.
+        8.APCHandler
+         处理 APC 制造的 UPS、环境监视器和 PDU 的 SNMP 分类和识别。
+        8.APCHandler
+         UPS、環境モニター、およびAPCによって作成されたPDUのSNMP分類と識別を処理します。
+
+    9.ApcPduOutletReconciler
+        Reconciles outlets for power distribution units.
+        9.ApcPduOutletReconciler
+         协调配电装置的插座。
+        9.ApcPduOutletReconciler
+         配電ユニットのコンセントを調整します。
+
+    10.ArrayUtil
+        ArrayUtil API is a script include with useful functions for working with JavaScript arrays.
+        10.ArrayUtil
+         ArrayUtil API 是一个包含用于处理 JavaScript 数组的有用函数的脚本。
+        10.ArrayUtil
+         ArrayUtil APIは、JavaScript配列を操作するための便利な関数を含むスクリプトインクルードです。
+
+    11.AssessmentCreation
+        The AssessmentCreation class provides methods that administrators can use to generate assessments and surveys.
+        11.AssessmentCreation
+         AssessmentCreation 类提供了管理员可以用来生成评估和调查的方法。
+        11.AssessmentCreation
+         AssessmentCreationクラスは、管理者が評価と調査を生成するために使用できるメソッドを提供します。
+
+    12.AutomationException
+        Provides generic exception wrapping for automation.
+        12.自动化异常
+         为自动化提供通用异常包装。
+        12.AutomationException
+         自動化のための一般的な例外ラッピングを提供します。
+
+    13.BusinessServiceManager
+        Unify service management by converting manually-created services to application services, populating application services, 
+        and adding/removing CIs and connections.
+        13.业务服务经理
+         通过将手动创建的服务转换为应用程序服务、填充应用程序服务以及添加/删除 CI 和连接来统一服务管理。
+        13.BusinessServiceManager
+         手動で作成したサービスをアプリケーションサービスに変換し、アプリケーションサービスにデータを入力し、CIと接続を追加/削除することで、
+         サービス管理を統合します。
+
+    14.ChangeCollisionHelper
+        Helper functions found in the Change Management Collision Detector Plugin.
+        14.ChangeCollisionHelper
+         Change Management Collision Detector Plugin 中的辅助函数。
+        14.ChangeCollisionHelper
+         変更管理衝突検出プラグインにあるヘルパー関数。
+
+    15.CIData
+        Utility class for working with CI data structures in JavaScript.
+        15.CI数据
+         用于在 JavaScript 中处理 CI 数据结构的实用程序类。
+        15.CIData
+         JavaScriptでCIデータ構造を操作するためのユーティリティクラス。
+
+    16.CIIdentification
+        Main class for discovery CI identification.
+        16.CI识别
+         发现 CI 识别的主类。
+        16.CIIidentification
+         ディスカバリーCI識別のメインクラス。
+
+    17.CIIdentifierResult
+        Gets the result returned by an identifier.
+        17.CIIdentifierResult
+         获取标识符返回的结果。
+        17.CIIdentifierResult
+         識別子によって返される結果を取得します。
+
+    18.CimCIData
+        Provides a wrapper for CIM CI data manipulation.
+        18.CimCIData
+         为 CIM CI 数据操作提供包装器。
+        18.CimCIData
+         CIMCIデータ操作のラッパーを提供します。
+
+    19.CimIDSensor
+        Performs identification for CIM probe results.
+        19.CimID传感器
+         对 CIM 探测结果进行识别。
+        19.CimIDSensor
+         CIMプローブ結果の識別を実行します。
+
+    20.CimInstanceToken
+        Represents the unique query identity of a CIM instance.
+        20.CimInstanceToken
+         表示 CIM 实例的唯一查询标识。
+        20.CimInstanceToken
+         CIMインスタンスの一意のクエリIDを表します。
+
+    21.CimProbe
+        Maintains CIM probe meta data.
+        21.CimProbe
+         维护 CIM 探测元数据。
+        21.CimProbe
+         CIMプローブのメタデータを維持します。
+
+    22.CimProbeResult
+        Processes CIM probe results.
+        22.CimProbe结果
+         处理 CIM 探测结果。
+        22.CimProbeResult
+         CIMプローブの結果を処理します。
+
+    23.CIRelatedList
+        Utility class for working with CI Related lists.
+        23.CI相关列表
+         用于处理 CI 相关列表的实用程序类。
+        23.CIRelatedList
+         CI関連リストを操作するためのユーティリティクラス。
+
+    24.CIUtils
+        The CIUtils script include is a utility class for working with configuration items (CI).
+        24.CIUtils
+         CIUtils 脚本包含是一个用于处理配置项 (CI) 的实用程序类。
+        24.CIUtils
+         CIUtilsスクリプトインクルードは、構成アイテム（CI）を操作するためのユーティリティクラスです。
+
+    25.ClassificationSolution
+        Scriptable object used in Predictive Intelligence stores.
+        25.分类解决方案
+         Predictive Intelligence 存储中使用的可编写脚本的对象。
+        25.ClassificationSolution
+         PredictiveIntelligenceストアで使用されるスクリプト可能なオブジェクト。
+
+    26.ClassificationSolutionStore
+        Enables storing and retrieving solutions.
+        26.ClassificationSolutionStore
+         启用存储和检索解决方案。
+        26.ClassificationSolutionStore
+         ソリューションの保存と取得を可能にします。
+
+    27.ClassificationSolutionVersion
+        Scriptable object used in Predictive Intelligence stores.
+        27.ClassificationSolutionVersion
+         Predictive Intelligence 存储中使用的可编写脚本的对象。
+        27.ClassificationSolutionVersion
+         PredictiveIntelligenceストアで使用されるスクリプト可能なオブジェクト。
+
+    28.ClassifierProbes
+        Provides a classifier probe launch facility. Encapsulates an array of probe information records, initialized either from 
+        a JavaScript array or the XML serialized version.
+        28.ClassifierProbes
+         提供分类器探测启动工具。封装一组探测信息记录，从 JavaScript 数组或 XML 序列化版本初始化。
+        28.ClassifierProbes
+         分類子プローブ起動機能を提供します。 JavaScript配列またはXMLシリアル化バージョンのいずれかから初期化されたプローブ情報レコードの
+         配列をカプセル化します。
+
+    29.ClusteringSolution
+        Scriptable object used in Predictive Intelligence stores.
+        29.ClusteringSolution
+         Predictive Intelligence 存储中使用的可编写脚本的对象。
+        29.ClusteringSolution
+         PredictiveIntelligenceストアで使用されるスクリプト可能なオブジェクト。
+
+    30.ClusteringSolutionStore
+        Enables storing and retrieving solutions.
+        30.ClusteringSolutionStore
+         启用存储和检索解决方案。
+        30.ClusteringSolutionStore
+         ソリューションの保存と取得を可能にします。
+
+    31.ClusteringSolutionVersion
+        Scriptable object used in Predictive Intelligence stores.
+        31.ClusteringSolutionVersion
+         Predictive Intelligence 存储中使用的可编写脚本的对象。
+        31.ClusteringSolutionVersion
+         PredictiveIntelligenceストアで使用されるスクリプト可能なオブジェクト。
+
+    32.CMDBDuplicateTaskUtils
+        Use the CMDBDuplicateTaskUtils API to create a De-duplication task that contains duplicate CIs that are of independent type.
+        32.CMDBDuplicateTaskUtils
+         使用 CMDBDuplicateTaskUtils API 创建包含独立类型的重复 CI 的重复数据删除任务。
+        32.CMDBDuplicateTaskUtils
+         CMDBDuplicateTaskUtils APIを使用して、独立したタイプの重複CIを含む重複排除タスクを作成します。
+
+    33.CMDBQueryBuilderAPI
+        Use the CMDBQueryBuilderAPI to retrieve Query Builder saved query execution details in server-side scripts.
+        33.CMDBQueryBuilderAPI
+         使用 CMDBQueryBuilderAPI 在服务器端脚本中检索查询生成器保存的查询执行详细信息。
+        33.CMDBQueryBuilderAPI
+         CMDBQueryBuilderAPIを使用して、サーバー側スクリプトでクエリビルダーに保存されたクエリ実行の詳細を取得します。
+
+    34.CMDBTransformUtil
+        The CMDBTransformUtil class uses the Identification and Reconciliation (IRE) framework to minimize the creation of duplicate 
+        configuration items (CI).
+        34.CMDBTransformUtil
+         CMDBTransformUtil 类使用标识和协调 (IRE) 框架来最大限度地减少重复配置项 (CI) 的创建。
+        34.CMDBTransformUtil
+         CMDBTransformUtilクラスは、Identification and Reconciliation（IRE）フレームワークを使用して、重複する構成アイテム（CI）の作成を
+         最小限に抑えます。
+
+    35.CMDBUtil
+        The CMDBUtil API provides utility methods for creating and managing table relationships in the Configuration Management 
+        Database (CMDB) and managing CMDB baselines.
+        35.CMDBUtil
+         CMDBUtil API 提供了用于在配置管理数据库 (CMDB) 中创建和管理表关系以及管理 CMDB 基线的实用方法。
+        35.CMDBUtil
+         CMDBUtil APIは、構成管理データベース（CMDB）でテーブルの関係を作成および管理し、CMDBベースラインを管理するための
+         ユーティリティメソッドを提供します。
+
+    36.ConnectActionResponse
+        The ConnectActionResponse API provides a method to create a GlideRecord.
+        36.连接动作响应
+         ConnectActionResponse API 提供了一种创建 GlideRecord 的方法。
+        36.ConnectActionResponse
+         ConnectActionResponse APIは、GlideRecordを作成するためのメソッドを提供します。
+
+    37.CostPlanBatchOperations
+        Provides methods that enable the creation of a large number of cost plan records for demands and projects using batch processing.
+        Use this API instead of GlideRecord to more efficiently create multiple cost plan records.
+        37.CostPlanBatchOperations
+         提供能够使用批处理为需求和项目创建大量成本计划记录的方法。使用此 API 而不是 GlideRecord 可以更有效地创建多个成本计划记录。
+        37.CostPlanBatchOperations
+         バッチ処理を使用して、需要とプロジェクトの多数のコスト計画レコードを作成できるようにするメソッドを提供します。 
+         GlideRecordの代わりにこのAPIを使用して、複数のコストプランレコードをより効率的に作成します。
+
+    38.CriteriaEvaluator
+        Implements a general-purpose criteria evaluator.
+        38.CriteriaEvaluator
+         实现通用标准评估器。
+        38.CriteriaEvaluator
+         汎用基準エバリュエーターを実装します。
+
+    39.DatasetDefinition
+        Identifies a set of records including a table name, columns, and row selection criteria to use as input for ML training 
+        algorithms. Datasets do not contain the actual data.
+        39.数据集定义
+         标识一组记录，包括表名、列和行选择条件，以用作 ML 训练算法的输入。数据集不包含实际数据。
+        39.DatasetDefinition
+         MLトレーニングアルゴリズムの入力として使用するテーブル名、列、および行選択基準を含む一連のレコードを識別します。データセットには
+         実際のデータは含まれていません。
+
+    40.DateTimeUtils
+        DateTimeUtils class is a collection of date/time functions.
+        40.日期时间工具
+         DateTimeUtils 类是日期/时间函数的集合。
+        40.DateTimeUtils
+         DateTimeUtilsクラスは、日付/時刻関数のコレクションです。
+
+    41.DCManager
+        The DCManager API enables you to group data by type.
+        41.DC经理
+         DCManager API 使您能够按类型对数据进行分组。
+        41.DCManager
+         DCManager APIを使用すると、データをタイプ別にグループ化できます。
+
+    42.Discovery
+        Provides a set of miscellaneous functions used in discovery.
+        42.发现
+         提供一组用于发现的杂项函数。
+        42.発見
+         ディスカバリーで使用されるその他の機能のセットを提供します。
+
+    43.DiscoveryAjax
+        Provides client-callable Ajax functions for Discovery.
+        43.DiscoveryAjax
+         为 Discovery 提供客户端可调用的 Ajax 函数。
+        43.DiscoveryAjax
+         ディスカバリー用のクライアント呼び出し可能なAjax関数を提供します。
+
+    44.DiscoveryAPDEnvSensor
+        Processes the application discovery environment file.
+        44.DiscoveryAPDEnvSensor
+         处理应用程序发现环境文件。
+        44.DiscoveryAPDEnvSensor
+         アプリケーション検出環境ファイルを処理します。
+         
+
+    45.DiscoveryAPDSensor
+        The abstract sensor for parsing application files.
+        45.DiscoveryAPDSensor
+         用于解析应用程序文件的抽象传感器。
+        45.DiscoveryAPDSensor
+         アプリケーションファイルを解析するための抽象センサー。
+
+    46.DiscoveryAPDVersionSensor
+        Processes the application discovery version file.
+        46.DiscoveryAPDVersionSensor
+         处理应用程序发现版本文件。
+        46.DiscoveryAPDVersionSensor
+         アプリケーション検出バージョンファイルを処理します。
+
+    47.DiscoveryApplicationDiscoMatcher
+        Determines how to match an application during application classification.
+        47.DiscoveryApplicationDiscoMatcher
+         确定在应用程序分类期间如何匹配应用程序。
+        47.DiscoveryApplicationDiscoMatcher
+         アプリケーション分類中にアプリケーションを照合する方法を決定します。
+
+    48.DiscoveryAttachments
+        Implements methods related to attachments used in Discovery.
+        48.发现附件
+         实现与 Discovery 中使用的附件相关的方法。
+        48.DiscoveryAttachments
+         Discoveryで使用される添付ファイルに関連するメソッドを実装します。
+
+    49.DiscoveryBehavior
+        Provides a set of functions used in Discovery behavior and functionality.
+        49.发现行为
+         提供一组用于发现行为和功能的函数。
+        49.DiscoveryBehavior
+         ディスカバリーの動作と機能で使用される一連の関数を提供します。
+
+    50.DiscoveryBehaviorRecord
+        Encapsulates a discovery behavior.
+        50.发现行为记录
+         封装发现行为。
+        50.DiscoveryBehaviorRecord
+         検出動作をカプセル化します。处理应用程序发现环境文件。
+
+    51.DiscoveryCIRelationReconciler
+        Reconciles records that are related by CI relations.
+        51.DiscoveryCIRelationReconciler
+         协调由 CI 关系相关的记录。
+        51.DiscoveryCIRelationReconciler
+         CI関係によって関連付けられているレコードを調整します。
+
+    52.DiscoveryClusteredProcessHelper
+        Provides a mechanism for re-wiring classified process associations to their cluster rather than a cluster node.
+        52.DiscoveryClusteredProcessHelper
+         提供一种将分类进程关联重新连接到其集群而不是集群节点的机制。
+        52.DiscoveryClusteredProcessHelper
+         分類されたプロセスの関連付けを、クラスターノードではなくクラスターに再配線するためのメカニズムを提供します。
+
+    53.DiscoveryCreateRangeSets
+        Creates range sets from IP networks, transforms the results of a network discovery into range sets that may be incorporated 
+        into discovery schedules.
+        53.DiscoveryCreateRangeSets
+         从 IP 网络创建范围集，将网络发现的结果转换为可以合并到发现计划中的范围集。
+        53.DiscoveryCreateRangeSets
+         IPネットワークから範囲セットを作成し、ネットワーク検出の結果を検出スケジュールに組み込むことができる範囲セットに変換します。
+
+    54.DiscoveryFunctionality
+        Encapsulates a discovery functionality record
+        54.DiscoveryFunctionality
+         封装发现功能记录
+         54.DiscoveryFunctionality
+        検出機能レコードをカプセル化します
+
+    55.DiscoveryFunctionalityCriterion
+        Encapsulates a Discovery functionality criterion.
+        55.DiscoveryFunctionalityCriterion
+         封装发现功能标准。
+        55.DiscoveryFunctionalityCriterion
+         ディスカバリー機能基準をカプセル化します。
+
+    56.DiscoveryFunctionalityDefinition
+        Encapsulates ta Discovery functionality definition.
+        56.DiscoveryFunctionality定义
+         封装发现功能定义。
+        56.DiscoveryFunctionalityDefinition
+         ディスカバリー機能の定義をカプセル化します。
+
+    57.DiscoveryFunctions
+        A set of functions used in Discovery.
+        57.发现函数
+         Discovery 中使用的一组函数。
+        57.DiscoveryFunctions
+         ディスカバリーで使用される一連の関数。
+
+    58.DiscoveryIssuesURLBuilder
+        Builds a URL for the calculated issues_link field in discovery_device_history.
+        58.DiscoveryIssuesURLBuilder
+         为discovery_device_history 中计算的issues_link 字段构建一个URL。
+        58.DiscoveryIssuesURLBuilder
+         Discovery_device_historyの計算されたissues_linkフィールドのURLを作成します。
+
+    59.DiscoveryJob
+        Encapsulates a scheduled job that kicks off a discovery.
+        59.DiscoveryJob
+         封装启动发现的计划作业。
+        59.DiscoveryJob
+         ディスカバリーを開始するスケジュールされたジョブをカプセル化します。
+
+    60.DiscoveryLogger
+        Provides methods for convenient logging of Discovery events.
+        60.DiscoveryLogger
+         提供方便记录发现事件的方法。
+        60.DiscoveryLogger
+         ディスカバリーイベントの便利なロギングのためのメソッドを提供します。
+
+    61.DiscoveryMacProfileUtils
+        Provides utilities for parsing XML files returned by a Mac OS.
+        61.DiscoveryMacProfileUtils
+         提供用于解析 Mac OS 返回的 XML 文件的实用程序。
+        61.DiscoveryMacProfileUtils
+         MacOSから返されたXMLファイルを解析するためのユーティリティを提供します。
+
+    62.DiscoveryMSSQLSensor
+        Sensor that processes MSSQL data fetched from either the PowershellMSSQL probe or the RemoteRunner probe.
+        62.发现MSSQL传感器
+         处理从 PowershellMSSQL 探针或 RemoteRunner 探针获取的 MSSQL 数据的传感器。
+        62.DiscoveryMSSQLSensor
+         PowershellMSSQLプローブまたはRemoteRunnerプローブのいずれかからフェッチされたMSSQLデータを処理するセンサー。
+
+    63.DiscoveryMultiSensor
+        Implements multisensors by running the multisensor scripts to process the information for results (called once for each probe).
+        63.DiscoveryMultiSensor
+         通过运行多传感器脚本来处理结果信息（每个探针调用一次）来实现多传感器。
+        63.DiscoveryMultiSensor
+         マルチセンサースクリプトを実行して結果の情報を処理することにより、マルチセンサーを実装します（プローブごとに1回呼び出されます）。
+
+    64.DiscoveryPhaser
+        Encapsulates discovery phases using Shazzam.
+        64.DiscoveryPhaser
+         使用 Shazzam 封装发现阶段。
+        64.DiscoveryPhaser
+         Shazzamを使用して検出フェーズをカプセル化します。
+
+    65.DiscoveryPortProbe
+        Encapsulates the notion of a discovery port probe.
+        65.DiscoveryPortProbe
+         封装了发现端口探测的概念。
+        65.DiscoveryPortProbe
+         検出ポートプローブの概念をカプセル化します。
+
+    66.DiscoveryPortScanner
+        Provides a set of functions used in discovery port scanning.
+        66.DiscoveryPortScanner
+         提供一组用于发现端口扫描的函数。
+        66.DiscoveryPortScanner
+         検出ポートスキャンで使用される一連の機能を提供します。
+
+    67.DiscoveryProcessAppMatch
+        Determines how to match an application during process classification.
+        67.DiscoveryProcessAppMatch
+         确定在进程分类期间如何匹配应用程序。
+        67.DiscoveryProcessAppMatch
+         プロセス分類中にアプリケーションを照合する方法を決定します。
+
+    68.DiscoveryProcessConnectionsSensor
+        Provides an abstract sensor class for running discovery processes.
+        68.DiscoveryProcessConnectionsSensor
+         为运行发现进程提供抽象传感器类。
+        68.DiscoveryProcessConnectionsSensor
+         検出プロセスを実行するための抽象センサークラスを提供します。
+
+    69.DiscoveryPsSensor
+        Provides tools for working with UNIX process status information returned by the ps command. Most UNIX platforms share a common 
+        output for the ps command. This object is shared among the various ps sensors in discovery.
+        69.DiscoveryPsSensor
+         提供用于处理 ps 命令返回的 UNIX 进程状态信息的工具。大多数 UNIX 平台共享 ps 命令的公共输出。此对象在发现中的各种 ps 传感器之间共享。
+        69.DiscoveryPsSensor
+         psコマンドによって返されるUNIXプロセスステータス情報を操作するためのツールを提供します。ほとんどのUNIXプラットフォームは、
+         psコマンドの共通の出力を共有します。このオブジェクトは、検出時にさまざまなpsセンサー間で共有されます。
+
+    70.DiscoveryRunningProcessSensor
+        The abstract sensor for running processes.
+        70.DiscoveryRunningProcessSensor
+         用于运行进程的抽象传感器。
+        70.DiscoveryRunningProcessSensor
+         プロセスを実行するための抽象センサー。
+
+    71.DiscoverySchedule
+        Encapsulates a Discovery schedule.
+        71.DiscoverySchedule
+         封装发现计划。
+        71.DiscoverySchedule
+         ディスカバリースケジュールをカプセル化します。
+
+    72.DiscoverySensor
+        This class describes the default sensor object. All sensors should extend this class. Use this class to define your own 
+        discovery sensors.
+        72.发现传感器
+         此类描述默认传感器对象。所有传感器都应该扩展这个类。使用此类定义您自己的发现传感器。
+        72.DiscoverySensor
+         このクラスは、デフォルトのセンサーオブジェクトを記述します。すべてのセンサーはこのクラスを拡張する必要があります。このクラスを
+         使用して、独自の検出センサーを定義します。
+
+    73.DiscoveryStatus
+        Provides an abstract sensor class for running discovery processes.
+        73.发现状态
+         为运行发现进程提供抽象传感器类。
+        73.DiscoveryStatus
+         検出プロセスを実行するための抽象センサークラスを提供します。
+
+    74.DiscoveryTCPConnection
+        Represents a TCP connection belonging to a process. Provides methods for managing discovery TCP/IP connections.
+        74.发现TCP连接
+         表示属于某个进程的 TCP 连接。提供管理发现 TCP/IP 连接的方法。
+        74.DiscoveryTCPConnection
+         プロセスに属するTCP接続を表します。検出TCP/IP接続を管理するためのメソッドを提供します。
+
+    75.DiscoveryTimeline
+        Use this script include in any server-side script to display a list of discovery probes and sensors in a time line on a 
+        schedule page.
+        75.发现时间线
+         使用此脚本包含在任何服务器端脚本中，以在计划页面的时间线上显示发现探测器和传感器的列表。
+        75.DiscoveryTimeline
+         サーバー側スクリプトにこのスクリプトインクルードを使用して、スケジュールページのタイムラインに検出プローブとセンサーのリストを
+         表示します。
+
+    76.DiscoveryUIActionUtils
+        A utility class providing methods for the discovery of UI actions.
+        76.DiscoveryUIActionUtils
+         提供用于发现 UI 操作的方法的实用程序类。
+        76.DiscoveryUIActionUtils
+         UIアクションを検出するためのメソッドを提供するユーティリティクラス。
+
+    77.DiscoveryVMWareSensor
+        Sensor for processing VMWare information from UNIX and Windows.
+        77.DiscoveryVMWareSensor
+         用于处理来自 UNIX 和 Windows 的 VMWare 信息的传感器。
+        77.DiscoveryVMWareSensor
+         UNIXおよびWindowsからのVM​​Ware情報を処理するためのセンサー。
+
+    78.DiscoveryWindowsClusterBaseSensor
+        Base class for Windows classify and Windows cluster sensors.
+        78.DiscoveryWindowsClusterBaseSensor
+         Windows 分类和 Windows 群集传感器的基类。
+        78.DiscoveryWindowsClusterBaseSensor
+         Windows分類およびWindowsクラスターセンサーの基本クラス。
+
+    79.DSCScriptableAPI
+        Provides methods for checking the health of your domain configuration for the instance.
+        79.DSCScriptableAPI
+         提供用于检查实例的域配置运行状况的方法。
+        79.DSCScriptableAPI
+         インスタンスのドメイン構成の状態をチェックするためのメソッドを提供します。
+
+    80.DurationCalculator
+        Provides methods for calculating durations and due dates.
+        80.持续时间计算器
+         提供计算持续时间和截止日期的方法。
+        80.DurationCalculator
+         期間と期日を計算するためのメソッドを提供します。
+
+    81.Encoder
+        Scriptable object used in Predictive Intelligence stores. This object converts input data into vectors of numbers, based on 
+        encoder-specific goals and configurations. Encoders can be used independently to run encodings, or can be configured as part of 
+        solutions to encode text columns.
+        81.编码器
+         Predictive Intelligence 存储中使用的可编写脚本的对象。此对象根据特定于编码器的目标和配置将输入数据转换为数字向量。
+         编码器可以独立用于运行编码，也可以配置为解决方案的一部分来对文本列进行编码。
+        81.エンコーダ
+         PredictiveIntelligenceストアで使用されるスクリプト可能なオブジェクト。このオブジェクトは、エンコーダ固有の目標と構成に基づいて、
+         入力データを数値のベクトルに変換します。エンコーダーは、エンコードを実行するために独立して使用することも、テキスト列を
+         エンコードするソリューションの一部として構成することもできます。
+
+    82.EncoderStore
+        Enables storing and retrievingencoders.
+        82.编码器存储
+         启用存储和检索编码器。
+        82.EncoderStore
+         エンコーダの保存と取得を有効にします。
+
+    83.EncoderVersion
+        Scriptable object used in Predictive Intelligence stores.
+        83.编码器版本
+         Predictive Intelligence 存储中使用的可编写脚本的对象。
+        83.EncoderVersion
+         PredictiveIntelligenceストアで使用されるスクリプト可能なオブジェクト。
+
+    84.Event
+        The Event API provides methods that enable the setting/getting of values within an event.
+        84.事件
+         事件 API 提供了能够在事件中设置/获取值的方法。
+        84.イベント
+         Event APIは、イベント内の値の設定/取得を可能にするメソッドを提供します。
+
+    85.ExpenseAllocation
+        The ExpenseAllocation API is included with the Cost Management Plugin as a script include record. It is used by various cost 
+        management processes and can also be used for generating custom expense allocation records (fm_expense_allocation) from 
+        scripted expense allocation rules.
+        85.费用分配
+         费用分配 API 作为脚本包含记录包含在成本管理插件中。它被各种成本管理流程使用，也可用于根据脚本费用分配规则生成自定义费用分配记录
+         (fm_expense_allocation)。
+        85.ExpenseAllocation
+         ExpenseAllocation APIは、スクリプトインクルードレコードとしてコスト管理プラグインに含まれています。これは、さまざまなコスト管理
+         プロセスで使用され、スクリプト化された経費配分ルールからカスタム経費配分レコード（fm_expense_allocation）を生成するためにも
+         使用できます。
+
+    86.ExpenseLine
+        The ExpenseLine API is included with the Cost Management Plugin as a script include record. It is used by various cost 
+        management processes and can also be used for generating expense line (fm_expense_line) records from your own server-side 
+        scripts.
+        86.费用行
+         ExpenseLine API 作为脚本包含记录包含在成本管理插件中。它被各种成本管理流程使用，也可用于从您自己的服务器端脚本生成费用行 
+         (fm_expense_line) 记录。
+        86.ExpenseLine
+         ExpenseLine APIは、スクリプトインクルードレコードとしてコスト管理プラグインに含まれています。これは、さまざまな
+         コスト管理プロセスで使用され、独自のサーバー側スクリプトから経費明細（fm_expense_line）レコードを生成するためにも使用できます。
+
+    87.ExtractTermsFromAttachment
+        Extracts terms from an attachment.
+        87.ExtractTermsFromAttachment
+         从附件中提取术语。
+        87.ExtractTermsFromAttachment
+         添付ファイルから用語を抽出します。
+
+    88.FormInfoHeader
+        FormInfoHeader allows you to add an HTML message as a form info message.
+        88.FormInfo标头
+         FormInfoHeader 允许您将 HTML 消息添加为表单信息消息。
+        88.FormInfoHeader
+         FormInfoHeaderを使用すると、HTMLメッセージをフォーム情報メッセージとして追加できます。
+
+    89.GenericUPSAlarmsReconciler
+        Concrete reconciler for generic UPS alarms.
+        89.GenericUPSAlarmsReconciler
+         用于通用 UPS 警报的混凝土调节器。
+        89.GenericUPSAlarmsReconciler
+         一般的なUPSアラーム用の具体的な調停機。
+
+    90.GenericUPSBypassReconciler
+        Concrete reconciler for generic UPS bypasses.
+        90.GenericUPSBypassReconciler
+         通用 UPS 旁路的混凝土调节器。
+        90.GenericUPSBypassReconciler
+         一般的なUPSバイパス用の具体的な調停機。
+
+    91.GenericUPSInputsReconciler
+        Concrete reconciler for generic UPS inputs.
+        91.GenericUPSInputsReconciler
+         通用 UPS 输入的混凝土调节器。
+        91.GenericUPSInputsReconciler
+         一般的なUPS入力用の具体的な調停機。
+
+    92.GenericUPSOutputsReconciler
+        Concrete reconciler for generic UPS outputs.
+        92.GenericUPSOutputsReconciler
+         通用 UPS 输出的混凝土调节器。
+        92.GenericUPSOutputsReconciler
+         一般的なUPS出力用の具体的な調停機。
+
+    93.GlideAggregate
+        GlideAggregate enables creating database aggregation queries.
+        93.GlideAggregate
+         GlideAggregate 允许创建数据库聚合查询。
+        93.GlideAggregate
+         GlideAggregateを使用すると、データベース集約クエリを作成できます。
+
+    94.GlideappCalculationHelper
+        The GlideappCalculationHelper API is a scriptable object that provides methods that add items to an existing request or 
+        request the recalculation of the price of a request.
+        94.GlideappCalculationHelper
+         GlideappCalculationHelper API 是一个可编写脚本的对象，它提供向现有请求添加项目或请求重新计算请求价格的方法。
+        94.GlideappCalculationHelper
+         GlideappCalculationHelper APIは、既存のリクエストにアイテムを追加したり、リクエストの価格の再計算をリクエストしたりするメソッドを
+        提供するスクリプト可能なオブジェクトです。
+
+    95.GlideCertificateEncryption
+        APIs available for encrypting certificates.
+        95.GlideCertificate加密
+         可用于加密证书的 API。
+        95.GlideCertificateEncryption
+         証明書の暗号化に使用できるAPI。
+
+    96.GlideConversation
+        The GlideConversation API provides access to information in a Connect message.
+        96.GlideConversation
+         GlideConversation API 提供对 Connect 消息中信息的访问。
+        96.GlideConversation
+         GlideConversation APIは、Connectメッセージ内の情報へのアクセスを提供します。
+
+    97.GlideDate
+        The GlideDate class provides methods for performing operations on GlideDate objects, such as instantiating GlideDate objects 
+        or working with GlideDate fields.
+        97.GlideDate
+         GlideDate 类提供了对 GlideDate 对象执行操作的方法，例如实例化 GlideDate 对象或使用 GlideDate 字段。
+        97.GlideDate
+         GlideDateクラスは、GlideDateオブジェクトのインスタンス化や、GlideDateフィールドの操作など、GlideDateオブジェクトに対する操作を
+         実行するためのメソッドを提供します。
+
+    98.GlideDateTime
+        The GlideDateTime class provides methods for performing operations on GlideDateTime objects, such as instantiating 
+        GlideDateTime objects or working with glide_date_time fields.
+        98.GlideDateTime
+         GlideDateTime 类提供了对 GlideDateTime 对象执行操作的方法，例如实例化 GlideDateTime 对象或使用 glide_date_time 字段。
+        98.GlideDateTime
+         GlideDateTimeクラスは、GlideDateTimeオブジェクトのインスタンス化や、glide_date_timeフィールドの操作など、
+         GlideDateTimeオブジェクトに対する操作を実行するためのメソッドを提供します。
+
+    99.GlideElement
+        The GlideElement API provides a number of convenient script methods for dealing with fields and their values. 
+        GlideElement methods are available for the fields of the current GlideRecord.
+        99.GlideElement
+         GlideElement API 提供了许多方便的脚本方法来处理字段及其值。 GlideElement 方法可用于当前 GlideRecord 的字段。
+        99.GlideElement
+         GlideElement APIは、フィールドとその値を処理するための便利なスクリプトメソッドを多数提供します。 GlideElementメソッドは、
+         現在のGlideRecordのフィールドで使用できます。
+
+    100.GlideEncrypter
+        GlideEncrypter provides methods to encrypt and decrypt strings using the Triple DES algorithm.
+        100.GlideEncrypter
+         GlideEncrypter 提供了使用 Triple DES 算法加密和解密字符串的方法。
+        100.GlideEncrypter
+         GlideEncrypterは、トリプルDESアルゴリズムを使用して文字列を暗号化および復号化する方法を提供します。
+
+    101.GlideHTTPRequest
+        Utility methods to perform common functions with Glide HTTP requests.
+        101.GlideHTTP请求
+         使用 Glide HTTP 请求执行常见功能的实用方法。
+        101.GlideHTTPRequest
+         GlideHTTPリクエストで一般的な機能を実行するためのユーティリティメソッド。
+
+    102.GlideHTTPResponse
+        Utility methods to perform common functions with Glide HTTP responses.
+        102.GlideHTTP响应
+         使用 Glide HTTP 响应执行常见功能的实用方法。
+        102.GlideHTTPResponse
+         GlideHTTP応答で一般的な機能を実行するためのユーティリティメソッド。
+
+    103.GlideImpersonate
+        The global GlideImpersonate API enables administrators to pose as another authenticated user for testing purposes.
+        103.GlideImpersonate
+         全局 GlideImpersonate API 使管理员能够冒充另一个经过身份验证的用户进行测试。
+        103.GlideImpersonate
+         グローバルなGlideImpersonateAPIを使用すると、管理者はテスト目的で別の認証済みユーザーを装うことができます。
+
+    104.GlideListProperties
+        Create a list and set list properties. For example, define whether a list has a filter, breadcrumbs, and search.
+        104.GlideList属性
+         创建列表并设置列表属性。例如，定义列表是否具有过滤器、面包屑和搜索。
+        104.GlideListProperties
+         リストを作成し、リストのプロパティを設定します。たとえば、リストにフィルター、ブレッドクラム、および検索があるかどうかを定義します。
+
+    105.GlideQueryCondition
+        The GlideQueryCondition API provides additional AND or OR conditions that can be added to the current condition, 
+        allowing you to build complex queries.
+        105.GlideQuery条件
+         GlideQueryCondition API 提供了可以添加到当前条件的附加 AND 或 OR 条件，允许您构建复杂的查询。
+        105.GlideQueryCondition
+         GlideQueryCondition APIは、現在の条件に追加できる追加のANDまたはOR条件を提供し、複雑なクエリを作成できるようにします。
+
+    106.GlideRecord
+        The GlideRecord API is used for database operations.
+        106.滑翔记录
+         GlideRecord API 用于数据库操作。
+        106.GlideRecord
+         GlideRecord APIは、データベース操作に使用されます。
+
+    107.GlideRecordUtil
+        A utility class for working with GlideRecords.
+        107.GlideRecordUtil
+         用于使用 GlideRecords 的实用程序类。
+        107.GlideRecordUtil
+         GlideRecordsを操作するためのユーティリティクラス。
+
+    108.GlideScopedEvaluator
+        The GlideScopedEvaluator API allows you to evaluate scripts in a GlideRecord field from both scoped and global server scripts.
+        108.GlideScopedEvaluator
+         GlideScopedEvaluator API 允许您从作用域和全局服务器脚本评估 GlideRecord 字段中的脚本。
+        108.GlideScopedEvaluator
+         GlideScopedEvaluator APIを使用すると、スコープサーバースクリプトとグローバルサーバースクリプトの両方からGlideRecordフィールドの
+         スクリプトを評価できます。
+
+    109.GlideSession
+        The GlideSession API allows you to find information about the current session.
+        109.GlideSession
+         GlideSession API 允许您查找有关当前会话的信息。
+        109.GlideSession
+         GlideSession APIを使用すると、現在のセッションに関する情報を見つけることができます。
+
+    110.GlideSPSearchAnalytics - Global
+        Generates search analytics from custom ServiceNow search widgets.
+        110.GlideSPSearchAnalytics - 全球
+         从自定义 ServiceNow 搜索小部件生成搜索分析。
+        110.GlideSPSearchAnalytics-グローバル
+         カスタムServiceNow検索ウィジェットから検索分析を生成します。
+
+    111.GlideSystem
+        The GlideSystem API, which is referred to by the variable name gs in any server-side JavaScript, provides a number of 
+        convenient methods to get information about the system, the current logged in user, and date/time information.
+        111.滑翔系统
+         GlideSystem API（在任何服务器端 JavaScript 中由变量名称 gs 引用）提供了许多方便的方法来获取有关系统、
+         当前登录用户和日期/时间信息的信息。
+        111.GlideSystem
+         サーバーサイドJavaScriptで変数名gsによって参照されるGlideSystemAPIは、システム、現在ログインしているユーザー、
+         および日付/時刻情報に関する情報を取得するための便利なメソッドをいくつか提供します。
+
+    112.GlideSystemRunLevel API
+        Provides methods to get and set the current system run level.
+        112.GlideSystemRunLevel API
+         提供获取和设置当前系统运行级别的方法。
+        112.GlideSystemRunLevel API
+         現在のシステム実行レベルを取得および設定するためのメソッドを提供します。
+
+    113.GlideTimeline
+        The GlideTimeline class provides the core implementation for configuring and displaying a Glide Windowing Toolkit Timeline.
+        113.GlideTimeline
+         GlideTimeline 类提供了用于配置和显示 Glide Windowing Toolkit Timeline 的核心实现。
+        113.GlideTimeline
+         GlideTimelineクラスは、GlideWindowingToolkitタイムラインを構成および表示するためのコア実装を提供します。
+
+    114.GlideTimelineItem
+        GlideTimelineItem extends the abstract ScheduleItem class to define additional properties that are specific to the time line.
+        114.GlideTimelineItem
+         GlideTimelineItem 扩展了抽象的 ScheduleItem 类来定义特定于时间线的附加属性。
+        114.GlideTimelineItem
+         GlideTimelineItemは、抽象ScheduleItemクラスを拡張して、タイムラインに固有の追加のプロパティを定義します。
+
+    115.GlideURI
+        Enables handling the URI parameter.
+        115.GlideURI
+         启用处理 URI 参数。
+        115.GlideURI
+         URIパラメーターの処理を有効にします。
+
+    116.GlideUser
+        The GlideUser API provides access to information about the current user and current user roles.
+        116.滑翔用户
+         GlideUser API 提供对当前用户和当前用户角色信息的访问。
+        116.GlideUser
+         GlideUser APIは、現在のユーザーと現在のユーザーの役割に関する情報へのアクセスを提供します。
+
+    117.HostnameJS
+        Formats host names according to property settings.
+        117.主机名JS
+         根据属性设置格式化主机名。
+        117.HostnameJS
+        プロパティ設定に従ってホスト名をフォーマットします。
+
+    118.ICalUtil
+        The ICalUtil API is an extension of the ICalUtilSNC API.
+        118.ICalUtil
+         ICalUtil API 是 ICalUtilSNC API 的扩展。
+        118.ICalUtil
+         ICalUtil APIは、ICalUtilSNCAPIの拡張です。
+
+    119.ICalUtilSNC
+        The ICalUtilSNC API provides functions to generate iCalendar compliant events.
+        119.ICalUtilSNC
+         ICalUtilSNC API 提供了生成 iCalendar 兼容事件的功能。
+        119.ICalUtilSNC
+         ICalUtilSNC APIは、iCalendar準拠のイベントを生成するための関数を提供します。
+
+    120.IdentificationEngineScriptableApi
+        The IdentificationEngineScriptableApi uses the Identification and Reconciliation framework to minimize the creation of 
+        duplicate configuration items (CIs) and to reconcile CI attributes by only accepting information from authorized 
+        data sources when updating the Configuration Management Database (CMDB).
+        120.IdentificationEngineScriptableApi
+         IdentificationEngineScriptableApi 使用标识和协调框架来最大限度地减少重复配置项 (CI) 的创建，并通过在更新配置管理数据库 (CMDB) 
+         时仅接受来自授权数据源的信息来协调 CI 属性。
+        120.IdentificationEngineScriptableApi
+         IdentificationEngineScriptableApiは、Identification and Reconciliationフレームワークを使用して、重複する構成アイテム（CI）
+         の作成を最小限に抑え、構成管理データベース（CMDB）の更新時に承認されたデータソースからの情報のみを受け入れることでCI属性を調整します。
+
+    121.IDResult
+        A container class for the result of a CI Identifier.
+        121.ID结果
+         CI 标识符结果的容器类。
+        121.IDResult
+         CI識別子の結果のコンテナクラス。
+
+    122.IEventSender
+        The IEventSender API provides methods to send events from a MID Server to a ServiceNow instance and to query the status 
+        of the event queue.
+        122.IEventSender
+         IEventSender API 提供了将事件从 MID 服务器发送到 ServiceNow 实例并查询事件队列状态的方法。
+        122.IEventSender
+         IEventSender APIは、MIDサーバーからServiceNowインスタンスにイベントを送信し、イベントキューのステータスを照会するための
+         メソッドを提供します。
+
+    123.IPAddressFixup
+        After a device has been successfully discovered, ensures that no other device has the same IP address. If any duplicates are
+        found, the IP address field is cleared.
+        123.IP地址修复
+         成功发现设备后，确保没有其他设备具有相同的 IP 地址。如果发现任何重复，IP 地址字段将被清除。
+        123.IPAddressFixup
+         デバイスが正常に検出されたら、他のデバイスが同じIPアドレスを持っていないことを確認します。重複が見つかった場合、
+         IPアドレスフィールドはクリアされます。
+
+    124.IPService
+        Encapsulates an IP Service.
+        124.IP服务
+         封装 IP 服务。
+        124.IPService
+         IPサービスをカプセル化します。
+
+    125.J2js
+        2JS script include allows you to convert java objects to JavaScript objects.
+        125.J2js
+         2JS 脚本包含允许您将 java 对象转换为 JavaScript 对象。
+        125.J2js
+         2JSスクリプトインクルードを使用すると、JavaオブジェクトをJavaScriptオブジェクトに変換できます。
+
+    126.JavascriptProbe
+        Provides methods for using the JavascriptProbe on the MID server.
+        126.Javascript探针
+         提供在 MID 服务器上使用 JavascriptProbe 的方法。
+        126.JavascriptProbe
+         MIDサーバーでJavascriptProbeを使用するためのメソッドを提供します。
+
+    127.JSON
+        Provides methods to create JSON objects from a string, and to turn JSON objects into strings.
+        127.JSON
+         提供从字符串创建 JSON 对象以及将 JSON 对象转换为字符串的方法。
+        127.JSON
+         文字列からJSONオブジェクトを作成し、JSONオブジェクトを文字列に変換するメソッドを提供します。
+
+    128.JSONParser
+        Provides a JSON parser that does not use the JavaScript eval() function.
+        128.JSON解析器
+         提供不使用 JavaScript eval() 函数的 JSON 解析器。
+        128.JSONParser
+         JavaScript eval（）関数を使用しないJSONパーサーを提供します。
+
+    129.JSUtil
+        JSUtil is a class of shortcuts for common JavaScript routines.
+        129.JSUtil
+         JSUtil 是通用 JavaScript 例程的一类快捷方式。
+        129.JSUtil
+         JSUtilは、一般的なJavaScriptルーチンのショートカットのクラスです。
+
+    130.Logger
+        The Logger API provides inbound email actions that append messages to the email log.
+        130.记录器
+         Logger API 提供将消息附加到电子邮件日志的入站电子邮件操作。
+        130.ロガー
+         Logger APIは、電子メールログにメッセージを追加する受信電子メールアクションを提供します。
+
+    131.LSOFParser
+        Parses the output of the lsof command: lsof -i4TCP -n -P -F pcnfT
+        131.LSOF解析器
+         解析 lsof 命令的输出： lsof -i4TCP -n -P -F pcnfT
+        131.LSOFParser
+         lsofコマンドの出力を解析します。lsof-i4TCP-n-P -F pcnfT
+
+    132.MIDServer
+        Encapsulates the notion of a MID server.
+        132.MID服务器
+         封装了 MID 服务器的概念。
+        132.MIDServer
+         MIDサーバーの概念をカプセル化します。
+
+    133.MIDServerAjax
+        Provides AJAX functionality for sending a test probe to the MID server.
+        133.MIDServerAjax
+         提供用于向 MID 服务器发送测试探针的 AJAX 功能。
+        133.MIDServerAjax
+         MIDサーバーにテストプローブを送信するためのAJAX機能を提供します。
+
+    134.MIDServerCluster
+        Finds the MID server clusters for a given MID server and reassigns the jobs if necessary.
+        134.MID服务器集群
+         查找给定 MID 服务器的 MID 服务器集群，并在必要时重新分配作业。
+        134.MIDServerCluster
+         特定のMIDサーバーのMIDサーバークラスターを検索し、必要に応じてジョブを再割り当てします。
+
+    135.MIDServerFileSync
+        Checks to see if there are any changes to attachments on tables that are instances of MID server synchronized files 
+        (ecc_agent_sync_file) and, if so, notifies the MID servers of a change.
+        135.MIDServer文件同步
+         检查作为 MID 服务器同步文件 (ecc_agent_sync_file) 实例的表上的附件是否有任何更改，如果是，则通知 MID 服务器更改。
+        135.MIDServerFileSync
+         MIDサーバー同期ファイル（ecc_agent_sync_file）のインスタンスであるテーブルの添付ファイルに変更があるかどうかを確認し、
+         変更がある場合は、MIDサーバーに変更を通知します。
+
+    136.MIDServerFinder
+        Finds a list of MID servers for given IP addresses.
+        136.MID服务器查找器
+         查找给定 IP 地址的 MID 服务器列表。
+        136.MIDServerFinder
+         指定されたIPアドレスのMIDサーバーのリストを検索します。
+
+    137.MIDServerManage
+        Allows you to manage a MID server, by sending messages to start, stop, upgrade, get logs, send test probes, 
+        and send system messages.
+        137.MID服务器管理
+         允许您通过发送消息以启动、停止、升级、获取日志、发送测试探测和发送系统消息来管理 MID 服务器。
+        137.MIDServerManage
+         メッセージを送信して開始、停止、アップグレード、ログの取得、テストプローブの送信、およびシステムメッセージの送信を
+         行うことにより、MIDサーバーを管理できます。
+
+    138.MIDServerSelector
+        Finds a MID server based on capabilities and target IP address.
+        138.MID服务器选择器
+         根据功能和目标 IP 地址查找 MID 服务器。
+        138.MIDServerSelector
+         機能とターゲットIPアドレスに基づいてMIDサーバーを検索します。
+
+    139.MLPredictor
+        Provides utility methods for Predictive Intelligence predictions.
+        139.ML预测器
+         为 Predictive Intelligence 预测提供实用方法。
+        139.MLPredictor
+         予測インテリジェンス予測のユーティリティメソッドを提供します。
+
+    140.MLSolution
+        Provides methods for handling Predictive Intelligence predictions and retrieving solution objects for all capabilities: 
+        similarity, classification, and clustering).
+        140.ML解决方案
+         提供用于处理 Predictive Intelligence 预测和检索所有功能的解决方案对象的方法：相似性、分类和聚类）。
+        140.MLSolution
+         予測インテリジェンス予測を処理し、すべての機能（類似性、分類、およびクラスタリング）のソリューションオブジェクトを取得するための
+         メソッドを提供します。
+
+    141.MLSolutionFactory
+        Factory class to get an MLSolution scriptable object.
+        141.MLSolutionFactory
+         获取 MLSolution 可编写脚本对象的工厂类。
+        141.MLSolutionFactory
+         MLSolutionスクリプト可能オブジェクトを取得するためのファクトリクラス。
+
+    142.MLSolutionResult
+        Provides methods for managing cluster information and members of a clustering solution. You can embed the results in 
+        business logic.
+        142.MLSolutionResult
+         提供管理集群信息和集群解决方案成员的方法。您可以将结果嵌入到业务逻辑中。
+        142.MLSolutionResult
+         クラスター情報とクラスタリングソリューションのメンバーを管理するためのメソッドを提供します。
+         結果をビジネスロジックに埋め込むことができます。
+
+    143.MLSolutionUtil
+        The MLSolutionUtil API provides methods for getting Predictive Intelligence predictions.
+        143.MLSolutionUtil
+         MLSolutionUtil API 提供了获取 Predictive Intelligence 预测的方法。
+        143.MLSolutionUtil
+         MLSolutionUtil APIは、予測インテリジェンス予測を取得するためのメソッドを提供します。
+
+    144.MobileDeepLinkGenerator
+        Embed a link to a mobile app list or form applet.
+        144.MobileDeepLinkGenerator
+         嵌入移动应用列表或表单小程序的链接。
+        144.MobileDeepLinkGenerator
+         モバイルアプリリストまたはフォームアプレットへのリンクを埋め込みます。
+
+    145.MonitorMIDServer
+        Monitors MID servers using the heartbeat probe to check for MID servers that are down, sends heartbeat requests, 
+        and kills old heartbeat requests.
+        145.MonitorMID服务器
+         使用心跳探测监视 MID 服务器以检查是否有关闭的 MID 服务器、发送心跳请求并终止旧的心跳请求。
+        145.MonitorMIDServer
+         ハートビートプローブを使用してMIDサーバーを監視し、ダウンしているMIDサーバーをチェックし、ハートビート要求を送信し、
+         古いハートビート要求を強制終了します。
+
+    146.NameValuePairs
+        Converts between maps and strings representing the name/value pairs in the map.
+        146.名称值对
+         在映射和表示映射中的名称/值对的字符串之间进行转换。
+        146.NameValuePairs
+         マップと、マップ内の名前/値ペアを表す文字列の間で変換します。
+
+    147.NetwareHandler API
+        Implements an SNMP handler for Netware OS.
+        147.NetwareHandler API
+         为 Netware OS 实现一个 SNMP 处理程序。
+        147.NetwareHandler API
+         NetwareOS用のSNMPハンドラーを実装します。
+
+    148.Notify
+        The Notify API allows you to interact with Notify calls and SMS messages using scripts.
+        148.通知
+         Notify API 允许您使用脚本与 Notify 呼叫和 SMS 消息进行交互。
+        148.通知する
+         Notify APIを使用すると、スクリプトを使用してNotify呼び出しおよびSMSメッセージを操作できます。
+
+    149.NotifyAction
+        The NotifyAction API allows you to define actions to send to a telephony provider.
+        149.NotifyAction
+         NotifyAction API 允许您定义要发送给电话提供商的操作。
+        149.NotifyAction
+         NotifyAction APIを使用すると、テレフォニープロバイダーに送信するアクションを定義できます。
+
+    150.NotifyJsTelephonyDriver
+        The NotifyJsTelephonyDriver API provides methods that you can use to obtain information about the capabilities of the 
+        associated telephony driver.
+        150.NotifyJs电话驱动程序
+         NotifyJsTelephonyDriver API 提供了一些方法，您可以使用这些方法来获取有关相关电话驱动程序功能的信息。
+        150.NotifyJsTelephonyDriver
+         NotifyJsTelephonyDriver APIは、関連するテレフォニードライバーの機能に関する情報を取得するために使用できるメソッドを提供します。
+
+    151.NotifyNow API (Legacy)
+        The legacy NotifyNow API provides functionality for sending emails, sending SMS messages, and setting up conference calls.
+        151.NotifyNow API（旧版）
+         旧版 NotifyNow API 提供了发送电子邮件、发送 SMS 消息和设置电话会议的功能。
+        151.NotifyNow API（レガシー）
+         従来のNotifyNowAPIは、電子メールの送信、SMSメッセージの送信、および電話会議の設定のための機能を提供します。
+
+    152.NotifyPhoneNumber
+        The NotifyPhoneNumber API allows you to query information about a Notify phone number.
+        152.NotifyPhoneNumber
+         NotifyPhoneNumber API 允许您查询有关通知电话号码的信息。
+        152.NotifyPhoneNumber
+         NotifyPhoneNumber APIを使用すると、Notify電話番号に関する情報を照会できます。
+
+    153.NotifySMS
+        The NotifySMS API provides methods that enable you to send Short Message Service (SMS) messages from Notify telephone numbers to
+        devices using either their telephone numbers or a GlideRecord that has a field that contains telephone number information.
+        153.通知短信
+         NotifySMS API 提供的方法使您能够使用通知电话号码或具有包含电话号码信息的字段的 GlideRecord 将短消息服务 (SMS) 消息从
+         通知电话号码发送到设备。
+        153.NotifySMS
+         NotifySMS APIは、電話番号または電話番号情報を含むフィールドを持つGlideRecordのいずれかを使用して、
+         Notify電話番号からデバイスにショートメッセージサービス（SMS）メッセージを送信できるようにするメソッドを提供します。
+
+    154.NotifyUtil
+        The NotifyUtil API provides utility methods to use when interacting with Notify calls and SMS messages using server-side scripts.
+        154.通知实用程序
+         NotifyUtil API 提供了在使用服务器端脚本与通知呼叫和 SMS 消息交互时使用的实用程序方法。
+        154.NotifyUtil
+         NotifyUtil APIは、サーバー側スクリプトを使用してNotify呼び出しおよびSMSメッセージを操作するときに使用する
+         ユーティリティメソッドを提供します。
+
+    155.OAuthUtil
+        This script include modifies request parameters and parses the token response during runtime.
+        155.OAuthUtil
+         此脚本包括在运行时修改请求参数并解析令牌响应。
+        155.OAuthUtil
+         このスクリプトには、要求パラメーターの変更と実行時のトークン応答の解析が含まれます。
+
+    156.OCRosterSpanApprovalUtil
+        The OCRosterSpanApprovalUtil API for the PTO approval feature.
+        156.OCRosterSpanApprovalUtil
+         用于 PTO 批准功能的 OCRosterSpanApprovalUtil API。
+        156.OCRosterSpanApprovalUtil
+         PTO承認機能用のOCRosterSpanApprovalUtilAPI。
+
+    157.OCRotaICalendar
+        The OCRotaICalendar API is an extension of the OCRotaICalendarSNC API.
+        157.OCRotaICalendar
+         OCRotaICalendar API 是 OCRotaICalendarSNC API 的扩展。
+        157.OCRotaICalendar
+         OCRotaICalendar APIは、OCRotaICalendarSNCAPIの拡張です。
+
+    158.OCRotaICalendarSNC
+        The OCRotaICalendarSNC API provides iCal formatted events for the a specific user's rotation.
+        158.OCRotaICalendarSNC
+         OCRotaICalendarSNC API 为特定用户的旋转提供 iCal 格式的事件。
+        158.OCRotaICalendarSNC
+         OCRotaICalendarSNC APIは、特定のユーザーのローテーションに対してiCal形式のイベントを提供します。
+
+    159.OCRotaMember
+        The OCRotaMember API performs maintenance operations on the cmn_rota_member table.
+        159.OCRota成员
+         OCRotaMember API 对 cmn_rota_member 表执行维护操作。
+        159.OCRotaMember
+         OCRotaMember APIは、cmn_rota_memberテーブルに対してメンテナンス操作を実行します。
+
+    160.OCRotation
+        The core OCRotation builds a data structure that is used to display the calendar.
+        160.OC旋转
+         核心 OCRotation 构建了一个用于显示日历的数据结构。
+        160.OCRotation
+         コアOCRotationは、カレンダーの表示に使用されるデータ構造を構築します。
+
+    161.OCRotationV2
+        OCRotationV2 is an extension of OCRotation, which is used by Fullcalendar.io and the DHTMLX On-Call Calendar.
+        161.OCRotationV2
+         OCRotationV2 是 OCRotation 的扩展，由 Fullcalendar.io 和 DHTMLX On-Call 日历使用。
+        161.OCRotationV2
+         OCRotationV2はOCRotationの拡張であり、Fullcalendar.ioおよびDHTMLXオンコールカレンダーで使用されます。
+
+    162.OCSeriesEventGenerator
+        The OCSeriesEventGenerator API generates the repeating VEVENTS for a user's iCalendar.
+        162.OCSeries事件生成器
+         OCSeriesEventGenerator API 为用户的 iCalendar 生成重复的 VEVENTS。
+        162.OCSeriesEventGenerator
+         OCSeriesEventGenerator APIは、ユーザーのiCalendarに対して繰り返しVEVENTSを生成します。
+
+    163.OCTimer
+        The OCTimer API provides the ability to track the length of time it takes for a function to complete.
+        163.OC定时器
+         OCTimer API 提供了跟踪功能完成所需时间长度的能力。
+        163.OCTimer
+         OCTimer APIは、関数の完了にかかる時間の長さを追跡する機能を提供します。
+
+    164.OnCallContactPreferenceUtil
+        Utility for handling contact preferences.
+        164.OnCallContactPreferenceUtil
+         用于处理联系人首选项的实用程序。
+        164.OnCallContactPreferenceUtil
+         連絡先設定を処理するためのユーティリティ。
+
+    165.OnCallRotation
+        Use to manage on-call schedules.
+        165.OnCallRotation
+         用于管理待命时间表。
+        165.OnCallRotation
+         オンコールスケジュールを管理するために使用します。
+
+    166.PADomainUtils
+        The PADomainUtils API enables you to copy Performance Analytics records between different domains on the same instance.
+        166.PADomainUtils
+         PADomainUtils API 使您能够在同一实例上的不同域之间复制性能分析记录。
+        166.PADomainUtils
+         PADomainUtils APIを使用すると、同じインスタンス上の異なるドメイン間でPerformanceAnalyticsレコードをコピーできます。
+
+    167.PredictabilityEstimate
+        Scriptable object used in Predictive Intelligence stores. This object provides estimation of how predictable fields of 
+        a dataset can be, and which features can be useful for predicting those fields.
+        167.PredictabilityEstimate
+         Predictive Intelligence 存储中使用的可编写脚本的对象。此对象提供对数据集的可预测字段的估计，以及哪些特征可用于预测这些字段。
+        167.PredictabilityEstimate
+         PredictiveIntelligenceストアで使用されるスクリプト可能なオブジェクト。このオブジェクトは、データセットの予測可能な
+         フィールドがどの程度であるか、およびそれらのフィールドを予測するのにどの機能が役立つかを推定します。
+
+    168.PredictabilityEstimateStore
+        Enables storing and retrieving predictability estimates.
+        168.PredictabilityEstimateStore
+         启用存储和检索可预测性估计。
+        168.PredictabilityEstimateStore
+         予測可能性の見積もりの​​保存と取得を可能にします。
+
+    169.PredictabilityEstimateVersion
+        Scriptable object used in Predictive Intelligence stores.
+        169.PredictabilityEstimateVersion
+         Predictive Intelligence 存储中使用的可编写脚本的对象。
+        169.PredictabilityEstimateVersion
+         PredictiveIntelligenceストアで使用されるスクリプト可能なオブジェクト。
+
+    170.ProbeHandlerCim
+        Configures a CIM probe.
+        170.ProbeHandlerCim
+         配置 CIM 探针。
+        170.ProbeHandlerCim
+         CIMプローブを構成します。
+
+    171.ProbeHandlerMulti
+        Probe handler for MultiProbes.
+        171.ProbeHandlerMulti
+         MultiProbes 的探针处理程序。
+        171.ProbeHandlerMulti
+         MultiProbesのプローブハンドラー。
+
+    172.ProbeHandlerSNMP
+        Discovery probe handler for SNMP probes, invoked when an SNMP probe is about to be created.
+        172.ProbeHandlerSNMP
+         SNMP 探测的发现探测处理程序，在即将创建 SNMP 探测时调用。
+        172.ProbeHandlerSNMP
+         SNMPプローブが作成されようとしているときに呼び出されるSNMPプローブの検出プローブハンドラー。
+
+    173.ProbeHandlerWMI
+        Discovery probe handler for WMI probes.
+        173.ProbeHandlerWMI
+         WMI 探测的发现探测处理程序。
+        173.ProbeHandlerWMI
+         WMIプローブの検出プローブハンドラー。
+
+    174.Queue
+        Use the Queue API (Advanced Work Assignment) to route a document to a queue.
+        174.队列
+         使用队列 API（高级工作分配）将文档路由到队列。
+        174.キュー
+         キューAPI（高度な作業割り当て）を使用して、ドキュメントをキューにルーティングします。
+
+    175.QuickRanges
+        Generates IP network, range, and address entries from a convenient comma-separated input field using conventional CIDR 
+        network notation, hyphenated range entries, or individual IP addresses.
+        175.快速范围
+         使用传统的 CIDR 网络表示法、带连字符的范围条目或单独的 IP 地址，从方便的逗号分隔输入字段生成 IP 网络、范围和地址条目。
+        175.QuickRanges
+         従来のCIDRネットワーク表記、ハイフンでつながれた範囲エントリ、または個々のIPアドレスを使用して、便利なコンマ区切りの
+         入力フィールドからIPネットワーク、範囲、およびアドレスエントリを生成します。
+
+    176.RecordToHTML
+        A utility class to turn a record into HTML.
+        176.RecordToHTML
+         将记录转换为 HTML 的实用程序类。
+        176.RecordToHTML
+         レコードをHTMLに変換するユーティリティクラス。
+
+    177.RegressionSolution
+        Scriptable object used in Predictive Intelligence stores.
+        177.回归解决方案
+         Predictive Intelligence 存储中使用的可编写脚本的对象。
+        177.RegressionSolution
+         PredictiveIntelligenceストアで使用されるスクリプト可能なオブジェクト。
+
+    178.RegressionSolutionStore
+        Enables storing and retrieving solutions.
+        178.RegressionSolutionStore
+         启用存储和检索解决方案。
+        178.RegressionSolutionStore
+         ソリューションの保存と取得を可能にします。
+
+    179.RegressionSolutionVersion
+        Scriptable object used in Predictive Intelligence stores.
+        179.RegressionSolutionVersion
+         Predictive Intelligence 存储中使用的可编写脚本的对象。
+        179.RegressionSolutionVersion
+         PredictiveIntelligenceストアで使用されるスクリプト可能なオブジェクト。
+
+    180.RenderProperties
+        The RenderProperties API provides methods about the current page and is available in Jelly scripts and in UI-action 
+        conditions and scripts.
+        180.渲染属性
+         RenderProperties API 提供有关当前页面的方法，并且在 Jelly 脚本和 UI 操作条件和脚本中可用。
+        180.RenderProperties
+         RenderProperties APIは、現在のページに関するメソッドを提供し、JellyスクリプトおよびUIアクション条件とスクリプトで使用できます。
+
+    181.RoundingInterval
+        Handles all the details of rounding intervals for CPU speed and RAM size.
+        181.RoundingInterval
+         处理 CPU 速度和 RAM 大小的舍入间隔的所有细节。
+        181.RoundingInterval
+         CPU速度とRAMサイズの丸め間隔のすべての詳細を処理します。
+
+    182.SerialNumberManager
+        Manages the serial numbers for discovery devices.
+        182.序列号管理器
+         管理发现设备的序列号。
+        182.SerialNumberManager
+         検出デバイスのシリアル番号を管理します。
+
+    183.ServiceRegistryQuery
+        Maps Shazzam service registry query results against a port probe. Child classes provide specifics on mapping.
+        183.ServiceRegistry查询
+         根据端口探测映射 Shazzam 服务注册表查询结果。子类提供有关映射的细节。
+        183.ServiceRegistryQuery
+         Shazzamサービスレジストリクエリの結果をポートプローブに対してマップします。子クラスは、マッピングの詳細を提供します。
+
+    184.ShazzamLaunch
+        Handles the details of launching a Shazzam probe for a given discovery.
+        184.Shazzam启动
+         处理为给定发现启动 Shazzam 探测的详细信息。
+        184.ShazzamLaunch
+         特定のディスカバリーに対してShazzamプローブを起動する詳細を処理します。
+
+    185.ShazzamResult
+        Encapsulates a Shazzam result.
+        185.Shazzam结果
+         封装 Shazzam 结果。
+        185.ShazzamResult
+         Shazzamの結果をカプセル化します。
+
+    186.ShazzamScanner
+        Encapsulates a Shazzam scanner.
+        186.Shazzam 扫描仪
+         封装 Shazzam 扫描仪。
+        186.ShazzamScanner
+         Shazzamスキャナーをカプセル化します。
+
+    187.SimilaritySolution
+        Scriptable object used in Predictive Intelligence stores.
+        187.SimilaritySolution
+         Predictive Intelligence 存储中使用的可编写脚本的对象。
+        187.SimilaritySolution
+         PredictiveIntelligenceストアで使用されるスクリプト可能なオブジェクト。
+
+    188.SimilaritySolutionStore
+        Enables storing and retrieving solutions.
+        188.SimilaritySolutionStore
+         启用存储和检索解决方案。
+        188.SimilaritySolutionStore
+         ソリューションの保存と取得を可能にします。
+
+    189.SimilaritySolutionVersion
+        Scriptable object used in Predictive Intelligence stores.
+        189.SimilaritySolutionVersion
+         Predictive Intelligence 存储中使用的可编写脚本的对象。
+        189.SimilaritySolutionVersion
+         PredictiveIntelligenceストアで使用されるスクリプト可能なオブジェクト。
+
+    190.SLARepair
+        The SLARepair API first deletes the existing SLAs and then recreates them from each task's history.
+        190.SLA修复
+         SLARepair API 首先删除现有的 SLA，然后从每个任务的历史记录中重新创建它们。
+        190.SLARepair
+         SLARepair APIは、最初に既存のSLAを削除してから、各タスクの履歴からそれらを再作成します。
+
+    191.SLPServiceRegistryQuery
+        Maps Shazzam! SLP query results to port probes.
+        191.SLPServiceRegistry查询
+         地图 Shazzam！ SLP 查询结果到端口探测。
+        191.SLPServiceRegistryQuery
+         マップシャザム！ SLPクエリの結果をポートプローブに送信します。
+
+    192.SNEventSenderProvider
+        The SNEventSenderProvider API provides the method to instantiate an IEventSender instance.
+        192.SNEventSenderProvider
+         SNEventSenderProvider API 提供了实例化 IEventSender 实例的方法。
+        192.SNEventSenderProvider
+         SNEventSenderProvider APIは、IEventSenderインスタンスをインスタンス化するためのメソッドを提供します。
+
+    193.SNMPGatherDocParts
+        Handles gathering the parts of an SNMP response document for JavaScript SNMP sensors.
+        193.SNMPGatherDocParts
+         处理收集 JavaScript SNMP 传感器的 SNMP 响应文档的各个部分。
+        193.SNMPGatherDocParts
+         JavaScriptSNMPセンサーのSNMP応答ドキュメントの一部の収集を処理します。
+
+    194.SNMPNetworkInterfaces
+        Creates network interfaces for JavaScript SNMP sensors.
+        194.SNMP网络接口
+         为 JavaScript SNMP 传感器创建网络接口。
+        194.SNMPNetworkInterfaces
+         JavaScriptSNMPセンサーのネットワークインターフェイスを作成します。
+
+    195.SNMPResponse
+        Wraps an SNMP payload response instance with methods to safely and easily retrieve SNMP singleton fields or tables.
+        195.SNMP响应
+         使用安全轻松地检索 SNMP 单例字段或表的方法包装 SNMP 有效负载响应实例。
+        195.SNMPResponse
+         SNMPペイロード応答インスタンスをメソッドでラップして、SNMPシングルトンフィールドまたはテーブルを安全かつ簡単に取得します。
+
+    196.StartDiscovery
+        Starts discovery jobs.
+        196.开始发现
+         启动发现作业。
+        196.StartDiscovery
+         検出ジョブを開始します。
+
+    197.StateManagementScriptableApi
+        Provides a set of methods for manipulating CI operational states and applying CI actions.
+        197.StateManagementScriptableApi
+         提供一组用于操作 CI 操作状态和应用 CI 操作的方法。
+        197.StateManagementScriptableApi
+         CIの動作状態を操作し、CIアクションを適用するための一連のメソッドを提供します。
+
+    198.SummaryTableWriter
+        The SummaryTableWriter script include enables the creation of summary sets for reports that can be generated with standard 
+        queries and trending.
+        198.SummaryTableWriter
+         SummaryTableWriter 脚本包括为可以使用标准查询和趋势生成的报告创建摘要集。
+        198.SummaryTableWriter
+         SummaryTableWriterスクリプトインクルードを使用すると、標準のクエリとトレンド分析で生成できるレポートの要約セットを作成できます。
+
+    199.TableUtils
+        TableUtils is a class of shortcuts for accessing table related information.
+        199.TableUtils
+         TableUtils 是一类用于访问表相关信息的快捷方式。
+        199.TableUtils
+         TableUtilsは、テーブル関連の情報にアクセスするためのショートカットのクラスです。
+
+    200.TaskStateUtil
+        The TaskStateUtil API is in the task state management utility script include and is used for working with task-type 
+        table state attributes.
+        200.TaskStateUtil
+         TaskStateUtil API 包含在任务状态管理实用程序脚本中，用于处理任务类型表状态属性。
+        200.TaskStateUtil
+         TaskStateUtil APIは、タスク状態管理ユーティリティスクリプトインクルードにあり、タスクタイプのテーブル状態属性を操作するために
+         使用されます。
+
+    201.TimelineSpan
+        This class defines a set of properties that describe the characteristics and interactive behavior of an element rendered 
+        within a TimelineItem.
+        201.时间线跨度
+         此类定义了一组属性，这些属性描述了在 TimelineItem 中呈现的元素的特征和交互行为。
+        201.TimelineSpan
+         このクラスは、TimelineItem内でレンダリングされた要素の特性とインタラクティブな動作を説明する一連のプロパティを定義します。
+
+    202.UPSHandler
+        Handles SNMP classification and identification for UPSs.
+        202.UPS处理器
+         处理 UPS 的 SNMP 分类和识别。
+        202.UPSHandler
+         UPSのSNMP分類と識別を処理します。
+
+    203.UserSkillAnalyzer
+        Analyzes user skills against skills required to complete work items.
+        203.用户技能分析器
+         根据完成工作项所需的技能分析用户技能。
+        203.UserSkillAnalyzer
+         作業項目を完了するために必要なスキルに対してユーザースキルを分析します。
+
+    204.UserSkillRanking
+        Used to configure options for choosing the right user and getting a sorted list of qualified users based on number of 
+        matching skills and skill-level gap.
+        204.UserSkillRanking
+         用于配置选项以选择合适的用户并根据匹配技能的数量和技能水平差距获得合格用户的排序列表。
+        204.UserSkillRanking
+         適切なユーザーを選択し、一致するスキルの数とスキルレベルのギャップに基づいて資格のあるユーザーのソートされたリストを
+         取得するためのオプションを構成するために使用されます。
+
+    205.VMUtils
+        Provides utility functions for discovery and provisioning of virtual machines.
+        205.VMUtils
+         提供用于发现和配置虚拟机的实用程序功能。
+        205.VMUtils
+         仮想マシンの検出とプロビジョニングのためのユーティリティ機能を提供します。
+
+    206.WalkWorkflow
+        Walks the workflow and gets the list of successors for each activity along with a shortest path order that indicates the 
+        activity depth in the workflow.
+        206.WalkWorkflow
+         遍历工作流并获取每个活动的后继者列表以及指示工作流中活动深度的最短路径顺序。
+        206.WalkWorkflow
+         ワークフローをウォークし、ワークフローのアクティビティの深さを示す最短パスの順序とともに、各アクティビティの後続のリストを
+         取得します。
+
+    207.WFActivityHandler
+        The base class for all workflow activities.
+        207.WFActivity处理程序
+         所有工作流活动的基类。
+        207.WFActivityHandler
+         すべてのワークフローアクティビティの基本クラス。
+
+    208.WindowsOSNameHelper
+        Handles the formatting of Windows OS names.
+        208.Windows操作系统名称助手
+         处理 Windows 操作系统名称的格式。
+        208.WindowsOSNameHelper
+         WindowsOS名のフォーマットを処理します。
+
+    209.Workflow
+        Workflow scripts provide an interface with the workflow engine.
+        209.工作流
+         工作流脚本提供与工作流引擎的接口。
+        209.ワークフロー
+         ワークフロースクリプトは、ワークフローエンジンとのインターフェイスを提供します。
+
+    210.WorkflowDuration
+        This class calculates the duration (in seconds) based on the variables of a workflow activity. It is an interface between 
+        Workflow Timer() and DurationCalculator().
+        210.工作流持续时间
+         此类根据工作流活动的变量计算持续时间（以秒为单位）。它是 Workflow Timer() 和 DurationCalculator() 之间的接口。
+        210.WorkflowDuration
+         このクラスは、ワークフローアクティビティの変数に基づいて期間（秒単位）を計算します。これは、Workflow Timer（）と
+         DurationCalculator（）の間のインターフェースです。
+
+    211.WorkflowModelManager
+        The WorkflowModelManager class provides a way to query the workflow model, to step backwards and forwards between 
+        specified wf_history items, and to query the history for activity and transition-specific information.
+        211.工作流模型管理器
+         WorkflowModelManager 类提供了一种方法来查询工作流模型、在指定的 wf_history 项目之间后退和前进，以及查询历史以获取活动和
+         特定于转换的信息。
+        211.WorkflowModelManager
+         WorkflowModelManagerクラスは、ワークフローモデルをクエリし、指定されたwf_historyアイテム間を前後に移動し、
+         アクティビティと遷移固有の情報の履歴をクエリする方法を提供します。
+
+    212.WorkflowModelManagerAjax
+        Provides an AjaxProcessor wrapper for the WorkflowModelManager. This class derives from AbstractAjaxProcessor.
+        212.WorkflowModelManagerAjax
+         为 WorkflowModelManager 提供 AjaxProcessor 包装器。此类派生自 AbstractAjaxProcessor。
+        212.WorkflowModelManagerAjax
+         WorkflowModelManagerのAjaxProcessorラッパーを提供します。このクラスは、AbstractAjaxProcessorから派生しています。
+
+    213.WorkflowScheduler
+        This code is executed in business rule Set workflow scheduler script on table wf_workflow_schedule.
+        213.工作流调度器
+         此代码在表 wf_workflow_schedule 上的业务规则集工作流调度程序脚本中执行。
+        213.WorkflowScheduler
+         このコードは、テーブルwf_workflow_scheduleのビジネスルールSetワークフロースケジューラスクリプトで実行されます。
+
+    214.WorkflowTimeline
+        Generates a view that shows a workflow context on the timeline.
+        214.工作流时间线
+         生成在时间线上显示工作流上下文的视图。
+        214.WorkflowTimeline
+         タイムライン上のワークフローコンテキストを示すビューを生成します。
+
+    215.XMLUtilJS
+        Provides XML utilities for JavaScript to be used with Discovery scripts.
+        215.XMLUtilJS
+         为 JavaScript 提供 XML 实用程序以与 Discovery 脚本一起使用。
+        215.XMLUtilJS
+         Discoveryスクリプトで使用されるJavaScript用のXMLユーティリティを提供します。
