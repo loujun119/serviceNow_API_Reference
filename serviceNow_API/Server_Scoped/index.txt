@@ -1059,11 +1059,11 @@ Server Scoped API List
 
   二十二、SN_IH_KAFKA
     1.Producer
-    The Producer API provides methods that enable you to push data from a ServiceNow instance to a Kafka topic.
-    1.制片人
-     Producer API 提供的方法使您能够将数据从 ServiceNow 实例推送到 Kafka 主题。
-    1.プロデューサー
-     Producer APIは、ServiceNowインスタンスからKafkaトピックにデータをプッシュできるようにするメソッドを提供します。
+        The Producer API provides methods that enable you to push data from a ServiceNow instance to a Kafka topic.
+        1.制片人
+         Producer API 提供的方法使您能够将数据从 ServiceNow 实例推送到 Kafka 主题。
+        1.プロデューサー
+         Producer APIは、ServiceNowインスタンスからKafkaトピックにデータをプッシュできるようにするメソッドを提供します。
 
   二十三、SN_IMPEX
     进出口
