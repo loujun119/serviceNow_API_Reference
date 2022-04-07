@@ -1316,3 +1316,630 @@
     19.3.Search Result Events
 
 七十八、Standard Ticket
+  1.Standard Ticket Configuration
+
+七十九、State Management
+  1.State Models
+
+八十、Strategy
+  1.Strategic Priorities
+
+八十一、Subscription Management
+  1.Getting Started
+  2.Subscription Overview
+  3.Custom Application Inventory
+  4.Properties
+
+八十二、System Applications
+  1.Getting Started
+  2.Studio
+  3.All Available Applications
+    3.1.All
+    3.2.Available To Obtain From Store
+    3.3.ServiceNow Products
+  ------------------------------------------------
+  4.My Company Applications
+  5.My Application Import History
+  6.Application Cross-Scope Access
+  7.Application Restricted Caller Access
+
+八十三、System Archiving
+  1.Getting Started
+  --------------------------------------------------
+  2.Archive Rules
+  3.Archive Log
+  4.Archive Destroy Rules
+  5.Archive Destroy Log
+  6.Archive Status
+  7.Archive Properties
+
+八十四、System Classic Mobile UI
+  1.Navigator Apps
+  2.Classic Mobile Modules
+  3.Table Titles
+  4.Themes
+  5.UI Actions - Classic Mobile
+  6.Home Screen
+    6.1.Home Page Collections
+    6.2.Home Pages
+    6.3.Home Page Sections
+    6.4.Home Page Modules
+  7.Classic Mobile App
+    7.1.Devices
+    7.2.Shortcut Items
+  8.Dublin Classic Mobile Web
+    8.1.Home Page Sections
+    8.2.Home Page Favorites
+    8.3.Classic Mobile Help
+
+八十五、System Clone
+  1.Clone Profiles
+  2.Request Clone
+  3.Live Clones
+    3.1.Active Clones
+    3.2.Clone History
+  4.Clone Definition
+    4.1.Exclude Tables
+    4.2.Preserve Data
+    4.3.Cleanup Scripts
+  5.Administration
+    5.1.Clone Targets
+
+八十六、System Definition
+  1.Application Menus
+  2.Menu Categories
+  3.Dictionary
+  4.Tables
+  5.Choice Lists
+  6.Language File
+  7.BookMarks
+  8.Tables & columns
+  9.Search Groups
+  10.Database Views
+  11.Table Rotations
+  12.Table Rotations
+  13.Table Index Configurations
+  14.Table Index Groups
+  15.Table Index Stop Words
+  16.Table Index Synonym Dictionaries
+  17.Table Indexes
+  ----------------------------------------
+  18.Business Rules
+  19.UI Actions
+  20.Script Includes
+  21.Installation Exits
+  22.Relationships
+  23.Application Quota Rules
+  24.Processors
+  25.Scripts - Background
+  26.Transaction Quota Rules
+  27.Fix Scripts
+  -----------------------------------------
+  28.client Scripts
+  29.Validation Scripts
+  30.Syntax Editor Macros
+  -----------------------------------------
+  31.System Upgrades
+  32.Response Template Channels
+  33.Response Template Configuration
+  34.Scheduled Jobs
+  35.Deleted Records
+  36.Filters
+  37.Dynamic Filter Options
+  38.Templates
+  39.Upload File
+  40.Interceptors
+  41.Recent Selections
+  42.Tags
+  43.Modules
+  44.Number Maintenance
+  45.Decision Tables
+  46.Plugins
+  -----------------------------------------
+  47.Certificates
+  48.Plugin Installation History
+  49.Batch Install Upgrade History
+  50.Remote Tables
+    50.1.Tables
+    50.2.Definitions
+
+八十七、System Diagnostics
+  1.Script Debugger
+  2.Script Tracer
+  3.Component Status
+  4.Progress Workers
+  5.Memory Stats
+  6.Active Transactions(All Nodes)
+  7.Upgrade Monitor(Legacy)
+  8.Upgrade History
+  9.Upgrade Log
+  10.Email Diagnostics
+  11.Expression Cache Stats
+  12.Stats
+    12.1.Stats
+    12.2.Slow Events
+    12.3.Slow Interactions
+    12.4.Slow Mutex Locks
+    12.5.Slow Queries
+    12.6.Slow Scripts
+    12.7.Slow Transactions
+    12.8.Table IOStats
+  13.Performance Windows
+    13.1.Performance Events
+    13.2.Latest Upgrade
+    13.3.Latest Periodic Event
+    13.4.Active Query Index Hints
+  14.Index Suggestion
+    14.1.Index Suggestions > To Review
+    14.2.Index Suggestions > In Progress
+    14.3.Index Suggestions > Done
+  15.Session Debug
+    15.1.Enable All
+    15.2.Disable All
+    15.3.Debug Business Rule
+    15.4.Debug Business Rule(Details)
+    15.5.Debug Log
+    15.6.Debug NLQ
+    15.7.Debug GraphOL
+    15.8.Disable GraphOL
+    15.9.Debug SQL
+    15.0.Disable Log
+    15.11.Debug SQL(Detailed)
+    15.12Debug SQL(Slow)
+    15.13.Debug SQL(Large Tables)
+    15.14.Debug Security
+    15.15.Debug Escalations
+    15.16.Debug Text Search
+    15.17.Debug UI Policies
+    15.18.Debug UI Policies Debug
+    15.19.Debug UI Macro
+    15.20.Debug UI Marco Debug
+    15.21.Debug Data Policies
+    15.22.Debug Quotas
+    15.23.Debug Scopes
+    15.24.Debug Data/Time
+    15.25.Debug Metric Statistics
+    15.25.Debug Upgrade
+  16.Database
+    16.1.Information
+    16.2.Cache
+    16.3.Term Optimization
+  17.Browser
+    17.1.Browser Page Timer
+    17.2.Browser JavaScript Timer
+  18.Transaction Call Chain
+    18.1.Transaction Call Chain Register
+    18.2.Transaction Call Chains
+
+八十八、System Export Sets
+  1.Getting Started
+  2.Create Export Set
+  3.Administration
+    3.1.Export Sets
+    3.2.Export Definitions
+    3.3.Export Targets
+    3.4.Scheduled Exports
+    3.5.Export History
+
+八十九、System Extension Points
+  1.Scripted Extension Points
+  2.UI Extension Points
+  3.Client Extension Points
+
+九十、System Import Sets
+  1.Load Data
+  2.Create Transform Map
+  3.Run TransForm
+  4.Administration
+    4.1.Data Sources
+    4.2.Robust Import Set Transformers
+    4.3.ETL Definitions
+    4.4.Transform Maps
+    4.5.Scheduled Imports
+    4.6.Execution Contexts
+  5.Advanced
+    5.1.Import Sets
+    5.2.Concurrent Import Sets
+    5.3.Concurrent Import Set Jobs
+    5.4.Multi Import Sets
+    5.5.Progress
+    5.6.Transform History
+    5.7.Transform Errors
+    5.8.Import Log
+  6.Import Set Tables
+    6.1.Cleanup
+    6.2.Scheduled Cleanup
+    6.3.Sys Choice
+    6.4.Sys Documentation
+    6.5.Sys Translated
+    6.6.Sys Translated Text
+    6.7.Sys UI Messages
+
+九十一、System LDAP
+  1.Getting Started
+  2.Create New Server
+  3.LDAP Servers
+  4.LDAP Monitor
+  ----------------------------------------
+  5.Data Sources
+  6.Scheduled Loads
+  7.Transform Maps
+  ----------------------------------------
+  8.LDAP Log
+  9.Certificates
+
+九十二、System Localization
+  1.Languages
+  2.Translated Name / Fields
+  3.Messages
+  4.Field Labels
+  5.Choices
+  6.Translated Text
+  7.Enable l18N Debugging
+  8.Disable l18N Debugging
+  9.Translations
+    9.1.Currencies
+    9.2.Exchange Rates
+    9.3.Load Exchange Rates
+    9.4.FX Currency Instances
+    9.5.FX Currency Configuration
+
+九十三、System Logs
+  1.Client Interactions
+  2.Transactions
+  3.Transactions(All User)
+  4.Transactions(Background)
+  5.Emails
+  6.Push Notifications
+  7.Events
+  8.Imports
+  9.Table Changes
+  10.OutBound HTTP Requests
+  11.System Log
+    11.1.All
+    11.2.Warnings
+    11.3.Errors
+    11.4.Script Log Statements
+    11.5.Application Logs
+    11.6.Transaction Cancellations
+    11.7.Code Signing
+  12.Utilities
+    12.1.Node Log File Browser
+    12.2.Node Log File Download
+    12.3.Node Log File Download History
+
+九十四、System Mailboxes
+  1.Inbound
+    1.1.Inbox
+    1.2.Received
+    1.3.Junk
+  2.OutBound
+    2.1.Outbox
+    2.2.Sent
+    2.3.Skipped
+    2.4.Failed
+  3.Administration
+    3.1.Email Accounts
+    3.2.Email Properties
+    3.3.Email Account Groups
+    3.4.Email Diagnostics
+    3.5.Filters
+    3.6.Watermarks
+    3.7.Status
+    3.8.Email Address Filters
+    3.9.System Address Filters
+
+九十五、System Notification
+  1.Email
+    1.1.Digest Intervals
+    1.2.Notifications
+    1.3.Notification Email Scripts
+    1.4.Templates
+    1.5.Notification Filters
+    1.6.Email Access Restriction
+  2.Push
+    2.1.Create Push Notification
+    2.2.Push Notifications
+    2.3.Push Messages
+    2.4.Push Action
+    2.5.Push Application
+    2.6.Push Messages Content
+  3.Provider
+    3.1.Notifications
+    3.2.Logs
+    3.3.Destination Types
+
+九十六、System OAuth
+  1.Application Registry
+  2.JWT Providers
+  3.JWT Keys
+  4.Manage Tokens
+
+九十七、System Policy
+  1.Email
+    1.1.Layouts
+    1.2.Inbound Actions
+    1.3.Email Reply Separators
+  2.Rules
+    2.1.Data Lookup Definitions
+    2.2.Assignment Lookup Rules
+    2.3.Priority Lookup Rules
+    2.4.Assignment
+    2.5.Approval
+    2.6.Data Policies
+    2.7.Telephone Display Rules
+  3.Events
+    3.1.Registry
+    3.2.Event Log
+    3.3.Script Actions
+  4.SLA
+    4.1.Inactivity Monitors
+    4.2.Calendars
+  5.Service Catalog
+    5.1.Process Guides
+    5.2.Execution Plans
+
+九十八、System Properties
+  1.Basic Configuration
+  2.Basic Configuration UI16
+  3.My Company
+  4.UI Properties
+  5.Classic Mobile UI Properties
+  6.CSS
+  7.System
+  8.Email Properties
+  9.Import Export
+  10.Approval Engines
+  -----------------------------------------
+  11.LDAP
+  12.SLA
+  13.Oracle DB Options
+  14.Replication
+  15.Service Catalog
+  16.Dashboard Properties
+  17.Web Services
+  18.System Localization
+  19.Text Search
+  20.Global Text Search
+  21.Security
+  22.Single Sign-on
+  23.System Diagnostics
+  24.Google Maps
+  -----------------------------------------
+  25.Categories
+
+九十九、System Run Level
+  1.Operational Toggles
+  2.Operational Toggle Levels
+  3.Run Level Toggle Mapping
+
+一百、System Schedule
+  1.Scheduled Jobs
+    1.1.Today`s Scheduled Jobs
+    1.2.Scheduled Jobs
+    1.3.Slow Job Log
+  2.Schedules
+    2.1.Schedules
+    2.2.Schedule Pages
+    2.3.Relative Durations
+
+一百一、System Security
+  1.Instance Security Center ↗
+  2.Access Control(ACL)
+  3.Key Management Administration
+  4.IP Address Access Control
+  5.Objects
+  6.Operations
+  7.Protocol Profiles
+  8.High Security Settings
+  9.Users and Groups
+    9.1.Users
+    9.2.Groups
+    9.3.Roles
+    9.4.Access Role Detail View
+  10.Reports
+    10.1.Users
+    10.2.Groups Membership
+    10.3.Role Allocation
+    10.4.Role Allocation
+    10.5.Role Audit
+  11.Debugging
+    11.1.Debug Security Rules
+    11.2.Debug All Security
+    11.3.Stop Debugging
+  12.Utilities
+    12.1.Migrate Security
+  13.Data Classification
+    13.1.Data Classes
+    13.2.Overview
+
+一百二、System UI
+  1.Attachment Icon Rules
+  2.Themes
+  3.Field Styles
+  4.Form Annotation Types
+  5.Form Sections
+  6.Formatters
+  7.Forms
+  8.Gauges
+  9.List Control
+  10.Lists
+  11.Menu Lists
+  12.Messages
+  13.Process Flow
+  14.Related Lists
+  15.Remove Pagination Count Helper
+  16.View Rules
+  17.Views
+  18.Widgets
+  19.Welcome Page Content
+  20.Overview Help
+  21.Timeline Pages
+  22.Image ZIP Upload
+  23.Images
+  24.Videos
+  25.Audio Files
+  26.Embed Object Types
+  -----------------------------------------
+  27.UI Policies
+  28.UI Actions
+  29.UI Pages
+  30.UI Macros
+  31.UI Scripts
+  32.UI Context Menus
+  33.script Includes
+  -----------------------------------------
+  34.Help Contexts
+
+一百三、System Update Sets
+  1.Update Sources
+  2.Retrieved Update Sets
+  3.Update log
+  -------------------------------------------
+  4.local Update Sets
+  5.Merge Update Sets
+  6.Merge Completed Sets
+  7.Update Sets to Commit
+  8.Update Set Commit History
+
+一百四、System User Guide
+  1.Yser Guide
+  2.Administration
+    2.1.Help Pages
+    2.2.Help Page Sections
+    2.3.Help Documents
+
+一百五、System Web Services
+  1.SOAP Security Policies
+  2.WS Security Profiles
+  3.Properties
+  4.Inbound
+    4.1.Create New
+    4.2.Computer
+    4.3.Location
+    4.4.Notification
+    4.5.User
+  5.OutBound
+    5.1.SOAP Message
+    5.2.REST Message
+    5.3.HTTP Log Levels
+    5.4.Outbound HTTP Log Domain Exclusion List
+  6.REST
+    6.1.Getting Started
+    6.2.REST API Explorer
+    6.3.CORS Rules
+    6.4.Rate Limit Rules
+    6.5.Rate Limit Violations
+    6.6.Insert Multiple
+    6.7.Example Client Apps
+  7.Scripted Web Services
+    7.1.Scripted REST APIs
+    7.2.Scripted SOAP Services
+  8.REST & SOAP API Analytics
+    8.1.Usage Overview
+    8.2.Usage by API
+    8.3.Usage by Requestor
+    8.4.Inclusion List
+  9.GraphOL
+    9.1.Getting Started
+    9.2.Properties
+    9.3.GraphOL APIs
+
+一百六、Targeted Communications
+  1.Publication Workflow
+  2.Create New Publication
+  3.Draft Publications
+  4.Active Publications
+  5.Expired Publications
+  6.Recipients Lists
+  7.Recurrences
+  8.Publications
+
+一百七、Team Development
+  1.Getting Started
+  ---------------------------------------
+  2.Team Dashboard
+  3.Pushes and Pulls
+  4.Instance Comparisons
+  5.Local Changes
+  ----------------------------------------
+  6.Remote Instances
+  7.Exclusion Policy
+  8.Properties
+
+一百八、Upgrade Center
+  1.Upgrade Preview
+  2.Upgrade Monitor
+  3.Upgrade History
+  4.Administration
+    4.1.Properties
+    4.2.Upgrade Center VTB Labels
+
+一百九、User Administration
+  1.Role Attributes
+  2.Users
+  3.Groups
+  4.Roles
+  5.Logged in users
+  6.Active Transactions
+  7.All Active Transactions
+  -----------------------------------------
+  8.Departments
+  9.Locations
+  10.Companies
+  11.Location Map
+  12.Countries
+  13.Normalization Data Services
+    13.1.Guided setup
+  14.Role Delegation
+    14.1.Designate Role Delegator
+    14.2.Role Delegators
+    14.3.Delegate Roles in Group
+  ----------------------------------------
+  15.Developer Preferences
+  16.User Preferences
+  17.User Presence
+  18.Delegates
+  19.User Roles
+  20.Group Roles
+
+一百十、Workflow
+  1.Workflow Editor
+  2.Scheduled Workflows
+  3.Stage Sets
+  4.Default Stages(by table)
+  5.Live Workflows
+    5.1.Active Contexts
+    5.2.All Contexts
+    5.3.Executing Activities
+    5.4.History
+  6.Administration
+    6.1.Activity Definitions
+    6.2.Workflow Versions
+    6.3.Properties
+  7.Operations
+    7.1.Workflow Operations Dashboard
+
+一百十一、Workspace Experience
+  1.Workspaces
+    1.1.Configurable Workspace Guided Setup
+    1.2.Agent Workspace Home↗
+    1.3.Agent Workspace Guided Setup
+  2.Administration
+    2.1.All Workspaces
+    2.2.Landing Pages
+    2.3.Notification Triggers
+    2.4.Search Sources
+    2.5.Highlighted Values
+  3.Forms
+    3.1.UI Action Layouts
+    3.2.UI Action Groups
+    3.3.Workspace Ribbon Settings
+    3.4.Workspace Form Headers
+    3.5.Workspace View Rules
+  4.Actions & Components
+    4.1.Field Decorators
+    4.2.List Actions
+    4.3.Related List Actions
+    4.4.Contextual Side Panel
+    4.5.Related Items
