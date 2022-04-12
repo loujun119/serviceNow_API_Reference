@@ -61,31 +61,34 @@ gr.insert(); // レコード追加
       if (isLoading || newValue === '') {
          return;
       }
-      
-      var newProName = newValue;
 
-      var newAutoProNumber = '';
-      var autoNumberList = [];
+      try {
+         // var newProName = g_form.getValue('pro_name');
+         var newProName = newValue;
+         var newAutoProNumber = '';
+         var autoNumberList = [];
+         var proNumberList = new GlideRecord("x_720653_loujun_sn_production_number");
+         proNumberList.addQuery('pro_name', newProName);
+         proNumberList.orderByDesc("pro_number");
+         proNumberList.query(recResponse);
+         alert(proNumberList);
 
-      var proNumberList = new GlideRecord("x_720653_loujun_sn_production_number");
-      proNumberList.addQuery('pro_name', newProName);
-      proNumberList.orderByDesc("pro_number");
-      proNumberList.query();
-
-      while(proNumberList.next()){
-         autoNumberList.push(proNumberList.pro_number);
+         if (!proNumberList.hasNext()) {
+            newAutoProNumber = newProName + ' - 00000001';
+            g_form.setValue('auto_number', newAutoProNumber);
+         } else {
+            while(proNumberList.next()){
+               autoNumberList.push(proNumberList.pro_number);
+            }
+            var lastNumber = autoNumberList[autoNumberList.length - 1];
+            var autoNumber = Number(lastNumber) + 1;
+            newAutoProNumber = newProName + autoNumber.toString();
+            g_form.setValue('auto_number', newAutoProNumber);
+         }
+         proNumberList.setValue('auto_number', autoNumber.toString());
+         proNumberList.setValue('pro_number', newProName);
+         proNumberList.insert(); // レコード追加
+      } catch (error) {
+         alert(error);
       }
-      if (proNumberList.length === 0) {
-         newAutoProNumber = newProName + '00000001';
-         g_form.setValue('auto_number', newAutoProNumber);
-      } else {
-         var lastNumber = autoNumberList[autoNumberList.length - 1];
-         var autoNumber = Number(lastNumber) + 1;
-   
-         newAutoProNumber = newProName + autoNumber.toString();
-         g_form.setValue('auto_number', newAutoProNumber);
-      }
-
-      proNumberList.setValue('auto_number', autoNumber.toString());
-      proNumberList.setValue('pro_number', newProName);
    }

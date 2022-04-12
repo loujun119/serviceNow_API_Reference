@@ -17,11 +17,11 @@
   14.My Tagged Documents
   15.My Tags
   16.My Knowledge Articles
-  16.Take Survey
-  17.My Approvals
-  18.My Approvals And Surveys
-  19.My Assets
-  20.My Notification Preferences
+  17.Take Survey
+  18.My Approvals
+  19.My Approvals And Surveys
+  20.My Assets
+  21.My Notification Preferences
 
 二、Activity Subscriptions
   1.Configuration

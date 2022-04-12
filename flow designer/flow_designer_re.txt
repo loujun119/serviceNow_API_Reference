@@ -1,0 +1,134 @@
+lesson 1
+
+1.what is flow Designer
+  1.1.Automating process
+    自动化过程
+  1.2.use natural language
+    使用自然语言
+  1.3.automate approvals,tasks,email notifications and table operations
+    自动化审批、任务、电子邮件通知和表格操作
+  1.4.integrate with external systems
+    与外部系统集成
+
+2.Benefits of flow designer 流设计器的好处
+  2.1.automating in single platform
+    单平台自动化
+  2.2.nature language logic
+    自然语言逻辑
+  2.3.reusability
+    可重用性
+  2.4.reduce syntax error issues
+    减少语法错误问题
+  2.5.reduce upgrade cost and maintenance
+    降低升级成本和维护
+  2.6.easy feature of integration
+    易于集成的功能
+
+3.Flow Designer Components
+  3.1.Flows 流程
+  3.2.Subflows 子流
+  3.3.Actions 动作
+  3.4.Core Actions 核心行动
+  3.5.Action Steps 行动步骤
+  3.6.spokes 辐条
+
+4.How flow is triggered
+  4.1.Consist of Trigger
+    由触发器组成
+  4.2.Trigger can be record based, scheduled based
+    可以基于记录，基于调度
+  4.3.Record base trigger- When record is created, updated or deleted
+    创建、更新或删除记录时
+  4.4.Scheduled based trigger - Runs at specific date and time
+    在特定日期和时间运行
+  4.5.Flow can also be triggered with API calls
+    Flow也可以通过API调用触发
+
+5.How Flow is Processed 流程是如何处理的
+  Flow is triggered    流量被触发
+  　　　　⇩
+  Process Event Queue  处理事件队列
+  　　　　⇩
+  Build Process Plan   构建过程计划
+  　　　　⇩
+  Run Process Plan     运行过程计划
+  　　　　⇩
+  Store Flow Execution 存储流执行
+
+6.Flow States  流动状态
+  waiting      等待
+     ⇩
+  in progress  进行中
+     ⇩
+  error        错误
+     ⇩
+  cancelled    取消
+     ⇩
+  completed    完成
+
+7.Flow Status
+  Draft        草案
+    ⇩
+  Published    发表
+    ⇩
+  Modified     修改的
+
+8.Flow Activation
+  Active    积极的
+  Inactive  不活跃
+
+9.Flow Action Limitation    流动作限制
+  9.1.Default actions limit is 50  默认操作限制为 50
+  9.2.sn_flow_designer.max_actions
+
+10.Flow Designer Modules 流设计器模块
+  2.Flow Designer
+    2.流程设计师
+  3.Flow Administration
+    3.流量管理
+    3.1.Today`s Executions
+      3.1.今天的执行
+    3.2.Active Flows
+      3.2.活动流
+    3.3.Content Definitions
+      3.3.内容定义
+    3.4.Inbound Email Flows
+      3.4.入站电子邮件流
+    3.5.Content Filtering Rules
+      3.5.内容过滤规则
+    3.6.Event Queue
+      3.6.事件队列
+    3.7.Operations Dashboard
+      3.7.操作仪表板
+    3.8.Settings
+      3.8.设置
+    3.9.Complex Object Templates
+      3.9. 复杂对象模板
+    3.10.Feature Access List
+      3.10.功能访问列表
+    3.11.Properties
+      3.11.属性
+
+lesson 2
+
+1.Flows
+  1.1.Automate process 自动化流程
+  1.2.Update record, Ask for approvals, send email 更新记录、请求批准、发送电子邮件
+
+2.Component of flow
+  2.1.Properties
+  2.2.Trigger
+  2.3.Action
+  2.4.Data
+
+3.Types of Flow Trigger
+  3.1.Record is created 记录已创建
+  3.2.Record is updated 记录已更新
+  3.3.Record is created or updated 记录已创建或更新
+  3.4.On a particular schedule 在特定的时间表上
+  3.5.Applications specific conditions are met 满足应用特定条件
+  3.6.Inbound Email 入站电子邮件
+
+
+
+

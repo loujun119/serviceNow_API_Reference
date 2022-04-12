@@ -1,75 +1,75 @@
 serviceNow API URL: https://developer.servicenow.com/dev.do#!/reference/api/sandiego/client/spUtilAPI
 
-基本知識		
-1.MySql		
-2.Html		
+基本知識
+1.MySql
+2.Html
 	http://tech-camp.in/note/technology/5131/#HTML
 3.JavaScrip
-　3.1)JavaScript簡単な知識まとめ[入門編]		
-	http://www.ituore.com/entry/javascript-basic	
-	https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript	
-	https://wangdoc.com/javascript/basic/grammar.html	
-4.ServiceNow ID申請		
-	https://mekeblog.com/servicenow03/	
-5.ServiceNow 操作		
-	ServiceNowのdeveloper siteでインシデント管理システムを作る	
-	https://qiita.com/20_percent_cooler/items/ce92ae4a7c0d6cc037fe	
-	ServiceNowでテストデータの追加と削除	
-	https://qiita.com/sukkyxp/items/b09e3dcaefcebe1ab9d5	
-	client script Debugging in ServiceNow	
-	https://snprotips.com/blog/2020/7/31/debugging-client-amp-catalog-client-scripts-in-servicenow	
-	ServiceNowでJavaのHttpClientを操作する	
-	https://qiita.com/20_percent_cooler/items/217666f16d3661a90d65	
-		
-6.WorkFlow		
-	ServiceNow ワークフローを作成する	
-	https://qiita.com/Kisaragi13/items/7adc4581cb98193a6617	
-		
-7-10 ServiceNow App作成		
-	ServiceNow アプリケーションを作成する その１	
-	https://qiita.com/Kisaragi13/items/c5f3a0f42b703affea01	
-	ServiceNow アプリケーションを作成する その２	
-	https://qiita.com/Kisaragi13/items/cd2eb97100c103a675ef	
-	ServiceNow アプリケーションを作成する その３	
-	https://qiita.com/Kisaragi13/items/891bcb1f3b1bad97c815	
-	ServiceNow アプリケーションを作成する その４	
-	https://qiita.com/Kisaragi13/items/72490c9e790bde68cbff	
-		
-11.ServiceNowで使用するJavaScript@1_5まで		
-	https://qiita.com/yasutaka_ono/items/664851d32ac0e6af971d	
-	YouTube：https://www.youtube.com/watch?v=62Nabpb94Jw&list=PL3rNcyAiDYK2_87aRvXEmAyD8M9DARVGK	
-12.ServiceNowでデータ整理バッチ処理を作成する		
-	https://qiita.com/sukkyxp/items/2bce405c75d03d2ccdf9	
-		
-13.ServiceNowのClient ScriptでFormに入力された単価と数量から金額を計算して設定する		
-	https://qiita.com/sukkyxp/items/4ef37c93ad36902df3af	
-		
-14.ServiceNowで添付ファイルを管理しているテーブルを確認する		
-	https://qiita.com/20_percent_cooler/items/9f46f28db39723e34572	
-		
-15.ServiceNow　debug		
-	https://developer.servicenow.com/dev.do#!/learn/learning-plans/paris/new_to_servicenow/app_store_learnv2_scripting_paris_javascript_debugger	
-		
-16.ServiceNow - クライアントスクリプトからテーブルレコードを参照する		
-	https://qiita.com/htshozawa/items/74169038d649b9a83481	
-		
-17.【ServiceNow】フォームの表示制御		
-	https://qiita.com/yasutaka_ono/items/ae02b8c0cf706891cd89	
-		
-18.ServiceNowのポータルでナレッジ記事の表示順を任意に指定できる様にするためのカスタマイズ		
-	https://arm-lab.blogspot.com/2020/10/servicenow_20.html?m=1	
-		
-19.ServiceNowでService Portalを確認する		
-	https://qiita.com/20_percent_cooler/items/8d4998ffe0fe14293ca3	
-		
-20.フォームアプレットの設定		
-	https://docs.servicenow.com	
-		
-21.Service Portalの作成		
-	https://qiita.com/20_percent_cooler/items/8d4998ffe0fe14293ca3	
-		
-22.ServiceNowで認証＆接続情報の管理(URL/ID/Password)		
-	https://qiita.com/aki0905/items/e4c8ae1626b639b0ab9e	
+　3.1)JavaScript簡単な知識まとめ[入門編]
+	http://www.ituore.com/entry/javascript-basic
+	https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+	https://wangdoc.com/javascript/basic/grammar.html
+4.ServiceNow ID申請
+	https://mekeblog.com/servicenow03/
+5.ServiceNow 操作
+	ServiceNowのdeveloper siteでインシデント管理システムを作る
+	https://qiita.com/20_percent_cooler/items/ce92ae4a7c0d6cc037fe
+	ServiceNowでテストデータの追加と削除
+	https://qiita.com/sukkyxp/items/b09e3dcaefcebe1ab9d5
+	client script Debugging in ServiceNow
+	https://snprotips.com/blog/2020/7/31/debugging-client-amp-catalog-client-scripts-in-servicenow
+	ServiceNowでJavaのHttpClientを操作する
+	https://qiita.com/20_percent_cooler/items/217666f16d3661a90d65
+
+6.WorkFlow
+	ServiceNow ワークフローを作成する
+	https://qiita.com/Kisaragi13/items/7adc4581cb98193a6617
+
+7-10 ServiceNow App作成
+	ServiceNow アプリケーションを作成する その１
+	https://qiita.com/Kisaragi13/items/c5f3a0f42b703affea01
+	ServiceNow アプリケーションを作成する その２
+	https://qiita.com/Kisaragi13/items/cd2eb97100c103a675ef
+	ServiceNow アプリケーションを作成する その３
+	https://qiita.com/Kisaragi13/items/891bcb1f3b1bad97c815
+	ServiceNow アプリケーションを作成する その４
+	https://qiita.com/Kisaragi13/items/72490c9e790bde68cbff
+
+11.ServiceNowで使用するJavaScript@1_5まで
+	https://qiita.com/yasutaka_ono/items/664851d32ac0e6af971d
+	YouTube：https://www.youtube.com/watch?v=62Nabpb94Jw&list=PL3rNcyAiDYK2_87aRvXEmAyD8M9DARVGK
+12.ServiceNowでデータ整理バッチ処理を作成する
+	https://qiita.com/sukkyxp/items/2bce405c75d03d2ccdf9
+
+13.ServiceNowのClient ScriptでFormに入力された単価と数量から金額を計算して設定する
+	https://qiita.com/sukkyxp/items/4ef37c93ad36902df3af
+
+14.ServiceNowで添付ファイルを管理しているテーブルを確認する
+	https://qiita.com/20_percent_cooler/items/9f46f28db39723e34572
+
+15.ServiceNow　debug
+	https://developer.servicenow.com/dev.do#!/learn/learning-plans/paris/new_to_servicenow/app_store_learnv2_scripting_paris_javascript_debugger
+
+16.ServiceNow - クライアントスクリプトからテーブルレコードを参照する
+	https://qiita.com/htshozawa/items/74169038d649b9a83481
+
+17.【ServiceNow】フォームの表示制御
+	https://qiita.com/yasutaka_ono/items/ae02b8c0cf706891cd89
+
+18.ServiceNowのポータルでナレッジ記事の表示順を任意に指定できる様にするためのカスタマイズ
+	https://arm-lab.blogspot.com/2020/10/servicenow_20.html?m=1
+
+19.ServiceNowでService Portalを確認する
+	https://qiita.com/20_percent_cooler/items/8d4998ffe0fe14293ca3
+
+20.フォームアプレットの設定
+	https://docs.servicenow.com
+
+21.Service Portalの作成
+	https://qiita.com/20_percent_cooler/items/8d4998ffe0fe14293ca3
+
+22.ServiceNowで認証＆接続情報の管理(URL/ID/Password)
+	https://qiita.com/aki0905/items/e4c8ae1626b639b0ab9e
 		
 23.ServiceNow - 複数のレコードを取得するAjax呼び出し		
 	https://qiita.com/htshozawa/items/819879699441da82ae1f	
