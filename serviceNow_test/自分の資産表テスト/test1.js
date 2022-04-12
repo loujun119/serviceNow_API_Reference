@@ -53,3 +53,39 @@ gr.insert(); // レコード追加
     //資産テーブル（alm_asset）
     //下記SQL文を組み立てる
     //sele
+
+
+
+
+   function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+      if (isLoading || newValue === '') {
+         return;
+      }
+      
+      var newProName = newValue;
+
+      var newAutoProNumber = '';
+      var autoNumberList = [];
+
+      var proNumberList = new GlideRecord("x_720653_loujun_sn_production_number");
+      proNumberList.addQuery('pro_name', newProName);
+      proNumberList.orderByDesc("pro_number");
+      proNumberList.query();
+
+      while(proNumberList.next()){
+         autoNumberList.push(proNumberList.pro_number);
+      }
+      if (proNumberList.length === 0) {
+         newAutoProNumber = newProName + '00000001';
+         g_form.setValue('auto_number', newAutoProNumber);
+      } else {
+         var lastNumber = autoNumberList[autoNumberList.length - 1];
+         var autoNumber = Number(lastNumber) + 1;
+   
+         newAutoProNumber = newProName + autoNumber.toString();
+         g_form.setValue('auto_number', newAutoProNumber);
+      }
+
+      proNumberList.setValue('auto_number', autoNumber.toString());
+      proNumberList.setValue('pro_number', newProName);
+   }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传文件</title>
+    <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+    <script>
+        function upload(){
+            var formData = new FormData(); //创建一个formData对象实例
+            var excelFile = $("#uploadFile").get(0).files[0];
+            formData.append("excelFile",excelFile)
+            $.ajax({
+                url: 'http://localhost:8081/upload',
+                data: formData,
+                type: 'post',
+                contentType:false, // 必须false才会自动加上正确的Content-Type
+                processData: false, // 必须false才会避开jQuery对 formdata 的默认处理,XMLHttpRequest会对 formdata 进行正确的处理
+                success: function (resp){
+                    console.log(resp);
+                    // 后续的操作
+                }
+            })
+        }
+    </script>
+</head>
+<body>
+    <p>上传的文件</p>
+    <input multiple="multiple" type="file" id="uploadFile">
+    <br>
+    <br>
+    <button onclick="upload()">上传</button>
+</body>
+</html>
