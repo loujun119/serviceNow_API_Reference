@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "servicemeow": "^3.0.0",
+    "servicenow": "^0.5.0"
+  }
+}
