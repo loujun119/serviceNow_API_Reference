@@ -92,3 +92,81 @@ gr.insert(); // レコード追加
          alert(error);
       }
    }
+
+
+   var getMaxAutoNumber = Class.create();
+getMaxAutoNumber.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+    getMaxNumber: function() {
+        var proName = this.getParameter('pro_name');
+		global.AbstractAjaxProcessor.get;
+        var autoNumberList = [];
+        var proNumberList = new GlideRecord("x_720653_loujun_sn_production_number");
+        proNumberList.addQuery('pro_name', proName);
+        proNumberList.orderBy("pro_number");
+        proNumberList.query();
+
+        if (!proNumberList.next()) {
+            return '00001';
+        } else {
+            while (proNumberList.next()) {
+                autoNumberList.push(proNumberList.pro_number);
+            }
+            var lastNumber = autoNumberList[autoNumberList.length - 1];//0000007
+            var autoNumber = Number(lastNumber) + 1;//7 + 1 = 8
+            autoNumber.toString();// 128:
+            var strNum = '00000';
+            strNum.substring(0, strNum.length - autoNumber.length);
+            return strNum + autoNumber;// 00128
+        }
+    },
+
+    type: 'getMaxAutoNumber'
+});
+var SAS_PRODUCT_NAME = 'NEC-SAS';
+
+
+function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	var proName = g_form.getValue('product');
+
+	var proNameCode = g_form.getValue('auto_number'); // SAS-NE00005
+	var proNumber = proNameCode.substring(proNameCode.length - 5, proNameCode.length);
+
+   	// ajax
+	var maxNumberAjax = new GlideAjax('insert_to_autoNumber_table');
+   maxNumberAjax.addParam('sysparm_name', 'insertAutoNumber');
+   maxNumberAjax.addParam('pro_name', proName);
+   maxNumberAjax.addParam('pro_number', proNumber);
+   maxNumberAjax.getXML(callBackFunction);
+  
+   function callBackFunction(response){
+     var answer = response.responseXML.documentElement.getAttribute('answer');
+     return answer === 'OK' ? true : false;
+   }
+}
+
+var insert_to_autoNumber_table = Class.create();
+insert_to_autoNumber_table.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+   insertAutoNumber: function() {
+      try {
+         var proName = this.getParameter('pro_name');
+         var proNumber = this.getParameter('pro_number');
+  
+         var autoNumberTable = new GlideRecord("x_720653_loujun_sn_production_number");
+         autoNumberTable.setValue('pro_name', proName);
+         autoNumberTable.setValue('pro_number', proNumber);
+         alert('製品名:' + proName);
+         alert('番号:' + proNumber);
+         autoNumberTable.insert(); //
+         
+         return 'OK';
+      } catch (error) {
+         gs.log('自動番号管理表に追加が失敗しました。');
+         return 'False';
+      }
+   },
+
+    type: 'insert_to_autoNumber_table'
+});
