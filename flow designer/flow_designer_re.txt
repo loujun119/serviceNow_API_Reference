@@ -23,7 +23,7 @@ lesson 1
     降低升级成本和维护
   2.6.easy feature of integration
     易于集成的功能
-
+x
 3.Flow Designer Components
   3.1.Flows 流程
   3.2.Subflows 子流
@@ -132,3 +132,4 @@ lesson 2
 
 
 
+https://docs.servicenow.com/ja-JP/bundle/sandiego-servicenow-platform/page/use/collaboration/concept/c_Connect.html
