@@ -17,7 +17,7 @@ getMaxAutoNumber.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         proNumberList.query();
 
         // 検索結果を判定して、空の場合、製品の番号は初期状態になる。
-        if (!proNumberList.next()) {
+        if (!proNumberList.hasNext()) {
             return '00001';
         } else {
             // 検索結果を判定して、情報があるの場合、ループで自動番号をリストに格納する
@@ -29,10 +29,10 @@ getMaxAutoNumber.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
             // 番号をnumber形に変更して、プラス1をする
             var autoNumber = Number(lastNumber) + 1;
             // 最新の番号を文字列に戻る
-            autoNumber.toString();
+            autoNumber = autoNumber.toString();
             // 文字列を表示用の自動番号形に変更する(xxx00123)
             var strNum = '00000';
-            strNum.substring(0, strNum.length - autoNumber.length);
+            strNum = strNum.substring(0, strNum.length - autoNumber.length);
             // 自動番号形の番号をクライアントサイドに戻る
             return strNum + autoNumber;
         }
