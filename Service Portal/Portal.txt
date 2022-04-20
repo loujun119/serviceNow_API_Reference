@@ -1,0 +1,54 @@
+lesson1
+1.What is Service Portal
+  1.1.Web portal which gives better user experience
+    1.1.提供更好用户体验的门户网站
+  1.2.Front face for end users
+    1.2.终端用户正面
+  1.3.Easily configurable
+    1.3.易于配置
+  1.4.Automatic layout adjustment on any device
+    1.4.在任何设备上自动调整布局
+
+    examples of Service portal, now you can see on the screen that we have given two
+    examples at the top you have the left top you can see that's the ITSM portal,
+    it's a home page, it's a basic portal of serviceNow, that is provided and developed by serviceNow out-of-the-box.
+    the second portal we have it is ready to Service catalog as you know you have Service catalog you can create service catalog in serviceNow as well,
+    but now this gives you a good user experience and that's another portal of serviceNow that is service catalog.
+    it's a portal where users can submit the request for a different of request for any item or devices.
+    服务门户的示例，现在您可以在屏幕上看到我们给出了两个
+    顶部的示例 左上角是 ITSM 门户，
+    它是一个主页，是 serviceNow 的基本门户，由 serviceNow 开箱即用地提供和开发。
+    我们拥有的第二个门户已准备好服务目录，因为您知道您拥有服务目录，您也可以在 serviceNow 中创建服务目录，
+    但是现在这为您提供了良好的用户体验，这是服务的另一个门户现在是服务目录。
+    这是一个门户，用户可以在其中提交对任何项目或设备的不同请求的请求。
+
+2.Why we need Service portal
+  2.1.Easily accessible to users
+    2.1.易于用户访问
+  2.2.Easy to customize with administration
+    2.2.易于管理定制
+  2.3.Better UI experience
+    2.3.更好的UI体验
+  2.4.Single page driven for all the features and services of platform for end users
+    2.4.为终端用户提供平台所有功能和服务的单一页面驱动
+  2.5.Support modern technologies --HTML,CSS,Bootstrap,Angular JS,Javascript.
+    2.5.支持现代技术--HTML,CSS,Bootstrap,Angular JS,Javascript。
+    technologies used in Service Portal
+    HTML5,JS,CSS3,SCSS,*Bootstrap,*Angular JS
+    if i talk about the recent announcement i think they're also coming up with react.js.
+    but i have not searched like completely on that particular part but i will definitely insert something on that and come up in one of my later Videos.
+    如果我谈论最近的公告，我认为他们也提出了 react.js。
+    但我还没有完全搜索那个特定的部分，但我肯定会在上面插入一些东西并出现在我后来的一个视频中。
+
+3.Baseline Service Portal     基线服务门户
+  3.1.Baseline portals
+    ITSM Portal               ITSM 门户
+    CAB Workbench             CAB 工作台
+    Knowledge Portal          知识门户
+    Benchmark                 基准
+    Service Workbench Portal  服务工作台门户
+  Service Portal Application
+    Application to customize portal
+    应用程序自定义门户
+    Developers and administrators can create different components of portal with the Application modules
+    开发人员和管理员可以使用应用程序模块创建不同的门户组件
