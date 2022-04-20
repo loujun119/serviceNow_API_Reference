@@ -8,7 +8,11 @@ var SAS_PRODUCT_NAME = 'NEC-SAS';
  */
 function onChange(newValue, isLoading) {
     // テーブルは読み込み中(初期表示)や製品名が空の場合、処理中止
-    if (isLoading || newValue === '') {
+    if (isLoading) {
+        return;
+    }
+    if (newValue === '') {
+        g_form.setValue('auto_number', '');
         return;
     }
 
