@@ -52,3 +52,91 @@ lesson1
     应用程序自定义门户
     Developers and administrators can create different components of portal with the Application modules
     开发人员和管理员可以使用应用程序模块创建不同的门户组件
+
+    七十七、Service Portal
+      1.Service Portal Home ↗
+      2.Service Portal Configuration ↗
+      ---------------------------------------
+      3.Portals                       门户
+        now this module will show you the list of portals creating in your instance.
+        it will show you or whatever you whatever portals which you are getting from out
+        of the box from serviceNow that will show you the all the portals you have in your instance.
+        现在此模块将向您显示在您的实例中创建的门户列表。
+         它会向你或任何你展示你从外面得到的任何门户
+         来自 serviceNow 的框，它将向您显示您在实例中拥有的所有门户。
+
+      4.Announcements                 公告
+        this is a really new feature which serviceNow came up with i think from London maybe and this is the list of announce our Announcements for the portal.
+        so for example you you have this portal and if i say you that in normal condition if i want to show some alert maybe some announcement
+        on incident form what you will do you know that you'll put some pop-up maybe your will create a client script to show some message that's what you would do.
+        but serviceNow because every portal or if you would go to any website for example any bank website or any kind of financial website if they want to post kind of a maintenance kind of announcement or
+        any kind of upgrade announcement you will see those message sometimes at the top sometimes in one section but in this case serviceNow came up with a new feature that's called Announcements which shows at the 
+        top and you can mention at what time you want to post those messages what methods you want to post start time end time when that method should vanish those kind of Configurations you can do with the help of Announcements
+        you can put lot of Announcements so you for example you have some five maintenance for next two months for example you can create those five million tenants in one time and you can put the start and date and time and end and the messages you want to show to the users 
+        这是 serviceNow 提出的一个非常新的功能，我认为它可能来自伦敦，这是宣布我们的门户网站公告的列表。
+        所以例如你有这个门户，如果我说你在正常情况下，如果我想显示一些警报，也许是一些公告
+        在事件表单上你会做什么你知道你会放一些弹出窗口也许你会创建一个客户端脚本来显示一些你会做的消息。
+        但是 serviceNow 因为每个门户网站或者如果您想访问任何网站，例如任何银行网站或任何类型的金融网站，如果他们想发布某种维护类型的公告或
+        任何类型的升级公告，您有时会在一个部分的顶部看到这些消息，但在这种情况下，serviceNow 提出了一个名为 Announcements 的新功能，它显示在
+        顶部，您可以提及您想要发布这些消息的时间您想要发布的方法开始时间结束时间该方法应该消失的那些您可以在公告的帮助下进行的配置
+        您可以放置​​很多公告，例如，您在接下来的两个月中有五次维护，例如您可以一次创建这 500 万个租户，您可以输入开始、日期、时间和结束以及您想要显示的消息给用户
+      5.Agent Chat                    代理聊天
+      6.Themes                        主题
+      7.Page Route Maps               页面路线图
+      8.Pages                         页面
+      9.Widget Instances              Widget实例
+      10.Widgets                      小部件
+      11.CSS                          CSS
+      12.Log Entries                  日志条目
+      13.Menus                        菜单
+        主页画面的上部按钮区域，app header
+      14.Headers & Footers            页眉和页脚
+      15.Dependencies                 依赖关系
+      16.Angular Providers            Angular提供者
+      17.Properties                   属性
+      18.Usage Overview               使用概述
+      19.Search                       搜索
+        19.1.Search Sources             搜索来源
+        19.2.Search Analytics           搜索分析
+        19.3.Search Result Events       搜索结果事件
+
+4.Role of Service Portal
+  4.1.sp_admin is the service portal admin roll
+    4.1.sp_admin 是服务门户管理员卷
+  4.2.SP Admin can design and manage the portal
+    4.2.SP Admin可以设计和管理门户
+  4.3.Can access all the modules in service Portal
+    4.3.可以访问服务门户中的所有模块
+
+5.Who can use Service Portal
+  5.1.External users    外部用户
+  5.2.Clients/Customers  客户/顾客
+  5.3.Employees          员工
+
+6.Important points
+  6.1.Service Portal is a separate application from CMS
+    6.1.Service Portal 是一个独立于 CMS 的应用程序
+  6.2.SP does not support Jelly Scripting
+    6.2.SP 不支持 Jelly 脚本
+  6.3.SP does not support standard ServiceNow forms and lists
+    6.3.SP 不支持标准的 ServiceNow 表单和列表
+  6.4.CSM cannot be migrated to Service Portal
+   6.4.CSM不能迁移到Service Portal
+  6.5.SP does not use i frames
+    6.5.SP 不使用 iframe
+
+lesson2 --Branding Editor 品牌编辑
+
+1.What is Branding Editor
+  1.1.Branding Editor is used to provide look and feel to the portal
+    1.1.Branding Editor 用于为门户提供外观和感觉
+  1.2.Used to redesign the portal as per your organization
+    1.2.用于根据您的组织重新设计门户
+  1.3.QUick Customization
+    1.3.快速定制
+  1.4.Easily configure titles,themes,logs
+    1.4.轻松配置标题、主题、日志
+  1.5.No Coding strategy
+    1.5.No编码策略
+
+  with quick setup you can change title, logo, tagline, background image.
