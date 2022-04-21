@@ -21,13 +21,29 @@
                 }
             })
         }
-    </script>
+
+        const userNameChange = () => {
+            var userNameTag = document.getElementById("userName");
+            var userName = userNameTag.value;
+            if (userName.length > 15) {
+                alert('ユーザー名は問題があります。')
+            }
+        }
+        </script>
 </head>
 <body>
-    <p>上传的文件</p>
+    <h2>ログイン画面</h2>
+    <div>
+        ユーザー名: <input type="text" id="userName" placeholder="ユーザー名を入力してください" size="30px" onchange="userNameChange()"/>
+        <br>
+        パスワード: <input type="text" id="passWord" placeholder="パスワードを入力してください" size="30px"/>
+        <br>
+        <button type="button">ログイン</button>
+    </div>
+    <!-- <p>上传的文件</p>
     <input multiple="multiple" type="file" id="uploadFile">
     <br>
     <br>
-    <button onclick="upload()">上传</button>
+    <button onclick="upload()">上传</button> -->
 </body>
 </html>
