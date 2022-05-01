@@ -17,6 +17,7 @@
     var maxNumberAjax = new GlideAjax('getMaxAutoNumber');// getMaxAutoNumberはscript includeに追加されたクラスの名称
     maxNumberAjax.addParam('sysparm_name', 'getMaxNumber');// getMaxNumberはクラスに設定されたfunctionの名称
 <<<<<<< HEAD
+<<<<<<< HEAD
     maxNumberAjax.addParam('pro_name', newValue);// ajaxリクエストの送信情報
     maxNumberAjax.getXML(callBackFunction);// ajaxを実行する(functionのメソッドで結果を処理)
 
@@ -48,6 +49,21 @@ function getNameCode(proName) {
             break;
     }
     return nameCode;
+=======
+	maxNumberAjax.addParam('pro_sys_id', newValue);// ajaxリクエストの送信情報
+	maxNumberAjax.getXMLAnswer(callBackFunction);// ajaxを実行する(functionのメソッドで結果を処理)
+
+    // ajax結果処理メソッド
+	function callBackFunction(response){
+		alert('response:' + response);
+        // responseにある自動番号情報を取得
+		var result = JSON.parse(response);
+        // 製品コード自動採番
+		var autoNumberAndNameCode = result.autoNumberAndNameCode;
+        // 製品表の項目"自動番号"を更新する
+		g_form.setValue('auto_number', autoNumberAndNameCode !== 'NotFound' ? autoNumberAndNameCode : '');
+	}
+>>>>>>> 41c59c2038d1d6159ce319c1d63ca2b912eb10a9
 =======
 	maxNumberAjax.addParam('pro_sys_id', newValue);// ajaxリクエストの送信情報
 	maxNumberAjax.getXMLAnswer(callBackFunction);// ajaxを実行する(functionのメソッドで結果を処理)
