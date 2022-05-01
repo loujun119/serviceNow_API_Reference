@@ -11,7 +11,7 @@ Webブラウザ内で機能します。 このリファレンスには、使用�
 
 Client API List
 
-    1.api - UI Builder 
+    1.api - UI Builder
         The api API provides methods that you can use when developing client scripts in the UI Builder.
         1.用户界面生成器
          api API 提供了在 UI Builder 中开发客户端脚本时可以使用的方法。
