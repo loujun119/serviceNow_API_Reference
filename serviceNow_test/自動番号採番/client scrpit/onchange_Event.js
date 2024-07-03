@@ -15,6 +15,7 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 
   // ajaxでserver側のメソッドを使って、選択された製品と関連の自動番号を取得；
   var maxNumberAjax = new GlideAjax("getMaxAutoNumber"); // getMaxAutoNumberはscript includeに追加されたクラスの名称
+  ga.addParam("sysparm_name", "getNameDetails");
   maxNumberAjax.addParam("pro_sys_id", newValue); // ajaxリクエストの送信情報
   maxNumberAjax.getXMLAnswer(callBackFunction); // ajaxを実行する(functionのメソッドで結果を処理)
   // ajax結果処理メソッド
