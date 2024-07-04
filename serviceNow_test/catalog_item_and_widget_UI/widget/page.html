@@ -1,0 +1,32 @@
+<div>
+    <h3>資産管理テーブル</h3>
+
+    <div class="table_aera">
+        <!-- ページング -->
+        <div class="pagination">
+            <button ng-click="c.setPage(1)" ng-disabled="c.initialPagination.currentPage === 1">先頭</button>
+            <button ng-click="c.setPage(c.initialPagination.currentPage - 1)" ng-disabled="c.initialPagination.currentPage === 1">前へ</button>
+            <span class='pageInfo'>Page {{c.initialPagination.currentPage}} of {{c.initialPagination.totalPages}}</span>
+            <button ng-click="c.setPage(c.initialPagination.currentPage + 1)" ng-disabled="c.initialPagination.currentPage === c.initialPagination.totalPages">次へ</button>
+            <button ng-click="c.setPage(c.initialPagination.totalPages)" ng-disabled="c.initialPagination.currentPage === c.initialPagination.totalPages">最後</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>{{c.assetTableList.header.asset_no}}</th>
+                    <th>{{c.assetTableList.header.asset_type}}</th>
+                    <th>{{c.assetTableList.header.managing_section}}</th>
+                    <th>{{c.assetTableList.header.isexpired}}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="list in c.assetTableList.body">
+                    <td>{{list.asset_no}}</td>
+                    <td>{{list.asset_type}}</td>
+                    <td>{{list.managing_section}}</td>
+                    <td>{{list.isexpired}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
