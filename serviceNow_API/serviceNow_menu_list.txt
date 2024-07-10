@@ -1227,7 +1227,7 @@
   3.All Guidance
 
 七十九、Advanced Work Assignment
-1.Home
+  1.Home
 
 八十、Antivirus
   1.Configuration

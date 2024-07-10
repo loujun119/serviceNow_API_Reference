@@ -1387,3 +1387,894 @@
    - 4.11 **User Criteria Diagnostics** - 用户标准诊断 / ユーザ基準診断
      - 进行用户标准诊断。
 
+### 六十一、Organization - 组织 / 組織
+1. **Users** - 用户 / ユーザー
+   - 管理用户信息和权限。
+2. **Cost Centers** - 成本中心 / コストセンター
+   - 管理和跟踪公司内部的成本分配。
+3. **Departments** - 部门 / 部門
+   - 管理组织的部门信息。
+4. **Companies** - 公司 / 会社
+   - 管理公司和关联企业的信息。
+5. **Manufacturers** - 制造商 / 製造業者
+   - 管理制造商和供应商的相关信息。
+6. **Vendors** - 供应商 / ベンダー
+   - 管理供应商和服务提供商的信息。
+7. **Locations** - 位置 / ロケーション
+   - 管理公司资产和部门的地理位置。
+8. **Location Map** - 位置地图 / ロケーションマップ
+   - 查看和管理位置的地图视图。
+9. **Business Units** - 业务单元 / 事業単位
+   - 管理和组织公司的业务单元。
+10. **Goals - old** - 旧目标 / 旧目標
+    - 管理和跟踪旧的业务目标。
+11. **Enterprise Strategy** - 企业战略 / 企業戦略
+    - 管理和制定企业级的战略计划。
+12. **Business Unit Strategy** - 业务单元战略 / 事業単位戦略
+    - 管理和制定业务单元级的战略计划。
+13. **Business Applications** - 业务应用 / ビジネスアプリケーション
+    - 管理公司内部使用的业务应用程序。
+14. **Business Capabilities** - 业务能力 / 事業能力
+    - 管理和评估公司的业务能力。
+
+### 六十二、Product Catalog - 产品目录 / 製品カタログ
+1. **Product Models** - 产品模型 / 製品モデル
+   - 1.1 **Model Categories** - 模型类别 / モデルカテゴリ
+     - 管理和分类产品模型。
+   - 1.2 **All Models** - 所有模型 / すべてのモデル
+     - 查看和管理所有的产品模型。
+   - 1.3 **Application Models** - 应用模型 / アプリケーションモデル
+     - 管理应用相关的模型。
+   - 1.4 **Bundled Models** - 捆绑模型 / バンドルモデル
+     - 管理捆绑销售的产品模型。
+   - 1.5 **Consumable Models** - 消耗品模型 / 消耗品モデル
+     - 管理消耗品的产品模型。
+   - 1.6 **Contract Models** - 合同模型 / 契約モデル
+     - 管理合同相关的产品模型。
+   - 1.7 **Facility Models** - 设施模型 / 設備モデル
+     - 管理设施相关的产品模型。
+   - 1.8 **Hardware Models** - 硬件模型 / ハードウェアモデル
+     - 管理硬件相关的产品模型。
+   - 1.9 **Service Models** - 服务模型 / サービスモデル
+     - 管理服务相关的产品模型。
+   - 1.10 **Software Models** - 软件模型 / ソフトウェアモデル
+     - 管理软件相关的产品模型。
+2. **Catalog Definitions** - 目录定义 / カタログ定義
+   - 2.1 **Hardware & Software Items** - 硬件和软件项目 / ハードウェアとソフトウェアアイテム
+     - 定义和管理硬件和软件项目。
+   - 2.2 **Vendor Items** - 供应商项目 / ベンダーアイテム
+     - 定义和管理供应商提供的项目。
+   - 2.3 **Vendors** - 供应商 / ベンダー
+     - 定义和管理供应商信息。
+
+### 六十三、Asset - 资产 / 資産
+1. **Asset Workspace** - 资产工作区 / 資産ワークスペース
+   - 管理和查看资产的工作区。
+2. **Overview** - 概览 / 概要
+   - 查看资产的概览信息。
+3. **Asset Tasks** - 资产任务 / 資産タスク
+   - 管理和跟踪资产相关的任务。
+4. **Portfolios** - 投资组合 / ポートフォリオ
+   - 4.1 **All Assets** - 所有资产 / すべての資産
+     - 查看和管理所有资产。
+   - 4.2 **Consumables** - 消耗品 / 消耗品
+     - 管理和跟踪消耗品。
+   - 4.3 **Hardware Assets** - 硬件资产 / ハードウェア資産
+     - 管理和跟踪硬件资产。
+   - 4.4 **License Assets** - 许可证资产 / ライセンス資産
+     - 管理和跟踪许可证资产。
+   - 4.5 **Other Assets** - 其他资产 / その他の資産
+     - 管理和跟踪其他类型的资产。
+5. **Software** - 软件 / ソフトウェア
+   - 5.1 **Asset License Entitlements** - 资产许可证权益 / 資産ライセンス権利
+     - 管理和跟踪资产的许可证权益。
+   - 5.2 **User License Entitlements** - 用户许可证权益 / ユーザーライセンス権利
+     - 管理和跟踪用户的许可证权益。
+   - 5.3 **License Calculations** - 许可证计算 / ライセンス計算
+     - 管理和执行许可证的计算。
+6. **Administration** - 管理 / 管理
+   - 6.1 **Asset-CI Field Mapping** - 资产-CI字段映射 / 資産-CIフィールドマッピング
+     - 管理资产和配置项的字段映射。
+   - 6.2 **Asset-CI Install Status Mapping** - 资产-CI安装状态映射 / 資産-CIインストール状態マッピング
+     - 管理资产和配置项的安装状态映射。
+   - 6.3 **Asset-CI Hardware Status Mappings** - 资产-CI硬件状态映射 / 資産-CIハードウェア状態マッピング
+     - 管理资产和配置项的硬件状态映射。
+   - 6.4 **Asset Creation Queue** - 资产创建队列 / 資産作成キュー
+     - 管理资产创建的队列。
+
+### 六十四、Inventory - 库存 / 在庫
+1. **Stock** - 库存 / 在庫
+   - 1.1 **In Stock** - 在库 / 在庫あり
+     - 查看和管理现有库存。
+   - 1.2 **Stockrooms** - 库房 / 在庫室
+     - 管理和组织库房信息。
+   - 1.3 **Stockroom Types** - 库房类型 / 在庫室タイプ
+     - 定义和管理库房的类型。
+   - 1.4 **Stock Rules** - 库存规则 / 在庫ルール
+     - 管理和制定库存管理规则。
+2. **Transfer Orders** - 转移订单 / 転送オーダー
+   - 2.1 **Create Transfer Order** - 创建转移订单 / 転送オーダーを作成
+     - 创建新的转移订单。
+   - 2.2 **Transfer Orders** - 转移订单 / 転送オーダー
+     - 查看和管理转移订单。
+   - 2.3 **Transfer Order Returns** - 转移订单退货 / 転送オーダー返品
+     - 管理转移订单的退货。
+3. **Transfer Order Lines** - 转移订单行 / 転送オーダー行
+   - 3.1 **Template Tasks** - 模板任务 / テンプレートタスク
+     - 管理转移订单的模板任务。
+   - 3.2 **Template Subtasks** - 模板子任务 / テンプレートサブタスク
+     - 管理转移订单的模板子任务。
+
+### 六十五、Contract - 合同 / 契約
+1. **Overview** - 概览 / 概要
+   - 查看合同的概览信息。
+2. **My Approvals** - 我的审批 / 自分の承認
+   - 查看和管理我需要审批的合同。
+3. **My Contracts** - 我的合同 / 自分の契約
+   - 查看和管理我的合同。
+4. **Contracts** - 合同 / 契約
+   - 4.1 **All** - 所有合同 / すべての契約
+     - 查看和管理所有的合同。
+   - 4.2 **Insurance** - 保险合同 / 保険契約
+     - 查看和管理保险合同。
+   - 4.3 **Leases** - 租赁合同 / リース契約
+     - 查看和管理租赁合同。
+   - 4.4 **Maintenance** - 维护合同 / 保守契約
+     - 查看和管理维护合同。
+   - 4.5 **Non
+
+-Disclosure** - 保密合同 / 非公開契約
+     - 查看和管理保密合同。
+   - 4.6 **Purchasing Agreements** - 采购协议 / 購買契約
+     - 查看和管理采购协议。
+   - 4.7 **Purchase Orders** - 采购订单 / 購買注文
+     - 查看和管理采购订单。
+   - 4.8 **Service** - 服务合同 / サービス契約
+     - 查看和管理服务合同。
+   - 4.9 **Software Licenses** - 软件许可证 / ソフトウェアライセンス
+     - 查看和管理软件许可证合同。
+   - 4.10 **Subscriptions** - 订阅合同 / サブスクリプション契約
+     - 查看和管理订阅合同。
+   - 4.11 **Warranties** - 保修合同 / 保証契約
+     - 查看和管理保修合同。
+   - 4.12 **Terms & Conditions** - 条款和条件 / 条件と規約
+     - 查看和管理合同的条款和条件。
+5. **Administration** - 管理 / 管理
+   - 5.1 **Condition Check Definitions** - 条件检查定义 / 条件チェック定義
+     - 管理合同的条件检查定义。
+
+### 六十六、Cost - 成本 / コスト
+1. **Depreciation** - 折旧 / 減価償却
+   - 管理和计算资产的折旧。
+2. **Fixed Assets** - 固定资产 / 固定資産
+   - 管理和跟踪固定资产。
+3. **Expense Lines** - 费用明细 / 費用明細
+   - 管理和记录费用明细。
+4. **Cost Center** - 成本中心 / コストセンター
+   - 管理成本中心的信息和费用分配。
+
+### 六十七、Employee Profile - 员工档案 / 従業員プロファイル
+1. **Employee Definition** - 员工定义 / 従業員定義
+   - 定义和管理员工的基本信息。
+2. **Employee Profiles** - 员工档案 / 従業員プロファイル
+   - 管理员工的详细档案信息。
+3. **Header UI Configuration** - 标题UI配置 / ヘッダーUI設定
+   - 配置员工档案的标题界面。
+4. **Overview UI Configuration** - 概览UI配置 / 概要UI設定
+   - 配置员工档案的概览界面。
+5. **Profile Tabs** - 档案标签 / プロファイルタブ
+   - 管理员工档案的标签和分区。
+6. **Setup** - 设置 / セットアップ
+   - 设置和配置员工档案模块。
+7. **Employee Profile AI Configuration** - 员工档案AI配置 / 従業員プロファイルAI設定
+   - 配置AI相关的员工档案功能。
+8. **Background Banner** - 背景横幅 / 背景バナー
+   - 管理员工档案的背景横幅。
+9. **Application Licensing** - 应用许可 / アプリケーションライセンス
+   - 管理应用和用户的许可信息。
+   - 9.1 **Employee Licensing** - 员工许可 / 従業員ライセンス
+     - 管理员工的许可信息。
+   - 9.2 **Licensed Profiles** - 许可档案 / ライセンスプロファイル
+     - 管理被许可的员工档案。
+
+### 六十八、Assessments - 评估 / アセスメント
+1. **Getting Started** - 入门 / はじめに
+   - 了解评估模块的基本信息和操作。
+2. **Overview** - 概览 / 概要
+   - 查看评估模块的概览信息。
+3. **Assessable Records** - 可评估记录 / 評価対象レコード
+   - 管理可进行评估的记录。
+4. **Assessment Groups** - 评估组 / アセスメントグループ
+   - 管理和组织评估组。
+5. **Question Bank** - 问题库 / 質問バンク
+   - 管理和组织评估问题库。
+6. **Assessment Stats** - 评估统计 / アセスメント統計
+   - 查看和分析评估的统计数据。
+7. **Metric Definition** - 指标定义 / 指標定義
+   - 定义和管理评估的指标。
+   - 7.1 **Types** - 类型 / タイプ
+     - 管理指标的类型。
+   - 7.2 **Categories** - 类别 / カテゴリ
+     - 管理指标的类别。
+   - 7.3 **Metrics** - 指标 / 指標
+     - 定义和管理具体的评估指标。
+   - 7.4 **Templates** - 模板 / テンプレート
+     - 管理和创建评估模板。
+   - 7.5 **Net Promoter Templates(NPS)** - 净推荐值模板 / NPSテンプレート
+     - 管理和创建净推荐值的评估模板。
+   - 7.6 **Signatures** - 签名 / 署名
+     - 管理评估过程中的签名。
+8. **Results** - 结果 / 結果
+   - 8.1 **Metric Results** - 指标结果 / 指標結果
+     - 查看和分析评估的指标结果。
+   - 8.2 **Category Results** - 类别结果 / カテゴリ結果
+     - 查看和分析评估的类别结果。
+9. **Assessment Instances** - 评估实例 / アセスメントインスタンス
+   - 9.1 **Ready to take** - 准备进行 / 実施準備完了
+     - 管理准备进行的评估实例。
+   - 9.2 **In progress** - 进行中 / 進行中
+     - 管理进行中的评估实例。
+   - 9.3 **Completed** - 已完成 / 完了
+     - 管理已完成的评估实例。
+   - 9.4 **Cancelled** - 已取消 / キャンセル
+     - 管理已取消的评估实例。
+   - 9.5 **All** - 所有评估实例 / すべてのアセスメントインスタンス
+     - 查看和管理所有评估实例。
+10. **Advanced** - 高级 / 高度な
+    - 10.1 **Create Stakeholders** - 创建利益相关者 / ステークホルダーの作成
+      - 创建和管理评估的利益相关者。
+    - 10.2 **Assessment Stakeholders** - 评估利益相关者 / アセスメントステークホルダー
+      - 管理评估过程中的利益相关者。
+11. **Administration** - 管理 / 管理
+    - 11.1 **Decision Matrixes** - 决策矩阵 / 意思決定マトリックス
+      - 管理和使用评估的决策矩阵。
+    - 11.2 **Bubble Charts** - 气泡图 / バブルチャート
+      - 管理和使用评估的气泡图。
+    - 11.3 **Trigger Conditions** - 触发条件 / トリガー条件
+      - 定义和管理评估的触发条件。
+    - 11.4 **Custom Metric Type** - 自定义指标类型 / カスタム指標タイプ
+      - 定义和管理自定义的评估指标类型。
+    - 11.5 **Assessment Properties** - 评估属性 / アセスメントプロパティ
+      - 管理和配置评估的属性。
+
+### 六十九、Survey - 调查 / 調査
+1. **Getting Started** - 入门 / はじめに
+   - 了解调查模块的基本信息和操作。
+2. **Overview** - 概览 / 概要
+   - 查看调查模块的概览信息。
+3. **Survey Designer** - 调查设计器 / 調査デザイナー
+   - 创建和管理调查的设计。
+4. **View Surveys** - 查看调查 / 調査の表示
+   - 查看和管理已创建的调查。
+5. **Questions** - 问题 / 質問
+   - 管理调查中的具体问题。
+6. **Question Bank** - 问题库 / 質問バンク
+   - 管理和组织调查问题库。
+7. **Templates** - 模板 / テンプレート
+   - 创建和管理调查的模板。
+8. **Survey Responses** - 调查响应 / 調査応答
+   - 查看和管理调查的响应。
+9. **Survey Instances** - 调查实例 / 調査インスタンス
+   - 9.1 **Ready to Take** - 准备进行 / 実施準備完了
+     - 管理准备进行的调查实例。
+   - 9.2 **In progress** - 进行中 / 進行中
+     - 管理进行中的调查实例。
+   - 9.3 **Completed** - 已完成 / 完了
+     - 管理已完成的调查实例。
+   - 9.4 **Cancelled** - 已取消 /
+
+ キャンセル
+     - 管理已取消的调查实例。
+   - 9.5 **All** - 所有调查实例 / すべての調査インスタンス
+     - 查看和管理所有调查实例。
+10. **Administration** - 管理 / 管理
+    - 10.1 **Recipients Lists** - 收件人列表 / 受信者リスト
+      - 管理调查的收件人列表。
+    - 10.2 **Trigger Conditions** - 触发条件 / トリガー条件
+      - 定义和管理调查的触发条件。
+    - 10.3 **Custom Metric Type** - 自定义指标类型 / カスタム指標タイプ
+      - 定义和管理自定义的调查指标类型。
+    - 10.4 **User Groups** - 用户组 / ユーザーグループ
+      - 管理调查相关的用户组。
+    - 10.5 **Properties** - 属性 / プロパティ
+      - 管理和配置调查的属性。
+
+### 七十、Reports - 报告 / レポート
+1. **Getting Started** - 入门 / はじめに
+   - 了解报告模块的基本信息和操作。
+2. **View/Run** - 查看/运行 / 表示/実行
+   - 查看和运行已创建的报告。
+3. **Create New** - 创建新报告 / 新規作成
+   - 创建新的报告。
+4. **Scheduled Reports** - 计划报告 / スケジュールレポート
+   - 管理和配置计划报告。
+5. **Import Tables** - 导入表格 / インポートテーブル
+   - 导入和管理报告使用的表格数据。
+6. **Header Footer Templates** - 页眉页脚模板 / ヘッダー・フッターテンプレート
+   - 管理报告的页眉和页脚模板。
+7. **Administration** - 管理 / 管理
+   - 7.1 **All** - 所有 / すべて
+     - 查看和管理所有报告的配置。
+   - 7.2 **Report Statistics** - 报告统计 / レポート統計
+     - 查看和分析报告的统计数据。
+   - 7.3 **Report Sources** - 报告来源 / レポートソース
+     - 管理和配置报告的数据来源。
+   - 7.4 **Report Ranges** - 报告范围 / レポート範囲
+     - 管理和定义报告的范围。
+   - 7.5 **Interactive Filters** - 交互过滤器 / インタラクティブフィルター
+     - 配置报告的交互过滤器。
+   - 7.6 **Map Sources** - 地图来源 / マップソース
+     - 管理报告使用的地图数据来源。
+   - 7.7 **Maps** - 地图 / マップ
+     - 管理和配置报告使用的地图。
+   - 7.8 **Chart Color Schemes** - 图表颜色方案 / チャートカラースキーム
+     - 管理报告中图表的颜色方案。
+   - 7.9 **Chart Colors** - 图表颜色 / チャートカラー
+     - 管理和配置报告中使用的图表颜色。
+   - 7.10 **Color Definition** - 颜色定义 / 色定義
+     - 定义报告中使用的颜色。
+   - 7.11 **Properties** - 属性 / プロパティ
+     - 管理和配置报告的属性。
+8. **Summary Sets** - 总结集 / サマリーセット
+   - 管理和配置报告的总结集。
+
+   ### 七十一、Performance Analytics - 性能分析 / パフォーマンス分析
+1. **Admin Console** - 管理控制台 / 管理コンソール
+   - 管理性能分析的所有设置和配置。
+2. **Migration Center** - 迁移中心 / 移行センター
+   - 管理和执行性能分析数据的迁移。
+3. **Getting Started** - 入门 / はじめに
+   - 了解性能分析模块的基本信息和操作。
+4. **Guided Setup** - 指导设置 / ガイド付きセットアップ
+   - 按照指导设置性能分析模块。
+5. **Dashboards** - 仪表盘 / ダッシュボード
+   - 创建和管理性能分析的仪表盘。
+6. **Widgets** - 小部件 / ウィジェット
+   - 创建和管理仪表盘的小部件。
+7. **Analytics Hub** - 分析中心 / アナリティクスハブ
+   - 访问和管理分析中心的数据和功能。
+8. **Scoresheet** - 评分表 / スコアシート
+   - 查看和管理评分表。
+9. **Indicators** - 指标 / 指標
+   - 9.1 **Create New** - 创建新指标 / 新規作成
+     - 创建新的指标。
+   - 9.2 **Automated Indicators** - 自动指标 / 自動指標
+     - 管理自动生成的指标。
+   - 9.3 **Manual Indicators** - 手动指标 / 手動指標
+     - 管理手动创建的指标。
+   - 9.4 **Formula Indicators** - 公式指标 / 計算式指標
+     - 管理基于公式的指标。
+   - 9.5 **Indicator Groups** - 指标组 / 指標グループ
+     - 管理和组织指标组。
+   - 9.6 **Targets** - 目标 / ターゲット
+     - 设置和管理指标的目标值。
+   - 9.7 **Thresholds** - 阈值 / 閾値
+     - 设置和管理指标的阈值。
+10. **Breakdowns** - 细分 / ブレイクダウン
+    - 10.1 **Create New** - 创建新细分 / 新規作成
+      - 创建新的细分。
+    - 10.2 **Automated Breakdowns** - 自动细分 / 自動ブレイクダウン
+      - 管理自动生成的细分。
+    - 10.3 **Manual Breakdowns** - 手动细分 / 手動ブレイクダウン
+      - 管理手动创建的细分。
+    - 10.4 **Breakdown Relations** - 细分关系 / ブレイクダウンの関連
+      - 管理细分之间的关系。
+    - 10.5 **Bucket Groups** - 桶组 / バケットグループ
+      - 管理和组织桶组。
+    - 10.6 **Elements Filters** - 元素过滤器 / 要素フィルター
+      - 配置和管理元素过滤器。
+11. **Sources** - 数据源 / ソース
+    - 11.1 **Indicator Sources** - 指标数据源 / 指標ソース
+      - 管理指标的数据源。
+    - 11.2 **Breakdown Sources** - 细分数据源 / ブレイクダウンソース
+      - 管理细分的数据源。
+12. **Text Analytics** - 文本分析 / テキストアナリティクス
+    - 12.1 **Setup** - 设置 / セットアップ
+      - 配置文本分析功能。
+    - 12.2 **Stop Words** - 停用词 / ストップワード
+      - 管理文本分析的停用词。
+    - 12.3 **Keywords** - 关键词 / キーワード
+      - 管理文本分析的关键词。
+    - 12.4 **Phrases** - 短语 / フレーズ
+      - 管理文本分析的短语。
+13. **External Data** - 外部数据 / 外部データ
+    - 13.1 **External Indicators** - 外部指标 / 外部指標
+      - 管理外部数据源的指标。
+    - 13.2 **External Breakdowns** - 外部细分 / 外部ブレイクダウン
+      - 管理外部数据源的细分。
+14. **Data Collector** - 数据收集器 / データコレクター
+    - 14.1 **Jobs** - 任务 / ジョブ
+      - 管理数据收集任务。
+    - 14.2 **Job Logs** - 任务日志 / ジョブログ
+      - 查看和管理任务日志。
+    - 14.3 **Job Events** - 任务事件 / ジョブイベント
+      - 查看和管理任务事件。
+15. **Automation** - 自动化 / 自動化
+    - 15.1 **Scripts** - 脚本 / スクリプト
+      - 管理自动化脚本。
+    - 15.2 **Email Summaries** - 邮件摘要 / メールサマリー
+      - 配置和管理邮件摘要。
+    - 15.3 **Schedules** - 日程安排 / スケジュール
+      - 管理自动化任务的日程安排。
+    - 15.4 **Scheduled Indicators** - 计划指标 / スケジュール指標
+      - 管理计划执行的指标。
+16. **System** - 系统 / システム
+    - 16.1 **In-Form Analytics** - 表单内分析 / フォーム内アナリティクス
+      - 管理表单内的分析功能。
+    - 16.2 **Widget Statistics** - 小部件统计 / ウィジェット統計
+      - 查看和管理小部件的统计数据。
+    - 16.3 **Dashboard Administration** - 仪表盘管理 / ダッシュボード管理
+      - 管理仪表盘的设置和配置。
+    - 16.4 **Dashboard Statistics** - 仪表盘统计 / ダッシュボード統計
+      - 查看和分析仪表盘的统计数据。
+    - 16.5 **Units** - 单位 / 単位
+      - 管理和配置分析中的单位。
+    - 16.6 **Time Series Definitions** - 时间序列定义 / 時系列定義
+      - 定义和管理时间序列。
+    - 16.7 **Chart Color Schemes** - 图表颜色方案 / チャートカラースキーム
+      - 管理图表的颜色方案。
+    - 16.8 **Target Color Schemes** - 目标颜色方案 / ターゲットカラースキーム
+      - 管理目标的颜色方案。
+    - 16.9 **Event Registry** - 事件注册表 / イベントレジストリ
+      - 管理分析相关的事件注册表。
+    - 16.10 **Properties** - 属性 / プロパティ
+      - 管理系统的属性设置。
+    - 16.11 **Scores Migration Monitor** - 分数迁移监视器 / スコア移行モニター
+      - 监视和管理分数的迁移过程。
+    - 16.12 **Toggle Design Mode** - 切换设计模式 / デザインモードの切り替え
+      - 在设计模式和查看模式之间切换。
+17. **Troubleshooting** - 故障排除 / トラブルシューティング
+    - 17.1 **Diagnostics** - 诊断 / 診断
+      - 执行和管理系统的诊断。
+    - 17.2 **Diagnostic Executions** - 诊断执行 / 診断実行
+      - 查看和管理诊断执行记录。
+    - 17.3 **Diagnostic Results** - 诊断结果 / 診断結果
+      - 查看和分析诊断的结果。
+
+### 七十二、PA Solution Library - PA解决方案库 / PAソリューションライブラリ
+1. **Solutions** - 解决方案 / ソリューション
+   - 查看和管理PA解决方案。
+
+### 七十三、Dependency Views - 依赖视图 / 依存ビュー
+1. **View Map in New Tab** - 在新标签页中查看地图 / 新しいタブでマップを表示
+   - 在新标签页中查看依赖地图。
+2. **View Map** - 查看地图 / マップを表示
+   - 查看依赖地图。
+3. **Saved Settings** - 保存的设置 / 保存された設定
+   - 管理和应用保存的设置。
+4. **Saved Views** - 保存的视图 / 保存されたビュー
+   - 查看和管理保存的视图。
+5. **Map Menu Actions** - 地图菜单操作 / マップメニューアクション
+   - 管理地图菜单的操作。
+6. **Map Indicators** - 地图指标 / マップ指標
+   - 查看和管理地图中的指标。
+7. **Map Related Items** - 地图相关项 / マップ関連項目
+   - 查看和管理地图中的相关项。
+8. **Map Edge Colors** - 地图边缘颜色 / マップエッジカラー
+   - 配置和管理地图的边缘颜色
+
+。
+9. **Map Icons** - 地图图标 / マップアイコン
+   - 配置和管理地图的图标。
+10. **Predefined Filters** - 预定义过滤器 / 事前定義フィルター
+    - 管理和应用预定义的过滤器。
+11. **Dependency Types** - 依赖类型 / 依存タイプ
+    - 定义和管理依赖类型。
+12. **Map Properties** - 地图属性 / マッププロパティ
+    - 管理和配置地图的属性。
+
+### 七十四、AI Search - AI搜索 / AI検索
+1. **AI Search Status** - AI搜索状态 / AI検索ステータス
+   - 查看和管理AI搜索的状态。
+2. **Get Advanced Management Tools** - 获取高级管理工具 / 高度な管理ツールを取得
+   - 获取和使用高级管理工具。
+3. **Search Experience** - 搜索体验 / 検索エクスペリエンス
+   - 3.1 **Search Applications** - 搜索应用 / 検索アプリケーション
+     - 管理和配置搜索应用。
+4. **AI Search for Next Experience** - 下一代体验的AI搜索 / 次世代エクスペリエンスのためのAI検索
+    - 4.1 **Guided Setup for Zing to AI Search for Next Experience** - 从Zing到下一代体验的AI搜索的指导设置 / Zingから次世代エクスペリエンスへのAI検索のガイド付きセットアップ
+      - 按照指导设置从Zing过渡到下一代体验的AI搜索。
+    - 4.2 **Migration Tool** - 迁移工具 / 移行ツール
+      - 使用迁移工具进行过渡。
+
+### 七十五、Compliance - 合规 / コンプライアンス
+1. **Overview** - 概述 / 概要
+   - 了解合规模块的基本信息。
+2. **Getting Started** - 入门 / はじめに
+   - 开始使用合规模块。
+3. **Filters** - 过滤器 / フィルター
+   - 配置和管理合规的过滤器。
+4. **Templates** - 模板 / テンプレート
+   - 管理合规检查的模板。
+5. **Audits** - 审计 / 監査
+   - 管理和执行合规审计。
+6. **My Follow On Tasks** - 我的后续任务 / マイフォローオンタスク
+   - 管理与合规相关的后续任务。
+7. **Desired State** - 期望状态 / 望ましい状態
+    - 7.1 **Overview** - 概述 / 概要
+      - 了解期望状态模块的基本信息。
+    - 7.2 **Getting Started** - 入门 / はじめに
+      - 开始使用期望状态模块。
+    - 7.3 **Templates** - 模板 / テンプレート
+      - 管理期望状态检查的模板。
+    - 7.4 **Audits** - 审计 / 監査
+      - 管理和执行期望状态的审计。
+    - 7.5 **Audit Results** - 审计结果 / 監査結果
+      - 查看和分析期望状态的审计结果。
+    - 7.6 **Follow On Tasks** - 后续任务 / フォローオンタスク
+      - 管理与期望状态相关的后续任务。
+8. **Scripted Audits** - 脚本审计 / スクリプト監査
+    - 8.1 **Getting Started** - 入门 / はじめに
+      - 开始使用脚本审计模块。
+    - 8.2 **Audits** - 审计 / 監査
+      - 管理和执行脚本审计。
+    - 8.3 **Audit Results** - 审计结果 / 監査結果
+      - 查看和分析脚本审计的结果。
+    - 8.4 **Follow On Tasks** - 后续任务 / フォローオンタスク
+      - 管理与脚本审计相关的后续任务。
+
+### 七十六、Adaptive Authentication - 自适应认证 / アダプティブ認証
+1. **Getting Started** - 入门 / はじめに
+   - 了解自适应认证模块的基本信息。
+2. **Filter Criteria** - 过滤标准 / フィルター基準
+    - 2.1 **IP Filter Criteria** - IP过滤标准 / IPフィルター基準
+      - 配置和管理基于IP的过滤标准。
+    - 2.2 **Role Filter Criteria** - 角色过滤标准 / ロールフィルター基準
+      - 配置和管理基于角色的过滤标准。
+    - 2.3 **Group Filter Criteria** - 组过滤标准 / グループフィルター基準
+      - 配置和管理基于组的过滤标准。
+3. **Auth Policy Contexts** - 认证策略上下文 / 認証ポリシーコンテキスト
+    - 3.1 **Pre Authentication Context** - 认证前上下文 / 認証前コンテキスト
+      - 配置和管理认证前的上下文。
+    - 3.2 **Post Authentication Context** - 认证后上下文 / 認証後コンテキスト
+      - 配置和管理认证后的上下文。
+    - 3.3 **MFA Context** - 多因素认证上下文 / 多要素認証コンテキスト
+      - 配置和管理多因素认证的上下文。
+    - 3.4 **Session Validation Context** - 会话验证上下文 / セッション検証コンテキスト
+      - 配置和管理会话验证的上下文。
+4. **Authentication Policies** - 认证策略 / 認証ポリシー
+    - 4.1 **All Policies** - 所有策略 / すべてのポリシー
+      - 查看和管理所有的认证策略。
+    - 4.2 **Properties** - 属性 / プロパティ
+      - 配置和管理认证策略的属性。
+5. **Device Trust** - 设备信任 / デバイストラスト
+    - 5.1 **Device Registrations** - 设备注册 / デバイス登録
+      - 管理和配置设备的信任注册。
+
+### 七十七、Admin Center - 管理中心 / 管理センター
+1. **Admin Home** - 管理主页 / 管理ホーム
+   - 管理中心的主页。
+2. **Adoption Blueprints** - 采纳蓝图 / 採用ブループリント
+   - 管理和应用采纳蓝图。
+3. **Application Manager** - 应用管理器 / アプリケーションマネージャー
+   - 管理和配置应用程序。
+4. **Configuration Hub** - 配置中心 / 設定ハブ
+   - 中央管理所有配置。
+5. **Security Center** - 安全中心 / セキュリティセンター
+   - 管理和配置安全相关的设置。
+
+### 七十八、Adoption Services - 采纳服务 / 採用サービス
+1. **Guided Setup** - 指导设置 / ガイド付きセットアップ
+   - 按照指导设置采纳服务模块。
+2. **Create Guidance** - 创建指导 / ガイダンスを作成
+   - 创建和管理指导内容。
+3. **All Guidance** - 所有指导 / すべてのガイダンス
+   - 查看和管理所有的指导内容。
+
+### 七十九、Advanced Work Assignment - 高级工作分配 / 高度な作業割り当て
+1. **Home** - 主页 / ホーム
+   - 高级工作分配的主页。
+
+### 八十、Antivirus - 防病毒 / アンチウイルス
+1. **Configuration** - 配置 / 設定
+   - 管理和配置防病毒设置。
+2. **Quarantine** - 隔离 / 隔離
+   - 管理和配置隔离区。
+3. **Activity** - 活动 / アクティビティ
+   - 查看和管理防病毒的活动记录。
+
+
+### 八十一、Auto Recovery - 自动恢复 / 自動回復
+1. **Properties** - 属性 / プロパティ
+   - 管理和配置自动恢复的属性设置。
+
+### 八十二、Automated Test Framework (ATF) - 自动测试框架 / 自動テストフレームワーク
+1. **Auto-generate Tests** - 自动生成测试 / テストの自動生成
+   - 自动生成测试用例。
+2. **Tests** - 测试 / テスト
+   - 管理和执行测试用例。
+3. **Suites** - 套件 / スイート
+   - 管理和执行测试套件。
+4. **Quick Start Suites** - 快速启动套件 / クイックスタートスイート
+   - 使用预定义的快速启动测试套件。
+5. **Test Results** - 测试结果 / テスト結果
+   - 查看和分析测试结果。
+6. **Parameterized Test Results** - 参数化测试结果 / パラメーター化されたテスト結果
+   - 查看和管理参数化测试的结果。
+7. **Suite Results** - 套件结果 / スイート結果
+   - 查看和分析测试套件的结果。
+8. **Schedules** - 计划 / スケジュール
+   - 配置和管理测试的计划。
+9. **Manual Page Inspector** - 手动页面检查器 / 手動ページインスペクター
+   - 手动检查和测试页面。
+10. **Run** - 运行 / 実行
+    - 10.1 **Client Test Runner** - 客户端测试运行器 / クライアントテストランナー
+      - 使用客户端测试运行器执行测试。
+    - 10.2 **Scheduled Client Test Runner** - 计划客户端测试运行器 / スケジュールされたクライアントテストランナー
+      - 使用计划的客户端测试运行器执行测试。
+    - 10.3 **Active Manual Test Runners** - 活跃手动测试运行器 / アクティブな手動テストランナー
+      - 查看和管理活跃的手动测试运行器。
+    - 10.4 **Active Scheduled Test Runners** - 活跃计划测试运行器 / アクティブなスケジュールされたテストランナー
+      - 查看和管理活跃的计划测试运行器。
+    - 10.5 **Waiting/Running Test Runs** - 等待/运行的测试 / 待機中/実行中のテストラン
+      - 查看和管理等待或正在运行的测试。
+    - 10.6 **Waiting/Running Suite Runs** - 等待/运行的套件 / 待機中/実行中のスイートラン
+      - 查看和管理等待或正在运行的测试套件。
+    - 10.7 **Allowed Client Errors** - 允许的客户端错误 / 許可されたクライアントエラー
+      - 配置和管理允许的客户端错误。
+    - 10.8 **Reported Client Errors** - 报告的客户端错误 / 報告されたクライアントエラー
+      - 查看和分析报告的客户端错误。
+11. **Performance Profiling** - 性能分析 / パフォーマンスプロファイリング
+    - 11.1 **Performance Comparison** - 性能比较 / パフォーマンス比較
+      - 比较测试的性能结果。
+    - 11.2 **Performance Runs** - 性能运行 / パフォーマンスラン
+      - 查看和管理性能测试运行。
+12. **Administration** - 管理 / 管理
+    - 12.1 **Properties** - 属性 / プロパティ
+      - 管理和配置自动测试框架的属性。
+    - 12.2 **Step Configurations** - 步骤配置 / ステップ構成
+      - 配置和管理测试步骤。
+    - 12.3 **Test Templates** - 测试模板 / テストテンプレート
+      - 管理测试模板。
+    - 12.4 **Step Configuration Categories** - 步骤配置类别 / ステップ構成カテゴリ
+      - 配置步骤的类别。
+    - 12.5 **Table Cleanup** - 表清理 / テーブルクリーンアップ
+      - 管理测试数据的清理。
+    - 12.6 **All Test Runners** - 所有测试运行器 / すべてのテストランナー
+      - 查看和管理所有测试运行器。
+
+### 八十三、Configuration By Category - 按类别配置 / カテゴリ別の設定
+1. **Alias** - 别名 / エイリアス
+   - 管理和配置别名。
+2. **DNS** - 域名系统 / DNS
+   - 配置和管理DNS设置。
+3. **Batch Job** - 批处理作业 / バッチジョブ
+   - 管理和配置批处理作业。
+4. **UNIX Cluster** - UNIX集群 / UNIXクラスター
+   - 配置和管理UNIX集群。
+5. **Logical Partition** - 逻辑分区 / 論理パーティション
+   - 管理和配置逻辑分区。
+6. **Device Port** - 设备端口 / デバイスポート
+   - 管理和配置设备端口。
+7. **Network Appliance** - 网络设备 / ネットワークアプライアンス
+   - 管理和配置网络设备。
+8. **Network Equipment** - 网络设备 / ネットワーク機器
+   - 管理和配置网络设备。
+9. **Personal** - 个人设备 / 個人用機器
+   - 管理和配置个人设备。
+10. **Server** - 服务器 / サーバー
+    - 管理和配置服务器。
+11. **Mainframe** - 主机 / メインフレーム
+    - 管理和配置主机。
+12. **Display** - 显示设备 / ディスプレイ
+    - 管理和配置显示设备。
+13. **Imaging** - 图像设备 / イメージング
+    - 管理和配置图像设备。
+14. **Scanner** - 扫描设备 / スキャナー
+    - 管理和配置扫描设备。
+15. **Monitoring Equipment** - 监控设备 / 監視機器
+    - 管理和配置监控设备。
+16. **CSU/DSU** - CSU/DSU设备 / CSU/DSU
+    - 管理和配置CSU/DSU设备。
+17. **FDDI Cards** - FDDI卡 / FDDIカード
+    - 管理和配置FDDI卡。
+18. **Firewall** - 防火墙 / ファイアウォール
+    - 管理和配置防火墙。
+19. **Hub** - 集线器 / ハブ
+    - 管理和配置集线器。
+20. **Intrusion Detection** - 入侵检测 / 侵入検知
+    - 管理和配置入侵检测设备。
+21. **Modem** - 调制解调器 / モデム
+    - 管理和配置调制解调器。
+22. **WAN Accelerator** - 广域网加速器 / WANアクセラレーター
+    - 管理和配置广域网加速器。
+23. **Wireless Access** - 无线访问 / 無線アクセス
+    - 管理和配置无线访问设备。
+24. **Printing Hardwares** - 打印硬件 / 印刷機器
+    - 管理和配置打印硬件。
+25. **Plotter** - 绘图仪 / プロッタ
+    - 管理和配置绘图仪。
+
+### 八十四、Connections & Credentials - 连接和凭据 / 接続と認証情報
+1. **Connection & Credential Aliases** - 连接和凭据别名 / 接続と認証情報のエイリアス
+   - 管理连接和凭据的别名。
+2. **Credentials** - 凭据 / 認証情報
+   - 管理和配置凭据。
+3. **Connections** - 连接 / 接続
+   - 管理和配置连接。
+4. **Authentication Algorithms** - 认证算法 / 認証アルゴリズム
+   - 管理和配置认证算法。
+
+### 八十五、Contextual Search - 上下文搜索 / コンテクスト検索
+----------------------------------
+1. **Searchers** - 搜索器 / 検索ツール
+   - 管理和配置搜索器。
+2. **Additional Resources** - 附加资源 / 追加リソース
+   - 管理和配置附加搜索资源。
+3. **Search Result Display Configuration** - 搜索结果显示配置 / 検索結果表示の設定
+   - 配置搜索结果的显示。
+4. **Search Contexts** - 搜索上下文 / 検索コンテキスト
+   - 管理和配置搜索上下文。
+5. **Agent Assist** - 代理助手 / エージェントアシスト
+    - 5.1 **Trend Definitions** - 趋势定义 / トレンド定義
+      - 管理和配置趋势定义。
+    - 5.2 **Recommendations** - 推荐 / 推奨
+      - 管理和配置推荐内容。
+------------------------------------
+6. **Table Configuration** - 表配置 / テーブル設定
+   -
+
+### 86. CSDM - 公共服务数据模型 / CSDM
+1. **Getting Started** - 入门指南 / スタートガイド
+   - Introduction and setup for CSDM.
+   - CSDM 的介绍和设置。
+
+2. **Application Service Settings** - 应用服务设置 / アプリケーションサービスの設定
+   - Configure settings for application services.
+   - 配置应用服务的设置。
+
+3. **Application Service Dashboard** - 应用服务仪表板 / アプリケーションサービスダッシュボード
+   - View and manage dashboards for application services.
+   - 查看和管理应用服务的仪表板。
+
+4. **Life Cycle Mapping** - 生命周期映射 / ライフサイクルマッピング
+   - Map out the life cycles of entities.
+   - 映射实体的生命周期。
+
+5. **Design** - 设计 / デザイン
+   - 
+     5.1 **Business Process** - 业务流程 / ビジネスプロセス
+     - Define and manage business processes.
+     - 定义和管理业务流程。
+     
+     5.2 **Business Capability** - 业务能力 / ビジネス能力
+     - Define and manage business capabilities.
+     - 定义和管理业务能力。
+     
+     5.3 **Business Application** - 业务应用 / ビジネスアプリケーション
+     - Manage business applications.
+     - 管理业务应用。
+     
+     5.4 **Information Object** - 信息对象 / インフォメーションオブジェクト
+     - Manage information objects.
+     - 管理信息对象。
+
+6. **Manage Technical Services** - 管理技术服务 / テクニカルサービスの管理
+   - 
+     6.1 **Application Service** - 应用服务 / アプリケーションサービス
+     - Manage application services.
+     - 管理应用服务。
+     
+     6.2 **Technical Service Offering** - 技术服务提供 / テクニカルサービスの提供
+     - Offer technical services.
+     - 提供技术服务。
+     
+     6.3 **Technical Service** - 技术服务 / テクニカルサービス
+     - Manage technical services.
+     - 管理技术服务。
+     
+     6.4 **Technology Request Catalog** - 技术请求目录 / テクノロジーリクエストカタログ
+     - Manage requests for technology.
+     - 管理技术请求。
+
+7. **Sell and Consume** - 销售和消费 / 販売と消費
+   - 
+     7.1 **Business Service Portfolio** - 业务服务组合 / ビジネスサービスポートフォリオ
+     - Manage portfolios of business services.
+     - 管理业务服务的组合。
+     
+     7.2 **Business Service Offering** - 业务服务提供 / ビジネスサービスの提供
+     - Offer business services.
+     - 提供业务服务。
+     
+     7.3 **Business Service** - 业务服务 / ビジネスサービス
+     - Manage business services.
+     - 管理业务服务。
+     
+     7.4 **Business Request Catalog** - 业务请求目录 / ビジネスリクエストカタログ
+     - Manage requests for business services.
+     - 管理业务服务请求。
+
+### 八十七. Decision Management - 决策管理 / デシジョンマネジメント
+1. **Decision Builder** - 决策生成器 / デシジョンビルダー
+   - Build and manage decision rules.
+   - 创建和管理决策规则。
+
+### 八十八. Email Client - 电子邮件客户端 / メールクライアント
+1. **Email Client Configuration** - 电子邮件客户端配置 / メールクライアントの設定
+   - Configure settings for the email client.
+   - 配置电子邮件客户端的设置。
+
+2. **Email Client Recipient Qualifier** - 电子邮件客户端收件人限定 / メールクライアントの受信者修飾子
+   - Manage recipient qualification settings.
+   - 管理收件人限定设置。
+
+3. **Email Client From Address** - 电子邮件客户端发件人地址 / メールクライアントの送信元アドレス
+   - Configure the from address for emails.
+   - 配置电子邮件的发件人地址。
+
+4. **Email Client Templates** - 电子邮件客户端模板 / メールクライアントのテンプレート
+   - Manage email templates.
+   - 管理电子邮件模板。
+
+5. **Response Templates - Received** - 收到的响应模板 / 受信した応答テンプレート
+   - 
+     5.1 **Forward** - 转发 / 転送
+     - Manage templates for forwarding emails.
+     - 管理转发电子邮件的模板。
+     
+     5.2 **Reply** - 回复 / 返信
+     - Manage templates for replying to emails.
+     - 管理回复电子邮件的模板。
+     
+     5.3 **Reply All** - 全部回复 / 全員への返信
+     - Manage templates for replying to all recipients of an email.
+     - 管理回复所有收件人的电子邮件的模板。
+
+6. **Response Templates - Sent** - 发送的响应模板 / 送信された応答テンプレート
+   - 
+     6.1 **Forward** - 转发 / 転送
+     - Manage templates for forwarding sent emails.
+     - 管理转发已发送电子邮件的模板。
+     
+     6.2 **Reply** - 回复 / 返信
+     - Manage templates for replying to sent emails.
+     - 管理回复已发送电子邮件的模板。
+     
+     6.3 **Reply All** - 全部回复 / 全員への返信
+     - Manage templates for replying to all recipients of sent emails.
+     - 管理回复所有已发送电子邮件的模板。
+
+7. **Quick Messages** - 快速消息 / クイックメッセージ
+   - Manage quick messages.
+   - 管理快速消息。
+
+8. **Email Drafts** - 电子邮件草稿 / メール下書き
+   - Manage email drafts.
+   - 管理电子邮件草稿。
+
+### 八十九. Embedded Help - 嵌入式帮助 / 埋め込みヘルプ
+1. **Help Content** - 帮助内容 / ヘルプコンテンツ
+   - Manage embedded help content.
+   - 管理嵌入式帮助内容。
+
+2. **Help Qualifiers** - 帮助修饰符 / ヘルプ修飾子
+   - Manage qualifiers for embedded help.
+   - 管理嵌入式帮助的修饰符。
+
+3. **Role Priority** - 角色优先级 / ロールの優先順位
+   - Manage priority of roles for accessing help.
+   - 管理访问帮助的角色优先级。
+
+4. **Properties** - 属性 / プロパティ
+   - Manage properties related to embedded help.
+   - 管理与嵌入式帮助相关的属性。
+
+### 九十. Enterprise Goal Management - 企业目标管理 / エンタープライズゴール管理
+1. **Goals** - 目标 / ゴール
+   - Manage and track organizational goals.
+   - 管理和跟踪组织目标。
+
+2. **Targets** - 目标 / ターゲット
+   - Set and manage targets related to goals.
+   - 设定和管理与目标相关的指标。
+
+3. **Preferences** - 首选项 / プリファレンス
+   - Manage
+
+ preferences for goal management.
+   - 管理目标管理的偏好设置。
+
+4. **Assigned Entities** - 分配实体 / 割り当てられたエンティティ
+   - Manage entities assigned to goals.
+   - 管理分配给目标的实体。
