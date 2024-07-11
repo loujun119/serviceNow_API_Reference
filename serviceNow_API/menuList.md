@@ -2278,3 +2278,1571 @@
 4. **Assigned Entities** - 分配实体 / 割り当てられたエンティティ
    - Manage entities assigned to goals.
    - 管理分配给目标的实体。
+
+### 九十一. Metrics - 指标 / メトリクス
+1. **Definitions** - 定义 / 定義
+   - Define and manage metrics.
+   - 定义和管理指标。
+2. **Instances** - 实例 / インスタンス
+   - Track and manage metric instances.
+   - 跟踪和管理指标实例。
+3. **Business Rules** - 业务规则 / ビジネスルール
+   - Define and manage business rules for metrics.
+   - 定义和管理指标的业务规则。
+4. **Script Actions** - 脚本动作 / スクリプトアクション
+   - Create and manage script actions related to metrics.
+   - 创建和管理与指标相关的脚本动作。
+5. **Script Includes** - 脚本包含 / スクリプトインクルード
+   - Manage script includes for metrics.
+   - 管理指标的脚本包含。
+
+### 九十二. MID Server - MID 服务器 / MIDサーバー
+1. **Installation Instructions** - 安装说明 / インストール手順
+   - Instructions for installing MID Server.
+   - MID服务器的安装说明。
+2. **Downloads** - 下载 / ダウンロード
+   - Access MID Server downloads.
+   - 访问MID服务器下载。
+3. **Dashboard** - 仪表盘 / ダッシュボード
+   - View and manage the MID Server dashboard.
+   - 查看和管理MID服务器仪表盘。
+4. **Servers** - 服务器 / サーバー
+   - Manage MID Servers.
+   - 管理MID服务器。
+5. **Server Issues** - 服务器问题 / サーバーの問題
+   - Track and resolve server issues.
+   - 跟踪和解决服务器问题。
+6. **Upgrade History** - 升级历史 / アップグレード履歴
+   - View MID Server upgrade history.
+   - 查看MID服务器的升级历史。
+7. **Clusters** - 集群 / クラスター
+   - Manage MID Server clusters.
+   - 管理MID服务器集群。
+8. **Properties** - 属性 / プロパティ
+   - Configure MID Server properties.
+   - 配置MID服务器属性。
+9. **Script Includes** - 脚本包含 / スクリプトインクルード
+   - Manage script includes for MID Server.
+   - 管理MID服务器的脚本包含。
+10. **Script Files** - 脚本文件 / スクリプトファイル
+    - Manage MID Server script files.
+    - 管理MID服务器脚本文件。
+11. **IP Ranges** - IP 范围 / IPレンジ
+    - Define and manage IP ranges for MID Server.
+    - 定义和管理MID服务器的IP范围。
+12. **Applications** - 应用程序 / アプリケーション
+    - Manage applications on MID Server.
+    - 管理MID服务器上的应用程序。
+13. **Mid Selector Override** - MID选择器覆盖 / MIDセレクタオーバーライド
+    - Configure MID selector overrides.
+    - 配置MID选择器覆盖。
+14. **Capabilities** - 功能 / キャパビリティ
+    - Define and manage MID Server capabilities.
+    - 定义和管理MID服务器功能。
+15. **Capability Value Tests** - 功能值测试 / キャパビリティ値テスト
+    - Perform tests for MID Server capability values.
+    - 执行MID服务器功能值测试。
+16. **JAR Files** - JAR 文件 / JARファイル
+    - Manage JAR files for MID Server.
+    - 管理MID服务器的JAR文件。
+17. **MID Security Policy** - MID 安全策略 / MIDセキュリティポリシー
+    - Define and manage MID Server security policies.
+    - 定义和管理MID服务器的安全策略。
+18. **Privileged Command** - 特权命令 / 特権コマンド
+    - Manage privileged commands on MID Server.
+    - 管理MID服务器上的特权命令。
+19. **SNMP MIBs** - SNMP 管理信息库 / SNMP MIBs
+    - Manage SNMP MIBs for MID Server.
+    - 管理MID服务器的SNMP管理信息库。
+20. **Extensions** - 扩展 / 拡張
+    - Extend MID Server capabilities.
+    - 扩展MID服务器功能。
+    - **MID SNMP Trap Listener** - MID SNMP 捕捉监听器 / MID SNMPトラップリスナー
+      - Configure and manage MID SNMP trap listeners.
+      - 配置和管理MID SNMP捕捉监听器。
+    - **vCenter Event Collectors** - vCenter 事件收集器 / vCenterイベントコレクター
+      - Configure and manage vCenter event collectors.
+      - 配置和管理vCenter事件收集器。
+21. **Profiles and Deployments** - 配置文件和部署 / プロファイルとデプロイメント
+    - Manage MID Server profiles and deployments.
+    - 管理MID服务器的配置文件和部署。
+    - **MID Server Profiles** - MID 服务器配置文件 / MIDサーバープロファイル
+      - Define and manage MID Server profiles.
+      - 定义和管理MID服务器配置文件。
+    - **MID Deployment Requests** - MID 部署请求 / MIDデプロイメントリクエスト
+      - Manage MID Server deployment requests.
+      - 管理MID服务器部署请求。
+    - **MID Deployment Templates** - MID 部署模板 / MIDデプロイメントテンプレート
+      - Create and manage MID Server deployment templates.
+      - 创建和管理MID服务器部署模板。
+22. **Audit Logs** - 审计日志 / 監査ログ
+    - Manage MID Server audit logs.
+    - 管理MID服务器审计日志。
+    - **Command Audit Logs** - 命令审计日志 / コマンド監査ログ
+      - Track and manage command audit logs.
+      - 跟踪和管理命令审计日志。
+    - **Secure Access Audit Logs** - 安全访问审计日志 / セキュアアクセス監査ログ
+      - Manage secure access audit logs.
+      - 管理安全访问审计日志。
+
+### 九十三. Multi-factor Authentication - 多因素认证 / 多要素認証
+1. **Multi-factor Criteria** - 多因素标准 / 多要素基準
+   - Define criteria for multi-factor authentication.
+   - 定义多因素认证的标准。
+2. **Multi-factor Browser Fingerprints** - 多因素浏览器指纹 / 多要素ブラウザフィンガープリント
+   - Manage browser fingerprints for multi-factor authentication.
+   - 管理多因素认证的浏览器指纹。
+3. **User Multi-factor Setup** - 用户多因素设置 / ユーザー多要素設定
+   - Configure multi-factor authentication for users.
+   - 配置用户的多因素认证。
+4. **MFA Context** - 多因素认证上下文 / MFAコンテキスト
+   - Manage multi-factor authentication context.
+   - 管理多因素认证的上下文。
+5. **Properties** - 属性 / プロパティ
+   - Configure properties for multi-factor authentication.
+   - 配置多因素认证的属性。
+6. **Web Authentication** - Web 认证 / ウェブ認証
+   - Manage web authentication for multi-factor authentication.
+   - 管理多因素认证的Web认证。
+    - **User Public Credentials** - 用户公有凭证 / ユーザー公開認証情報
+      - Manage user public credentials for web authentication.
+      - 管理Web认证的用户公有凭证。
+    - **Authentication Configuration** - 认证配置 / 認証設定
+      - Configure authentication settings.
+      - 配置认证设置。
+    - **Metadata Import Configuration** - 元数据导入配置 / メタデータインポート設定
+      - Configure metadata import for web authentication.
+      - 配置Web认证的元数据导入。
+    - **Authenticator Metadata** - 认证器元数据 / 認証器メタデータ
+      - Manage authenticator metadata.
+      - 管理认证器元数据。
+
+### 九十四. Now Assist Admin - Now 助理管理员 / Nowアシスト管理者
+1. **Home** - 主页 / ホーム
+   - Access the home page for Now Assist Admin.
+   - 访问Now助理管理员的主页。
+2. **Features** - 功能 / 機能
+   - Explore features of Now Assist Admin.
+   - 浏览Now助理管理员的功能。
+3. **Settings** - 设置 / 設定
+   - Configure settings for Now Assist Admin.
+   - 配置Now助理管理员的设置。
+
+### 九十五. On-Call Scheduling - 呼叫调度 / オンコールスケジューリング
+1. **Create / Edit Schedule** - 创建 / 编辑调度 / スケジュールの作成 / 編集
+   - Create and edit on-call schedules.
+   - 创建和编辑呼叫调度。
+2. **My Group Schedules** - 我的组调度 / マイグループのスケジュール
+   - View schedules for my groups.
+   - 查看我的组的调度。
+3. **On-Call Schedules** - 呼叫调度 / オンコールスケジュール
+   - Manage on-call schedules.
+   - 管理呼叫调度。
+4. **On-Call Calendars** - 呼叫日历 / オンコールカレンダー
+   - View on
+
+-call calendars.
+   - 查看呼叫日历。
+5. **Reports** - 报告 / レポート
+   - Generate and view on-call scheduling reports.
+   - 生成和查看呼叫调度报告。
+    - **Overview** - 概述 / 概要
+      - Overview of on-call scheduling reports.
+      - 呼叫调度报告的概述。
+    - **My Schedule Report** - 我的调度报告 / 私のスケジュールレポート
+      - View reports for my schedules.
+      - 查看我的调度报告。
+    - **Schedule Report** - 调度报告 / スケジュールレポート
+      - Generate reports for schedules.
+      - 生成调度报告。
+    - **Escalations Report** - 升级报告 / エスカレーションレポート
+      - View reports on escalations.
+      - 查看升级报告。
+6. **Administration** - 管理 / 管理
+   - Administer on-call scheduling settings.
+   - 管理呼叫调度设置。
+    - **Group Preferences** - 组偏好 / グループ設定
+      - Manage group preferences for scheduling.
+      - 管理调度的组偏好设置。
+    - **Schedule Templates** - 调度模板 / スケジュールテンプレート
+      - Create and manage schedule templates.
+      - 创建和管理调度模板。
+    - **Group Templates** - 组模板 / グループテンプレート
+      - Define and manage group templates.
+      - 定义和管理组模板。
+    - **Trigger Rules** - 触发规则 / トリガールール
+      - Create and manage trigger rules for scheduling.
+      - 创建和管理调度的触发规则。
+    - **Trigger Rule Table Config** - 触发规则表配置 / トリガールールテーブル設定
+      - Configure trigger rule tables.
+      - 配置触发规则表。
+    - **On-Call Properties** - 呼叫属性 / オンコールプロパティ
+      - Manage on-call scheduling properties.
+      - 管理呼叫调度属性。
+    - **Contact Sources** - 联系来源 / 連絡先ソース
+      - Manage contact sources for on-call scheduling.
+      - 管理呼叫调度的联系来源。
+    - **ATF Suites** - ATF 套件 / ATFスイート
+      - Manage ATF suites for on-call scheduling.
+      - 管理呼叫调度的ATF套件。
+7. **Escalations** - 升级 / エスカレーション
+   - Manage escalations in on-call scheduling.
+   - 管理呼叫调度中的升级。
+    - **Escalation Log** - 升级日志 / エスカレーションログ
+      - View escalation logs.
+      - 查看升级日志。
+
+### 九十六. Password Policy - 密码策略 / パスワードポリシー
+1. **Password Policies** - 密码策略 / パスワードポリシー
+   - Define and manage password policies.
+   - 定义和管理密码策略。
+2. **Excluded Passwords** - 排除的密码 / 除外されたパスワード
+   - Manage excluded passwords.
+   - 管理排除的密码。
+3. **Exclusion List Management** - 排除列表管理 / 除外リスト管理
+   - Manage exclusion lists for passwords.
+   - 管理密码的排除列表。
+4. **Properties** - 属性 / プロパティ
+   - Configure properties for password policies.
+   - 配置密码策略的属性。
+
+### 九十七. Protected Tables - 受保护的表 / 保護されたテーブル
+1. **Log Protection** - 日志保护 / ログ保護
+   - Manage log protection for tables.
+   - 管理表的日志保护。
+2. **Protected Table Log** - 受保护的表日志 / 保護されたテーブルログ
+   - View logs of protected tables.
+   - 查看受保护的表日志。
+
+### 九十八. Rollback & Recovery - 回滚与恢复 / ロールバックとリカバリー
+1. **Rollback Contexts** - 回滚上下文 / ロールバックコンテキスト
+   - Manage rollback contexts.
+   - 管理回滚上下文。
+2. **Delete Recovery** - 删除恢复 / 削除リカバリー
+   - Manage delete recovery processes.
+   - 管理删除恢复过程。
+3. **Script Execution History** - 脚本执行历史 / スクリプト実行履歴
+   - View script execution history.
+   - 查看脚本执行历史。
+
+### 九十九. Scriptlet - 脚本 / スクリプトレット
+1. **Scriptlet Functions** - 脚本函数 / スクリプトレット機能
+   - Define and manage scriptlet functions.
+   - 定义和管理脚本函数。
+
+### 一百. Service Level Management - 服务级别管理 / サービスレベル管理
+1. **Getting Started** - 入门 / はじめに
+   - Introduction to Service Level Management.
+   - 服务级别管理的介绍。
+2. **SLA** - 服务级别协议 / SLA
+   - Manage Service Level Agreements.
+   - 管理服务级别协议。
+    - **SLA Definitions** - SLA 定义 / SLA 定義
+      - Define SLAs.
+      - 定义SLA。
+    - **Overview** - 概述 / 概要
+      - Overview of SLAs.
+      - SLA的概述。
+3. **Administration** - 管理 / 管理
+   - Administer SLA settings.
+   - 管理SLA设置。
+    - **SLA Condition Rules** - SLA 条件规则 / SLA 条件ルール
+      - Define and manage SLA condition rules.
+      - 定义和管理SLA条件规则。
+    - **Workflow Editor** - 工作流编辑器 / ワークフローエディタ
+      - Edit workflows for SLAs.
+      - 编辑SLA的工作流。
+    - **ATF Suites** - ATF 套件 / ATFスイート
+      - Manage ATF suites for SLAs.
+      - 管理SLA的ATF套件。
+    - **SLA Timer Configuration** - SLA 计时器配置 / SLAタイマー設定
+      - Configure SLA timers.
+      - 配置SLA计时器。
+4. **Properties** - 属性 / プロパティ
+   - Configure SLA properties.
+   - 配置SLA属性。
+    - **SLA Engine** - SLA 引擎 / SLAエンジン
+      - Manage SLA engine settings.
+      - 管理SLA引擎设置。
+    - **SLA Logging** - SLA 日志 / SLAログ
+      - Manage SLA logging.
+      - 管理SLA日志。
+    - **SLA Repair** - SLA 修复 / SLA修復
+      - Manage SLA repair settings.
+      - 管理SLA修复设置。
+5. **Repair Logs** - 修复日志 / 修復ログ
+   - View and manage repair logs.
+   - 查看和管理修复日志。
+    - **Active Repairs** - 活动修复 / アクティブ修復
+      - View active repairs.
+      - 查看活动修复。
+    - **My Repairs** - 我的修复 / 私の修復
+      - View my repairs.
+      - 查看我的修复。
+    - **All Repairs** - 所有修复 / 全ての修復
+      - View all repairs.
+      - 查看所有修复。
+    - **All Repair Entries** - 所有修复条目 / 全ての修復エントリ
+      - View all repair entries.
+      - 查看所有修复条目。
+6. **Breakdowns** - 分解 / ブレイクダウン
+   - Manage breakdowns in SLAs.
+   - 管理SLA中的分解。
+    - **Breakdown Definitions** - 分解定义 / ブレイクダウン定義
+      - Define breakdowns.
+      - 定义分解。
+
+### 一百零一. Service Operations Workspace Admin Center - 服务运营工作区管理中心 / サービス運用ワークスペース管理センター
+1. **Overview** - 概述 / 概要
+   - Overview of the Service Operations Workspace Admin Center.
+   - 服务运营工作区管理中心的概述。
+2. **Configurations** - 配置 / 設定
+   - Configure settings for the Service Operations Workspace.
+   - 配置服务运营工作区的设置。
+
+### 一百零二. Service Portal - 服务门户 / サービスポータル
+1. **Service Portal Home ↗** - 服务门户主页 ↗ / サービスポータルホーム ↗
+   - Access the home page of the Service Portal.
+   - 访问服务门户的主页。
+2. **Service Portal Configuration ↗** - 服务门户配置 ↗ / サービスポータル設定 ↗
+   - Configure the Service Portal.
+   - 配置服务门户。
+3. **Portals** - 门户 / ポータル
+   - Manage portals.
+   - 管理门户。
+4. **Announcements** - 公告 / お知らせ
+   - Manage announcements.
+   - 管理公告。
+5. **Agent Chat** - 代理聊天 / エージェントチャット
+   - Configure agent chat settings.
+   - 配置代理聊天设置。
+6. **Themes** - 主题 / テーマ
+   - Manage themes.
+   - 管理主题。
+7. **Page Route Maps** - 页面路由图 / ページルートマップ
+   - Define page route maps.
+   - 定义页面路由图。
+8. **Pages** - 页面 / ページ
+   - Manage pages.
+   - 管理页面。
+9. **Widget Instances** - 小部件实例 / ウィジェットインスタンス
+   - Manage widget instances.
+   - 管理小部件实例。
+10. **Widgets** - 小部件 / ウィジェット
+    - Manage widgets.
+    - 管理小部件。
+11. **CSS** - 样式表 / CSS
+    - Manage CSS for the portal.
+    - 管理门户的样式表。
+12. **Log Entries** - 日志条目 / ログエントリ
+    - View log entries.
+    - 查看日志条目。
+13. **Menus** - 菜单 / メニュー
+    - Manage menus.
+    - 管理菜单。
+14. **Headers & Footers** - 页眉和页脚 / ヘッダーとフッター
+    - Configure headers and footers.
+    - 配置页眉和页脚。
+15. **Dependencies** - 依赖 / 依存関係
+    - Manage dependencies.
+    - 管理依赖。
+16. **Angular Providers** - Angular 提供程序 / Angularプロバイダ
+    - Manage Angular providers.
+    - 管理Angular提供程序。
+17. **Properties** - 属性 / プロパティ
+    - Configure properties for the Service Portal.
+    - 配置服务门户的属性。
+18. **Usage Overview** - 使用概述 / 使用概要
+    - Overview of portal usage.
+    - 门户使用的概述。
+19. **Search** - 搜索 / 検索
+    - Configure search settings.
+    - 配置搜索设置。
+    - **Search Sources** - 搜索来源 / 検索ソース
+      - Manage search sources.
+      - 管理搜索来源。
+    - **Search Analytics** - 搜索分析 / 検索アナリティクス
+      - View search analytics.
+      - 查看搜索分析。
+    - **Search Result Events** - 搜索结果事件 / 検索結果イベント
+      - Track search result events.
+      - 跟踪搜索结果事件。
+
+### 一百零三. Sitemap Generator - 网站地图生成器 / サイトマップジェネレーター
+1. **Sitemap Configuration** - 网站地图配置 / サイトマップ設定
+   - Configure sitemap settings.
+   - 配置网站地图设置。
+2. **Sitemap Scheduler** - 网站地图调度程序 / サイトマップスケジューラ
+   - Schedule sitemap generation.
+   - 安排网站地图生成。
+
+### 一百零四. Standard Ticket - 标准工单 / スタンダードチケット
+1. **Standard Ticket Configuration** - 标准工单配置 / スタンダードチケット設定
+   - Configure standard tickets.
+   - 配置标准工单。
+
+### 一百零五. State Management - 状态管理 / 状態管理
+1. **State Models** - 状态模型 / 状態モデル
+   - Define and manage state models.
+   - 定义和管理状态模型。
+
+### 一百零六. Strategy - 战略 / 戦略
+1. **Strategic Priorities** - 战略优先级 / 戦略的優先順位
+   - Define strategic priorities.
+   - 定义战略优先级。
+
+### 一百零七. Subscription Management - 订阅管理 / サブスクリプション管理
+1. **Subscription Management** - 订阅管理 / サブスクリプション管理
+   - Manage subscriptions.
+   - 管理订阅。
+2. **All Subscriptions** - 所有订阅 / 全てのサブスクリプション
+   - View all subscriptions.
+   - 查看所有订阅。
+3. **Issues** - 问题 / 問題
+   - Manage subscription issues.
+   - 管理订阅问题。
+4. **Insights** - 洞察 / インサイト
+   - Gain insights from subscription data.
+   - 从订阅数据中获取洞察。
+5. **Settings** - 设置 / 設定
+   - Configure subscription settings.
+   - 配置订阅设置。
+
+### 一百零八. System Applications - 系统应用 / システムアプリケーション
+1. **Getting Started** - 入门 / はじめに
+   - Introduction to system applications.
+   - 系统应用的介绍。
+2. **Studio** - Studio / スタジオ
+   - Access the ServiceNow Studio.
+   - 访问ServiceNow Studio。
+3. **All Available Applications** - 所有可用应用 / すべての利用可能なアプリケーション
+   - View all available applications.
+   - 查看所有可用应用。
+    - **All** - 全部 / 全て
+      -
+
+ All applications.
+      - 所有应用。
+    - **Available To Obtain From Store** - 可从商店获取 / ストアから取得可能
+      - Applications available in the store.
+      - 可从商店获取的应用。
+    - **ServiceNow Products** - ServiceNow 产品 / ServiceNow製品
+      - ServiceNow products.
+      - ServiceNow产品。
+4. **My Company Applications** - 我的公司应用 / 私の会社のアプリケーション
+   - View my company applications.
+   - 查看我的公司应用。
+5. **My Application Import History** - 我的应用导入历史 / 私のアプリケーションインポート履歴
+   - View the import history of my applications.
+   - 查看我的应用导入历史。
+6. **Application Cross-Scope Access** - 应用跨范围访问 / アプリケーションのクロススコープアクセス
+   - Manage cross-scope access for applications.
+   - 管理应用的跨范围访问。
+7. **Application Restricted Caller Access** - 应用受限呼叫者访问 / アプリケーションの制限された呼び出し元アクセス
+   - Manage restricted caller access for applications.
+   - 管理应用的受限呼叫者访问。
+8. **Application Design Access** - 应用设计访问 / アプリケーションデザインアクセス
+   - Manage design access for applications.
+   - 管理应用的设计访问。
+
+### 一百零九. System Archiving - 系统归档 / システムアーカイブ
+1. **Getting Started** - 入门 / はじめに
+   - Introduction to system archiving.
+   - 系统归档的介绍。
+2. **Archive Rules** - 归档规则 / アーカイルール
+   - Define and manage archive rules.
+   - 定义和管理归档规则。
+3. **Archive Log** - 归档日志 / アーカイログ
+   - View archive logs.
+   - 查看归档日志。
+4. **Archive Destroy Rules** - 归档销毁规则 / アーカイ破棄ルール
+   - Define and manage archive destroy rules.
+   - 定义和管理归档销毁规则。
+5. **Archive Destroy Log** - 归档销毁日志 / アーカイ破棄ログ
+   - View archive destroy logs.
+   - 查看归档销毁日志。
+6. **Archive Status** - 归档状态 / アーカイステータス
+   - View the status of archives.
+   - 查看归档状态。
+7. **Archive Properties** - 归档属性 / アーカイプロパティ
+   - Configure archive properties.
+   - 配置归档属性。
+8. **Archive Tables** - 归档表 / アーカイテーブル
+   - Manage archive tables.
+   - 管理归档表。
+    - **Archive Knowledge Use** - 归档知识使用 / アーカイ知識利用
+      - View and manage the use of archived knowledge.
+      - 查看和管理归档知识的使用。
+    - **Archive Audit Result** - 归档审计结果 / アーカイ監査結果
+      - View and manage archive audit results.
+      - 查看和管理归档审计结果。
+
+### 一百一十. System Classic Mobile UI - 系统经典移动界面 / システムクラシックモバイルUI
+1. **Navigator Apps** - 导航应用 / ナビゲーターアプリ
+   - Manage navigator apps.
+   - 管理导航应用。
+2. **Classic Mobile Modules** - 经典移动模块 / クラシックモバイルモジュール
+   - Manage classic mobile modules.
+   - 管理经典移动模块。
+3. **Table Titles** - 表标题 / テーブルタイトル
+   - Define and manage table titles.
+   - 定义和管理表标题。
+4. **Themes** - 主题 / テーマ
+   - Manage themes for the mobile UI.
+   - 管理移动界面的主题。
+5. **UI Actions - Classic Mobile** - 用户界面动作 - 经典移动 / UIアクション - クラシックモバイル
+   - Manage UI actions for the classic mobile interface.
+   - 管理经典移动界面的用户界面动作。
+6. **Home Screen** - 主屏幕 / ホーム画面
+   - Configure the home screen.
+   - 配置主屏幕。
+    - **Home Page Collections** - 主页集合 / ホームページコレクション
+      - Manage collections on the home page.
+      - 管理主页上的集合。
+    - **Home Pages** - 主页 / ホームページ
+      - Manage home pages.
+      - 管理主页。
+    - **Home Page Sections** - 主页部分 / ホームページセクション
+      - Manage sections of the home page.
+      - 管理主页的部分。
+    - **Home Page Modules** - 主页模块 / ホームページモジュール
+      - Manage modules on the home page.
+      - 管理主页上的模块。
+7. **Classic Mobile App** - 经典移动应用 / クラシックモバイルアプリ
+   - Manage classic mobile applications.
+   - 管理经典移动应用。
+    - **Devices** - 设备 / デバイス
+      - Manage devices.
+      - 管理设备。
+    - **Shortcut Items** - 快捷项目 / ショートカットアイテム
+      - Manage shortcut items.
+      - 管理快捷项目。
+8. **Dublin Classic Mobile Web** - 都柏林经典移动网页 / ダブリンクラシックモバイルウェブ
+   - Manage Dublin classic mobile web settings.
+   - 管理都柏林经典移动网页设置。
+    - **Home Page Sections** - 主页部分 / ホームページセクション
+      - Manage sections of the home page.
+      - 管理主页的部分。
+    - **Home Page Favorites** - 主页收藏 / ホームページお気に入り
+      - Manage favorites on the home page.
+      - 管理主页上的收藏。
+    - **Classic Mobile Help** - 经典移动帮助 / クラシックモバイルヘルプ
+      - Manage help settings for the classic mobile UI.
+      - 管理经典移动界面的帮助设置。
+
+### 一百一十一. System Clone - 系统克隆 / システムクローン
+1. **Clone Profiles** - 克隆配置文件 / クローンプロファイル
+   - Manage clone profiles.
+   - 管理克隆配置文件。
+2. **Home** - 主页 / ホーム
+   - Access the System Clone home page.
+   - 访问系统克隆主页。
+3. **Request Clone** - 请求克隆 / クローンをリクエスト
+   - Request a new system clone.
+   - 请求新的系统克隆。
+4. **Live Clones** - 实时克隆 / ライブクローン
+   - Manage live clones.
+   - 管理实时克隆。
+   - 4.1 **Active Clones** - 活动克隆 / アクティブクローン
+     - View active clones.
+     - 查看活动克隆。
+   - 4.2 **Clone History** - 克隆历史 / クローン履歴
+     - View clone history.
+     - 查看克隆历史。
+5. **Clone Definition** - 克隆定义 / クローン定義
+   - Define clone settings.
+   - 定义克隆设置。
+   - 5.1 **Exclude Tables** - 排除表 / 除外テーブル
+     - Define tables to exclude from clone.
+     - 定义克隆时排除的表。
+   - 5.2 **Preserve Data** - 保留数据 / データを保持
+     - Define data to preserve during clone.
+     - 定义克隆过程中保留的数据。
+   - 5.3 **Cleanup Scripts** - 清理脚本 / クリーンアップスクリプト
+     - Manage cleanup scripts.
+     - 管理清理脚本。
+6. **Administration** - 管理 / 管理
+   - Administer clone settings.
+   - 管理克隆设置。
+   - 6.1 **Clone Targets** - 克隆目标 / クローンターゲット
+     - Manage clone targets.
+     - 管理克隆目标。
+
+### 一百一十二. System Definition - 系统定义 / システム定義
+1. **Application Menus** - 应用菜单 / アプリケーションメニュー
+   - Manage application menus.
+   - 管理应用菜单。
+2. **Menu Categories** - 菜单类别 / メニューカテゴリー
+   - Manage menu categories.
+   - 管理菜单类别。
+3. **Dictionary** - 字典 / 辞書
+   - Manage dictionary entries.
+   - 管理字典条目。
+4. **Tables** - 表 / テーブル
+   - Manage tables.
+   - 管理表。
+5. **Choice Lists** - 选择列表 / 選択リスト
+   - Manage choice lists.
+   - 管理选择列表。
+6. **Language File** - 语言文件 / 言語ファイル
+   - Manage language files.
+   - 管理语言文件。
+7. **BookMarks** - 书签 / ブックマーク
+   - Manage bookmarks.
+   - 管理书签。
+8. **Tables & columns** - 表和列 / テーブルと列
+   - Manage tables and columns.
+   - 管理表和列。
+9. **Search Groups** - 搜索组 / 検索グループ
+   - Manage search groups.
+   - 管理搜索组。
+10. **Database Views** - 数据库视图 / データベースビュー
+    - Manage database views.
+    - 管理数据库视图。
+11. **Table Rotations** - 表旋转 / テーブルローテーション
+    - Manage table rotations.
+    - 管理表旋转。
+12. **Table Index Configurations** - 表索引配置 / テーブルインデックス設定
+    - Configure table indexes.
+    - 配置表索引。
+13. **Table Index Groups** - 表索引组 / テーブルインデックスグループ
+    - Manage table index groups.
+    - 管理表索引组。
+14. **Table Index Stop Words** - 表索引停用词 / テーブルインデックスストップワード
+    - Manage table index stop words.
+    - 管理表索引停用词。
+15. **Table Index Synonym Dictionaries** - 表索引同义词字典 / テーブルインデックスシノニム辞書
+    - Manage table index synonym dictionaries.
+    - 管理表索引同义词字典。
+16. **Table Indexes** - 表索引 / テーブルインデックス
+    - Manage table indexes.
+    - 管理表索引。
+17. **Business Rules** - 业务规则 / ビジネスルール
+    - Manage business rules.
+    - 管理业务规则。
+18. **UI Actions** - 用户界面操作 / UIアクション
+    - Manage UI actions.
+    - 管理用户界面操作。
+19. **Script Includes** - 脚本包含 / スクリプトインクルード
+    - Manage script includes.
+    - 管理脚本包含。
+20. **Installation Exits** - 安装退出 / インストールエグジット
+    - Manage installation exits.
+    - 管理安装退出。
+21. **Relationships** - 关系 / 関係
+    - Manage relationships.
+    - 管理关系。
+22. **Application Quota Rules** - 应用配额规则 / アプリケーションのクオータールール
+    - Manage application quota rules.
+    - 管理应用配额规则。
+23. **Processors** - 处理器 / プロセッサ
+    - Manage processors.
+    - 管理处理器。
+24. **Scripts - Background** - 后台脚本 / スクリプト - バックグラウンド
+    - Manage background scripts.
+    - 管理后台脚本。
+25. **Transaction Quota Rules** - 事务配额规则 / トランザクションクオータールール
+    - Manage transaction quota rules.
+    - 管理事务配额规则。
+26. **Fix Scripts** - 修复脚本 / 修正スクリプト
+    - Manage fix scripts.
+    - 管理修复脚本。
+27. **Client Scripts** - 客户端脚本 / クライアントスクリプト
+    - Manage client scripts.
+    - 管理客户端脚本。
+28. **Validation Scripts** - 验证脚本 / バリデーションスクリプト
+    - Manage validation scripts.
+    - 管理验证脚本。
+29. **Syntax Editor Macros** - 语法编辑器宏 / シンタックスエディタマクロ
+    - Manage syntax editor macros.
+    - 管理语法编辑器宏。
+30. **System Upgrades** - 系统升级 / システムアップグレード
+    - Manage system upgrades.
+    - 管理系统升级。
+31. **Response Template Channels** - 响应模板渠道 / レスポンステンプレートチャンネル
+    - Manage response template channels.
+    - 管理响应模板渠道。
+32. **Response Template Configuration** - 响应模板配置 / レスポンステンプレート設定
+    - Configure response templates.
+    - 配置响应模板。
+33. **Scheduled Jobs** - 计划作业 / スケジュールジョブ
+    - Manage scheduled jobs.
+    - 管理计划作业。
+34. **Deleted Records** - 删除记录 / 削除されたレコード
+    - View and manage deleted records.
+    - 查看和管理删除的记录。
+35. **Filters** - 过滤器 / フィルター
+    - Manage filters.
+    - 管理过滤器。
+36. **Dynamic Filter Options** - 动态过滤选项 / 動的フィルターオプション
+    - Manage dynamic filter options.
+    - 管理动态过滤选项。
+37. **Templates** - 模板 / テンプレート
+    - Manage templates.
+    - 管理模板。
+38. **Upload File** - 上传文件 / ファイルアップロード
+    - Upload and manage files.
+    - 上传和管理文件。
+39. **Interceptors** - 拦截器 / インターセプター
+    - Manage interceptors.
+    - 管理拦截器。
+40. **Recent Selections** - 最近选择 / 最近の選択
+    - View recent selections.
+    - 查看最近选择。
+41. **Tags** - 标签 / タグ
+    - Manage tags.
+    - 管理标签。
+42. **Modules** - 模块 / モジュール
+    - Manage modules.
+    - 管理模块。
+43. **Number Maintenance** - 号码维护 / 番号メンテナンス
+    - Manage number maintenance.
+    - 管理号码维护。
+44. **Decision Tables** - 决策表 / 決定表
+    - Manage decision tables.
+    - 管理决策表。
+45. **Plugins** - 插件 / プラグイン
+    - Manage plugins.
+    - 管理插件。
+46. **Scoped Caches** - 作用域缓存 / スコープキャッシュ
+    - Manage scoped caches.
+    - 管理作用域缓存。
+47. **Scoped Cache Pairs** - 作用域缓存对 / スコープキャッシュペア
+    - Manage scoped cache pairs.
+    - 管理作用域缓存对。
+48. **Certificates** - 证书 / 証明書
+    - Manage certificates.
+    - 管理证书。
+49. **Plugin Installation History** - 插件
+
+安装历史 / プラグインインストール履歴
+    - View plugin installation history.
+    - 查看插件安装历史。
+50. **Batch Install Upgrade History** - 批量安装升级历史 / バッチインストールアップグレード履歴
+    - View batch install upgrade history.
+    - 查看批量安装升级历史。
+51. **Remote Tables** - 远程表 / リモートテーブル
+    - Manage remote tables.
+    - 管理远程表。
+    - 51.1 **Tables** - 表 / テーブル
+      - Manage tables.
+      - 管理表。
+    - 51.2 **Definitions** - 定义 / 定義
+      - Manage definitions.
+      - 管理定义。
+52. **NowMQ** - NowMQ / NowMQ
+    - Manage NowMQ settings.
+    - 管理NowMQ设置。
+    - 52.1 **NowMQ Subjects** - NowMQ主题 / NowMQ主題
+      - Manage NowMQ subjects.
+      - 管理NowMQ主题。
+    - 52.2 **NowMQ Subject Parameters** - NowMQ主题参数 / NowMQ主題パラメータ
+      - Manage NowMQ subject parameters.
+      - 管理NowMQ主题参数。
+    - 52.3 **NowMQ Providers** - NowMQ提供商 / NowMQプロバイダー
+      - Manage NowMQ providers.
+      - 管理NowMQ提供商。
+    - 52.4 **NowMQ Provider Parameters** - NowMQ提供商参数 / NowMQプロバイダーパラメータ
+      - Manage NowMQ provider parameters.
+      - 管理NowMQ提供商参数。
+    - 52.5 **NowMQ Messages** - NowMQ消息 / NowMQメッセージ
+      - Manage NowMQ messages.
+      - 管理NowMQ消息。
+    - 52.6 **NowMQ Message Archives** - NowMQ消息档案 / NowMQメッセージアーカイブ
+      - Manage NowMQ message archives.
+      - 管理NowMQ消息档案。
+    - 52.7 **NowMQ Registry - View XML** - NowMQ注册表 - 查看XML / NowMQレジストリ - XMLを表示
+      - View XML in NowMQ registry.
+      - 在NowMQ注册表中查看XML。
+
+### 一百一十三. System Diagnostics - 系统诊断 / システム診断
+1. **Analytics Cache** - 分析缓存 / 分析キャッシュ
+   - Manage analytics cache.
+   - 管理分析缓存。
+2. **Script Debugger** - 脚本调试器 / スクリプトデバッガー
+   - Debug scripts.
+   - 调试脚本。
+3. **Script Tracer** - 脚本跟踪器 / スクリプトトレーサー
+   - Trace script execution.
+   - 跟踪脚本执行。
+4. **Component Status** - 组件状态 / コンポーネントステータス
+   - View component status.
+   - 查看组件状态。
+5. **Progress Workers** - 进度工作者 / プログレスワーカー
+   - Manage progress workers.
+   - 管理进度工作者。
+6. **Memory Stats** - 内存统计 / メモリ統計
+   - View memory statistics.
+   - 查看内存统计。
+7. **Active Transactions (All Nodes)** - 活动事务（所有节点） / アクティブトランザクション（全ノード）
+   - View active transactions across all nodes.
+   - 查看所有节点的活动事务。
+8. **Upgrade Monitor (Legacy)** - 升级监视器（传统） / アップグレードモニター（レガシー）
+   - Monitor upgrades (legacy).
+   - 监视升级（传统）。
+9. **Upgrade History** - 升级历史 / アップグレード履歴
+   - View upgrade history.
+   - 查看升级历史。
+10. **Upgrade Log** - 升级日志 / アップグレードログ
+    - View upgrade logs.
+    - 查看升级日志。
+11. **Application Operation Queue** - 应用操作队列 / アプリケーションオペレーションキュー
+    - Manage application operation queue.
+    - 管理应用操作队列。
+12. **Email Diagnostics** - 电子邮件诊断 / メール診断
+    - Diagnose email issues.
+    - 诊断电子邮件问题。
+13. **Expression Cache Stats** - 表达式缓存统计 / 式キャッシュ統計
+    - View expression cache statistics.
+    - 查看表达式缓存统计。
+14. **Stats** - 统计 / 統計
+    - View system statistics.
+    - 查看系统统计。
+    - 14.1 **Stats** - 统计 / 統計
+      - View detailed system statistics.
+      - 查看详细的系统统计。
+    - 14.2 **Scheduled Job History By Node** - 按节点计划作业历史 / ノード別スケジュールジョブ履歴
+      - View scheduled job history by node.
+      - 查看按节点分类的计划作业历史。
+    - 14.3 **Scheduled Job Assignments** - 计划作业分配 / スケジュールジョブ割り当て
+      - Manage scheduled job assignments.
+      - 管理计划作业分配。
+    - 14.4 **Scheduled Job History** - 计划作业历史 / スケジュールジョブ履歴
+      - View scheduled job history.
+      - 查看计划作业历史。
+    - 14.5 **Running Scheduled Jobs** - 正在运行的计划作业 / 実行中のスケジュールジョブ
+      - View running scheduled jobs.
+      - 查看正在运行的计划作业。
+    - 14.6 **Pending Scheduled Jobs** - 待处理的计划作业 / 保留中のスケジュールジョブ
+      - View pending scheduled jobs.
+      - 查看待处理的计划作业。
+    - 14.7 **System Events and Scheduled Job Monitoring Dashboard** - 系统事件和计划作业监控仪表板 / システムイベントとスケジュールジョブ監視ダッシュボード
+      - Monitor system events and scheduled jobs.
+      - 监控系统事件和计划作业。
+    - 14.8 **Slow Events** - 慢事件 / 遅いイベント
+      - View slow events.
+      - 查看慢事件。
+    - 14.9 **Slow Interactions** - 慢交互 / 遅いインタラクション
+      - View slow interactions.
+      - 查看慢交互。
+    - 14.10 **Slow Mutex Locks** - 慢互斥锁 / 遅いミューテックスロック
+      - View slow mutex locks.
+      - 查看慢互斥锁。
+    - 14.11 **Slow Queries** - 慢查询 / 遅いクエリ
+      - View slow queries.
+      - 查看慢查询。
+    - 14.12 **Slow Scripts** - 慢脚本 / 遅いスクリプト
+      - View slow scripts.
+      - 查看慢脚本。
+    - 14.13 **Slow Transactions** - 慢事务 / 遅いトランザクション
+      - View slow transactions.
+      - 查看慢事务。
+    - 14.14 **Table IO Stats** - 表IO统计 / テーブルIO統計
+      - View table IO statistics.
+      - 查看表IO统计。
+15. **Performance Windows** - 性能窗口 / パフォーマンスウィンドウ
+    - Manage performance windows.
+    - 管理性能窗口。
+    - 15.1 **Performance Events** - 性能事件 / パフォーマンスイベント
+      - View performance events.
+      - 查看性能事件。
+    - 15.2 **Latest Upgrade** - 最新升级 / 最新アップグレード
+      - View latest upgrade.
+      - 查看最新升级。
+    - 15.3 **Latest Periodic Event** - 最新定期事件 / 最新定期イベント
+      - View latest periodic event.
+      - 查看最新定期事件。
+    - 15.4 **Active Query Index Hints** - 活动查询索引提示 / アクティブクエリインデックスヒント
+      - Manage active query index hints.
+      - 管理活动查询索引提示。
+16. **Index Suggestion** - 索引建议 / インデックス提案
+    - Manage index suggestions.
+    - 管理索引建议。
+    - 16.1 **Index Suggestions > To Review** - 索引建议 > 待审查 / インデックス提案 > レビュー待ち
+      - View index suggestions to review.
+      - 查看待审查的索引建议。
+    - 16.2 **Index Suggestions > In Progress** - 索引建议 > 进行中 / インデックス提案 > 進行中
+      - View index suggestions in progress.
+      - 查看进行中的索引建议。
+    - 16.3 **Index Suggestions > Done** - 索引建议 > 完成 / インデックス提案 > 完了
+      - View completed index suggestions.
+      - 查看已完成的索引建议。
+17. **Session Debug** - 会话调试 / セッションデバッグ
+    - Manage session debugging.
+    - 管理会话调试。
+    - 17.1 **Enable All** - 启用全部 / すべて有効化
+      - Enable all session debugging.
+
+
+      - 启用全部会话调试。
+    - 17.2 **Disable All** - 禁用全部 / すべて無効化
+      - Disable all session debugging.
+      - 禁用全部会话调试。
+    - 17.3 **Debug Business Rule** - 调试业务规则 / ビジネスルールデバッグ
+      - Debug business rules.
+      - 调试业务规则。
+    - 17.4 **Debug Business Rule (Details)** - 调试业务规则（详细） / ビジネスルールデバッグ（詳細）
+      - Debug detailed business rules.
+      - 调试详细业务规则。
+    - 17.5 **Debug Cache Build** - 调试缓存构建 / キャッシュビルドデバッグ
+      - Debug cache build process.
+      - 调试缓存构建过程。
+    - 17.6 **Debug Cache Flush** - 调试缓存刷新 / キャッシュフラッシュデバッグ
+      - Debug cache flush process.
+      - 调试缓存刷新过程。
+    - 17.7 **Debug Cache Hits** - 调试缓存命中 / キャッシュヒットデバッグ
+      - Debug cache hits.
+      - 调试缓存命中。
+    - 17.8 **Debug Log** - 调试日志 / ログデバッグ
+      - View debug logs.
+      - 查看调试日志。
+    - 17.9 **Debug Module Access Policies** - 调试模块访问策略 / モジュールアクセスポリシーデバッグ
+      - Debug module access policies.
+      - 调试模块访问策略。
+    - 17.10 **Debug NLQ** - 调试NLQ / NLQデバッグ
+      - Debug NLQ.
+      - 调试NLQ。
+    - 17.11 **Debug GraphOL** - 调试GraphOL / GraphOLデバッグ
+      - Debug GraphOL.
+      - 调试GraphOL。
+    - 17.12 **Disable GraphOL** - 禁用GraphOL / GraphOL無効化
+      - Disable GraphOL.
+      - 禁用GraphOL。
+    - 17.13 **Debug SQL** - 调试SQL / SQLデバッグ
+      - Debug SQL.
+      - 调试SQL。
+    - 17.14 **Disable Log** - 禁用日志 / ログ無効化
+      - Disable logging.
+      - 禁用日志。
+    - 17.15 **Debug SQL (Detailed)** - 调试SQL（详细） / SQLデバッグ（詳細）
+      - Debug detailed SQL.
+      - 调试详细SQL。
+    - 17.16 **Debug SQL (Slow)** - 调试SQL（慢） / SQLデバッグ（遅い）
+      - Debug slow SQL queries.
+      - 调试慢SQL查询。
+    - 17.17 **Debug SQL (Large Tables)** - 调试SQL（大表） / SQLデバッグ（大テーブル）
+      - Debug SQL queries on large tables.
+      - 调试大表的SQL查询。
+    - 17.18 **Debug Security** - 调试安全性 / セキュリティデバッグ
+      - Debug security features.
+      - 调试安全性功能。
+    - 17.19 **Debug Escalations** - 调试升级 / エスカレーションデバッグ
+      - Debug escalations.
+      - 调试升级。
+    - 17.20 **Debug Text Search** - 调试文本搜索 / テキスト検索デバッグ
+      - Debug text searches.
+      - 调试文本搜索。
+    - 17.21 **Debug UI Policies** - 调试UI策略 / UIポリシーデバッグ
+      - Debug UI policies.
+      - 调试UI策略。
+    - 17.22 **Disable UI Policies Debug** - 禁用UI策略调试 / UIポリシーデバッグ無効化
+      - Disable UI policies debugging.
+      - 禁用UI策略调试。
+    - 17.23 **Debug UI Macro** - 调试UI宏 / UIマクロデバッグ
+      - Debug UI macros.
+      - 调试UI宏。
+    - 17.24 **Disable UI Macro Debug** - 禁用UI宏调试 / UIマクロデバッグ無効化
+      - Disable UI macro debugging.
+      - 禁用UI宏调试。
+    - 17.25 **Debug Data Policies** - 调试数据策略 / データポリシーデバッグ
+      - Debug data policies.
+      - 调试数据策略。
+    - 17.26 **Debug Quotas** - 调试配额 / クォータデバッグ
+      - Debug quotas.
+      - 调试配额。
+    - 17.27 **Debug Scopes** - 调试范围 / スコープデバッグ
+      - Debug scopes.
+      - 调试范围。
+    - 17.28 **Debug Scopes (Detailed)** - 调试范围（详细） / スコープデバッグ（詳細）
+      - Debug detailed scopes.
+      - 调试详细范围。
+    - 17.29 **Debug Date/Time** - 调试日期/时间 / 日付/時間デバッグ
+      - Debug date and time functions.
+      - 调试日期和时间功能。
+    - 17.30 **Debug Metric Statistics** - 调试度量统计 / メトリック統計デバッグ
+      - Debug metric statistics.
+      - 调试度量统计。
+    - 17.31 **Debug Upgrade** - 调试升级 / アップグレードデバッグ
+      - Debug upgrades.
+      - 调试升级。
+18. **Database** - 数据库 / データベース
+    - Manage database settings.
+    - 管理数据库设置。
+    - 18.1 **Information** - 信息 / 情報
+      - View database information.
+      - 查看数据库信息。
+    - 18.2 **Cache** - 缓存 / キャッシュ
+      - Manage database cache.
+      - 管理数据库缓存。
+    - 18.3 **Term Optimization** - 术语优化 / 用語の最適化
+      - Optimize terms.
+      - 优化术语。
+19. **Browser** - 浏览器 / ブラウザー
+    - Manage browser settings.
+    - 管理浏览器设置。
+    - 19.1 **Browser Page Timer** - 浏览器页面计时器 / ブラウザページタイマー
+      - Manage browser page timer.
+      - 管理浏览器页面计时器。
+    - 19.2 **Browser JavaScript Timer** - 浏览器JavaScript计时器 / ブラウザJavaScriptタイマー
+      - Manage browser JavaScript timer.
+      - 管理浏览器JavaScript计时器。
+20. **Transaction Call Chain** - 事务调用链 / トランザクションコールチェーン
+    - Manage transaction call chains.
+    - 管理事务调用链。
+    - 20.1 **Transaction Call Chain Register** - 事务调用链注册表 / トランザクションコールチェーンレジスタ
+      - View transaction call chain register.
+      - 查看事务调用链注册表。
+    - 20.2 **Transaction Call Chains** - 事务调用链 / トランザクションコールチェーン
+      - View transaction call chains.
+      - 查看事务调用链。
+
+### 一百一十四. System Export Sets - 系统导出集 / システムエクスポートセット
+1. **Getting Started** - 入门 / 始めに
+   - Get started with export sets.
+   - 开始使用导出集。
+2. **Create Export Set** - 创建导出集 / エクスポートセットの作成
+   - Create a new export set.
+   - 创建一个新的导出集。
+3. **Administration** - 管理 / 管理
+   - Manage export set administration.
+   - 管理导出集管理。
+    - 3.1 **Export Sets** - 导出集 / エクスポートセット
+      - Manage export sets.
+      - 管理导出集。
+    - 3.2 **Export Definitions** - 导出定义 / エクスポート定義
+      - Manage export definitions.
+      - 管理导出定义。
+    - 3.3 **Export Targets** - 导出目标 / エクスポート対象
+      - Manage export targets.
+      - 管理导出目标。
+    - 3.4 **Scheduled Exports** - 定期导出 / 定期エクスポート
+      - Manage scheduled exports.
+      - 管理定期导出。
+    - 3.5 **Export History** - 导出历史 / エクスポート履歴
+      - View export history.
+      - 查看导出历史。
+
+### 一百一十五. System Extension Points - 系统扩展点 / システム拡張ポイント
+1. **Scripted Extension Points** - 脚本化扩展点 / スクリプト化拡張ポイント
+   - Manage scripted extension points.
+   - 管理脚本化扩展点。
+2. **UI Extension Points** - UI扩展点 / UI拡張ポイント
+   - Manage UI extension points.
+   - 管理UI扩展点。
+3. **Client Extension Points** - 客户端扩展点 / クライアント拡張ポイント
+   - Manage client extension points.
+   - 管理客户端扩展点。
+
+### 一百一十六. System Import Sets - 系统导入集 / システムインポートセット
+1. **Load Data** - 加载数据 / データのロード
+   - Load data into the system.
+   - 将数据加载到系统中。
+2. **Create Transform Map** - 创建转换映射 / 変換マップの作成
+   - Create a new transform map.
+   - 创建新的转换映射。
+3. **Run Transform** - 运行转换 / 変換の実行
+   - Execute the transform map.
+   - 执行转换映射。
+4. **Administration** - 管理 / 管理
+   - Manage import set administration.
+   - 管理导入集管理。
+    - 4.1 **Data Sources** - 数据源 / データソース
+      - Manage data sources.
+      - 管理数据源。
+    - 4.2 **Robust Import Set Transformers** - 强大的导入集转换器 / ロバストインポートセットトランスフォーマー
+      - Manage robust import set transformers.
+      - 管理强大的导入集转换器。
+    - 4.3 **ETL Definitions** - ETL定义 / ETL定義
+      - Manage ETL definitions.
+      - 管理ETL定义。
+    - 4.4 **Transform Maps** - 转换映射 / 変換マップ
+      - Manage transform maps.
+      - 管理转换映射。
+    - 4.5 **Scheduled Imports** - 定期导入 / 定期インポート
+      - Manage scheduled imports.
+      - 管理定期导入。
+    - 4.6 **Execution Contexts** - 执行上下文 / 実行コンテキスト
+      - Manage execution contexts.
+      - 管理执行上下文。
+5. **Advanced** - 高级 / 高度
+   - Manage advanced import set features.
+   - 管理高级导入集功能。
+    - 5.1 **Import Sets** - 导入集 / インポートセット
+      - Manage import sets.
+      - 管理导入集。
+    - 5.2 **Concurrent Import Sets** - 并发导入集 / 同時インポートセット
+      - Manage concurrent import sets.
+      - 管理并发导入集。
+    - 5.3 **Concurrent Import Set Jobs** - 并发导入集作业 / 同時インポートセットジョブ
+      - Manage concurrent import set jobs.
+      - 管理并发导入集作业。
+    - 5.4 **Multi Import Sets** - 多重导入集 / マルチインポートセット
+      - Manage multiple import sets.
+      - 管理多重导入集。
+    - 5.5 **Progress** - 进度 / 進捗
+      - View import progress.
+      - 查看导入进度。
+    - 5.6 **Transform History** - 转换历史 / 変換履歴
+      - View transform history.
+      - 查看转换历史。
+    - 5.7 **Transform Errors** - 转换错误 / 変換エラー
+      - View transform errors.
+      - 查看转换错误。
+    - 5.8 **Import Log** - 导入日志 / インポートログ
+      - View import logs.
+      - 查看导入日志。
+    - 5.9 **Slow Queries** - 慢查询 / 遅いクエリ
+      - View slow queries.
+      - 查看慢查询。
+    - 5.10 **Slow Scripts** - 慢脚本 / 遅いスクリプト
+      - View slow scripts.
+      - 查看慢脚本。
+6. **Import Set Tables** - 导入集表 / インポートセットテーブル
+   - Manage import set tables.
+   - 管理导入集表。
+    - 6.1 **Cleanup** - 清理 / クリーンアップ
+      - Manage import set table cleanup.
+      - 管理导入集表的清理。
+    - 6.2 **Scheduled Cleanup** - 定期清理 / 定期クリーンアップ
+      - Manage scheduled cleanup.
+      - 管理定期清理。
+
+### 一百一十七. System LDAP - 系统LDAP / システムLDAP
+1. **Getting Started** - 入门 / 始めに
+   - Get started with LDAP.
+   - 开始使用LDAP。
+2. **Create New Server** - 创建新服务器 / 新しいサーバーの作成
+   - Create a new LDAP server.
+   - 创建一个新的LDAP服务器。
+3. **LDAP Servers** - LDAP服务器 / LDAPサーバー
+   - Manage LDAP servers.
+   - 管理LDAP服务器。
+4. **LDAP Monitor** - LDAP监控 / LDAPモニター
+   - Monitor LDAP servers.
+   - 监控LDAP服务器。
+5. **Data Sources** - 数据源 / データソース
+   - Manage LDAP data sources.
+   - 管理LDAP数据源。
+6. **Scheduled Loads** - 定期加载 / 定期ロード
+   - Manage scheduled LDAP loads.
+   - 管理定期LDAP加载。
+7. **Transform Maps** - 转换映射 / 変換マップ
+   - Manage LDAP transform maps.
+   - 管理LDAP转换映射。
+8. **LDAP Log** - LDAP日志 / LDAPログ
+   - View LDAP logs.
+   - 查看LDAP日志。
+9. **Certificates** - 证书 / 証明書
+   - Manage LDAP certificates.
+   - 管理LDAP证书。
+
+### 一百一十八. System Localization - 系统本地化 / システムローカライゼーション
+1. **Languages** - 语言 / 言語
+   - Manage languages.
+   - 管理语言。
+2. **Regions** - 区域 / 地域
+   - Manage regions.
+   - 管理区域。
+3. **Currencies** - 货币 / 通貨
+   - Manage currencies.
+   - 管理货币。
+4. **Exchange Rates** - 汇率 / 為替レート
+   - Manage exchange rates.
+   - 管理汇率。
+5. **Load Exchange Rates** - 加载汇率 / 為替レートの読み込み
+   - Load exchange rates.
+   - 加载汇率。
+6. **FX Currency Instances** - 外汇货币实例 / FX通貨インスタンス
+   - Manage FX currency instances.
+   - 管理外汇货币实例。
+7. **FX Currency Configuration** - 外汇货币配置 / FX通貨構成
+   - Configure FX currency settings.
+   - 配置外汇货币设置。
+
+### 一百一十九. System Logs - 系统日志 / システムログ
+1. **Client Interactions** - 客户端交互 / クライアントインタラクション
+   - View client interactions logs.
+   - 查看客户端交互日志。
+2. **Transactions** - 事务 / トランザクション
+   - View transaction logs.
+   - 查看事务日志。
+3. **Transactions (All User)** - 事务（所有用户） / トランザクション（全ユーザー）
+   - View all user transaction logs.
+   - 查看所有用户的事务日志。
+4. **Transactions (Background)** - 事务（后台） / トランザクション（バックグラウンド）
+   - View background transaction logs.
+   - 查看后台事务日志。
+5. **Client Transactions** - 客户端事务 / クライアントトランザクション
+   - View client transaction logs.
+   - 查看客户端事务日志。
+6. **Emails** - 电子邮件 / メール
+   - View email logs.
+   - 查看电子邮件日志。
+7. **Push Notifications** - 推送通知 / プッシュ通知
+   - View push notification logs.
+   - 查看推送通知日志。
+8. **Events** - 事件 / イベント
+   - View event logs.
+   - 查看事件日志。
+9. **Imports** - 导入 / インポート
+   - View import logs.
+   - 查看导入日志。
+10. **Table Changes** - 表更改 / テーブルの変更
+    - View table change logs.
+    - 查看表更改日志。
+11. **Outbound HTTP Requests** - 出站HTTP请求 / アウトバウンドHTTPリクエスト
+    - View outbound HTTP request logs.
+    - 查看出站HTTP请求日志。
+12. **Bounce Email Addresses** - 弹回电子邮件地址 / バウンスメールアドレス
+    - View bounce email address logs.
+    - 查看弹回电子邮件地址日志。
+13. **System Log** - 系统日志 / システムログ
+    - View system logs.
+    - 查看系统日志。
+    - 13.1 **All** - 全部 / すべて
+      - View all logs.
+      - 查看全部日志。
+    - 13.2 **Warnings** - 警告 / 警告
+      - View warning logs.
+      - 查看警告日志。
+    - 13.3 **Errors** - 错误 / エラー
+      - View error logs.
+      - 查看错误日志。
+    - 13.4 **Script Log Statements** - 脚本日志语句 / スクリプトログステートメント
+      - View script log statements.
+      - 查看脚本日志语句。
+    - 13.5 **Application Logs** - 应用日志 / アプリケーションログ
+     
+
+ - View application logs.
+      - 查看应用日志。
+    - 13.6 **Transaction Cancellations** - 事务取消 / トランザクションキャンセル
+      - View transaction cancellation logs.
+      - 查看事务取消日志。
+    - 13.7 **Code Signing** - 代码签名 / コード署名
+      - View code signing logs.
+      - 查看代码签名日志。
+14. **Utilities** - 工具 / ユーティリティ
+    - Manage system log utilities.
+    - 管理系统日志工具。
+    - 14.1 **Node Log File Browser** - 节点日志文件浏览器 / ノードログファイルブラウザ
+      - Browse node log files.
+      - 浏览节点日志文件。
+    - 14.2 **Node Log File Download** - 节点日志文件下载 / ノードログファイルダウンロード
+      - Download node log files.
+      - 下载节点日志文件。
+    - 14.3 **Node Log File Download History** - 节点日志文件下载历史 / ノードログファイルダウンロード履歴
+      - View node log file download history.
+      - 查看节点日志文件下载历史。
+
+### 一百二十. System LDAP (重复) - 系统LDAP（重复） / システムLDAP（重複）
+1. **Getting Started** - 入门 / 始めに
+2. **Create New Server** - 创建新服务器 / 新しいサーバーの作成
+3. **LDAP Servers** - LDAP服务器 / LDAPサーバー
+4. **LDAP Monitor** - LDAP监控 / LDAPモニター
+5. **Data Sources** - 数据源 / データソース
+6. **Scheduled Loads** - 定期加载 / 定期ロード
+7. **Transform Maps** - 转换映射 / 変換マップ
+8. **LDAP Log** - LDAP日志 / LDAPログ
+9. **Certificates** - 证书 / 証明書
+
+### 一百二十一. System Localization - 系统本地化 / システムローカライゼーション
+1. **Language Regions** - 语言区域 / 言語地域
+   - Manage language regions.
+   - 管理语言区域。
+2. **Regions** - 区域 / 地域
+   - Manage regions.
+   - 管理区域。
+3. **Currencies** - 货币 / 通貨
+   - Manage currencies.
+   - 管理货币。
+4. **Exchange Rates** - 汇率 / 為替レート
+   - Manage exchange rates.
+   - 管理汇率。
+5. **Load Exchange Rates** - 加载汇率 / 為替レートの読み込み
+   - Load exchange rates.
+   - 加载汇率。
+6. **FX Currency Instances** - 外汇货币实例 / FX通貨インスタンス
+   - Manage FX currency instances.
+   - 管理外汇货币实例。
+7. **FX Currency Configuration** - 外汇货币配置 / FX通貨構成
+   - Configure FX currency settings.
+   - 配置外汇货币设置。
+
+### 一百二十二. System Logs (重复) - 系统日志（重复） / システムログ（重複）
+1. **Client Interactions** - 客户端交互 / クライアントインタラクション
+2. **Transactions** - 事务 / トランザクション
+3. **Transactions (All User)** - 事务（所有用户） / トランザクション（全ユーザー）
+4. **Transactions (Background)** - 事务（后台） / トランザクション（バックグラウンド）
+5. **Client Transactions** - 客户端事务 / クライアントトランザクション
+6. **Emails** - 电子邮件 / メール
+7. **Push Notifications** - 推送通知 / プッシュ通知
+8. **Events** - 事件 / イベント
+9. **Imports** - 导入 / インポート
+10. **Table Changes** - 表更改 / テーブルの変更
+11. **Outbound HTTP Requests** - 出站HTTP请求 / アウトバウンドHTTPリクエスト
+12. **Bounce Email Addresses** - 弹回电子邮件地址 / バウンスメールアドレス
+13. **System Log** - 系统日志 / システムログ
+    - 13.1 **All** - 全部 / すべて
+    - 13.2 **Warnings** - 警告 / 警告
+    - 13.3 **Errors** - 错误 / エラー
+    - 13.4 **Script Log Statements** - 脚本日志语句 / スクリプトログステートメント
+    - 13.5 **Application Logs** - 应用日志 / アプリケーションログ
+    - 13.6 **Transaction Cancellations** - 事务取消 / トランザクションキャンセル
+    - 13.7 **Code Signing** - 代码签名 / コード署名
+14. **Utilities** - 工具 / ユーティリティ
+    - 14.1 **Node Log File Browser** - 节点日志文件浏览器 / ノードログファイルブラウザ
+    - 14.2 **Node Log File Download** - 节点日志文件下载 / ノードログファイルダウンロード
+    - 14.3 **Node Log File Download History** - 节点日志文件下载历史 / ノードログファイルダウンロード履歴
+
+### 一百二十三. System Mailboxes - 系统邮箱 / システムメールボックス
+1. **Inbound** - 入站 / インバウンド
+   - Manage inbound mailboxes.
+   - 管理入站邮箱。
+    - 1.1 **Inbox** - 收件箱 / 受信箱
+      - View the inbox.
+      - 查看收件箱。
+    - 1.2 **Received** - 已接收 / 受信
+      - View received emails.
+      - 查看已接收的电子邮件。
+    - 1.3 **Junk** - 垃圾邮件 / 迷惑メール
+      - View junk emails.
+      - 查看垃圾邮件。
+    - 1.4 **Read Failure Log** - 读取失败日志 / 読み取り失敗ログ
+      - View read failure logs.
+      - 查看读取失败日志。
+2. **Outbound** - 出站 / アウトバウンド
+   - Manage outbound mailboxes.
+   - 管理出站邮箱。
+    - 2.1 **Outbox** - 发件箱 / 送信箱
+      - View the outbox.
+      - 查看发件箱。
+    - 2.2 **Sent** - 已发送 / 送信済み
+      - View sent emails.
+      - 查看已发送的电子邮件。
+    - 2.3 **Skipped** - 已跳过 / スキップされた
+      - View skipped emails.
+      - 查看已跳过的电子邮件。
+    - 2.4 **Failed** - 失败 / 失敗
+      - View failed emails.
+      - 查看失败的电子邮件。
+3. **Administration** - 管理 / 管理
+   - Manage mailbox administration.
+   - 管理邮箱管理。
+    - 3.1 **Email Accounts** - 电子邮件帐户 / メールアカウント
+      - Manage email accounts.
+      - 管理电子邮件帐户。
+    - 3.2 **Email Properties** - 电子邮件属性 / メールプロパティ
+      - Manage email properties.
+      - 管理电子邮件属性。
+    - 3.3 **Email Account Groups** - 电子邮件帐户组 / メールアカウントグループ
+      - Manage email account groups.
+      - 管理电子邮件帐户组。
+    - 3.4 **Email Diagnostics** - 电子邮件诊断 / メール診断
+      - Perform email diagnostics.
+      - 执行电子邮件诊断。
+    - 3.5 **Filters** - 过滤器 / フィルター
+      - Manage email filters.
+      - 管理电子邮件过滤器。
+    - 3.6 **Watermarks** - 水印 / 透かし
+      - Manage email watermarks.
+      - 管理电子邮件水印。
+    - 3.7 **Status** - 状态 / ステータス
+      - View email status.
+      - 查看电子邮件状态。
+    - 3.8 **Email Address Filters** - 电子邮件地址过滤器 / メールアドレスフィルター
+      - Manage email address filters.
+      - 管理电子邮件地址过滤器。
+    - 3.9 **System Address Filters** - 系统地址过滤器 / システムアドレスフィルター
+      - Manage system address filters.
+      - 管理系统地址过滤器。
+    - 3.10 **Bounce Email Address Status** - 弹回电子邮件地址状态 / バウンスメールアドレスステータス
+      - View bounce email address status.
+      - 查看弹回电子邮件地址状态。
+
+### 一百二十四. System Notification - 系统通知 / システム通知
+1. **Email** - 电子邮件 / メール
+   - Manage email notifications.
+   - 管理电子邮件通知。
+    - 1.1 **Digest Intervals** - 摘要间隔 / ダイジェスト間隔
+      - Manage digest intervals.
+
+
+      - 管理摘要间隔。
+    - 1.2 **Notifications** - 通知 / 通知
+      - Manage notifications.
+      - 管理通知。
+    - 1.3 **Notification Email Scripts** - 通知电子邮件脚本 / 通知メールスクリプト
+      - Manage notification email scripts.
+      - 管理通知电子邮件脚本。
+    - 1.4 **Notification Categories** - 通知类别 / 通知カテゴリ
+      - Manage notification categories.
+      - 管理通知类别。
+    - 1.5 **Templates** - 模板 / テンプレート
+      - Manage notification templates.
+      - 管理通知模板。
+    - 1.6 **Notification Filters** - 通知过滤器 / 通知フィルター
+      - Manage notification filters.
+      - 管理通知过滤器。
+    - 1.7 **Email Access Restriction** - 电子邮件访问限制 / メールアクセス制限
+      - Manage email access restrictions.
+      - 管理电子邮件访问限制。
+2. **Push** - 推送 / プッシュ
+   - Manage push notifications.
+   - 管理推送通知。
+    - 2.1 **Create Push Notification** - 创建推送通知 / プッシュ通知を作成する
+      - Create new push notifications.
+      - 创建新的推送通知。
+    - 2.2 **Push Notifications** - 推送通知 / プッシュ通知
+      - View push notifications.
+      - 查看推送通知。
+    - 2.3 **Push Messages** - 推送消息 / プッシュメッセージ
+      - Manage push messages.
+      - 管理推送消息。
+    - 2.4 **Push Action** - 推送操作 / プッシュアクション
+      - Manage push actions.
+      - 管理推送操作。
+    - 2.5 **Push Application** - 推送应用 / プッシュアプリケーション
+      - Manage push applications.
+      - 管理推送应用。
+    - 2.6 **Push Messages Content** - 推送消息内容 / プッシュメッセージの内容
+      - Manage push messages content.
+      - 管理推送消息内容。
+3. **Provider** - 提供商 / プロバイダー
+   - Manage notification providers.
+   - 管理通知提供商。
+    - 3.1 **Notifications** - 通知 / 通知
+      - Manage provider notifications.
+      - 管理提供商通知。
+    - 3.2 **Logs** - 日志 / ログ
+      - View provider logs.
+      - 查看提供商日志。
+    - 3.3 **Destination Types** - 目标类型 / 宛先タイプ
+      - Manage provider destination types.
+      - 管理提供商目标类型。
+
+### 一百二十五. System OAuth - 系统OAuth / システムOAuth
+1. **Application Registry** - 应用注册表 / アプリケーションレジストリ
+   - Manage OAuth application registry.
+   - 管理OAuth应用注册表。
+2. **JWT Providers** - JWT提供商 / JWTプロバイダー
+   - Manage JWT providers.
+   - 管理JWT提供商。
+3. **JWT Keys** - JWT密钥 / JWTキー
+   - Manage JWT keys.
+   - 管理JWT密钥。
+4. **SAML2 Assertion Producers** - SAML2断言生成器 / SAML2アサーションプロデューサー
+   - Manage SAML2 assertion producers.
+   - 管理SAML2断言生成器。
+5. **Manage Tokens** - 管理令牌 / トークンの管理
+   - Manage OAuth tokens.
+   - 管理OAuth令牌。
+
+### 一百二十六. System Policy - 系统策略 / システムポリシー
+1. **Email** - 电子邮件 / メール
+   - Manage email policies.
+   - 管理电子邮件策略。
+    - 1.1 **Layouts** - 布局 / レイアウト
+      - Manage email layouts.
+      - 管理电子邮件布局。
+    - 1.2 **Inbound Actions** - 入站操作 / インバウンドアクション
+      - Manage inbound email actions.
+      - 管理入站电子邮件操作。
+    - 1.3 **Email Reply Separators** - 电子邮件回复分隔符 / メール返信区切り
+      - Manage email reply separators.
+      - 管理电子邮件回复分隔符。
+2. **Rules** - 规则 / ルール
+   - Manage system rules.
+   - 管理系统规则。
+    - 2.1 **Data Lookup Definitions** - 数据查找定义 / データルックアップ定義
+      - Manage data lookup definitions.
+      - 管理数据查找定义。
+    - 2.2 **Assignment Lookup Rules** - 分配查找规则 / 割り当てルックアップルール
+      - Manage assignment lookup rules.
+      - 管理分配查找规则。
+    - 2.3 **Priority Lookup Rules** - 优先级查找规则 / 優先度ルックアップルール
+      - Manage priority lookup rules.
+      - 管理优先级查找规则。
+    - 2.4 **Assignment** - 分配 / 割り当て
+      - Manage assignments.
+      - 管理分配。
+    - 2.5 **Approval** - 批准 / 承認
+      - Manage approvals.
+      - 管理批准。
+    - 2.6 **Data Policies** - 数据策略 / データポリシー
+      - Manage data policies.
+      - 管理数据策略。
+    - 2.7 **Telephone Display Rules** - 电话显示规则 / 電話表示ルール
+      - Manage telephone display rules.
+      - 管理电话显示规则。
+3. **Events** - 事件 / イベント
+   - Manage system events.
+   - 管理系统事件。
+    - 3.1 **Registry** - 注册表 / レジストリ
+      - Manage event registry.
+      - 管理事件注册表。
+    - 3.2 **Event Log** - 事件日志 / イベントログ
+      - View event logs.
+      - 查看事件日志。
+    - 3.3 **Script Actions** - 脚本操作 / スクリプトアクション
+      - Manage script actions.
+      - 管理脚本操作。
+    - 3.4 **Alerts** - 警报 / アラート
+      - Manage alerts.
+      - 管理警报。
+    - 3.5 **Configure Alerts** - 配置警报 / アラートの構成
+      - Configure alerts.
+      - 配置警报。
+4. **SLA** - 服务级别协议 / SLA
+   - Manage service level agreements.
+   - 管理服务级别协议。
+    - 4.1 **Inactivity Monitors** - 不活动监视器 / 非アクティブモニター
+      - Manage inactivity monitors.
+      - 管理不活动监视器。
+    - 4.2 **Calendars** - 日历 / カレンダー
+      - Manage calendars.
+      - 管理日历。
+5. **Service Catalog** - 服务目录 / サービスカタログ
+   - Manage service catalog policies.
+   - 管理服务目录策略。
+    - 5.1 **Process Guides** - 流程指南 / プロセスガイド
+      - Manage process guides.
+      - 管理流程指南。
+    - 5.2 **Execution Plans** - 执行计划 / 実行計画
+      - Manage execution plans.
+      - 管理执行计划。
+
+### 一百二十七. System Properties - 系统属性 / システムプロパティ
+1. **Basic Configuration** - 基本配置 / 基本構成
+   - Manage basic system configuration.
+   - 管理基本系统配置。
+2. **Basic Configuration UI16** - 基本配置UI16 / 基本構成UI16
+   - Manage basic UI16 configuration.
+   - 管理基本UI16配置。
+3. **My Company** - 我的公司 / 私の会社
+   - Manage company information.
+   - 管理公司信息。
+4. **UI Properties** - 用户界面属性 / UIプロパティ
+   - Manage user interface properties.
+   - 管理用户界面属性。
+5. **Classic Mobile UI Properties** - 经典移动用户界面属性 / クラシックモバイルUIプロパティ
+   - Manage classic mobile UI properties.
+   - 管理经典移动用户界面属性。
+6. **CSS** - 样式表 / スタイルシート
+   - Manage CSS properties.
+   - 管理样式表属性。
+7. **System** - 系统 / システム
+   - Manage system properties.
+   - 管理系统属性。
+8. **Email Properties** - 电子邮件属性 / メールプロパティ
+   - Manage email properties.
+   - 管理电子邮件属性。
+9. **Import Export** - 导入导出 / インポートエクスポート
+   - Manage import and export properties.
+   - 管理导入导出属性。
+10. **Approval Engines** - 批准引擎 / 承認エンジン
+    - Manage approval engine properties.
+    - 管理批准引擎属性。
+11. **LDAP** - 轻量目录访问协议 / LDAP
+    - Manage LDAP properties.
+    - 管理LDAP属性。
