@@ -3846,3 +3846,575 @@
 11. **LDAP** - 轻量目录访问协议 / LDAP
     - Manage LDAP properties.
     - 管理LDAP属性。
+
+### 127. System Properties
+
+1. **Basic Configuration** - 基本配置 / 基本設定
+   - 系统的基础配置管理。
+2. **Basic Configuration UI16** - 基本配置 UI16 / 基本設定 UI16
+   - 管理 UI16 界面的基础配置。
+3. **My Company** - 我的公司 / マイカンパニー
+   - 公司的基本信息配置。
+4. **UI Properties** - UI 属性 / UI プロパティ
+   - 用户界面的属性设置。
+5. **Classic Mobile UI Properties** - 经典移动 UI 属性 / クラシックモバイル UI プロパティ
+   - 经典移动界面的属性设置。
+6. **CSS** - CSS / CSS
+   - 自定义样式表的配置。
+7. **System** - 系统 / システム
+   - 系统全局属性设置。
+8. **Email Properties** - 电子邮件属性 / メールプロパティ
+   - 系统电子邮件配置。
+9. **Import Export** - 导入导出 / インポートエクスポート
+   - 数据导入和导出设置。
+10. **Approval Engines** - 审批引擎 / 承認エンジン
+    - 审批流程和引擎配置。
+11. **LDAP** - LDAP / LDAP
+    - LDAP 相关配置。
+12. **SLA** - 服务级别协议 / SLA
+    - 服务级别协议的配置管理。
+13. **Oracle DB Options** - Oracle 数据库选项 / Oracle データベースオプション
+    - Oracle 数据库相关配置。
+14. **Replication** - 复制 / レプリケーション
+    - 数据复制配置。
+15. **Service Catalog** - 服务目录 / サービスカタログ
+    - 服务目录的配置和管理。
+16. **Dashboard Properties** - 仪表盘属性 / ダッシュボードプロパティ
+    - 仪表盘的属性配置。
+17. **Web Services** - 网络服务 / ウェブサービス
+    - 网络服务相关配置。
+18. **System Localization** - 系统本地化 / システムローカリゼーション
+    - 系统的本地化设置。
+19. **Text Search** - 文本搜索 / テキスト検索
+    - 文本搜索相关配置。
+20. **Global Text Search** - 全局文本搜索 / グローバルテキスト検索
+    - 全局文本搜索配置。
+21. **Security** - 安全 / セキュリティ
+    - 系统安全相关设置。
+22. **Single Sign-on** - 单点登录 / シングルサインオン
+    - 单点登录配置。
+23. **System Diagnostics** - 系统诊断 / システム診断
+    - 系统诊断工具和设置。
+24. **Google Maps** - 谷歌地图 / Google マップ
+    - 谷歌地图集成配置。
+25. **Categories** - 类别 / カテゴリ
+    - 系统类别配置管理。
+
+### 128. System Run Level
+
+1. **Operational Toggles** - 操作切换 / オペレーショントグル
+   - 系统操作切换配置。
+2. **Operational Toggle Levels** - 操作切换级别 / オペレーショントグルレベル
+   - 不同操作切换的级别配置。
+3. **Run Level Toggle Mapping** - 运行级别切换映射 / ランレベルトグルマッピング
+   - 运行级别与操作切换的映射关系配置。
+
+### 129. System Schedule
+
+1. **Scheduled Jobs** - 计划任务 / スケジュールジョブ
+   - 系统计划任务管理。
+   1. **Today's Scheduled Jobs** - 今天的计划任务 / 今日のスケジュールジョブ
+      - 今天要执行的计划任务。
+   2. **Scheduled Jobs** - 计划任务 / スケジュールジョブ
+      - 所有计划任务列表。
+   3. **Slow Job Log** - 慢任务日志 / スロージョブログ
+      - 慢任务的日志记录。
+   4. **Job Classification Rules** - 任务分类规则 / ジョブ分類ルール
+      - 任务分类的规则设置。
+2. **Schedules** - 日程 / スケジュール
+   - 系统日程管理。
+   1. **Schedules** - 日程 / スケジュール
+      - 系统所有日程安排。
+   2. **Schedule Pages** - 日程页面 / スケジュールページ
+      - 日程相关页面配置。
+   3. **Relative Durations** - 相对时长 / 相対期間
+      - 相对时长的配置管理。
+
+### 130. System Security
+
+1. **Access Control (ACL)** - 访问控制（ACL）/ アクセス制御 (ACL)
+   - 访问控制列表管理。
+2. **Key Management Administration** - 密钥管理 / キーマネジメント
+   - 系统密钥管理配置。
+3. **Secrets Management Administration** - 密钥管理 / シークレットマネジメント
+   - 系统密钥管理配置。
+4. **Security Attributes** - 安全属性 / セキュリティ属性
+   - 安全属性配置管理。
+5. **Security Attributes Audit** - 安全属性审计 / セキュリティ属性監査
+   - 安全属性的审计配置。
+6. **IP Address Access Control** - IP 地址访问控制 / IP アドレスアクセス制御
+   - IP 地址访问控制管理。
+7. **Objects** - 对象 / オブジェクト
+   - 系统对象安全配置。
+8. **Operations** - 操作 / オペレーション
+   - 系统操作安全配置。
+9. **Protocol Profiles** - 协议配置 / プロトコルプロファイル
+   - 安全协议配置管理。
+10. **High Security Settings** - 高安全设置 / 高セキュリティ設定
+    - 系统高安全设置。
+11. **Users and Groups** - 用户和组 / ユーザーとグループ
+    - 用户和组的管理配置。
+    1. **Users** - 用户 / ユーザー
+       - 用户管理。
+    2. **Groups** - 组 / グループ
+       - 用户组管理。
+    3. **Roles** - 角色 / ロール
+       - 用户角色管理。
+    4. **Access Role Detail View** - 访问角色详细视图 / アクセスロール詳細ビュー
+       - 访问角色的详细视图。
+12. **Reports** - 报告 / レポート
+    - 系统安全相关报告管理。
+    1. **Users** - 用户 / ユーザー
+       - 用户相关报告。
+    2. **Groups Membership** - 组成员 / グループメンバーシップ
+       - 组成员报告。
+    3. **Role Allocation** - 角色分配 / ロール割り当て
+       - 角色分配报告。
+    4. **Role Audit** - 角色审计 / ロール監査
+       - 角色审计报告。
+13. **Debugging** - 调试 / デバッグ
+    - 系统安全调试配置。
+    1. **Debug Security Rules** - 调试安全规则 / セキュリティルールのデバッグ
+       - 调试安全规则。
+    2. **Debug All Security** - 调试所有安全 / すべてのセキュリティをデバッグ
+       - 调试所有安全配置。
+    3. **Stop Debugging** - 停止调试 / デバッグの停止
+       - 停止调试。
+14. **Utilities** - 工具 / ユーティリティ
+    - 系统安全相关工具。
+    1. **Migrate Security** - 迁移安全 / セキュリティの移行
+       - 迁移安全配置。
+15. **Data Classification** - 数据分类 / データ分類
+    - 数据分类配置。
+    1. **Data Classes** - 数据类别 / データクラス
+       - 数据类别管理。
+    2. **Overview** - 概述 / 概要
+       - 数据分类概述。
+16. **Data Classification** - 数据分类 / データ分類
+    - 数据分类配置。
+    1. **Data Classes** - 数据类别 / データクラス
+       - 数据类别管理。
+    2. **Overview** - 概述 / 概要
+       - 数据分类概述。
+17. **Security Center** - 安全中心 / セキュリティセンター
+    - 安全中心配置和管理。
+    1. **Home** - 主页 / ホーム
+       - 安全中心主页。
+    2. **Hardening** - 加固 / ハードニング
+       - 系统安全加固配置。
+    3. **Scanner** - 扫描器 / スキャナー
+       - 安全扫描配置。
+    4. **Metrics** - 指标 / メトリクス
+       - 安全指标管理。
+    5. **Critical Updates** - 重要更新 / クリティカルアップデート
+       - 安全重要更新管理。
+    6. **Learning**
+
+ - 学习 / ラーニング
+       - 安全学习资源。
+18. **Identity and Access Audit** - 身份和访问审计 / アイデンティティとアクセスの監査
+    - 身份和访问审计配置。
+    1. **Audit Results** - 审计结果 / 監査結果
+       - 审计结果管理。
+    2. **Configure Tables & Fields** - 配置表和字段 / テーブルとフィールドの設定
+       - 配置表和字段的审计。
+    3. **Configure Retention Period** - 配置保留期 / 保持期間の設定
+       - 审计数据保留期配置。
+    4. **User Trails** - 用户轨迹 / ユーザートレイル
+       - 用户操作轨迹审计。
+    5. **Groups Trails** - 组轨迹 / グループトレイル
+       - 组操作轨迹审计。
+    6. **Role Trails** - 角色轨迹 / ロールトレイル
+       - 角色操作轨迹审计。
+    7. **ACL Trails** - ACL 轨迹 / ACL トレイル
+       - ACL 操作轨迹审计。
+
+### 131. System UI
+
+1. **Attachment Icon Rules** - 附件图标规则 / 添付アイコンルール
+   - 附件图标显示规则配置。
+2. **Themes** - 主题 / テーマ
+   - 系统 UI 主题配置。
+3. **Field Styles** - 字段样式 / フィールドスタイル
+   - 表单字段样式配置。
+4. **Form Annotation Types** - 表单注释类型 / フォーム注釈タイプ
+   - 表单注释类型配置。
+5. **Form Sections** - 表单部分 / フォームセクション
+   - 表单部分管理。
+6. **Formatters** - 格式化器 / フォーマッター
+   - 表单格式化器配置。
+7. **Forms** - 表单 / フォーム
+   - 表单配置和管理。
+8. **Gauges** - 仪表 / ゲージ
+   - 仪表配置和管理。
+9. **List Control** - 列表控制 / リストコントロール
+   - 列表控制配置。
+10. **Lists** - 列表 / リスト
+    - 系统列表配置。
+11. **Menu Lists** - 菜单列表 / メニューリスト
+    - 菜单列表配置。
+12. **Messages** - 消息 / メッセージ
+    - 系统消息配置。
+13. **Process Flow** - 流程 / プロセスフロー
+    - 系统流程配置。
+14. **Related Lists** - 相关列表 / 関連リスト
+    - 相关列表配置。
+15. **Remove Pagination Count Helper** - 删除分页计数助手 / ページネーションカウントヘルパーの削除
+    - 删除分页计数助手配置。
+16. **View Rules** - 视图规则 / ビュールール
+    - 系统视图规则配置。
+17. **Views** - 视图 / ビュー
+    - 系统视图管理。
+18. **Widgets** - 小部件 / ウィジェット
+    - 系统小部件配置。
+19. **Welcome Page Content** - 欢迎页面内容 / ウェルカムページの内容
+    - 欢迎页面内容配置。
+20. **Overview Help** - 概述帮助 / 概要ヘルプ
+    - 系统概述帮助内容配置。
+21. **Timeline Pages** - 时间轴页面 / タイムラインページ
+    - 时间轴页面配置。
+22. **Image ZIP Upload** - 图像 ZIP 上传 / 画像ZIPアップロード
+    - 图像 ZIP 上传配置。
+23. **Images** - 图像 / 画像
+    - 系统图像管理。
+24. **Videos** - 视频 / ビデオ
+    - 系统视频管理。
+25. **Audio Files** - 音频文件 / オーディオファイル
+    - 系统音频文件管理。
+26. **Embed Object Types** - 嵌入对象类型 / 埋め込みオブジェクトタイプ
+    - 嵌入对象类型配置。
+
+27. **UI Policies** - UI 策略 / UI ポリシー
+    - 系统 UI 策略配置。
+28. **UI Actions** - UI 操作 / UI アクション
+    - 系统 UI 操作配置。
+29. **UI Pages** - UI 页面 / UI ページ
+    - 系统 UI 页面配置。
+30. **UI Macros** - UI 宏 / UI マクロ
+    - 系统 UI 宏配置。
+31. **UI Scripts** - UI 脚本 / UI スクリプト
+    - 系统 UI 脚本配置。
+32. **UI Context Menus** - UI 上下文菜单 / UI コンテキストメニュー
+    - 系统 UI 上下文菜单配置。
+33. **Script Includes** - 脚本包含 / スクリプトインクルード
+    - 系统脚本包含配置。
+34. **Help Contexts** - 帮助上下文 / ヘルプコンテキスト
+    - 系统帮助上下文配置。
+
+### 132. System Update Sets
+
+1. **Update Sources** - 更新源 / アップデートソース
+   - 系统更新源配置。
+2. **Retrieved Update Sets** - 获取的更新集 / 取得されたアップデートセット
+   - 获取的更新集管理。
+3. **Update Log** - 更新日志 / アップデートログ
+   - 系统更新日志管理。
+4. **Local Update Sets** - 本地更新集 / ローカルアップデートセット
+   - 本地更新集管理。
+5. **Merge Update Sets** - 合并更新集 / アップデートセットのマージ
+   - 系统更新集合并配置。
+6. **Merge Completed Sets** - 已完成的合并集 / 完了したマージセット
+   - 已完成的合并集管理。
+7. **Update Sets to Commit** - 待提交的更新集 / コミットすべきアップデートセット
+   - 待提交的更新集配置。
+8. **Update Set Commit History** - 更新集提交历史 / アップデートセットのコミット履歴
+   - 更新集提交历史管理。
+
+### 133. System User Guide
+
+1. **User Guide** - 用户指南 / ユーザーガイド
+   - 系统用户指南。
+2. **Administration** - 管理 / 管理
+   - 用户指南的管理。
+   1. **Help Pages** - 帮助页面 / ヘルプページ
+      - 帮助页面管理。
+   2. **Help Page Sections** - 帮助页面部分 / ヘルプページセクション
+      - 帮助页面部分配置。
+   3. **Help Documents** - 帮助文档 / ヘルプドキュメント
+      - 帮助文档管理。
+
+### 134. System Web Services
+
+1. **SOAP Security Policies** - SOAP 安全策略 / SOAP セキュリティポリシー
+   - SOAP 安全策略配置。
+2. **WS Security Profiles** - WS 安全配置文件 / WS セキュリティプロファイル
+   - WS 安全配置文件管理。
+3. **Properties** - 属性 / プロパティ
+   - 系统属性管理。
+4. **API Access Policies** - API 访问策略 / API アクセスポリシー
+   - API 访问策略配置。
+   1. **REST API Access Policies** - REST API 访问策略 / REST API アクセスポリシー
+      - REST API 访问策略配置。
+   2. **Inbound Authentication Profile** - 入站身份验证配置文件 / インバウンド認証プロファイル
+      - 入站身份验证配置文件管理。
+   3. **API Authentication Policy** - API 身份验证策略 / API 認証ポリシー
+      - API 身份验证策略配置。
+   4. **REST API Key** - REST API 密钥 / REST API キー
+      - REST API 密钥管理。
+   5. **REST API HMAC Secret** - REST API HMAC 密钥 / REST API HMAC シークレット
+      - REST API HMAC 密钥配置。
+   6. **REST API Auth Parameter** - REST API 身份验证参数 / REST API 認証パラメータ
+      - REST API 身份验证参数配置。
+   7. **HMAC Configuration** - HMAC 配置 / HMAC 設定
+      - HMAC 配置管理。
+   8. **Filter Criteria** - 过滤条件 / フィルター条件
+      - 系统过滤条件配置。
+5. **Inbound** - 入站 / インバウンド
+   - 入站服务配置。
+   1. **Create New** - 创建新 / 新規作成
+      - 创建新的入站服务。
+   2. **Computer** - 计算机 / コンピューター
+      - 计算机入站服务配置。
+   3. **Location** - 位置 / ロケーション
+
+
+      - 位置入站服务配置。
+   4. **Notification** - 通知 / 通知
+      - 通知入站服务配置。
+   5. **User** - 用户 / ユーザー
+      - 用户入站服务配置。
+6. **Outbound** - 出站 / アウトバウンド
+   - 出站服务配置。
+   1. **SOAP Message** - SOAP 消息 / SOAP メッセージ
+      - SOAP 消息出站配置。
+   2. **REST Message** - REST 消息 / REST メッセージ
+      - REST 消息出站配置。
+   3. **HTTP Log Levels** - HTTP 日志级别 / HTTP ログレベル
+      - HTTP 日志级别配置。
+   4. **Outbound HTTP Log Domain Exclusion List** - 出站 HTTP 日志域排除列表 / アウトバウンドHTTPログドメイン除外リスト
+      - 出站 HTTP 日志域排除列表管理。
+7. **REST** - REST
+   - REST 服务配置。
+   1. **Getting Started** - 入门 / 始めに
+      - REST 服务入门指南。
+   2. **REST API Explorer** - REST API 资源管理器 / REST API エクスプローラー
+      - REST API 资源管理器配置。
+   3. **CORS Rules** - CORS 规则 / CORS ルール
+      - CORS 规则配置。
+   4. **Rate Limit Rules** - 速率限制规则 / レート制限ルール
+      - 速率限制规则配置。
+   5. **Rate Limit Violations** - 速率限制违规 / レート制限違反
+      - 速率限制违规管理。
+   6. **Insert Multiple** - 批量插入 / 一括挿入
+      - REST 服务批量插入配置。
+   7. **Example Client Apps** - 示例客户端应用 / サンプルクライアントアプリ
+      - 示例客户端应用配置。
+8. **Scripted Web Services** - 脚本化 Web 服务 / スクリプトWebサービス
+   - 脚本化 Web 服务配置。
+   1. **Scripted REST APIs** - 脚本化 REST API / スクリプト化REST API
+      - 脚本化 REST API 配置。
+   2. **Scripted SOAP Services** - 脚本化 SOAP 服务 / スクリプト化SOAPサービス
+      - 脚本化 SOAP 服务配置。
+9. **API Auth Scopes** - API 身份验证范围 / API 認証スコープ
+   - API 身份验证范围配置。
+   1. **REST API Auth Scope** - REST API 身份验证范围 / REST API 認証スコープ
+      - REST API 身份验证范围配置。
+10. **REST & SOAP API Analytics** - REST 和 SOAP API 分析 / REST & SOAP API 分析
+    - REST 和 SOAP API 使用分析。
+    1. **Usage Overview** - 使用概述 / 使用概要
+       - API 使用概述。
+    2. **Usage by API** - 按 API 使用 / API 別の使用
+       - 按 API 使用情况分析。
+    3. **Usage by Requestor** - 按请求者使用 / リクエスタ別の使用
+       - 按请求者使用情况分析。
+    4. **Inclusion List** - 包含列表 / 含むリスト
+       - API 包含列表配置。
+11. **GraphQL** - GraphQL
+    - GraphQL 服务配置。
+    1. **Getting Started** - 入门 / 始めに
+       - GraphQL 入门指南。
+    2. **Properties** - 属性 / プロパティ
+       - GraphQL 属性配置。
+    3. **GraphQL APIs** - GraphQL API / GraphQL API
+       - GraphQL API 配置。
+    4. **GraphQL Explorer** - GraphQL 资源管理器 / GraphQL エクスプローラー
+       - GraphQL 资源管理器配置。
+
+### 135. Targeted Communications
+
+1. **Publication Workflow** - 发布工作流 / 発行ワークフロー
+   - 发布工作流配置。
+2. **Create New Publication** - 创建新发布 / 新規発行の作成
+   - 创建新的发布。
+3. **Draft Publications** - 草稿发布 / 下書き発行
+   - 草稿发布管理。
+4. **Active Publications** - 活动发布 / アクティブ発行
+   - 活动发布管理。
+5. **Expired Publications** - 过期发布 / 期限切れ発行
+   - 过期发布管理。
+6. **Recipients Lists** - 收件人列表 / 受信者リスト
+   - 收件人列表配置。
+7. **Recurrences** - 重复 / 繰り返し
+   - 发布的重复设置。
+8. **Publications** - 发布 / 発行
+   - 系统发布管理。
+
+
+### 136. Team Development
+
+1. **Getting Started** - 入门 / 始めに
+   - 团队开发入门指南。
+2. **Team Dashboard** - 团队仪表板 / チームダッシュボード
+   - 团队开发仪表板配置。
+3. **Pushes and Pulls** - 推送和拉取 / プッシュとプル
+   - 团队开发的推送和拉取管理。
+4. **Instance Comparisons** - 实例比较 / インスタンスの比較
+   - 团队开发实例比较配置。
+5. **Local Changes** - 本地更改 / ローカル変更
+   - 本地更改管理。
+6. **Remote Instances** - 远程实例 / リモートインスタンス
+   - 远程实例管理。
+7. **Exclusion Policy** - 排除策略 / 除外ポリシー
+   - 团队开发排除策略配置。
+8. **Properties** - 属性 / プロパティ
+   - 团队开发属性配置。
+
+### 137. Upgrade Center
+
+1. **Upgrade Preview** - 升级预览 / アップグレードプレビュー
+   - 升级预览管理。
+2. **Upgrade Monitor** - 升级监视 / アップグレードモニター
+   - 升级监视配置。
+3. **Upgrade History** - 升级历史 / アップグレード履歴
+   - 升级历史管理。
+4. **Administration** - 管理 / 管理
+   - 升级中心的管理配置。
+   1. **Properties** - 属性 / プロパティ
+      - 升级中心属性管理。
+   2. **Upgrade Center VTB Labels** - 升级中心 VTB 标签 / アップグレードセンターVTBラベル
+      - 升级中心 VTB 标签配置。
+   3. **Upgrade Plan Notification** - 升级计划通知 / アップグレード計画通知
+      - 升级计划通知管理。
+   4. **Skipped Record Rules Editor** - 跳过记录规则编辑器 / スキップされたレコードルールエディタ
+      - 跳过记录规则编辑配置。
+
+### 138. User Administration
+
+1. **Time-Limited User Roles** - 时间限制的用户角色 / 期限付きユーザーロール
+   - 时间限制的用户角色管理。
+2. **Users** - 用户 / ユーザー
+   - 用户管理。
+3. **Groups** - 组 / グループ
+   - 用户组管理。
+4. **Roles** - 角色 / ロール
+   - 角色管理。
+5. **Logged in Users** - 登录用户 / ログイン中のユーザー
+   - 登录用户管理。
+6. **Active Transactions** - 活动事务 / アクティブトランザクション
+   - 活动事务管理。
+7. **All Active Transactions** - 所有活动事务 / すべてのアクティブトランザクション
+   - 所有活动事务管理。
+8. **Departments** - 部门 / 部門
+   - 部门管理。
+9. **Locations** - 位置 / ロケーション
+   - 位置管理。
+10. **Companies** - 公司 / 会社
+    - 公司管理。
+11. **Location Map** - 位置地图 / ロケーションマップ
+    - 位置地图配置。
+12. **Countries** - 国家 / 国
+    - 国家管理。
+13. **Normalization Data Services** - 数据标准化服务 / 標準化データサービス
+    - 数据标准化服务管理。
+    1. **Guided Setup** - 引导设置 / ガイド付きセットアップ
+       - 数据标准化服务引导设置。
+14. **Role Delegation** - 角色委派 / ロール委任
+    - 角色委派管理。
+    1. **Designate Role Delegator** - 指定角色委派者 / ロール委任者の指定
+       - 指定角色委派者管理。
+    2. **Role Delegators** - 角色委派者 / ロール委任者
+       - 角色委派者管理。
+    3. **Delegate Roles in Group** - 在组内委派角色 / グループ内のロールを委任
+       - 在组内委派角色管理。
+15. **Developer Preferences** - 开发者偏好设置 / 開発者の設定
+    - 开发者偏好设置管理。
+16. **User Preferences** - 用户偏好设置 / ユーザー設定
+    - 用户偏好设置管理。
+17. **User Presence** - 用户存在 / ユーザープレゼンス
+    - 用户存在管理。
+18. **Delegates** - 委托 / デリゲート
+    - 用户委托管理。
+19. **User Roles** - 用户角色 / ユーザーロール
+    - 用户角色管理。
+20. **Group Roles** - 组角色 / グループロール
+    - 组角色管理。
+
+### 139. Workflow
+
+1. **Workflow Editor** - 工作流编辑器 / ワークフローエディター
+   - 工作流编辑器配置。
+2. **Scheduled Workflows** - 计划工作流 / スケジュールワークフロー
+   - 计划工作流管理。
+3. **Stage Sets** - 阶段集合 / ステージセット
+   - 工作流阶段集合配置。
+4. **Default Stages (by table)** - 默认阶段 (按表) / デフォルトステージ (テーブル別)
+   - 工作流默认阶段配置。
+5. **Live Workflows** - 活动工作流 / ライブワークフロー
+   - 活动工作流管理。
+   1. **Active Contexts** - 活动上下文 / アクティブコンテキスト
+      - 活动上下文管理。
+   2. **All Contexts** - 所有上下文 / すべてのコンテキスト
+      - 所有上下文管理。
+   3. **Executing Activities** - 执行中的活动 / 実行中のアクティビティ
+      - 执行中的活动管理。
+   4. **History** - 历史 / 履歴
+      - 活动工作流历史记录。
+6. **Administration** - 管理 / 管理
+   - 工作流管理配置。
+   1. **Activity Definitions** - 活动定义 / アクティビティ定義
+      - 活动定义管理。
+   2. **Workflow Versions** - 工作流版本 / ワークフローバージョン
+      - 工作流版本管理。
+   3. **Properties** - 属性 / プロパティ
+      - 工作流属性配置。
+7. **Operations** - 操作 / 操作
+   - 工作流操作管理。
+   1. **Workflow Operations Dashboard** - 工作流操作仪表板 / ワークフロー操作ダッシュボード
+      - 工作流操作仪表板配置。
+
+### 140. Workspace Experience
+
+1. **Workspaces** - 工作空间 / ワークスペース
+   - 工作空间管理。
+   1. **Configurable Workspace Guided Setup** - 可配置工作空间引导设置 / 設定可能なワークスペースのガイド付きセットアップ
+      - 可配置工作空间引导设置。
+   2. **Service Operations Workspace** - 服务操作工作空间 / サービス運用ワークスペース
+      - 服务操作工作空间管理。
+2. **Administration** - 管理 / 管理
+   - 工作空间的管理配置。
+   1. **All Workspaces** - 所有工作空间 / すべてのワークスペース
+      - 所有工作空间管理。
+   2. **Landing Pages** - 登录页面 / ランディングページ
+      - 登录页面配置。
+   3. **Notification Triggers** - 通知触发器 / 通知トリガー
+      - 通知触发器配置。
+   4. **Search Sources** - 搜索源 / 検索ソース
+      - 搜索源配置。
+   5. **Highlighted Values** - 突出显示的值 / ハイライト値
+      - 突出显示的值配置。
+3. **Forms** - 表单 / フォーム
+   - 工作空间表单配置。
+   1. **UI Action Layouts** - UI 操作布局 / UI アクションレイアウト
+      - UI 操作布局配置。
+   2. **UI Action Groups** - UI 操作组 / UI アクショングループ
+      - UI 操作组配置。
+   3. **Workspace Ribbon Settings** - 工作空间功能区设置 / ワークスペースリボン設定
+      - 工作空间功能区设置。
+   4. **Workspace Form Headers** - 工作空间表单头 / ワークスペースフォームヘッダー
+      - 工作空间表单头配置。
+   5. **Workspace View Rules** - 工作空间视图规则 / ワークスペースビュールール
+      - 工作空间视图规则配置。
+4. **Actions & Components** - 操作和组件 / アクションとコンポーネント
+   - 工作空间的操作和组件配置。
+   1. **Contextual Side
+
+ Panel** - 上下文侧面板 / コンテキストサイドパネル
+      - 上下文侧面板配置。
+   2. **Related Items** - 相关项 / 関連項目
+      - 相关项配置。
+
+### 141. Zero Touch Refresh
+
+1. **Fulfillment Requests** - 完成请求 / 完了リクエスト
+   - 完成请求管理。
+
