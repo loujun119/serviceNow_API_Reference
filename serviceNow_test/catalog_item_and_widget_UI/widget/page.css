@@ -9,6 +9,10 @@ h3 {
     text-align: center;
 }
 
+.page, .body, .padding-top-lg, .asset_page{
+    height:100%;
+  }
+
 .table_aera {
     margin: 0 auto;
     width: 90%;

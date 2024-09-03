@@ -231,3 +231,297 @@
 - **测试和优化**: 配置完成后，进行全面的测试，确保所有页面和功能正常工作，并根据用户反馈进行优化。
 
 通过这些设置，你可以为不同用户群体创建一个功能强大、易于使用的 ServiceNow Portal。
+
+## Service Catalog 和 Service Portal 是 ServiceNow 中两个重要的模块，它们通常配合使用，以提供一流的自助服务体验。以下是它们之间的关系、关联，以及在 Service Portal 中使用 Catalog、Category、Item 和其他组件的说明：
+
+### **Service Catalog 和 Service Portal 的关系**
+
+- **Service Catalog**: 是 ServiceNow 提供的一个模块，用于管理和提供各种服务请求，如 IT 服务请求、硬件/软件请求、访问请求等。它包括 Catalog（目录）、Category（类别）、Item（项）和相关的工作流。
+  
+- **Service Portal**: 是 ServiceNow 提供的自助服务界面，用户可以通过 Portal 访问和请求 Service Catalog 中的服务。Service Portal 提供了一个现代化、用户友好的界面，集成了 Catalog、知识库、表单等。
+
+### **Catalog, Category, Item 与 Service Portal 的关系**
+
+1. **Catalog（目录）**: 是服务的集合，用于组织和分类所有可用的服务项。
+   
+2. **Category（类别）**: 是目录下的分类，用于进一步组织服务项。例如，IT 服务目录下可以有硬件、软件、访问等类别。
+
+3. **Item（项）**: 是用户可以请求的具体服务或产品。例如，笔记本电脑请求、软件安装、系统访问权限等。
+
+在 Service Portal 中，Catalog、Category 和 Item 作为内容，通过页面、Widgets 等方式展示给用户，提供请求服务的入口。
+
+### **Service Portal 组件之间的关系和使用方法**
+
+1. **Themes（主题）**
+   - **作用**: 决定 Portal 的整体外观，包括颜色、字体、布局等。
+   - **使用**: 配置 Portal 时，选择或创建主题以应用统一的视觉风格，确保用户体验的一致性。
+
+2. **Pages（页面）**
+   - **作用**: 每个页面展示特定的内容或功能，例如首页、Catalog 首页、知识库首页等。
+   - **使用**: 通过 Page Editor 创建或编辑页面，并将 Catalog 相关的 Widgets 添加到页面中，以展示服务目录和类别。
+
+3. **Widgets（小部件）**
+   - **作用**: 是页面的核心组成部分，提供具体的功能和内容展示。
+   - **使用**: 使用 Widgets（如 `SC Catalog Item`, `SC Category`, `SC Catalog` 等）展示服务目录、类别和项。Widgets 可以通过数据绑定、脚本等进行个性化定制。
+
+4. **CSS（样式表）**
+   - **作用**: 控制页面的样式和布局，使 Portal 符合品牌标准和用户需求。
+   - **使用**: 可以为 Widgets 和页面添加自定义 CSS，以微调外观和用户交互。
+
+5. **Menus（菜单）**
+   - **作用**: 提供页面导航，帮助用户快速访问不同的功能和页面。
+   - **使用**: 在 Main Menu 中配置菜单项，指向 Catalog 首页、类别页面等，实现便捷导航。
+
+6. **Headers & Footers**
+   - **作用**: 页面顶部和底部的统一元素，通常包含导航链接、Logo、版权信息等。
+   - **使用**: 配置 Headers 和 Footers，以保持页面设计的整体性和导航的一致性。
+
+### **如何在 Service Portal 中使用 Service Catalog 组件**
+
+#### **1. 在页面中展示 Catalog**
+
+- **页面配置**: 使用 Page Editor 创建一个 Catalog 首页。
+- **添加 Widgets**: 
+  - 将 `SC Catalog` Widget 添加到页面上，用于展示目录和类别。
+  - 将 `SC Category` Widget 添加到类别页面，用于展示具体的服务项。
+
+#### **2. 设置菜单导航**
+
+- **主菜单配置**: 在 Main Menu 中添加指向 Catalog 页面的菜单项，例如“服务目录”。
+- **子菜单配置**: 在子菜单中添加类别和项的链接，使用户能够轻松导航到具体的服务。
+
+#### **3. 定制页面和 Widgets**
+
+- **自定义 CSS**: 使用 Portal 的 Theme Editor 或在页面上直接插入自定义 CSS，以调整 Widgets 的样式和布局。
+- **自定义脚本**: 通过 Widgets 的 Client Script 和 Server Script，定制数据交互和逻辑。
+
+#### **4. Headers & Footers 的使用**
+
+- **统一导航**: 在 Headers 中包含主菜单，使所有页面的导航一致。
+- **信息展示**: 在 Footers 中添加版权、联系信息或其他重要链接。
+
+### **示例：如何展示和请求一个服务项**
+
+1. **访问 Catalog**: 用户通过 Main Menu 的 “服务目录” 进入 Catalog 首页。
+2. **选择类别**: 在 Catalog 首页，用户选择一个类别（如 IT 服务）。
+3. **选择服务项**: 在类别页面，用户选择一个具体的服务项（如 笔记本电脑请求）。
+4. **填写表单**: 服务项页面展示详细的请求表单，用户填写并提交请求。
+
+通过这些配置和集成，Service Portal 成为访问和管理 Service Catalog 的友好界面，使用户能够轻松浏览、请求和跟踪服务。
+
+## 这段代码是一个 ServiceNow Service Portal 中 Widget 的 Server Script，用于在服务器端处理数据并将其传递给客户端，以便在页面上渲染。让我们逐行解释这段代码的作用：
+
+### **代码解释**
+
+```javascript
+(function(){
+	var gr = $sp.getInstanceRecord();
+	data.href = $sp.getMenuHREF(gr);
+	data.target = options.target || "";
+})();
+```
+
+#### 1. **立即执行函数 `(function(){ ... })()`**
+
+- 这是一种 JavaScript 立即执行函数表达式（IIFE），用于创建一个独立的作用域，防止变量污染全局作用域。
+
+#### 2. **`var gr = $sp.getInstanceRecord();`**
+
+- **作用**: 调用 `$sp.getInstanceRecord()` 获取当前 Portal 实例的 GlideRecord 对象。
+- **解释**: `$sp` 是 Service Portal 提供的一个内置 API，用于获取当前实例的记录对象（如页面、菜单项等）。`getInstanceRecord()` 会返回当前实例对应的 GlideRecord（例如当前访问的页面或当前的菜单项记录）。
+
+#### 3. **`data.href = $sp.getMenuHREF(gr);`**
+
+- **作用**: 使用 `$sp.getMenuHREF(gr)` 获取当前记录的菜单链接 URL，并将其赋值给 `data.href`。
+- **解释**: `$sp.getMenuHREF(gr)` 会基于传入的 GlideRecord 对象（`gr`），生成相应的链接 URL。这个方法通常用于生成导航菜单或页面跳转的 URL。
+- **结果**: `data.href` 将包含一个完整的 URL 地址，供前端页面使用，例如在页面上渲染一个超链接。
+
+#### 4. **`data.target = options.target || "";`**
+
+- **作用**: 设置链接的打开方式（`target` 属性）。
+- **解释**: `options.target` 是从 Widget 的 Options 中获取的配置项，如果有指定目标（如 `_blank`），则使用这个值；如果没有指定，则默认设置为空字符串（即在当前窗口打开）。
+- **结果**: `data.target` 会被用于前端页面上，决定链接如何打开（在新窗口、当前窗口等）。
+
+### **总结**
+
+这段代码的核心任务是：
+
+- 获取当前实例的记录（通常是当前访问的页面或菜单项）。
+- 生成一个导航链接 URL，并将其传递到客户端（前端）。
+- 确定链接的打开方式（如在新窗口或当前窗口打开）。
+
+### **在页面上如何使用这些数据**
+
+在前端脚本或 HTML 中，可以使用传递的 `data` 对象来渲染链接。例如：
+
+```html
+<a href="{{data.href}}" target="{{data.target}}">Click Here</a>
+```
+
+这样，当用户点击这个链接时，会按照指定的 URL 和目标方式进行导航。此种方式确保了前后端的数据一致性，并为用户提供了动态、可配置的导航功能。
+
+## 在 AngularJS 中，使用 `{{::expression}}` 语法中的双冒号（`::`）表示一次性绑定（one-time binding）。这是 ServiceNow Service Portal 中常见的写法，用于优化性能和减少不必要的绑定更新。
+
+### **双冒号 `::` 的含义**
+
+1. **一次性绑定（One-Time Binding）**:
+   - 使用 `{{::expression}}` 表示一次性绑定，即表达式的值在第一次解析后就不会再进行更新。
+   - 适用于那些只需要在初次渲染时设定值，而之后不会再变化的场景。
+
+2. **性能优化**:
+   - 一次性绑定减少了 AngularJS 的脏检查（digest cycle）次数，提升了页面的性能，尤其是在表达式包含静态内容或初始化后不会改变的内容时。
+   - 对于需要频繁更新的表达式，通常使用普通的 `{{expression}}` 绑定。
+
+### **应用场景**
+
+在你的示例中：
+
+```html
+<h2>{{::options.title}}</h2>
+```
+
+- **`options.title`** 是从 Widget 的 Options 中传递过来的一个标题属性。
+- 使用 **`{{::options.title}}`** 进行一次性绑定，意味着 `options.title` 只在初次加载时绑定，之后即使 `options.title` 在后台数据发生变化，也不会触发视图的更新。
+
+### **适用的情况**
+
+- **静态数据**: 标题、标签、描述等初始加载后不需要再变化的数据。
+- **提升性能**: 在页面中大量使用数据绑定时，使用一次性绑定可以减少页面加载和渲染的负担。
+
+因此，`{{::options.title}}` 用于输出静态内容，使页面加载更加高效，同时确保展示的内容只在初始加载时渲染。
+
+
+## 你的理解是对的，但稍微有些细节可以补充和澄清一下。让我们详细看看这个过程，以便完全明确：
+
+### **过程说明**
+
+1. **创建 Portal**:
+   - 你已经在 ServiceNow 中创建了一个新的 Service Portal，其基本 URL 是 `https://dev283017.service-now.com/sp`。
+
+2. **使用 Designer 添加 Page**:
+   - 你使用 Portal Designer 工具在这个 Portal 中添加了一个新的页面。
+   - 这个页面可能是用于展示特定内容或功能的，例如一个服务目录类别页面、知识库页面等。
+
+3. **导航到 Page**:
+   - 在主页（或其他页面）中添加一个链接，链接指向新创建的页面。
+   - 当你点击这个链接时，Portal 会根据链接中的 `id` 参数来确定要加载哪个页面。
+
+4. **URL 中的 `id` 参数**:
+   - 点击链接后，浏览器会导航到类似这样的 URL: `https://dev283017.service-now.com/sp?id=<page_id>`。
+   - 这里的 `<page_id>` 就是你在 Portal 中配置的页面的标识符。这个 ID 是 ServiceNow 用于识别和加载对应页面的关键。
+
+### **具体例子**
+
+假设你在 Portal 中创建了一个新的页面，页面 ID 是 `sc_category`，那么导航链接的 URL 就会变成：
+
+```
+https://dev283017.service-now.com/sp?id=sc_category
+```
+
+### **详细解释**
+
+- **`id` 参数**:
+  - `id` 是用于指定要显示的页面的参数。它告诉 ServiceNow 的 Service Portal 引擎，当前请求的内容是什么。
+  - 这个 `id` 通常是页面的唯一标识符，可以是系统生成的 ID 或者你在页面设置中定义的更具描述性的 slug（如 `sc_category`、`kb_home` 等）。
+
+- **如何链接页面**:
+  - 在 Service Portal 中创建或配置链接时，通常会使用 `href` 属性设置链接目标，例如：
+    ```html
+    <a href="?id=sc_category">Go to Category</a>
+    ```
+  - 这个链接中的 `id=sc_category` 部分就是触发导航的关键，它告诉 Portal 要加载与 `sc_category` 相关的页面。
+
+### **总结**
+
+你的理解是正确的：Service Portal 使用 URL 参数（如 `id`）来动态决定显示的页面内容。通过这种机制，Portal 能够在保持主要 URL 不变的情况下（`/sp`），灵活地加载不同的页面，这简化了用户导航和内容管理的复杂性。
+
+
+## 在ServiceNow的Service Portal中，如果你想在Widget的JavaScript代码中实现页面跳转，可以使用浏览器提供的JavaScript方法，例如`window.location.href`，或者通过ServiceNow提供的客户端API来实现。以下是具体方法和示例：
+
+### 方法一：使用原生JavaScript进行页面跳转
+
+你可以直接使用`window.location.href`或`window.location.assign()`来跳转到指定的页面。这种方式简单直接。
+
+**示例代码**：
+
+```javascript
+// 在客户端控制器中
+function($scope) {
+    // 跳转到指定URL
+    $scope.redirectToPage = function() {
+        window.location.href = '/incident_list.do'; // 这里填写目标页面的URL
+    };
+}
+```
+
+调用时，可以在HTML模板中使用按钮或链接来触发这个函数：
+
+```html
+<!-- 在Widget的HTML模板中 -->
+<button ng-click="redirectToPage()">跳转到事件列表</button>
+```
+
+### 方法二：使用ServiceNow的`spUtil`服务
+
+ServiceNow的`spUtil`服务提供了一些便捷的方法，可以用于页面导航。常用的是`spUtil.getURL()`和`spUtil.navigateTo()`方法。
+
+#### 使用`spUtil.getURL()`:
+
+1. **获取页面的URL**：如果你需要动态获取某个Service Portal页面的URL，可以使用`spUtil.getURL()`。
+  
+2. **页面跳转**：通过将获取到的URL赋值给`window.location.href`来实现跳转。
+
+**示例代码**：
+
+```javascript
+function($scope, spUtil) {
+    $scope.redirectToPage = function() {
+        var url = spUtil.getURL({ id: 'my_custom_page' }); // 'my_custom_page' 是目标页面的ID
+        window.location.href = url; // 跳转到获取到的URL
+    };
+}
+```
+
+#### 使用`spUtil.navigateTo()`：
+
+1. **直接跳转**：`spUtil.navigateTo()`提供了一种更简洁的方式来跳转到目标页面。
+
+**示例代码**：
+
+```javascript
+function($scope, spUtil) {
+    $scope.redirectToPage = function() {
+        spUtil.navigateTo({ id: 'my_custom_page' }); // 直接跳转到页面ID为'my_custom_page'的页面
+    };
+}
+```
+
+### 方法三：使用`$location`服务
+
+AngularJS的`$location`服务也可以用于页面跳转。它可以方便地控制URL并进行导航。
+
+**示例代码**：
+
+```javascript
+function($scope, $location) {
+    $scope.redirectToPage = function() {
+        $location.path('/my_custom_page'); // 这里填写目标页面的路径
+    };
+}
+```
+
+在HTML模板中，同样可以使用按钮来触发跳转：
+
+```html
+<button ng-click="redirectToPage()">跳转到自定义页面</button>
+```
+
+### 注意事项：
+
+1. **权限控制**：确保用户具有访问目标页面的权限。如果跳转后看到的是“无权限”错误，则需要检查ACL或用户角色。
+   
+2. **URL的正确性**：确保URL的路径是正确的。对于Service Portal页面，通常URL格式为`/sp?id=<page_id>`。
+
+3. **页面加载**：跳转前如果有加载动画或需要关闭模态框，可以先执行这些操作再进行跳转，以确保用户体验良好。
+
+通过以上方法，你可以在ServiceNow的Widget中实现页面跳转，并根据具体需求选择合适的方式。
